@@ -9,3 +9,7 @@ aux_links:
 
 logo: "/assets/images/structurizr-logo.png"
 favicon_ico: "/assets/images/favicon.ico"
+
+nav_external_links:
+  - title: C4 model
+    url: https://c4model.com
