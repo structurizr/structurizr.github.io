@@ -9,8 +9,8 @@ permalink: /dsl/defaults
 # Defaults
 
 The DSL is designed to be as compact as possible.
-When used in conjunction with [Structurizr Lite](https://structurizr.com/help/lite)
-or the [Structurizr CLI](https://github.com/structurizr/cli),
+When used in conjunction with [Structurizr Lite](/lite)
+or the [Structurizr CLI](/cli),
 the following DSL fragment will automatically:
 
 - Create the [implied relationship](https://github.com/structurizr/java/blob/master/docs/implied-relationships.md)
