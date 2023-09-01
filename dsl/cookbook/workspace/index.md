@@ -29,4 +29,3 @@ A workspace can be given a name and description, although these are only used by
 ## Links
 
 - [DSL language reference - workspace](/dsl/language#workspace)
-- [Example](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/workspace/example-1.dsl)
