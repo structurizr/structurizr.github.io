@@ -11,3 +11,7 @@ favicon_ico: "/assets/images/favicon.ico"
 nav_external_links:
   - title: C4 model
     url: https://c4model.com
+  - title: Support
+    url: https://structurizr.com/help/support
+  - title: Donate
+    url: https://www.paypal.com/donate/?hosted_button_id=YHC2AM8ZYK2G2
