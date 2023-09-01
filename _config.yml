@@ -2,10 +2,7 @@ title: Structurizr
 description: Documentation for the Structurizr tooling.
 theme: just-the-docs
 
-url: https://structurizr.github.io
-
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+url: https://docs.structurizr.com
 
 logo: "/assets/images/structurizr-logo.png"
 favicon_ico: "/assets/images/favicon.ico"
