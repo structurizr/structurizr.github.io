@@ -1,1 +1,1 @@
-Source for the website published at https://structurizr.github.io
+Source for the website published at https://docs.structurizr.com
