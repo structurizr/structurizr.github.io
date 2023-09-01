@@ -4,7 +4,7 @@ title: Structurizr Lite
 nav_order: 4
 has_children: true
 permalink: /lite
-has_toc: true
+has_toc: false
 ---
 
 # Structurizr Lite
@@ -16,3 +16,7 @@ Please note that Structurizr Lite is only designed to be used by a single person
 Having multiple people concurrently access the same Structurizr Lite instance, or running multiple Structurizr Lite instances concurrently against the same folder may result in unexpected behaviour (workspace content corrupted, diagram layout lost, etc).
 The [on-premises installation](https://structurizr.com/help/on-premises) or [cloud service](https://structurizr.com/help/cloud-service)
 are recommended if you require team/collaboration features.
+
+## Links
+
+- [GitHub](https://github.com/structurizr/lite)
