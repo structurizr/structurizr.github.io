@@ -1,6 +1,7 @@
 title: Structurizr
 description: Documentation for the Structurizr tooling.
 theme: just-the-docs
+color_scheme: structurizr
 
 url: https://docs.structurizr.com
 
