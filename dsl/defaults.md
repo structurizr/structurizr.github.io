@@ -12,7 +12,7 @@ When used in conjunction with [Structurizr Lite](https://structurizr.com/help/li
 or the [Structurizr CLI](https://github.com/structurizr/cli),
 the following DSL fragment will automatically:
 
-- Create the [implied relationship](docs/cookbook/implied-relationships)
+- Create the [implied relationship](https://github.com/structurizr/java/blob/master/docs/implied-relationships.md)
 between the ```user``` and ```softwareSystem``` elements.
 - Create a default set of views (1 x System Landscape, 1 x System Context, 1 x Container - all with auto-layout enabled, see [ViewSet.createDefaultViews()](https://github.com/structurizr/java/blob/master/structurizr-core/src/com/structurizr/view/ViewSet.java)).
 - Add some default element styles from a theme.
