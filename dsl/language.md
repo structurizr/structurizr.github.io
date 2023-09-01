@@ -548,8 +548,8 @@ views {
 
 The `views` block can contain the following:
 
-- [systemLandscape](#systemLandscape-view)
-- [systemContext](#systemContext-view)
+- [systemLandscape](#systemlandscape-view)
+- [systemContext](#systemcontext-view)
 - [container](#container-view)
 - [component](#component-view)
 - [filtered](#filtered-view)

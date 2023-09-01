@@ -1,3 +1,11 @@
+---
+layout: default
+title: DSL and code
+parent: Cookbook
+grand_parent: Structurizr DSL
+permalink: /dsl/cookbook/dsl-and-code
+---
+
 # DSL and code
 
 It's possible to use both the DSL and a code-based library together - perhaps you want to define a basic model via the DSL, and use automatic extraction to add components to the model. To do this, define your workspace using the DSL as normal, for example:

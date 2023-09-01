@@ -1,3 +1,11 @@
+---
+layout: default
+title: Image view
+parent: Cookbook
+grand_parent: Structurizr DSL
+permalink: /dsl/cookbook/image-view
+---
+
 # Image view
 
 An [image view](https://structurizr.com/help/image-views) represents an image that has been rendered outside of Structurizr, for inclusion in a Structurizr workspace.
@@ -42,4 +50,4 @@ This DSL defines an image view for the "Component 1" component, based upon a Mer
 ## Links
 
 - [Structurizr - Help - Image views](https://structurizr.com/help/image-views)
-- [DSL language reference - image view](/dsl/language#image-view)
+- [DSL language reference - image](/dsl/language#image-view)

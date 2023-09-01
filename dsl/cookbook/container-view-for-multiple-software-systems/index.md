@@ -1,4 +1,12 @@
-# Container view (spanning multiple software systems)
+---
+layout: default
+title: Container view (for multiple software systems)
+parent: Cookbook
+grand_parent: Structurizr DSL
+permalink: /dsl/cookbook/container-view-multiple-software-systems
+---
+
+# Container view (for multiple software systems)
 
 By default, the `include *` statement, when used inside a container view definition, will include all of the containers
 inside the software system in scope, along with any external software system dependencies.

@@ -1,3 +1,11 @@
+---
+layout: default
+title: Implied relationships
+parent: Cookbook
+grand_parent: Structurizr DSL
+permalink: /dsl/cookbook/implied-relationships
+---
+
 # Implied relationships
 
 By default, the Structurizr DSL will create "implied relationships" automatically. For example, consider the following DSL, which defines a relationship between a person and a container.

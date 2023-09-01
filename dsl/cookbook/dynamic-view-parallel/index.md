@@ -1,3 +1,11 @@
+---
+layout: default
+title: Dynamic view (with parallel sequences)
+parent: Cookbook
+grand_parent: Structurizr DSL
+permalink: /dsl/cookbook/dynamic-view-parallel
+---
+
 # Dynamic view with parallel sequences
 
 Dynamic views can also be used to show parallel sequences of interactions, to indicate some degree of concurrency.

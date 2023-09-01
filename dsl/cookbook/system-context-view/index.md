@@ -38,4 +38,4 @@ System context views can be rendered using the Structurizr cloud service/on-prem
 
 ## Links
 
-- [DSL language reference - systemContext](/dsl/language#systemContext-view)
+- [DSL language reference - systemContext](/dsl/language#systemcontext-view)

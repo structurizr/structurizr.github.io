@@ -1,3 +1,11 @@
+---
+layout: default
+title: Dynamic view
+parent: Cookbook
+grand_parent: Structurizr DSL
+permalink: /dsl/cookbook/dynamic-view
+---
+
 # Dynamic view
 
 A [dynamic view](https://c4model.com/#DynamicDiagram) allows you to show a subset of the elements in a model, and the relationships between them, in order to describe how a particular use case/story/feature works. Dynamic views show ordered __instances__ of relationships, therefore reducing the number of relationships you need to define in the static model - see [Modelling multiple relationships](https://dev.to/simonbrown/modelling-multiple-relationships-51bf) for more.

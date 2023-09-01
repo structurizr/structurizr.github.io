@@ -1,3 +1,11 @@
+---
+layout: default
+title: Deployment groups
+parent: Cookbook
+grand_parent: Structurizr DSL
+permalink: /dsl/cookbook/deployment-groups
+---
+
 # Deployment groups
 
 Imagine that you have a service comprised of an API and a database scheme, which are deployed together onto a single server.

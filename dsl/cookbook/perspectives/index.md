@@ -1,3 +1,11 @@
+---
+layout: default
+title: Perspectives
+parent: Cookbook
+grand_parent: Structurizr DSL
+permalink: /dsl/cookbook/perspectives
+---
+
 # Perspectives
 
 Structurizr supports the concept of "perspectives" from [viewpoints and perspectives](https://www.viewpoints-and-perspectives.info/home/perspectives/), where you want to look at a diagram with a view to answering a particular question.
