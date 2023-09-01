@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Grammar
+title: Language reference
 parent: Structurizr DSL
-nav_order: 7
+nav_order: 12
+permalink: /dsl/language
 ---
 
-# Grammar
+# Language reference
 
-The following describes the language grammar, with angle brackets (`<...>`) used to show required properties, and square brackets (`[...]`) used to show optional properties.
+The following describes the language syntax and grammar, with angle brackets (`<...>`) used to show required properties, and square brackets (`[...]`) used to show optional properties.
 Most statements are of the form: `keyword <required properties> [optional properties]`
 
 ## workspace
@@ -36,23 +37,11 @@ Permitted children:
 - name <name>
 - description <description>
 - [properties](#properties)
-- [!docs](#documentation)
-- [!adrs](#architecture-decision-records-adrs)
-- [!identifiers](#identifier-scope)
-- [!impliedRelationships](#impliedrelationships)
+- [!docs](#docs)
+- [!adrs](#adrs)
 - [model](#model)
 - [views](#views)
 - [configuration](#configuration)
-
-# !impliedRelationships
-
-```
-!impliedRelationships <true|false>
-```
-
-The `!impliedRelationships` keyword provides a way to enable or disable whether implied relationships are created.
-A value of `false` disables implied relationship creation, while `true` creates implied relationships between all valid combinations of the parent elements, unless any relationship already exists between them
-(see [Structurizr for Java - Implied relationships - CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy](https://github.com/structurizr/java/blob/master/docs/implied-relationships.md#createimpliedrelationshipsunlessanyrelationshipexistsstrategy) for more details).
 
 ## model
 
@@ -154,8 +143,8 @@ The following tags are added by default:
 
 Permitted children:
 
-- [!docs](#documentation)
-- [!adrs](#architecture-decision-records-adrs)
+- [!docs](#docs)
+- [!adrs](#adrs)
 - [group](#group)
 - [container](#container)
 - [description](#description)
@@ -182,8 +171,8 @@ The following tags are added by default:
 
 Permitted children:
 
-- [!docs](#documentation)
-- [!adrs](#architecture-decision-records-adrs)
+- [!docs](#docs)
+- [!adrs](#adrs)
 - [group](#group)
 - [component](#component)
 - [description](#description)
@@ -211,8 +200,8 @@ The following tags are added by default:
 
 Permitted children:
 
-- [!docs](#documentation)
-- [!adrs](#architecture-decision-records-adrs)
+- [!docs](#docs)
+- [!adrs](#adrs)
 - [description](#description)
 - [technology](#technology)
 - [tags](#tags)
@@ -1141,7 +1130,7 @@ users {
 }
 ```
 
-## Documentation
+## !docs
 
 The `!docs` keyword can be used to attach Markdown/AsciiDoc documentation to the parent context (either the workspace, a software system, or a container).
 
@@ -1149,21 +1138,9 @@ The `!docs` keyword can be used to attach Markdown/AsciiDoc documentation to the
 !docs <path> [fully qualified class name]
 ```
 
-The path must be a relative path, located within the same directory as the parent file, or a subdirectory of it. For example:
+See [Documentation](docs.html) for more details.
 
-```
-!docs subdirectory
-``` 
-
-By default, the [com.structurizr.importer.documentation.DefaultDocumentationImporter](https://github.com/structurizr/documentation/blob/main/src/main/java/com/structurizr/importer/documentation/DefaultDocumentationImporter.java) class will be used to import documentation as follows:
-
-- All Markdown and AsciiDoc files in the given directory will be imported, alphabetically according to the filename.
-- All images in the given directory (and sub-directories) are also imported into the workspace.
-- See [Structurizr - Documentation - Headings and sections](https://structurizr.com/help/documentation/headings) for details about how section headings and numbering are handled.
-
-The above behaviour can be customised by specifying the fully qualified class name of your own implementation of [DocumentationImporter](https://github.com/structurizr/documentation/blob/main/src/main/java/com/structurizr/importer/documentation/DocumentationImporter.java), which needs to be on the DSL classpath or installed as a JAR file in the `plugins` directory next to your DSL file.
-
-## Architecture decision records (ADRs)
+## !adrs
 
 The `!adrs` keyword can be used to attach Markdown/AsciiDoc ADRs to the parent context (either the workspace, a software system, or a container).
 
@@ -1171,16 +1148,4 @@ The `!adrs` keyword can be used to attach Markdown/AsciiDoc ADRs to the parent c
 !adrs <path> [fully qualified class name]
 ```
 
-The path must be a relative path, located within the same directory as the parent file, or a subdirectory of it. For example:
-
-```
-!adrs subdirectory
-``` 
-
-By default, the [com.structurizr.documentation.importer.AdrToolsDecisionImporter](https://github.com/structurizr/documentation/blob/main/src/main/java/com/structurizr/documentation/importer/AdrToolsDecisionImporter.java) class will be used to import ADRs as follows:
-
-- All Markdown files in this directory will be imported, alphabetically according to the filename.
-- The files must have been created by [adr-tools](https://github.com/npryce/adr-tools), or at least follow the same format. 
-- All images in the given directory (and sub-directories) are also imported into the workspace.
-
-The above behaviour can be customised by specifying the fully qualified class name of your own implementation of [DocumentationImporter](https://github.com/structurizr/documentation/blob/main/src/main/java/com/structurizr/documentation/importer/DocumentationImporter.java), which needs to be on the DSL classpath or installed as a JAR file in the `plugins` directory next to your DSL file.
+See [Architecture decision records](adrs.html) for more details.

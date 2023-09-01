@@ -2,23 +2,29 @@
 layout: default
 title: Expressions
 parent: Structurizr DSL
-nav_order: 5
+nav_order: 6
+permalink: /dsl/expressions
 ---
 
 # Expressions
 
 The Structurizr DSL supports a number of expressions for use when including or excluding elements/relationships on views.
+Please note that expressions are not supported on dynamic views.
+
+## Element expressions
 
 - `-><identifier|expression>`: the specified element(s) plus afferent couplings
 - `<identifier|expression>->`: the specified element(s) plus efferent couplings
 - `-><identifier|expression>->`: the specified element(s) plus afferent and efferent couplings
-- `element.type==<type>`: elements of the specified type (Person, SoftwareSystem, Container, Component, DeploymentNode, InfrastructureNode, SoftwareSystemInstance, ContainerInstance, Custom)
+- `element.type==<type>`: elements of the specified type (`Person`, `SoftwareSystem`, `Container`, `Component`, `DeploymentNode`, `InfrastructureNode`, `SoftwareSystemInstance`, `ContainerInstance`, `Custom`)
 - `element.parent==<identifier>`: elements with the specified parent
 - `element.tag==<tag>[,tag]`: all elements that have all of the specified tags
 - `element.tag!=<tag>[,tag]`: all elements that do not have all of the specified tags
 - `element==-><identifier>`: the specified element plus afferent couplings
 - `element==<identifier>->`: the specified element plus efferent couplings
 - `element==-><identifier>->`: the specified element plus afferent and efferent couplings
+
+## Relationship expressions
 
 - `*->*`: all relationships
 - `<identifier>->*`: all relationships with the specified source element
@@ -32,5 +38,3 @@ The Structurizr DSL supports a number of expressions for use when including or e
 - `relationship==<identifier>->*`: all relationships with the specified source element
 - `relationship==*-><identifier>`: all relationships with the specified destination element
 - `relationship==<identifier>-><identifier>`: all relationships between the two specified elements
-
-Element and relationship expressions are not supported on dynamic views.

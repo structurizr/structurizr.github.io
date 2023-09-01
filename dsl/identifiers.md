@@ -2,7 +2,8 @@
 layout: default
 title: Identifiers
 parent: Structurizr DSL
-nav_order: 3
+nav_order: 5
+permalink: /dsl/identifiers
 ---
 
 # Identifiers
@@ -37,7 +38,7 @@ Identifiers are only needed where you plan to reference the element/relationship
 
 ## Identifier scope
 
-By default, all identifiers are treated as being globally scoped and `flat`, so the following will fail with an error message saying that the `api` identifier is already in use.
+By default, all identifiers are treated as being globally scoped, so the following will fail with an error message saying that the `api` identifier is already in use.
 
 ```
 workspace {
