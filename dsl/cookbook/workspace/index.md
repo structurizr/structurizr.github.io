@@ -1,10 +1,8 @@
 ---
 layout: default
 title: Workspace
-nav_order: 1
 parent: Cookbook
 grand_parent: Structurizr DSL
-has_children: true
 permalink: /dsl/cookbook/workspace
 ---
 
