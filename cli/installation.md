@@ -35,7 +35,7 @@ If succesful, The `build/distributions` directory will contain a `.zip` file, wi
 
 ## Docker
 
-A prebuilt Docker image is available at Docker Hub. To use it, for example:
+A prebuilt Docker image is available at [Docker Hub](https://hub.docker.com/r/structurizr/cli). To use it, for example:
 
 ```
 docker pull structurizr/cli:latest

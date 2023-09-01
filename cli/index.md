@@ -21,5 +21,4 @@ The Structurizr CLI is a command line utility designed to be used in conjunction
 
 ## Links
 
-- [Docker Hub](https://hub.docker.com/r/structurizr/cli)
 - [Changelog](https://github.com/structurizr/cli/blob/master/docs/changelog.md)
