@@ -15,3 +15,9 @@ nav_external_links:
     url: https://structurizr.com/help/support
   - title: Donate
     url: https://www.paypal.com/donate/?hosted_button_id=YHC2AM8ZYK2G2
+
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/structurizr/structurizr.github.io"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
