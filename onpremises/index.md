@@ -17,3 +17,4 @@ Optionally, data can be stored on Amazon S3, and search indexes on an Elasticsea
 ## Links
 
 - [GitHub](https://github.com/structurizr/onpremises)
+- [Changelog](https://structurizr.com/help/changelog)
