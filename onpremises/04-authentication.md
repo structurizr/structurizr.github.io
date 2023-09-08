@@ -61,7 +61,7 @@ LDAP integration, but some example configurations are as follows.
 
 ### FreeIPA
 
-The FreeIPA demo server can be useful to test LDAP integration.
+The [FreeIPA demo server](https://www.freeipa.org/page/Demo) can be useful to test LDAP integration.
 
 ```
 <ldap-server url="ldap://ipa.demo1.freeipa.org:389/dc=demo1,dc=freeipa,dc=org" />
