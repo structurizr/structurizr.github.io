@@ -11,10 +11,13 @@ permalink: /dsl/cookbook/scripts
 The `!script` keyword provides a way to run scripts written in Groovy, Kotlin, Ruby, and JavaScript.
 This gives you access to the underlying [Workspace](https://github.com/structurizr/java/blob/master/structurizr-core/src/com/structurizr/Workspace.java) via a variable named `workspace`,
 for when you need to do something not supported by the DSL.
-Other variables (`element`, `relationship`, `view`) are available depending on where the script is defined; see the [Scripts](/dsl/scripts) for more details.
-Here are some useful scripts.
+Other variables (`element`, `relationship`, `view`) are available depending on where the script is defined; see [Scripts](/dsl/scripts) for more details.
 
-#### Create the default views, without automatic layout
+## Examples
+
+Here are some example scripts.
+
+### Create the default views, without automatic layout
 
 ```
 !script groovy {
@@ -23,7 +26,7 @@ Here are some useful scripts.
 }
 ```
 
-#### Programmatically add elements to a view
+### Programmatically add elements to a view
 
 ```
 workspace {
@@ -60,15 +63,22 @@ workspace {
 }
 ```
 
-#### Run Graphviz locally
+### Run Graphviz locally
 
 ```
 !script groovy {
     new com.structurizr.graphviz.GraphvizAutomaticLayout().apply(workspace);
 }
 ```
-
 (this requires Graphviz to be installed locally)
+
+### Append container technology property to tags
+
+```
+!script groovy {
+    workspace.model.elements.findAll { it instanceof com.structurizr.model.Container }.each { it.addTags(it.technology) }
+}
+```
 
 ## Links
 
