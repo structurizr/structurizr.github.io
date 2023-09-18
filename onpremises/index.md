@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Structurizr on-premises
-nav_order: 5
+nav_order: 15
 has_children: true
 permalink: /onpremises
 has_toc: false

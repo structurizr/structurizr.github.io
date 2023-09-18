@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Structurizr DSL
-nav_order: 2
+nav_order: 11
 has_children: true
 permalink: /dsl
 has_toc: false

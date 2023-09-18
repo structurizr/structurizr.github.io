@@ -1,9 +1,13 @@
 ---
 layout: default
 title: Home
-nav_order: 1
-description: Structurizr documentation
+nav_order: 2
+description: Structurizr
 permalink: /
 ---
 
-This is a work in progress to centralise all of the Structurizr documentation.
+# Structurizr
+
+Structurizr builds upon "diagrams as code", allowing you to create
+__multiple software architecture diagrams__, in a __variety of rendering tools__, from a __single model__.
+
