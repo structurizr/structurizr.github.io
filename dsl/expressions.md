@@ -8,8 +8,11 @@ permalink: /dsl/expressions
 
 # Expressions
 
-The Structurizr DSL supports a number of expressions for use when including or excluding elements/relationships on views.
-Please note that expressions are not supported on dynamic views.
+The Structurizr DSL supports a number of expressions for use when including or excluding elements/relationships on views (except dynamic views).
+Expressions should be surrounded in quotes if they contain whitespace; for example:
+
+- `include "element.tag==Tag 1"` (correct)
+- `include element.tag=="Tag 1"` (incorrect)
 
 ## Element expressions
 
