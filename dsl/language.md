@@ -6,10 +6,22 @@ nav_order: 12
 permalink: /dsl/language
 ---
 
-# Language reference
 
-The following describes the language syntax and grammar, with angle brackets (`<...>`) used to show required properties, and square brackets (`[...]`) used to show optional properties.
+# Language reference
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+This page describes the language syntax and grammar, with angle brackets (`<...>`) used to show required properties, and square brackets (`[...]`) used to show optional properties.
 Most statements are of the form: `keyword <required properties> [optional properties]`
+
 
 ## workspace
 
@@ -591,7 +603,7 @@ Permitted children:
 
 - [include](#include)
 - [exclude](#exclude)
-- [autoLayout](#autoLayout)
+- [autoLayout](#autolayout)
 - [default](#default)
 - [animation](#animation)
 - [title](#title)
@@ -614,7 +626,7 @@ Permitted children:
 
 - [include](#include)
 - [exclude](#exclude)
-- [autoLayout](#autoLayout)
+- [autoLayout](#autolayout)
 - [default](#default)
 - [animation](#animation)
 - [title](#title)
@@ -637,7 +649,7 @@ Permitted children:
 
 - [include](#include)
 - [exclude](#exclude)
-- [autoLayout](#autoLayout)
+- [autoLayout](#autolayout)
 - [default](#default)
 - [animation](#animation)
 - [title](#title)
@@ -660,7 +672,7 @@ Permitted children:
 
 - [include](#include)
 - [exclude](#exclude)
-- [autoLayout](#autoLayout)
+- [autoLayout](#autolayout)
 - [default](#default)
 - [animation](#animation)
 - [title](#title)
@@ -728,7 +740,7 @@ for examples.
 
 Permitted children:
 
-- [autoLayout](#autoLayout)
+- [autoLayout](#autolayout)
 - [default](#default)
 - [title](#title)
 - [description](#description)
@@ -755,7 +767,7 @@ Permitted children:
 
 - [include](#include)
 - [exclude](#exclude)
-- [autoLayout](#autoLayout)
+- [autoLayout](#autolayout)
 - [default](#default)
 - [animation](#animation)
 - [title](#title)
@@ -776,7 +788,7 @@ Permitted children:
 
 - [include](#include)
 - [exclude](#exclude)
-- [autoLayout](#autoLayout)
+- [autoLayout](#autolayout)
 - [default](#default)
 - [animation](#animation)
 - [title](#title)
