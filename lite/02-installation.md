@@ -44,19 +44,19 @@ To use the Spring Boot version, you'll need Java 17+ (required) and [Graphviz](h
 Download the `structurizr-lite.war` file from [https://github.com/structurizr/lite/releases](https://github.com/structurizr/lite/releases), and start with the following command, replacing `PATH` with the path to your Structurizr data directory:
 
 ```
-java -Djdk.util.jar.enableMultiRelease=false -jar structurizr-lite-xxxx.war PATH
+java -Djdk.util.jar.enableMultiRelease=false -jar structurizr-lite.war PATH
 ```
 
 
 For example, if your Structurizr data directory is located at `/Users/simon/structurizr`, the command would be:
 
 ```
-java -Djdk.util.jar.enableMultiRelease=false -jar structurizr-lite-xxxx.war /Users/simon/structurizr
+java -Djdk.util.jar.enableMultiRelease=false -jar structurizr-lite.war /Users/simon/structurizr
 ```
 
 Please note that there is [an issue with Windows PowerShell](https://github.com/PowerShell/PowerShell/issues/15541),
 so you may need to quote the system property argument, for example:
 
 ```
-java "-Djdk.util.jar.enableMultiRelease=false" -jar structurizr-lite-xxxx.war /Users/simon/structurizr
+java "-Djdk.util.jar.enableMultiRelease=false" -jar structurizr-lite.war /Users/simon/structurizr
 ```
