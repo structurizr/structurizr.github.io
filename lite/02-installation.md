@@ -40,7 +40,11 @@ There is a [Dockerfile](https://github.com/structurizr/lite/blob/main/Dockerfile
 
 ## Spring Boot
 
-To use the Spring Boot version, you'll need Java 17+ (required) and [Graphviz](https://graphviz.org/download/) (optional; if you want to use automatic layout).
+To use the Spring Boot version, you'll need:
+
+- Java 17+ (required)
+- [Graphviz](https://graphviz.org/download/) (optional; if you want to use automatic layout)
+
 Download the `structurizr-lite.war` file from [https://github.com/structurizr/lite/releases](https://github.com/structurizr/lite/releases), and start with the following command, replacing `PATH` with the path to your Structurizr data directory:
 
 ```
