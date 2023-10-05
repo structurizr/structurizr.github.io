@@ -16,7 +16,7 @@ the [Structurizr cloud service/on-premises installation/Lite](https://structuriz
 
 ## Options
 
-- -workspace: The path or URL to the workspace JSON file/DSL file(s) (required)
+- -workspace: The path or URL to the workspace JSON/DSL file (required)
 - -format (required):
   - plantuml: the same as `plantuml/structurizr`
   - plantuml/structurizr: exports views to PlantUML using the [StructurizrPlantUMLExporter](https://github.com/structurizr/export/tree/main/src/main/java/com/structurizr/export/plantuml#structurizrplantumlexporter)

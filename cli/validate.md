@@ -12,7 +12,7 @@ The ```validate``` command allows you to validate a JSON/DSL workspace definitio
 
 ## Options
 
-- -workspace: The path or URL to the workspace JSON file/DSL file(s) (required)
+- -workspace: The path or URL to the workspace JSON/DSL file (required)
 
 ## Example
 
