@@ -4,7 +4,7 @@ title: Cookbook
 nav_order: 13
 parent: Structurizr DSL
 has_children: true
-permalink: /dsl/cookbook
+permalink: /dsl/cookbook/
 ---
 
 # Structurizr DSL cookbook

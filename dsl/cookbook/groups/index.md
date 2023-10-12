@@ -3,7 +3,7 @@ layout: default
 title: Groups
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/groups
+permalink: /dsl/cookbook/groups/
 ---
 
 # Groups

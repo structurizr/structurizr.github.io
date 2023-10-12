@@ -3,7 +3,7 @@ layout: default
 title: Container view (for multiple software systems)
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/container-view-multiple-software-systems
+permalink: /dsl/cookbook/container-view-multiple-software-systems/
 ---
 
 # Container view (for multiple software systems)

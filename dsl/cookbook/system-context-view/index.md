@@ -3,7 +3,7 @@ layout: default
 title: System context view
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/system-context-view
+permalink: /dsl/cookbook/system-context-view/
 ---
 
 # System Context view

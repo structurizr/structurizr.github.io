@@ -3,7 +3,7 @@ layout: default
 title: Element styles
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/element-styles
+permalink: /dsl/cookbook/element-styles/
 ---
 
 # Element styles

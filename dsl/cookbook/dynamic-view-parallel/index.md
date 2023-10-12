@@ -3,7 +3,7 @@ layout: default
 title: Dynamic view (with parallel sequences)
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/dynamic-view-parallel
+permalink: /dsl/cookbook/dynamic-view-parallel/
 ---
 
 # Dynamic view with parallel sequences

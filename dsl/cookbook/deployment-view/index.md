@@ -3,7 +3,7 @@ layout: default
 title: Deployment view
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/deployment-view
+permalink: /dsl/cookbook/deployment-view/
 ---
 
 # Deployment view

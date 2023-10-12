@@ -3,7 +3,7 @@ layout: default
 title: Themes
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/themes
+permalink: /dsl/cookbook/themes/
 ---
 
 # Themes

@@ -3,7 +3,7 @@ layout: default
 title: Relationship styles
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/relationship-styles
+permalink: /dsl/cookbook/relationship-styles/
 ---
 
 # Relationship styles

@@ -3,7 +3,7 @@ layout: default
 title: Container view
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/container-view
+permalink: /dsl/cookbook/container-view/
 ---
 
 # Container view

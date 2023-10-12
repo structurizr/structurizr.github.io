@@ -3,7 +3,7 @@ layout: default
 title: Implied relationships
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/implied-relationships
+permalink: /dsl/cookbook/implied-relationships/
 ---
 
 # Implied relationships

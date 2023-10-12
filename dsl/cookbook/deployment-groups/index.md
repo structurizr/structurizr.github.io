@@ -3,7 +3,7 @@ layout: default
 title: Deployment groups
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/deployment-groups
+permalink: /dsl/cookbook/deployment-groups/
 ---
 
 # Deployment groups

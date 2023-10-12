@@ -3,7 +3,7 @@ layout: default
 title: Component view
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/component-view
+permalink: /dsl/cookbook/component-view/
 ---
 
 # Component view

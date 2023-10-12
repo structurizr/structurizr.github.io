@@ -3,7 +3,7 @@ layout: default
 title: Filtered view
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/filtered-view
+permalink: /dsl/cookbook/filtered-view/
 ---
 
 # Filtered view

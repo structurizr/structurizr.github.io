@@ -3,7 +3,7 @@ layout: default
 title: Scripts
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/scripts
+permalink: /dsl/cookbook/scripts/
 ---
 
 # Scripts

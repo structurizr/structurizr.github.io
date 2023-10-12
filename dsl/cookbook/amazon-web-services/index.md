@@ -3,7 +3,7 @@ layout: default
 title: Amazon Web Services
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/amazon-web-services
+permalink: /dsl/cookbook/amazon-web-services/
 ---
 
 # Amazon Web Services

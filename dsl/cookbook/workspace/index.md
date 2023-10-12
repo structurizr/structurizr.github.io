@@ -3,7 +3,7 @@ layout: default
 title: Workspace
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/workspace
+permalink: /dsl/cookbook/workspace/
 ---
 
 # Workspace

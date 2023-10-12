@@ -3,7 +3,7 @@ layout: default
 title: Image view
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/image-view
+permalink: /dsl/cookbook/image-view/
 ---
 
 # Image view

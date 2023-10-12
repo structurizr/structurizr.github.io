@@ -3,7 +3,7 @@ layout: default
 title: DSL and code
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/dsl-and-code
+permalink: /dsl/cookbook/dsl-and-code/
 ---
 
 # DSL and code

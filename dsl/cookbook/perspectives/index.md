@@ -3,7 +3,7 @@ layout: default
 title: Perspectives
 parent: Cookbook
 grand_parent: Structurizr DSL
-permalink: /dsl/cookbook/perspectives
+permalink: /dsl/cookbook/perspectives/
 ---
 
 # Perspectives
