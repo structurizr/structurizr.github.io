@@ -14,6 +14,11 @@ If output directory is not specified, files will be created in the same director
 Please note that the export formats do not support all of the available shapes/features when compared to
 the [Structurizr cloud service/on-premises installation/Lite](https://structurizr.com).
 
+Exporting PNG/SVG diagrams from the Structurizr cloud service/on-premises installation/Lite is not supported from the CLI.
+This is because the CLI is a Java application, whereas the PNG/SVG diagrams are rendered in your web browser.
+PNG/SVG diagram exports can instead be automated using headless Chrome and Puppeteer -
+please see [https://github.com/structurizr/puppeteer](https://github.com/structurizr/puppeteer) for some example scripts.
+
 ## Options
 
 - -workspace: The path or URL to the workspace JSON/DSL file (required)
