@@ -72,7 +72,7 @@ This in turn will now show the two containers.
 
 [![](example-2.png)](https://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/container-view-multiple-software-systems/example-2.dsl)
 
-If you'd rather not specify each container individually, you could utilise an [expression](/dsl/language#expressions)
+If you'd rather not specify each container individually, you could utilise an [expression](/dsl/expressions)
 and replace the `include` statement with one of the following:
 
 - `include element.type==container`
@@ -81,4 +81,4 @@ and replace the `include` statement with one of the following:
 ## Links
 
 - [DSL language reference - container](/dsl/language#container-view)
-- [DSL language reference - Expressions](/dsl/language#expressions)
+- [DSL - Expressions](/dsl/expressions)
