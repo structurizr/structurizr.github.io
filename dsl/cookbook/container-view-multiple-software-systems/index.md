@@ -37,7 +37,7 @@ workspace {
 }
 ```
 
-[![](example-1.png)](https://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/container-view-for-multiple-software-systems/example-1.dsl)
+[![](example-1.png)](https://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/container-view-multiple-software-systems/example-1.dsl)
 
 While sufficient for many purposes, there may be times when you want to show the dependency between the two containers, each of which resides in a
 separate software system.
@@ -70,7 +70,7 @@ workspace {
 
 This in turn will now show the two containers.
 
-[![](example-2.png)](https://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/container-view-for-multiple-software-systems/example-2.dsl)
+[![](example-2.png)](https://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/container-view-multiple-software-systems/example-2.dsl)
 
 If you'd rather not specify each container individually, you could utilise an [expression](/dsl/language#expressions)
 and replace the `include` statement with one of the following:
