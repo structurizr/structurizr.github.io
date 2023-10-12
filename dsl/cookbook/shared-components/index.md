@@ -11,7 +11,7 @@ permalink: /dsl/cookbook/shared-components
 Diagramming components that are shared between containers is relatively straightforward with a combination of
 `!identifiers hierarchical` and `!include`.
 
-First, define your shared components in a DSL fragment, [for example](shared-library.dsl):
+First, define your shared components in a DSL fragment, [for example](./shared-library.dsl):
 
 ```
 loggingComponent = component "Logging Component" {
