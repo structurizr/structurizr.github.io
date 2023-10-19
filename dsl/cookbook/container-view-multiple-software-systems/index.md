@@ -78,6 +78,14 @@ and replace the `include` statement with one of the following:
 - `include element.type==container`
 - `include element.parent==s1 element.parent==s2`
 
+Or if you just want to see containers from other systens that are only connected to the containers in your software system use the following: 
+
+```
+container CONTAINER_NAME "DIAGRAM_KEY" "DESCRIPTION" {
+    include "->element.parent==CONTAINER_NAME-> && element.type==Container"
+}
+```
+
 ## Links
 
 - [DSL language reference - container](/dsl/language#container-view)
