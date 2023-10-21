@@ -13,6 +13,7 @@ Files will be created one per view that has been exported.
 If output directory is not specified, files will be created in the same directory as the workspace.
 Please note that the export formats do not support all of the available shapes/features when compared to
 the [Structurizr cloud service/on-premises installation/Lite](https://structurizr.com).
+The CLI will require Internet access if you are making use of any themes.
 
 Exporting PNG/SVG diagrams from the Structurizr cloud service/on-premises installation/Lite is not supported from the CLI.
 This is because the CLI is a Java application, whereas the PNG/SVG diagrams are rendered in your web browser.

@@ -1065,7 +1065,7 @@ The `theme` keyword can be used to specify a theme that should be used when rend
 theme <default|url>
 ```
 
-`default` can be used as a theme URL, to include [the default Structurizr theme](https://structurizr.com/help/theme?url=https://static.structurizr.com/themes/default/theme.json).
+`default` is a shorthand for `https://static.structurizr.com/themes/default/theme.json`, the [default Structurizr theme](https://structurizr.com/help/theme?url=https://static.structurizr.com/themes/default/theme.json).
 
 ## themes
 
@@ -1075,7 +1075,7 @@ The `themes` keyword can be used to specify one or more themes that should be us
 themes <url> [url] ... [url]
 ```
 
-`default` can be used as a theme URL, to include [the default Structurizr theme](https://structurizr.com/help/theme?url=https://static.structurizr.com/themes/default/theme.json).
+`default` is a shorthand for `https://static.structurizr.com/themes/default/theme.json`, the [default Structurizr theme](https://structurizr.com/help/theme?url=https://static.structurizr.com/themes/default/theme.json).
 
 ## branding
 
