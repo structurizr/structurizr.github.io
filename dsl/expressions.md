@@ -41,3 +41,9 @@ Expressions should be surrounded in quotes if they contain whitespace; for examp
 - `relationship==<identifier>->*`: all relationships with the specified source element
 - `relationship==*-><identifier>`: all relationships with the specified destination element
 - `relationship==<identifier>-><identifier>`: all relationships between the two specified elements
+
+## Combining expressions
+
+Two expressions can be combined with the `&&` or `||` operators.
+For example: `"element.type==Container && element.parent==abc"` (where `abc` is a software system identifier).
+DSL scripts or plugins are recommended for more complicated expressions.

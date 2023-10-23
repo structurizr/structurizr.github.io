@@ -911,7 +911,7 @@ They provide a way to exclude relationships based upon some basic conditional lo
 Alternatively, you can use the relationship expression syntax as follows (please note the double quotes surrounding the entire expression):
 
 ```
-exclude "<*|identifier> -> <*|identifier>" 
+exclude "<*|identifier|expression> -> <*|identifier|expression>" 
 ```
 
 The combinations of parameters are:
