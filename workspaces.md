@@ -48,6 +48,6 @@ These are referred to as "unscoped workspaces".
 Creating all of the diagrams and documentation for all of your software systems in a single large workspace is more straightforward, but the end-result will be cluttered.
 Distributing the diagrams and documentation across a number of smaller workspaces may better reflect the autonomous nature of teams within your organisation,
 but needs some effort with regards to modelling dependencies between teams/software systems.
-Structurizr DSL features such as [workspace extension](/dsl/cookbook/workspace-extension/) and [!include](/dsl/includes/) can help.
+Structurizr DSL features such as [workspace extension](/dsl/cookbook/workspace-extension/) and [!include](/dsl/includes) can help.
 There are no right or wrong answers here, just trade-offs.
 You need to find a level of workspace modularity that works for your team/organisation.
