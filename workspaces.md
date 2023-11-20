@@ -63,7 +63,7 @@ There are two validation modes offered by each of the products:
 
 | Product                              | Validation modes                                       |
 |--------------------------------------|--------------------------------------------------------|
-| Structurizr Lite                     | Strict or relaxed, based upon configuration            |
-| Structurizr On-premises installation | Strict or relaxed, based upon configuration            |
-| Structurizr cloud service            | Strict (free accounts) or relaxed (paid subscriptions) |
+| Structurizr Lite                     | Strict or relaxed, based upon the workspace scope      |
 | Structurizr CLI                      | Strict or relaxed, based upon the workspace scope      |
+| Structurizr on-premises installation | Strict or relaxed, based upon configuration            |
+| Structurizr cloud service            | Strict (free accounts) or relaxed (paid subscriptions) |
