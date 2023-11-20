@@ -26,7 +26,7 @@ Following this recommendation would result in three workspaces, each being owned
 2. Workspace 2 defines the system context, container, component, dynamic, and deployment diagrams, plus documentation and decisions, for software system B.
 3. Workspace 3 defines the system context, container, component, dynamic, and deployment diagrams, plus documentation and decisions, for software system C.
 
-Each of these workspaces is referred to as a "software system scoped workspace" because they describe implementation details related to a individual software system.
+Each of these workspaces is referred to as a "software system scoped workspace" because they describe implementation details related to an individual software system.
 
 ### Landscape scoped workspaces
 
@@ -39,15 +39,31 @@ The workspace could be configured so that double-clicking software system A in t
 ### Unscoped workspaces
 
 It's also possible, particularly for smaller software systems,
-to merge all of the diagrams and documentation for a number of software systems into a single workspace.
-Or perhaps a single workspace could contain all of the diagrams and documentation for all software systems owned by a single group/department.
+to merge all the diagrams and documentation for a number of software systems into a single workspace.
+For example, a single workspace could contain all the diagrams and documentation for all software systems owned by a single group/department.
 These are referred to as "unscoped workspaces".
 
 ### Considerations
 
-Creating all of the diagrams and documentation for all of your software systems in a single large workspace is more straightforward, but the end-result will be cluttered.
+Creating all the diagrams and documentation for all of your software systems in a single large workspace is more straightforward, but the end-result will be cluttered.
 Distributing the diagrams and documentation across a number of smaller workspaces may better reflect the autonomous nature of teams within your organisation,
-but needs some effort with regards to modelling dependencies between teams/software systems.
+but needs some effort with regard to modelling dependencies between teams/software systems.
 Structurizr DSL features such as [workspace extension](/dsl/cookbook/workspace-extension/) and [!include](/dsl/includes) can help.
 There are no right or wrong answers here, just trade-offs.
 You need to find a level of workspace modularity that works for your team/organisation.
+
+### Validation
+
+The workspace scope can be explicitly specified (e.g. via the Structurizr DSL [scope keyword](/dsl/language#scope)),
+which can trigger additional validation to ensure that workspaces are created with the desired content based upon that scope.
+There are two validation modes offered by each of the products:
+
+- __Strict__: workspaces must be landscape or software system scoped.
+- __Relaxed__: workspaces can additionally be unscoped.
+
+| Product                              | Validation modes                                       |
+|--------------------------------------|--------------------------------------------------------|
+| Structurizr Lite                     | Strict or relaxed, based upon configuration            |
+| Structurizr On-premises installation | Strict or relaxed, based upon configuration            |
+| Structurizr cloud service            | Strict (free accounts) or relaxed (paid subscriptions) |
+| Structurizr CLI                      | Strict or relaxed, based upon the workspace scope      |

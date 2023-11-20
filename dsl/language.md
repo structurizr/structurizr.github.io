@@ -516,12 +516,12 @@ properties {
 
 ## perspectives
 
-The `perspectives` block is used to define one or more name/description perspectives for an element or relationship.
+The `perspectives` block is used to define one or more named perspectives for an element or relationship.
 See [Help - Perspectives](https://structurizr.com/help/perspectives) for how these are used.
 
 ```
 perspectives {
-    <name> <description>
+    <name> <description> [value]
     ...
 }
 ```
@@ -1120,9 +1120,18 @@ configuration {
 
 Permitted children:
 
+- [scope](#scope)
 - [visibility](#visibility)
 - [users](#users)
 - [properties](#properties)
+
+## scope
+
+The `scope` keyword can be used to set the [workspace scope](/workspaces).
+
+```
+scope <landscape|softwaresystem|none>
+```
 
 ## visibility
 
