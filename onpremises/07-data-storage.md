@@ -20,7 +20,31 @@ Alternatively, Amazon Web Services S3 (or an S3 compatible service) can be used 
 The basic steps to configure S3 are:
 
 - Create a bucket under your AWS account (folders named `workspaces` and `reviews` will be created in this bucket).
-- Create a new programmatic access user in AWS, with the following permissions: `AmazonS3FullAccess`.
+- Create a new programmatic access user in AWS, with the following IAM policy - make sure to replace the bucket name: 
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:Get*",
+                "s3:List*"
+            ],
+            "Resource": "arn:aws:s3:::BUCKET_NAME"
+        },
+        {
+            "Effect": "Allow",
+            "NotAction": [
+                "s3:CreateBucket",
+                "s3:DeleteBucket"
+            ],
+            "Resource": "arn:aws:s3:::BUCKET_NAME/*"
+        }
+    ]
+}
+```
+
 - Modify your `structurizr.properties` file to configure AWS S3 integration as follows:
 
 | Property name            | Property value                                                                                                                                 |
