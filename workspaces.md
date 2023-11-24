@@ -58,8 +58,8 @@ The workspace scope can be explicitly specified (e.g. via the Structurizr DSL [s
 which can trigger additional validation to ensure that workspaces are created with the desired content based upon that scope.
 There are two validation modes offered by each of the products:
 
-- __Strict__: workspaces must be landscape or software system scoped.
-- __Relaxed__: workspaces can additionally be unscoped.
+- __Strict__: workspaces must be landscape scoped or software system scoped, with unscoped workspaces being rejected.
+- __Relaxed__: workspaces can be landscape scoped, software system scoped, or unscoped.
 
 | Product                              | Validation modes                                       |
 |--------------------------------------|--------------------------------------------------------|
@@ -67,3 +67,9 @@ There are two validation modes offered by each of the products:
 | Structurizr CLI                      | Strict or relaxed, based upon the workspace scope      |
 | Structurizr on-premises installation | Strict or relaxed, based upon configuration            |
 | Structurizr cloud service            | Strict (free accounts) or relaxed (paid subscriptions) |
+
+And the specific validation rules are:
+
+- __Landscape scoped__: The workspace must not define containers or software system level documentation/decisions.
+- __Software system scoped__: The workspace must define containers or software system level documentation/decisions for only one software system.
+- __Unscoped__: (no validation rules)
