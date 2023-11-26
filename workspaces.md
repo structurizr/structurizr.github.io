@@ -52,11 +52,41 @@ Structurizr DSL features such as [workspace extension](/dsl/cookbook/workspace-e
 There are no right or wrong answers here, just trade-offs.
 You need to find a level of workspace modularity that works for your team/organisation.
 
+### Setting the workspace scope
+
+Setting the workspace scope will trigger additional validation to ensure that workspaces are created with the desired content based upon that scope.
+
+If you're using Structurizr DSL, the [`scope`](/dsl/language#scope) keyword can be used to set the workspace scope to one of
+`softwaresystem`, `landscape`, or `none`.
+For example:
+
+```
+workspace {
+
+    ...            
+            
+    configuration {
+        scope softwaresystem
+    }
+            
+}
+```
+
+The same can be achieved via the Structurizr for Java library as follows:
+
+```
+workspace.getConfiguration().setScope(WorkspaceScope.SoftwareSystem);
+```
+
 ### Validation
 
-The workspace scope can be explicitly specified (e.g. via the Structurizr DSL [scope keyword](/dsl/language#scope)),
-which can trigger additional validation to ensure that workspaces are created with the desired content based upon that scope.
-There are two validation modes offered by each of the products:
+The specific workspace scope validation rules are:
+
+- __Landscape scoped__: The workspace must not define containers or software system level documentation/decisions.
+- __Software system scoped__: The workspace must define containers or software system level documentation/decisions for only one software system.
+- __Unscoped__: (no validation rules)
+
+In addition, there are two validation modes offered by each of the products that can prevent unscoped workspaces from being used:
 
 - __Strict__: workspaces must be landscape scoped or software system scoped, with unscoped workspaces being rejected.
 - __Relaxed__: workspaces can be landscape scoped, software system scoped, or unscoped.
@@ -68,8 +98,3 @@ There are two validation modes offered by each of the products:
 | Structurizr on-premises installation | Strict or relaxed, based upon configuration            |
 | Structurizr cloud service            | Strict (free accounts) or relaxed (paid subscriptions) |
 
-And the specific validation rules are:
-
-- __Landscape scoped__: The workspace must not define containers or software system level documentation/decisions.
-- __Software system scoped__: The workspace must define containers or software system level documentation/decisions for only one software system.
-- __Unscoped__: (no validation rules)
