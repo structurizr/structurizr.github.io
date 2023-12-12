@@ -2,7 +2,7 @@
 layout: default
 title: Data storage
 parent: Structurizr on-premises
-nav_order: 7
+nav_order: 8
 permalink: /onpremises/data-storage
 ---
 

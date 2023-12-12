@@ -2,7 +2,7 @@
 layout: default
 title: HTTP sessions
 parent: Structurizr on-premises
-nav_order: 6
+nav_order: 7
 permalink: /onpremises/http-sessions
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: Configuration
 parent: Structurizr on-premises
-nav_order: 3
+nav_order: 4
 permalink: /onpremises/configuration
 ---
 
