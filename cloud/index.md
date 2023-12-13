@@ -14,4 +14,8 @@ without the need to host and update software on your own servers.
 A free account provides a single workspace, while a paid subscription provides more workspaces and features
 (see [product comparison](/#comparison)).
 
-See [https://structurizr.com/help/cloud-service](https://structurizr.com/help/cloud-service) for more details.
+## Links
+
+- [Cloud service pricing and subscription information](https://structurizr.com/help/cloud-service)
+- [Structurizr UI](/ui) (for information about documentation, decisions, explorations, etc)
+- [Structurizr - Help](https://structurizr.com/help) (for information about diagrams ... this is being migrated to the above link)
