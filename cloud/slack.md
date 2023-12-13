@@ -64,3 +64,7 @@ The URLs returned for search results are based upon the visibility of the worksp
 - __Public__: the public URLs will be used; e.g. `https://structurizr.com/share/{workspaceId}`
 
 In addition, if the workspace is not marked as private, PNG versions of diagrams will be included as attachments in the search results.
+
+## Notes
+
+This is a paid cloud service feature.

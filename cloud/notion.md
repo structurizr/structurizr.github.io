@@ -14,3 +14,7 @@ The live versions of your architecture diagrams can be embedded into Notion via 
 - When viewing a diagram, click the  button to display the URL that you can use to embed that diagram.
 
 ![Notion embed code](images/notion.png)
+
+## Notes
+
+This is a paid cloud service feature.

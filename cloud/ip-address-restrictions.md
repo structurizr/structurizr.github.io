@@ -18,4 +18,4 @@ on their dashboard, but will be unable to view the workspace content if their IP
 
 ## Notes
 
-This is a paid feature.
+This is a paid cloud service feature.
