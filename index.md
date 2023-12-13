@@ -14,12 +14,12 @@ __multiple software architecture diagrams__, in a __variety of rendering tools__
 The Structurizr tooling is available in a number of versions, covering different usage scenarios.
 
 
-| Product                                             | Description                                                                                                                                                                                  | License       |
-|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
-| [Structurizr Lite](/lite)                           | This single workspace version of Structurizr provides a way to quickly view diagrams, documentation, and architecture decision records.                                                      | Open source   |
-| [Structurizr on-premises installation](/onpremises) | We also have a version of Structurizr that can be run on your own infrastructure (local servers or cloud), providing the majority of the same features found in the cloud service.           | Open source   |
-| [Structurizr cloud service](/cloud)                 | Our cloud service allows you to get started with Structurizr without needing to host and update software on your own servers.                                                                | Free and paid |
-| [Structurizr CLI](/cli)                             | A command line utility designed to be used in conjunction with the Structurizr DSL, supporting pull/push via the web API and exports to a number of formats including PlantUML and Mermaid.  | Open source   |
+| Product                                             | Description                                                                                                                                                                                          | License       |
+|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+| [Structurizr Lite](/lite)                           | A single workspace version of Structurizr, providing a way to quickly view diagrams, documentation, and architecture decision records.                                                               | Open source   |
+| [Structurizr on-premises installation](/onpremises) | A multi-workspace version of Structurizr that can be run on your own infrastructure (local servers or cloud), providing a way to publish diagrams, documentation, and architecture decision records. | Open source   |
+| [Structurizr cloud service](/cloud)                 | The Structurizr cloud service, providing a way to publish diagrams, documentation, and architecture decision records.                                                                                | Free and paid |
+| [Structurizr CLI](/cli)                             | A command line utility designed to be used in conjunction with the Structurizr DSL, supporting pull/push via the web API and exports to a number of formats including PlantUML and Mermaid.          | Open source   |
 
 ## Which product?
 
