@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Workspace API
-parent: Structurizr on-premises
+parent: Structurizr cloud service
 nav_order: 9
-permalink: /onpremises/workspace-api
+permalink: /cloud/workspace-api
 ---
 
 # Workspace API
 
-The on-premises installation provides a JSON/HTTPS API for getting and putting workspaces.
+The cloud service provides a JSON/HTTPS API for getting and putting workspaces.
 The [Structurizr CLI](/cli) or one of the client libraries (e.g. [Structurizr for Java](https://github.com/structurizr/java))
 are the recommended tooling for interacting with the API, but this page has some information about the API should you wish to build your own tooling.
 
@@ -16,13 +16,13 @@ are the recommended tooling for interacting with the API, but this page has some
 
 The API consists of two endpoints, to get and put a workspace definition respectively:
 
-- GET `/api/workspace/{workspaceId}` (get workspace)
-- PUT `/api/workspace/{workspaceId}` (put workspace)
+- GET `https://api.structurizr.com/workspace/{workspaceId}` (get workspace)
+- PUT `https://api.structurizr.com/workspace/{workspaceId}` (put workspace)
 
-There are also some endpoints to lock and unlock a workspace:
+There are also some endpoints to lock and unlock a workspace (paid feature):
 
-- PUT `/api/workspace/{workspaceId}/lock` (lock workspace)
-- DELETE `/api/workspace/{workspaceId}/lock` (unlock workspace)
+- PUT `https://api.structurizr.com/workspace/{workspaceId}/lock` (lock workspace)
+- DELETE `https://api.structurizr.com/workspace/{workspaceId}/lock` (unlock workspace)
 
 ## Authentication/authorisation
 
@@ -54,6 +54,10 @@ The message digest is calculated by appending the following items together, with
   - `caea989b-80a3-4db2-8e5e-7e89be284847:YTQ1NzgxZWQxZjkzYjQwNjk2MzAxNmQ5YTkyODdkZTZlNDEyYjIwZDJhMjc3OWU3MjgxM2RhODE0NzkyMDZlZg==`
 
 On receiving the request, the server will check that the workspace ID and API key combination is valid, before calculating its own version of the HMAC message digest based upon the information contained within the HTTP request. This is then compared with the version submitted in the `X-Authorization` header, to determine whether the API call is permitted or not.
+
+## API rate limiting
+
+To help ensure a fair service to all users, API rate limiting is enforced for all workspace API calls (GET and PUT).
 
 ## Workspace JSON schema
 
