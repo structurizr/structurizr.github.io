@@ -36,8 +36,32 @@ change the role in the dropdown list next to that user's e-mail address and clic
 
 ## Configuring role-based access via the web API
 
-The Structurizr for Java and .NET client libraries, plus the Structurizr DSL (via the [users](/dsl/language#users) keyword), allow you to configure the users that should
-have read-write and read-only access to a workspace. It is not possible to configure admin access via the API.
+Role-based access can be configured via the workspace too. For example, with the DSL:
+
+```
+workspace {
+
+    ...
+    
+    configuration {
+        users {
+            user1@example.com read
+            user2@example.com write
+        }
+    }
+
+}
+```
+
+Or the Structurizr for Java library:
+
+```
+Workspace workspace = ...
+workspace.getConfiguration().addUser("user1@example.com", Role.ReadOnly);
+workspace.getConfiguration().addUser("user2@example.com", Role.ReadWrite);
+```
+
+It is not possible to configure owner or admin roles via the API.
 
 ## Notes
 
