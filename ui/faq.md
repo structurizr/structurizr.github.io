@@ -2,7 +2,7 @@
 layout: default
 title: FAQ
 parent: Structurizr UI
-nav_order: 91
+nav_order: 999
 permalink: /ui/faq
 ---
 
