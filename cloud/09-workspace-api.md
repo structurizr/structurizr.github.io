@@ -55,6 +55,13 @@ The message digest is calculated by appending the following items together, with
 
 On receiving the request, the server will check that the workspace ID and API key combination is valid, before calculating its own version of the HMAC message digest based upon the information contained within the HTTP request. This is then compared with the version submitted in the `X-Authorization` header, to determine whether the API call is permitted or not.
 
+## Workspace size limitations
+
+Please note that the cloud service has a size limit for workspaces as follows:
+
+- Workspaces owned by free accounts: 0.5MB
+- Workspaces owned by paid subscribers: 5MB
+
 ## API rate limiting
 
 To help ensure a fair service to all users, API rate limiting is enforced for all workspace API calls (GET and PUT).
