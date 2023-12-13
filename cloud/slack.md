@@ -2,7 +2,7 @@
 layout: default
 title: Slack
 parent: Structurizr cloud service
-nav_order: 902
+nav_order: 502
 permalink: /cloud/slack
 ---
 
@@ -67,4 +67,4 @@ In addition, if the workspace is not marked as private, PNG versions of diagrams
 
 ## Notes
 
-This is a paid cloud service feature.
+- This is a paid cloud service feature.

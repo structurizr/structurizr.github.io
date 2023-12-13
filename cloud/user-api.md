@@ -2,7 +2,7 @@
 layout: default
 title: User API
 parent: Structurizr cloud service
-nav_order: 10
+nav_order: 202
 permalink: /cloud/user-api
 ---
 
@@ -36,4 +36,4 @@ The response is a JSON document listing the properties of the newly created work
 
 ## Notes
 
-This is a paid cloud service feature.
+- This is a paid cloud service feature.

@@ -2,7 +2,7 @@
 layout: default
 title: IP address restrictions
 parent: Structurizr cloud service
-nav_order: 80
+nav_order: 24
 permalink: /cloud/ip-address-restrictions
 ---
 
@@ -18,4 +18,4 @@ on their dashboard, but will be unable to view the workspace content if their IP
 
 ## Notes
 
-This is a paid cloud service feature.
+- This is a paid cloud service feature.

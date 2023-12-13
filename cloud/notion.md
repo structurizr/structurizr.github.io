@@ -2,7 +2,7 @@
 layout: default
 title: Notion
 parent: Structurizr cloud service
-nav_order: 99
+nav_order: 501
 permalink: /cloud/notion
 ---
 
@@ -17,4 +17,4 @@ The live versions of your architecture diagrams can be embedded into Notion via 
 
 ## Notes
 
-This is a paid cloud service feature.
+- This is a paid cloud service feature.

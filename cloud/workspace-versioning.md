@@ -26,4 +26,4 @@ cause that version to be the latest version once again.
 
 ## Notes
 
-Only the previous 3 versions are accessible for workspaces owned by a free account.
+- Only the previous 3 versions are accessible for workspaces owned by a free account.

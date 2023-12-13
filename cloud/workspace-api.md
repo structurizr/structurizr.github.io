@@ -2,7 +2,7 @@
 layout: default
 title: Workspace API
 parent: Structurizr cloud service
-nav_order: 9
+nav_order: 201
 permalink: /cloud/workspace-api
 ---
 
