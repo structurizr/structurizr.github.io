@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Editor
-nav_order: 50
+title: Diagram editor
+nav_order: 21
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/editor

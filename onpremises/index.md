@@ -16,7 +16,6 @@ Optionally, data can be stored on Amazon S3, and search indexes on an Elasticsea
 
 ## Links
 
-- [Structurizr UI](/ui) (for information about documentation, decisions, explorations, etc)
-- [Structurizr - Help](https://structurizr.com/help) (for information about diagrams ... this is being migrated to the above link)
+- [Structurizr UI](/ui) (for information about diagrams, documentation, decisions, explorations, etc)
 - [GitHub](https://github.com/structurizr/onpremises)
 - [Changelog](https://structurizr.com/help/changelog)

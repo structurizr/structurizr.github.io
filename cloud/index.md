@@ -17,5 +17,4 @@ A free account provides a single workspace, while a paid subscription provides m
 ## Links
 
 - [Cloud service pricing and subscription information](https://structurizr.com/help/cloud-service)
-- [Structurizr UI](/ui) (for information about documentation, decisions, explorations, etc)
-- [Structurizr - Help](https://structurizr.com/help) (for information about diagrams ... this is being migrated to the above link)
+- [Structurizr UI](/ui) (for information about diagrams, documentation, decisions, explorations, etc)

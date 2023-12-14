@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Automatic layout
-nav_order: 50
+nav_order: 22
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/automatic-layout

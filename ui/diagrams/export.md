@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Export
-nav_order: 50
+title: PNG/SVG export
+nav_order: 48
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/export

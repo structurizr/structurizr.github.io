@@ -1,7 +1,7 @@
 ---
 layout: default
 title: System context view
-nav_order: 50
+nav_order: 12
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/system-context-view

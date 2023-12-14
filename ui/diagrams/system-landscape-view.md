@@ -1,7 +1,7 @@
 ---
 layout: default
 title: System landscape view
-nav_order: 50
+nav_order: 11
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/system-landscape-view

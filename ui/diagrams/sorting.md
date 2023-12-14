@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Sorting
-nav_order: 50
+title: Diagram sorting
+nav_order: 42
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/sorting

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Custom view
-nav_order: 50
+nav_order: 20
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/custom-view

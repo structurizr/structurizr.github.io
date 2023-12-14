@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Component view
-nav_order: 50
+nav_order: 14
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/component-view

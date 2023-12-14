@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Filtered view
-nav_order: 50
+nav_order: 19
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/filtered-view

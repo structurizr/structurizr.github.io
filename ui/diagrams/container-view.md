@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Container view
-nav_order: 50
+nav_order: 13
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/container-view

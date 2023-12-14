@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Presentation
-nav_order: 50
+title: Presentation mode
+nav_order: 47
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/presentation

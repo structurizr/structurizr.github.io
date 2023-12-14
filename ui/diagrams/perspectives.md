@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Perspectives
-nav_order: 50
+nav_order: 44
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/perspectives

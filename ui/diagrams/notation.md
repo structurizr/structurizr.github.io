@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Notation
-nav_order: 50
+nav_order: 31
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/notation

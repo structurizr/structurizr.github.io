@@ -4,14 +4,13 @@ title: Structurizr UI
 nav_order: 15
 has_children: true
 permalink: /ui
-has_toc: false
+has_toc: true
 ---
 
 # Structurizr UI
 
-The documentation for the Structurizr browser-based UI (diagram/documentation/ADR renderer) 
-for the Structurizr cloud service, on-premises installation, and Lite
-can be found at [https://structurizr.com/help](https://structurizr.com/help).
+This is the documentation for the Structurizr browser-based UI (diagram/documentation/ADR renderer), which is shared
+across the Structurizr cloud service, the on-premises installation, and Lite.
 
 ## Links
 

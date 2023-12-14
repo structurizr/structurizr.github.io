@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Code views
-nav_order: 50
+title: Code view
+nav_order: 15
 parent: Diagrams
 grand_parent: Structurizr UI
-permalink: /ui/diagrams/code-views
+permalink: /ui/diagrams/code-view
 has_toc: false
 ---
 
-# Code views
+# Code view
 
 Code level diagrams are not natively supported by Structurizr, because of the need to support the ability to
 model the complete variety of different technologies that you would naturally find at level 4 of the C4 model;

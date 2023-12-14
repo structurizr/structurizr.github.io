@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Keyboard shortcuts
-nav_order: 50
+nav_order: 43
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/keyboard-shortcuts

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Manual layout
-nav_order: 50
+nav_order: 23
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/manual-layout

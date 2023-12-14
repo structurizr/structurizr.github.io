@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Health checks
-nav_order: 50
+nav_order: 45
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/health-checks

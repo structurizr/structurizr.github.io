@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Deployment view
-nav_order: 50
+nav_order: 18
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/deployment-view

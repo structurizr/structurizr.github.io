@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Image view
-nav_order: 50
+nav_order: 16
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/image-view

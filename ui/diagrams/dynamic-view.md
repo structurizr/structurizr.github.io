@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dynamic view
-nav_order: 50
+nav_order: 17
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/dynamic-view

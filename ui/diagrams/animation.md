@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Animation
-nav_order: 50
+nav_order: 46
 parent: Diagrams
 grand_parent: Structurizr UI
 permalink: /ui/diagrams/animation
