@@ -9,7 +9,7 @@ has_toc: false
 
 # Cloud service
 
-The Structurizr cloud service allows you to get started with Structurizr quickly,
+The Structurizr cloud service ([structurizr.com](https://structurizr.com)) allows you to get started with Structurizr quickly,
 without the need to host and update software on your own servers.
 A free account provides a single workspace, while a paid subscription provides more workspaces and features
 (see [product comparison](/#comparison)).
