@@ -23,6 +23,8 @@ There are a number of options for authoring workspaces with the Structurizr DSL.
 | [Structurizr CLI](/cli)   | The Structurizr CLI is a command line utility, designed to be used in conjunction with the Structurizr DSL. It provides the ability to push/pull workspaces to/from the Structurizr cloud service or an on-premises installation, in additional to exporting the views defined in a DSL file to other formats (PlantUML, Mermaid, WebSequenceDiagrams, and Ilograph).                                                                                                | Yes         |
 | Browser-based DSL editor  | If you'd rather not use Structurizr Lite or the Structurizr CLI, the Structurizr cloud service/on-premises installation provides a basic online DSL editor. The editor provides some rudimentary syntax highlighting and the ability to use the DSL without installing any tooling, but it does not provide access to the full feature set of the DSL - see the comparison table below. The DSL editor can be opened using the link on your workspace summary page.  | No          |
 
+## Comparison
+
 Here is a comparison of the various authoring tools.
 
 | Feature                                                                            | DSL keyword | Structurizr Lite | Structurizr CLI | Browser-based DSL editor                          |

@@ -112,7 +112,7 @@ Groups can only be used to group elements of the same type (i.e. the same level 
 | Software System | Containers                  |
 | Container       | Components                  |
 
-See [Structurizr - Help - Notation](https://structurizr.com/help/notation) for a description of which groups are shown for a given diagram type.
+See [Structurizr - Help - Notation](/ui/diagrams/notation) for a description of which groups are shown for a given diagram type.
 
 ## person
 
@@ -517,7 +517,7 @@ properties {
 ## perspectives
 
 The `perspectives` block is used to define one or more named perspectives for an element or relationship.
-See [Help - Perspectives](https://structurizr.com/help/perspectives) for how these are used.
+See [Help - Perspectives](/ui/diagrams/perspectives) for how these are used.
 
 ```
 perspectives {
@@ -597,7 +597,7 @@ systemLandscape [key] [description] {
 }
 ```
 
-A view key will be generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose [manual layout information](https://structurizr.com/help/manual-layout) when using them in conjunction with Structurizr Lite/on-premises/cloud__.
+A view key will be generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose [manual layout information](/ui/diagrams/manual-layout) when using them in conjunction with Structurizr Lite/on-premises/cloud__.
 
 Permitted children:
 
@@ -620,7 +620,7 @@ systemContext <software system identifier> [key] [description] {
 }
 ```
 
-A view key will be generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose [manual layout information](https://structurizr.com/help/manual-layout) when using them in conjunction with Structurizr Lite/on-premises/cloud__.
+A view key will be generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose [manual layout information](/ui/diagrams/manual-layout) when using them in conjunction with Structurizr Lite/on-premises/cloud__.
 
 Permitted children:
 
@@ -643,7 +643,7 @@ container <software system identifier> [key] [description] {
 }
 ```
 
-A view key will be generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose [manual layout information](https://structurizr.com/help/manual-layout) when using them in conjunction with Structurizr Lite/on-premises/cloud__.
+A view key will be generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose [manual layout information](/ui/diagrams/manual-layout) when using them in conjunction with Structurizr Lite/on-premises/cloud__.
 
 Permitted children:
 
@@ -666,7 +666,7 @@ component <container identifier> [key] [description] {
 }
 ```
 
-A view key will be generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose [manual layout information](https://structurizr.com/help/manual-layout) when using them in conjunction with Structurizr Lite/on-premises/cloud__.
+A view key will be generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose [manual layout information](/ui/diagrams/manual-layout) when using them in conjunction with Structurizr Lite/on-premises/cloud__.
 
 Permitted children:
 
@@ -681,7 +681,7 @@ Permitted children:
 
 ## filtered view
 
-The `filtered` keyword is used to define a [Filtered view](https://structurizr.com/help/filtered-views) on top of the specified view.
+The `filtered` keyword is used to define a [filtered view](/ui/diagrams/filtered-view) on top of the specified view.
 
 ```
 filtered <baseKey> <include|exclude> <tags> [key] [description] {
@@ -720,7 +720,7 @@ The first property defines the scope of the view, and therefore what can be adde
 - Software system scope: People, other software systems, and containers. 
 - Container scope: People, other software systems, other containers, and components. 
 
-A view key will be generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose [manual layout information](https://structurizr.com/help/manual-layout) when using them in conjunction with Structurizr Lite/on-premises/cloud__.
+A view key will be generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose [manual layout information](/ui/diagrams/manual-layout) when using them in conjunction with Structurizr Lite/on-premises/cloud__.
 
 Unlike the other diagram types, Dynamic views are created by specifying the relationships that should be added to the view, within the `dynamic` block, as follows:
 
@@ -761,7 +761,7 @@ The first property defines the scope of the view, and the second property define
 - `*` scope: All deployment nodes, infrastructure nodes, and container instances within the deployment environment.
 - Software system scope: All deployment nodes and infrastructure nodes within the deployment environment. Container instances within the deployment environment that belong to the software system.
 
-A view key will be generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose [manual layout information](https://structurizr.com/help/manual-layout) when using them in conjunction with Structurizr Lite/on-premises/cloud__.
+A view key will be generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose [manual layout information](/ui/diagrams/manual-layout) when using them in conjunction with Structurizr Lite/on-premises/cloud__.
 
 Permitted children:
 
@@ -776,7 +776,7 @@ Permitted children:
 
 ## custom view
 
-The `custom` keyword is used to define a [custom view](https://structurizr.com/help/custom-diagrams) (this is only available on the Structurizr cloud service/on-premises installation/Lite).
+The `custom` keyword is used to define a [custom view](/ui/diagrams/custom-view) (this is only available on the Structurizr cloud service/on-premises installation/Lite).
 
 ```
 custom [key] [title] [description] {
@@ -797,7 +797,7 @@ Permitted children:
 
 ## image view
 
-The `image` keyword is used to define an [image view](https://structurizr.com/help/image-views) (this is only available on the Structurizr cloud service/on-premises installation/Lite).
+The `image` keyword is used to define an [image view](/ui/diagrams/image-view) (this is only available on the Structurizr cloud service/on-premises installation/Lite).
 
 ```
 image <*|element identifier> [key] {
@@ -832,7 +832,7 @@ views {
 
 The public PlantUML (`https://plantuml.com/plantuml`), Mermaid (`https://mermaid.ink`), and Kroki (`https://kroki.io`)
 URLs may work, but (1) please be aware that you are sending information to a third-party service and (2) these public services
-may not correctly set the CORS headers required for image views to work (see the notes at [Structurizr - Help - Image views](https://structurizr.com/help/image-views)).
+may not correctly set the CORS headers required for image views to work (see the notes at [Image views](/ui/diagrams/image-view)).
 
 See [DSL cookbook - Image view](https://github.com/structurizr/dsl/tree/master/docs/cookbook/image-view) and
 the [image view tests](https://github.com/structurizr/dsl/tree/master/src/test/dsl/image-views) for some examples.
@@ -1017,12 +1017,12 @@ See the following links for details about how to use element styles:
 
 - [DSL cookbook - Element styles](https://github.com/structurizr/dsl/tree/master/docs/cookbook/element-styles)
 - [DSL cookbook - Groups](https://github.com/structurizr/dsl/tree/master/docs/cookbook/groups)
-- [Structurizr - Notation](https://structurizr.com/help/notation)
+- [Structurizr - Notation](/ui/diagrams/notation)
 
 Notes:
 
 - Colors can be specified as a hex code (e.g. `#ffff00`) or a CSS/HTML named color (e.g. `yellow`).
-- See [Help - Icons](https://structurizr.com/help/icons) for information about HTTPS/CORS if you are using the Structurizr cloud service/on-premises installation/Lite and specifying an element style icon via a URL.
+- See [Notation - Icons](/ui/diagrams/notation#icons) for information about HTTPS/CORS if you are using the Structurizr cloud service/on-premises installation/Lite and specifying an element style icon via a URL.
 - Element styles are designed to work with the Structurizr cloud service/on-premises installation/Lite, and may not be fully supported by the [PlantUML, Mermaid, etc export formats](https://github.com/structurizr/export) (e.g. shapes and icons).
 
 ## relationship style
@@ -1050,7 +1050,7 @@ relationship <tag> {
 See the following links for details about how to use element styles:
 
 - [DSL cookbook - Relationship styles](https://github.com/structurizr/dsl/tree/master/docs/cookbook/relationship-styles)
-- [Structurizr - Notation](https://structurizr.com/help/notation)
+- [Structurizr - Notation](/ui/diagrams/notation)
 
 Notes:
 
@@ -1059,7 +1059,7 @@ Notes:
 
 ## theme
 
-The `theme` keyword can be used to specify a theme that should be used when rendering diagrams. See [Structurizr - Themes](https://structurizr.com/help/themes) for more details.
+The `theme` keyword can be used to specify a theme that should be used when rendering diagrams. See [Themes](/ui/diagrams/themes) for more details.
 
 ```
 theme <default|url>
@@ -1069,7 +1069,7 @@ theme <default|url>
 
 ## themes
 
-The `themes` keyword can be used to specify one or more themes that should be used when rendering diagrams. See [Structurizr - Themes](https://structurizr.com/help/themes) for more details.
+The `themes` keyword can be used to specify one or more themes that should be used when rendering diagrams. See [Themes](/ui/diagrams/themes) for more details.
 
 ```
 themes <url> [url] ... [url]
@@ -1079,7 +1079,7 @@ themes <url> [url] ... [url]
 
 ## branding
 
-The `branding` keyword allows you to define some custom branding that should be used when rendering diagrams and documentation. See [Structurizr - Branding](https://structurizr.com/help/branding) for more details.
+The `branding` keyword allows you to define some custom branding that should be used when rendering diagrams and documentation. See [Branding](/ui/branding) for more details.
 
 ```
 branding {
@@ -1090,7 +1090,7 @@ branding {
 
 Notes:
 
-- See [Help - Icons](https://structurizr.com/help/icons) for information about HTTPS/CORS if you are using the Structurizr cloud service/on-premises installation/Lite and specifying a branding icon via a URL.
+- See [Notation - Icons](/ui/diagrams/notation#icons) for information about HTTPS/CORS if you are using the Structurizr cloud service/on-premises installation/Lite and specifying a branding icon via a URL.
 
 ## terminology
 
@@ -1135,7 +1135,7 @@ scope <landscape|softwaresystem|none>
 
 ## visibility
 
-The `visibility` keyword can be used to set the [visibility of the workspace](https://structurizr.com/help/workspace-sharing).
+The `visibility` keyword can be used to set the visibility of the workspace (private vs public).
 
 ```
 visibility <private|public>

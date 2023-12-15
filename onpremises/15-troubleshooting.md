@@ -2,7 +2,7 @@
 layout: default
 title: Troubleshooting
 parent: Structurizr on-premises
-nav_order: 14
+nav_order: 15
 permalink: /onpremises/troubleshooting
 ---
 

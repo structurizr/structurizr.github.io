@@ -8,7 +8,7 @@ permalink: /dsl/cookbook/filtered-view/
 
 # Filtered view
 
-A [filtered view](https://structurizr.com/help/filtered-views) represents "a view on top of another view", which can be used to filter (`include` or `exclude`) specific elements and/or relationships, based upon their tag. Consider the following workspace definition:
+A [filtered view](/ui/diagrams/filtered-view) represents "a view on top of another view", which can be used to filter (`include` or `exclude`) specific elements and/or relationships, based upon their tag. Consider the following workspace definition:
 
 ```
 workspace {

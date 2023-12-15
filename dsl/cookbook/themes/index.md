@@ -8,7 +8,7 @@ permalink: /dsl/cookbook/themes/
 
 # Themes
 
-Some pre-built themes are available to help you diagram deployment architectures that make use of popular cloud providers such as Amazon Web Services, Microsoft Azure, Google Cloud Platform, etc. Links to these themes can be found at [Structurizr - Help - Themes](https://structurizr.com/help/themes). You can also create your own themes.
+Some pre-built themes are available to help you diagram deployment architectures that make use of popular cloud providers such as Amazon Web Services, Microsoft Azure, Google Cloud Platform, etc. Links to these themes can be found at [Themes](/ui/diagrams/themes). You can also create your own themes.
 
 ## What is a theme?
 

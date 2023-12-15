@@ -90,7 +90,7 @@ structurizr.remote.apiSecret=SECRET
 
 
 A property named `structurizr.remote.apiUrl` can be used to specify an API URL for on-premises installations (this is not required for the cloud service).
-A property named `structurizr.remote.passphrase` can be used to specify the [client-side encryption](https://structurizr.com/help/client-side-encryption) passphrase.
+A property named `structurizr.remote.passphrase` can be used to specify the [client-side encryption](/cloud/client-side-encryption) passphrase.
 
 ### Using auto-sync
 

@@ -37,7 +37,7 @@ Alternatively, you can leave the `aws-s3.accessKeyId` and `aws-s3.secretAccessKe
 and the on-premises installation will use the "Default Credential Provider Chain" to search your environment for the credentials, as described at
 [Working with AWS Credentials - Using the Default Credential Provider Chain](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/credentials.html).
 
-You will need to enable bucket versioning if you'd like to use [Structurizr's workspace versioning feature](https://structurizr.com/help/workspace-versioning).
+You will need to enable bucket versioning if you'd like to use the [workspace versioning feature](/onpremises/workspace-versioning).
 
 ### Elasticsearch
 

@@ -2,7 +2,7 @@
 layout: default
 title: FAQ
 parent: Structurizr on-premises
-nav_order: 13
+nav_order: 14
 permalink: /onpremises/faq
 ---
 
@@ -30,7 +30,7 @@ Yes, [Amazon Web Service S3](data-storage#amazon-web-services-s3) and [Elasticse
 ### Does the on-premises installation require an Internet connection?
 
 No, the on-premises installation can run completely disconnected from the Internet, and doesn't make any requests to the Internet to check for updates.
-You will only require Internet access from the server if you have workspaces that make use of an Internet hosted [theme](https://structurizr.com/help/themes) and have server-side (Graphviz) automatic layout enabled.
+You will only require Internet access from the server if you have workspaces that make use of an Internet hosted [theme](/ui/diagrams/themes) and have server-side (Graphviz) automatic layout enabled.
 
 ### Does the on-premises installation automatically update itself?
 

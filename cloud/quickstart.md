@@ -27,9 +27,9 @@ This will create a new empty workspace, which will be used to store your softwar
 
 You now have a choice of how you would like to create the software architecture model in your workspace:
 
-1. Pushing a Structurizr DSL file via the [workspace API](https://structurizr.com/help/web-api) using the [Structurizr CLI push command](/cli/push) (recommended).
-2. Pushing a workspace created using one of the code-based client libraries (e.g. [Structurizr for Java](https://github.com/structurizr/java)) via the [workspace API](https://structurizr.com/help/web-api).
-3. Using the browser-based DSL editor (not recommended - [it doesn't support the full feature set](https://structurizr.com/help/dsl#comparison)).
+1. Pushing a Structurizr DSL file via the [workspace API](/cloud/workspace-api) using the [Structurizr CLI push command](/cli/push) (recommended).
+2. Pushing a workspace created using one of the code-based client libraries (e.g. [Structurizr for Java](https://github.com/structurizr/java)) via the [workspace API](/cloud/workspace-api).
+3. Using the browser-based DSL editor (not recommended - [it doesn't support the full feature set](/dsl#comparison)).
 
 Although not the recommended approach, to get started quickly, click the "DSL editor" link on your workspace summary page - this provides a way to define your workspace using the 
 [Structurizr DSL](/dsl).

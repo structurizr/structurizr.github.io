@@ -11,7 +11,7 @@ permalink: /dsl/cookbook/
 
 This cookbook is a tutorial guide to the Structurizr DSL, an open source tool for creating diagrams as code from
 a single consistent model. This cookbook assumes that you're using the diagram renderer provided by the
-[Structurizr cloud service](https://structurizr.com/help/cloud-service),
+[Structurizr cloud service](/cloud),
 the [Structurizr on-premises installation](/onpremises),
 or [Structurizr Lite](/lite).
 

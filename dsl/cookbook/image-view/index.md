@@ -8,7 +8,7 @@ permalink: /dsl/cookbook/image-view/
 
 # Image view
 
-An [image view](https://structurizr.com/help/image-views) represents an image that has been rendered outside of Structurizr, for inclusion in a Structurizr workspace.
+An [image view](/ui/diagrams/image-view) represents an image that has been rendered outside of Structurizr, for inclusion in a Structurizr workspace.
 Image views can be created from an arbitrary PNG/SVG file, or a PlantUML/Mermaid/Kroki diagram.
 An example use case for an image view is to provide a "level 4" zoom-in for a component on a component diagram.
 
@@ -49,5 +49,5 @@ This DSL defines an image view for the "Component 1" component, based upon a Mer
 
 ## Links
 
-- [Structurizr - Help - Image views](https://structurizr.com/help/image-views)
+- [Image views](/ui/diagrams/image-view)
 - [DSL language reference - image](/dsl/language#image-view)
