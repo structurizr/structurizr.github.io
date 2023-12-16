@@ -20,5 +20,5 @@ relational data models, etc. This is not feasible or desirable because:
 - Many IDEs can generate UML class diagrams from existing code.
 - Many database tools can generate entity relationship diagrams from existing database schemas.
 
-Structurizr does support a feature called [image views](/ui/diagrams/image-views) though, which provides a way to
+Structurizr does support a feature called [image views](/ui/diagrams/image-view) though, which provides a way to
 include arbitrary PNG/SVG images in your workspace, and these can function as zoom-ins for level 4.
