@@ -35,7 +35,7 @@ For example, if your Structurizr data directory is located at `/Users/simon/stru
 docker run -it --rm -p 8080:8080 -v /Users/simon/structurizr:/usr/local/structurizr structurizr/onpremises
 ```
 
-There is a [Dockerfile](https://github.com/structurizr/onpremises/blob/main/Dockerfile) in the GitHub repo that can be used as a starting point if you'd like to build your own Docker image.
+There is a [Dockerfile](https://github.com/structurizr/onpremises/blob/main/structurizr-onpremises/Dockerfile) in the GitHub repo that can be used as a starting point if you'd like to build your own Docker image.
 
 ## Java EE
 

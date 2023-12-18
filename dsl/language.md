@@ -546,7 +546,7 @@ Or, if you're extending a JSON-based workspace, you can reference an element by 
 }
 ```
 
-See [ref.dsl](../src/test/dsl/ref.dsl) for some usage examples.
+See [DSL cookbook - Workspace extension](/dsl/cookbook/workspace-extension/) for some usage examples.
 
 ## views
 
@@ -732,11 +732,12 @@ Unlike the other diagram types, Dynamic views are created by specifying the rela
 With a dynamic view, you're showing _instances_ of relationships that are defined in the static model.
 For example, imagine that you have two software systems defined in the static model, with a single relationship between them described as "Sends data to".
 A dynamic view allows you to override the relationship description, to better describe the interaction in the context of the behaviour you're diagramming.
-See [dynamic.dsl](../src/test/dsl/dynamic.dsl) for an example of this, and [Modelling multiple relationships](https://dev.to/simonbrown/modelling-multiple-relationships-51bf) for some tips on how to best model multiple relationships between two elements in order to avoid cluttering your static model.
 
 See [DSL cookbook - Dynamic view](https://github.com/structurizr/dsl/tree/master/docs/cookbook/dynamic-view) and
 [DSL cookbook - Dynamic view with parallel sequences](https://github.com/structurizr/dsl/tree/master/docs/cookbook/dynamic-view-parallel)
 for examples.
+
+Also see [Modelling multiple relationships](https://dev.to/simonbrown/modelling-multiple-relationships-51bf) for some tips on how to best model multiple relationships between two elements in order to avoid cluttering your static model.
 
 Permitted children:
 
