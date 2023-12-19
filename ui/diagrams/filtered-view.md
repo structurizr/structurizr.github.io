@@ -37,5 +37,6 @@ Software System B will be introduced in the future to fulfil task 2.
 
 - Filtered views can be created on top of static views only; i.e. System Landscape, System Context, Container, and Component views.
 - Once a filtered view is defined for a given "base view", that base view will no longer show up in your diagram list. This is by design. If you'd like to see the base view too, just create another filtered view for the same base view, which includes the `Element` and `Relationship` tags.
+- Filtered views are designed to work with manual layout, where multiple filtered views can share that same layout information, hiding/showing elements/relationships as appropriate. For this reason, filtered views are not supported by any of the automatic layout only [export formats](/export) (e.g. PlantUML and Mermaid), but you can achieve a similar result using [DSL expressions](/dsl/expressions) (e.g. `include element.tag==Tag 1`, `include relationship.tag==Tag 2`, etc) in your view definition.
 
 <script type="text/javascript" src="https://static.structurizr.com/js/structurizr-embed.js"></script>
