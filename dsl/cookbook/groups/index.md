@@ -9,7 +9,7 @@ permalink: /dsl/cookbook/groups/
 # Groups
 
 The `group` keyword provides a way to define a named grouping of elements, which will be rendered as a boundary around those elements.
-See [DSL language reference - group](/dsl/language.md#group) for more details.
+See [DSL language reference - group](/dsl/language#group) for more details.
 
 ## Example
 
