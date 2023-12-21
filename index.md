@@ -80,5 +80,6 @@ Please note that the feature set and look/feel of the resulting diagrams will va
 * [Structurizr Site Generatr](https://github.com/avisi-cloud/structurizr-site-generatr): Generates a HTML microsite with diagrams, documentation, and a UI to explore the model.
 * [Kroki](https://kroki.io): Kroki generates diagrams from a number of text-based formats, including the Structurizr DSL.
 * [Asciidoctor](https://docs.asciidoctor.org/diagram-extension/latest/diagram_types/structurizr/): The Structurizr extension allows individual views from a Structurizr DSL workspace to be included in Asciidoc documents.
+* [Docusaurus Structurizr Plugin](https://timkolberger.github.io/docusaurus-plugin-structurizr/): Use Structurizr DSL files to generate diagrams in your Docusaurus site.
 * [c4viz](https://github.com/pmorch/c4viz): A browser-based diagram renderer, with diagram navigation and "click to zoom".
 * [Git for Confluence - Markdown, PlantUML, Graphviz, Mermaid](https://marketplace.atlassian.com/apps/1211675/git-for-confluence-markdown-plantuml-graphviz-mermaid): A Confluence plugin that will render a specific diagram from a Structurizr DSL file stored in your git repo.
