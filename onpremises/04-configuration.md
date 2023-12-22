@@ -70,4 +70,5 @@ If you're having an issue and would like to change the logging level:
 
 If you're specifically having issues with authentication via SAML, you can make the following changes:
 
-1. Change line 19 to `logger.springSecurity.level = debug`
+1. Change line 13 to `logger.app.level = info`
+2. Change line 19 to `logger.springSecurity.level = debug`

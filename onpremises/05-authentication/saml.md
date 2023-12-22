@@ -24,9 +24,20 @@ To configure SAML integration:
 - Map the IdP username to a SAML attribute named `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress`
 - Map the IdP roles/groups to a SAML attribute named `http://schemas.xmlsoap.org/claims/Group`
 
+### Max authentication age
+
+By default, Spring Security checks that you've been authenticated with your IdP within the past 2 hours (7200 seconds).
+If this value is too low, you can override it via a property named `structurizr.saml.maxAuthenticationAge` in your `structurizr.properties` file (the value is the number of seconds, e.g. 86400 seconds for 24 hours).
+
+### Force authentication
+
+If you see intermittent HTTP 405 errors when trying to sign in (particularly after signing in already),
+you can set Structurizr to force authentication by setting a property named `structurizr.saml.forceAuthentication`
+in your `structurizr.properties` file (`true`, or `false` by default).
+
 ## Preview build (Spring 6/Tomcat 10)
 
-To configure SAML integration:
+To configure SAML integration with the preview build available via the `structurizr/onpremises:preview` Docker image:
 
 - Add `structurizr.authentication=saml` to your `structurizr.properties` file.
 - Register the Structurizr on-premises application with your Identity Provider. When doing this, you will need a "Reply URL", which is of the form `{structurizr.url}/login/saml2/sso` (e.g. `http://localhost:8080/login/saml2/sso`).
@@ -41,6 +52,26 @@ If your identity provider requires signed SAML requests:
 2. Add two more additional properties to your `structurizr.properties` file:
    - `structurizr.saml.signing.certificate=signing.cer`
    - `structurizr.saml.signing.privateKey=signing.key`
+
+Optional properties that can be set include:
+
+- `structurizr.saml.registrationId`: the SAML registration ID (default: `structurizr`)
+- `structurizr.saml.attribute.username`: the name of the SAML attribute used to obtain the user's username (default: `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress`)
+- `structurizr.saml.attribute.role`: the name of the SAML attribute used to obtain the user's roles (default: `http://schemas.xmlsoap.org/claims/Group`)
+
+See [Spring Security - SAML 2.0 Login Overview](https://docs.spring.io/spring-security/reference/servlet/saml2/login/overview.html)
+for more information about how SAML integration works.
+
+## Troubleshooting
+
+The variation between identity providers and how organisations configure identity providers can make it difficult
+to configure SAML integration, and even the smallest misconfiguration can cause errors, most of which you'll see in
+the logs as a HTTP 405 (`Request method 'POST' not supported`) or HTTP 500 message.
+Some recommended steps to resolve this are:
+
+1. Configure a non-secure (i.e. HTTP) `localhost` instance of the on-premises installation against your IdP to ascertain whether the problems you are seeing are related to your hosting environment (i.e. HTTPS, load balancers, reverse proxies, DNS, etc).
+2. Debug the SAML handshake with one of the available browser plugins.
+3. Enable debug on the on-premises installation to see the underlying error message (see [Configuration - Logging](/onpremises/configuration#logging)).
 
 ## Notes
 
