@@ -12,6 +12,10 @@ The on-premises installation provides a JSON/HTTPS API for getting and putting w
 The [Structurizr CLI](/cli) or one of the client libraries (e.g. [Structurizr for Java](https://github.com/structurizr/java))
 are the recommended tooling for interacting with the API, but this page has some information about the API should you wish to build your own tooling.
 
+Please note that diagrams are rendered client-side (i.e. in your web browser), so this API __does not__ provide access to diagrams.
+An automated export is only possible using a web browser in conjunction with an automation framework such as headless Chrome and Puppeteer.
+See the [structurizr-puppeteer repo on GitHub](https://github.com/structurizr/puppeteer) for an example script.
+
 ## Endpoints
 
 The API consists of two endpoints, to get and put a workspace definition respectively:
