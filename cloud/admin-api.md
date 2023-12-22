@@ -19,24 +19,24 @@ Your cloud service username and API key should be specified via the `X-Authoriza
 
 Gets the metadata for all workspaces (i.e. ID, name, API key/secret pair, etc).
 
-- `GET` `/api/workspace`
+- `GET` `https://api.structurizr.com/workspace`
 
 Example:
 
 ```
-curl --header "X-Authorization: user@example.com:1234567890" http://localhost:8080/api/workspace
+curl --header "X-Authorization: user@example.com:1234567890" https://api.structurizr.com/workspace
 ```
 
 ## Create workspace
 
 Creates a new workspace.
 
-- `POST` `/api/workspace`
+- `POST` `https://api.structurizr.com/workspace`
 
 Example:
 
 ```
-curl -X POST --header "X-Authorization: user@example.com:1234567890" http://localhost:8080/api/workspace
+curl -X POST --header "X-Authorization: user@example.com:1234567890" https://api.structurizr.com/workspace
 ```
 
 ## Notes
