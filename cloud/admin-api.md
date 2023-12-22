@@ -8,7 +8,8 @@ permalink: /cloud/admin-api
 
 # Admin API
 
-The admin API provides a way to create and list workspaces. To use the user API, you'll first need to generate
+The admin API provides a way to create, delete, and list workspaces.
+To use the user API, you'll first need to generate
 a user API key. This can be done via the "Regenerate user API key" link on your dashboard.
 
 Your cloud service username and API key should be specified via the `X-Authorization` header:
@@ -37,6 +38,18 @@ Example:
 
 ```
 curl -X POST --header "X-Authorization: user@example.com:1234567890" https://api.structurizr.com/workspace
+```
+
+## Delete workspace
+
+Deletes the specified workspace.
+
+- `DELETE` `https://api.structurizr.com/workspace/{workspaceId}`
+
+Example:
+
+```
+curl -X DELETE --header "X-Authorization: user@example.com:1234567890" https://api.structurizr.com/workspace/1234
 ```
 
 ## Notes
