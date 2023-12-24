@@ -13,7 +13,11 @@ The Structurizr DSL provides a way to define a software architecture model
 (based upon the [C4 model](https://c4model.com)) using a text-based domain specific language (DSL).
 The Structurizr DSL has appeared on the
 [ThoughtWorks Tech Radar - Techniques - Diagrams as code](https://www.thoughtworks.com/radar/techniques/diagrams-as-code)
-and is text-based wrapper around the [Structurizr for Java library](https://github.com/structurizr/java).
+and is text-based wrapper around [Structurizr for Java](/java), available on
+[Maven Central](https://mvnrepository.com/artifact/com.structurizr/structurizr-dsl) for inclusion in your own Java applications:
+
+- groupId: `com.structurizr`
+- artifactId: `structurizr-dsl`
 
 There are a number of options for authoring workspaces with the Structurizr DSL.
 
@@ -74,10 +78,7 @@ If you are using the on-premises installation, you can disable the DSL editor fo
 
 ## Editor and IDE plugins
 
-* [VS Code extension](https://marketplace.visualstudio.com/items?itemName=systemticks.c4-dsl-extension) (syntax highlighting and diagram previews)
-* [VS Code extension](https://marketplace.visualstudio.com/items?itemName=ciarant.vscode-structurizr) (syntax highlighting)
-* [C4 DSL Language Server](https://gitlab.com/systemticks/c4-dsl-language-server) (for integrating the Structurizr DSL into Language Server Protocol compatible tools)
-* [IntelliJ IDEA plugin](https://github.com/dirkgroot/structurizr-dsl-intellij-plugin)
+See [Community tooling](/community) for editor and IDE plugins.
 
 ## Links
 

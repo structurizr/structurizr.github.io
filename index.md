@@ -72,15 +72,3 @@ workspace via the web API provided by the cloud service and on-premises installa
 | Slack<br />Perform a full-text search across a workspace using a slash command.                                                                                                       |                           |                                      |                             | [Yes](/cloud/slack)                   |              
 | Authentication via LDAP or SAML 2.0<br />Integrate Structurizr with your identity provider.                                                                                           |                           | [Yes](/onpremises/authentication)    |                             |                                       |
 | [Priority support](https://structurizr.com/help/support)<br />Priority support (Monday to Friday; 9-5 UK time).                                                                       | With paid support package | With paid support package            |                             | Yes                                   |
-
-## Other rendering tools
-
-Other rendering tools are available that can be used to render diagrams.
-Please note that the feature set and look/feel of the resulting diagrams will vary between tools.
-
-* [Structurizr Site Generatr](https://github.com/avisi-cloud/structurizr-site-generatr): Generates a HTML microsite with diagrams, documentation, and a UI to explore the model.
-* [Kroki](https://kroki.io): Kroki generates diagrams from a number of text-based formats, including the Structurizr DSL.
-* [Asciidoctor](https://docs.asciidoctor.org/diagram-extension/latest/diagram_types/structurizr/): The Structurizr extension allows individual views from a Structurizr DSL workspace to be included in Asciidoc documents.
-* [Docusaurus Structurizr Plugin](https://timkolberger.github.io/docusaurus-plugin-structurizr/): Use Structurizr DSL files to generate diagrams in your Docusaurus site.
-* [c4viz](https://github.com/pmorch/c4viz): A browser-based diagram renderer, with diagram navigation and "click to zoom".
-* [Git for Confluence - Markdown, PlantUML, Graphviz, Mermaid](https://marketplace.atlassian.com/apps/1211675/git-for-confluence-markdown-plantuml-graphviz-mermaid): A Confluence plugin that will render a specific diagram from a Structurizr DSL file stored in your git repo.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Structurizr cloud service
-nav_order: 14
+nav_order: 15
 has_children: true
 permalink: /cloud
 has_toc: false

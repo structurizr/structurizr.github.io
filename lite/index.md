@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Structurizr Lite
-nav_order: 12
+nav_order: 13
 has_children: true
 permalink: /lite
 has_toc: false
