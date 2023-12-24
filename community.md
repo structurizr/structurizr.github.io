@@ -61,5 +61,6 @@ the Structurizr tooling doesn't fit your needs.
 - [C4Sharp](https://github.com/8T4/c4sharp): A .NET library for building C4 Model diagrams.
 - [Archinsight](https://github.com/lonely-lockley/archinsight): Archinsight project tends to implement architecture-as-code definition of a standard c4 architecture model.
 - [RDB Model](https://github.com/RDBModel/rdbmodel.github.io): Simplified C4 model yaml editor.
+- [Architecture as Code](https://github.com/finos-labs/architecture-as-code): "Architecture as Code" (AasC) aims to devise and manage software architecture via a readable and version-controlled codebase.
 
 You may be able to find more tools via a [repository search on GitHub](https://github.com/search?q=structurizr&type=repositories&s=updated&o=desc).
