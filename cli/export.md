@@ -9,16 +9,18 @@ permalink: /cli/export
 # export
 
 The ```export``` command allows you to export the views within a Structurizr workspace to a number of different formats.
+It is essentially a command line interface to the [export formats](/export).
 Files will be created one per view that has been exported.
 If output directory is not specified, files will be created in the same directory as the workspace.
-Please note that the export formats do not support all of the available shapes/features when compared to
-the [Structurizr cloud service/on-premises installation/Lite](https://structurizr.com).
-The CLI will require Internet access if you are making use of any themes.
+Please note that the export formats do not support all available shapes/features when compared to
+the Structurizr cloud service/on-premises installation/Lite - see [Exporters - Comparison](/export/comparison) for more details.
 
 Exporting PNG/SVG diagrams from the Structurizr cloud service/on-premises installation/Lite is not supported from the CLI.
 This is because the CLI is a Java application, whereas the PNG/SVG diagrams are rendered in your web browser.
 PNG/SVG diagram exports can instead be automated using headless Chrome and Puppeteer -
 please see [https://github.com/structurizr/puppeteer](https://github.com/structurizr/puppeteer) for some example scripts.
+
+The CLI will require Internet access if you are making use of any themes.
 
 ## Options
 
