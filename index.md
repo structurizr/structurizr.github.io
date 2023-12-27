@@ -11,8 +11,18 @@ permalink: /
 Structurizr builds upon "diagrams as code", allowing you to create
 __multiple software architecture diagrams__, in a __variety of rendering tools__, from a __single model__.
 
-The Structurizr tooling is available in a number of versions, covering different usage scenarios.
+## Authoring vs rendering
 
+In Structurizr, a __workspace__ is the wrapper for your software architecture model, views, and supplementary documentation.
+Unlike most modelling tools, Structurizr separates workspace authoring from workspace rendering via its
+[open JSON data format](https://github.com/structurizr/json).
+
+![](images/authoring-vs-rendering.png)
+
+## Which product?
+
+The Structurizr tooling is available in a number of versions, covering different usage scenarios.
+Many [community tools](/community) are also available.
 
 | Product                                             | Description                                                                                                                                                                                          | License       |
 |-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
@@ -20,8 +30,6 @@ The Structurizr tooling is available in a number of versions, covering different
 | [Structurizr on-premises installation](/onpremises) | A multi-workspace version of Structurizr that can be run on your own infrastructure (local servers or cloud), providing a way to publish diagrams, documentation, and architecture decision records. | Open source   |
 | [Structurizr cloud service](/cloud)                 | The Structurizr cloud service, providing a way to publish diagrams, documentation, and architecture decision records.                                                                                | Free and paid |
 | [Structurizr CLI](/cli)                             | A command line utility designed to be used in conjunction with the Structurizr DSL, supporting pull/push via the web API and exports to a number of formats including PlantUML and Mermaid.          | Open source   |
-
-## Which product?
 
 The Structurizr tooling encourages the adoption of a "diagrams and documentation as code" approach,
 with everything being stored in source code control.
