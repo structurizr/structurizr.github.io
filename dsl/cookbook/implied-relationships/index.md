@@ -71,7 +71,7 @@ With the implied relationships functionality disabled, you will need to explicit
 
 ## Multiple implied relationships
 
-The Structurizr DSL uses the [CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy](https://github.com/structurizr/java/blob/master/docs/implied-relationships.md#createimpliedrelationshipsunlessanyrelationshipexistsstrategy) from the Java client library when creating implied relationships, which prevents multiple implied relationships from being created. For example, the following DSL will only create a single implied relationship between the person and the software system (the first that is defined in the DSL).
+The Structurizr DSL uses the [CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy](/java/implied-relationships#createimpliedrelationshipsunlessanyrelationshipexistsstrategy) from the Structurizr for Java library when creating implied relationships, which prevents multiple implied relationships from being created. For example, the following DSL will only create a single implied relationship between the person and the software system (the first that is defined in the DSL).
 
 ```
 workspace {
