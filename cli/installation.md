@@ -18,7 +18,7 @@ cd structurizr-cli
 ./gradlew
 ```
 
-If succesful, The `build/distributions` directory will contain a `.zip` file, with which you can:
+If successful, The `build/distributions` directory will contain a `.zip` file, with which you can:
 
 1. Unzip into a directory of your choice.
 2. Add the directory to your operating system's path (optional).
@@ -49,8 +49,9 @@ In this example, `$PWD` will mount the current local directory as the CLI workin
 Alternative containers are available via:
 
 - [leopoldodonnell/structurizr-cli-docker](https://github.com/leopoldodonnell/structurizr-cli-docker)
-- [aidmax/structurizr-cli-docker](https://github.com/aidmax/structurizr-cli-docker)
+- [aidmax/structurizr-cli-docker](https://github.com/aidmax/structurizr-cli-docker) (GitHub Actions compatible)
 - [evilpilaf/structurizr-remotecontainer](https://github.com/evilpilaf/structurizr-remotecontainer)
+- [sebastienfi/structurizr-cli-with-bonus/](https://github.com/sebastienfi/structurizr-cli-with-bonus/) (GitHub Actions compatible; includes PlantUML)
 
 ## Package managers
 
@@ -83,6 +84,10 @@ And to upgrade:
 ```
 scoop update structurizr-cli
 ```
+
+## GitHub Actions
+
+Some pre-built GitHub Actions are available on the [GitHub Actions marketplace](https://github.com/marketplace?category=&type=actions&query=structurizr).
 
 ## GitLab
 
