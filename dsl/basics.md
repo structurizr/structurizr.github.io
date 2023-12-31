@@ -10,7 +10,7 @@ permalink: /dsl/basics
 
 ## DSL rules
 
-- Lines are processed in order, and forward referencing is not supported.
+- Lines are processed in order, and forward referencing is not supported (i.e. imperative rather than declarative).
 - Line breaks are important; long lines can be split with `\` as the last character on the line.
 - Tokens must be separated by whitespace, but the quantity of whitespace/indentation isn't important.
 - Keywords are case-insensitive (e.g. you can use `softwareSystem` or `softwaresystem`).
