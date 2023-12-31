@@ -100,3 +100,11 @@ In addition, there are two validation modes offered by each of the products that
 | Structurizr on-premises installation | Strict or relaxed, based upon configuration            |
 | Structurizr cloud service            | Strict (free accounts) or relaxed (paid subscriptions) |
 
+## Troubleshooting
+
+If you see one of the following error messages, you will need to [set the workspace scope](#setting-the-workspace-scope).
+
+```
+Strict workspace scope validation has been enabled for free cloud service accounts. Unscoped workspaces are not permitted - see https://docs.structurizr.com/workspaces for more information.
+Strict workspace scope validation has been enabled for this on-premises installation. Unscoped workspaces are not permitted - see https://docs.structurizr.com/workspaces for more information.
+```
