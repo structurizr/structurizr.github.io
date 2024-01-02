@@ -102,9 +102,24 @@ In addition, there are two validation modes offered by each of the products that
 
 ## Troubleshooting
 
-If you see one of the following error messages, you will need to [set the workspace scope](#setting-the-workspace-scope).
+### Cloud service
+
+If you encounter the following error message when using a free cloud service account:
 
 ```
 Strict workspace scope validation has been enabled for free cloud service accounts. Unscoped workspaces are not permitted - see https://docs.structurizr.com/workspaces for more information.
+```
+
+1. Upgrade to the paid cloud service or
+2. [Set the workspace scope](#setting-the-workspace-scope) to "software system" or "landscape" (you may need to modify your workspace content to meet the [validation rules](#validation)).
+
+### On-premises installation
+
+If you encounter the following error message:
+
+```
 Strict workspace scope validation has been enabled for this on-premises installation. Unscoped workspaces are not permitted - see https://docs.structurizr.com/workspaces for more information.
 ```
+
+1. Ask your on-premises installation administrator to [enable unscoped workspaces](/onpremises/configuration#structurizrproperties) (set `structurizr.feature.workspace.scope` to `relaxed`) or
+2. [Set the workspace scope](#setting-the-workspace-scope) to "software system" or "landscape" (you may need to modify your workspace content to meet the [validation rules](#validation)).
