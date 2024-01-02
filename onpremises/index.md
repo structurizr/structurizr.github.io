@@ -28,4 +28,3 @@ see [SAML authentication - Preview build](/onpremises/authentication/aml#preview
 
 - [Structurizr UI](/ui) (for information about diagrams, documentation, decisions, explorations, etc)
 - [GitHub](https://github.com/structurizr/onpremises)
-- [Changelog](https://structurizr.com/help/changelog)
