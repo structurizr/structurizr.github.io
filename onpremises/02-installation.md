@@ -8,7 +8,7 @@ permalink: /onpremises/installation
 
 # Installation
 
-The Structurizr on-premises installation is available as [Docker image](#docker) and [a Java EE application](#java-ee).
+The Structurizr on-premises installation is available as [Docker image](#docker) and [a Jakarta EE application](#jakarta-ee).
 
 ## Create the Structurizr data directory
 
@@ -37,12 +37,12 @@ docker run -it --rm -p 8080:8080 -v /Users/simon/structurizr:/usr/local/structur
 
 There is a [Dockerfile](https://github.com/structurizr/onpremises/blob/main/structurizr-onpremises/Dockerfile) in the GitHub repo that can be used as a starting point if you'd like to build your own Docker image.
 
-## Java EE
+## Jakarta EE
 
-To use the Java EE version, you'll need:
+To use the Jakarta EE version, you'll need:
 
 - Java 17+ (required)
-- A Java EE compatible web/application server (required, e.g. [Apache Tomcat 9.x](https://tomcat.apache.org/download-90.cgi) ... please note that Tomcat 10.x and other Jakarta EE servers are not supported)
+- A Jakarta EE compatible web/application server (required, e.g. [Apache Tomcat 10.x](https://tomcat.apache.org/download-10.cgi) ... please note that Tomcat 9.x and other Java EE servers are no longer supported)
 - [Graphviz](https://graphviz.org/download/) (optional if you want to use automatic layout)
 
 Here are some basic instructions that assume you are using a freshly downloaded version of Apache Tomcat.
