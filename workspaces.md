@@ -80,6 +80,9 @@ The same can be achieved via the Structurizr for Java library as follows:
 workspace.getConfiguration().setScope(WorkspaceScope.SoftwareSystem);
 ```
 
+Setting the workspace scope is a relatively new feature, so you may need to update your
+Structurizr CLI installation, Structurizr for Java dependency, DSL parser, etc.
+
 ### Validation
 
 The specific workspace scope validation rules are:
