@@ -101,3 +101,7 @@ job_name:
     paths:
       - "*.mmd"
 ```
+
+## Gradle
+
+A pre-built Gradle plugin is available from [jakzal/gradle-structurizr-cli](https://github.com/jakzal/gradle-structurizr-cli).
