@@ -9,7 +9,7 @@ permalink: /onpremises/workspace-api
 # Workspace API
 
 The on-premises installation provides a JSON/HTTPS API for getting and putting workspaces.
-The [Structurizr CLI](/cli) or one of the client libraries (e.g. [Structurizr for Java](https://github.com/structurizr/java))
+The [Structurizr CLI](/cli) or one of the client libraries (e.g. [Structurizr for Java](/java))
 are the recommended tooling for interacting with the API, but this page has some information about the API should you wish to build your own tooling.
 
 Please note that diagrams are rendered client-side (i.e. in your web browser), so this API __does not__ provide access to diagrams.

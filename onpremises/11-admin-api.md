@@ -10,7 +10,7 @@ permalink: /onpremises/admin-api
 
 The admin API provides a way to create, delete, and list workspaces.
 This API is disabled by default, and can be enabled by adding a property named
-`structurizr.apiKey` to your `structurizr.properties` file - see [Configuration](configuration) for more details.
+`structurizr.apiKey` to your `structurizr.properties` file - see [Configuration](/onpremises/configuration) for more details.
 
 The API key should be specified via the `X-Authorization` header.
 
