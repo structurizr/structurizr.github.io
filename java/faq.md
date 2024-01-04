@@ -23,6 +23,20 @@ This will create two `.jar` files:
 - structurizr-client/build/libs/structurizr-client-{version}.jar
 - structurizr-core/build/libs/structurizr-core-{version}.jar
 
+## Why is there no way to remove elements/relationships from the model?
+
+The Structurizr for Java library is designed to be append-only, and removing elements is non-trivial.
+For example, removal of a component requires removing all relationships to/from that component,
+along with any references to the component that exist in component or dynamic views.
+Removal of a software system is more complicated, requiring removal of all software system instances in the deployment model,
+along with all child containers/container instances, all child components, associated relationships, associated views, etc.
+
+That said, this may change in a limited way in the future,
+perhaps only in conjunction with [landscape or software system scoped workspaces](/workspaces).
+For example, it would be useful to remove unused
+software systems when you're extending a system catalog workspace, to reduce workspace size/clutter.
+For now though, it's append-only.
+
 ## Why are many classes final with package-protected members, and not open to extension?
 
 First and foremost, this repo is a client library for the Structurizr cloud service and on-premises installation.

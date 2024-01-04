@@ -57,7 +57,8 @@ componentView.addDefaultElements();
 componentView.enableAutomaticLayout();
 ```
 
-Please note that the Structurizr for Java library is designed to be *append only*, so it's not possible to remove/modify elements/relationships that already exist in the model.
+Please note that the Structurizr for Java library is designed to be *append only* (see [Structurizr for Java - FAQ](/java/faq),
+so it's not possible to remove/modify elements/relationships that already exist in the model.
 
 ## Other languages
 
