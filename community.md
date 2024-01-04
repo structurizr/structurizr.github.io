@@ -57,6 +57,7 @@ the Structurizr tooling doesn't fit your needs.
 - [ArchiCode](https://github.com/tmorin/archicode): Streamline architectural design and visualization with an as-code approach. Integrates C4 Model and ArchiMate for efficient workflow.
 - [Archinsight](https://github.com/lonely-lockley/archinsight): Archinsight project tends to implement architecture-as-code definition of a standard c4 architecture model.
 - [Architecture as Code](https://github.com/finos-labs/architecture-as-code): "Architecture as Code" (AasC) aims to devise and manage software architecture via a readable and version-controlled codebase.
+- [Backstage](https://backstage.io): An open platform for building developer portals.
 - [c4builder](https://github.com/adrianvlupu/C4-Builder): A documentation builder - you feed it .md and .puml and it exports a site, pdf, or a markdown with navigation.
 - [C4Sharp](https://github.com/8T4/c4sharp): A .NET library for building C4 Model diagrams.
 - [go-structurizr](https://github.com/krzysztofreczek/go-structurizr): A library for auto-generating C4 diagrams from Go applications.
