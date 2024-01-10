@@ -526,27 +526,35 @@ perspectives {
 }
 ```
 
-## !ref
+## !extend
 
-The `!ref` keyword provides a way to reference a previously defined element/relationship, and is designed to be used with the workspace `extends` or `!include` features. It can be used in a couple of ways.
+The `!extend` keyword provides a way to extend a previously defined element/relationship, and is designed to be used with the workspace `extends` or `!include` features. It can be used in a couple of ways.
 
-The first usage scenario is to reference an existing element/relationship that has been defined via the DSL. This allows you to extend the element referenced by the given identifier.
+The first usage scenario is to extend an existing element/relationship that has been defined via the DSL. This allows you to extend the element referenced by the given identifier.
 
 ```
-!ref <identifier> {
+!extend <identifier> {
   ...
 }
 ```
 
-Or, if you're extending a JSON-based workspace, you can reference an element by its "canonical name", and assign that to an identifier.
+Or, if you're extending a JSON-based workspace, you can extend an element by its "canonical name", and assign that to an identifier.
 
 ```
-<identifier> = !ref <canonical name> {
+<identifier> = !extend <canonical name> {
   ...
 }
 ```
 
 See [DSL cookbook - Workspace extension](/dsl/cookbook/workspace-extension/) for some usage examples.
+
+## !ref
+
+The `!ref` keyword does the same as `!extend`, and may provide better readability when you just want to reference an element (e.g. when extending a JSON workspace) rather than extend it.
+
+```
+<identifier> = !ref <canonical name>
+```
 
 ## views
 

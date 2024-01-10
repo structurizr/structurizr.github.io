@@ -31,7 +31,7 @@ Next, define your child workspace, using the `extends` keyword to specify the wo
 workspace extends https://docs.structurizr.com/dsl/cookbook/workspace-extension/system-landscape.dsl {
 
     model {
-        !ref a {
+        !extend a {
             webapp = container "Web Application"
             database = container "Database"
             
@@ -55,7 +55,7 @@ workspace extends https://docs.structurizr.com/dsl/cookbook/workspace-extension/
 }
 ```
 
-In this example we're extending a workspace that's accessible via a public URL, but you can also specify the name of a local file. We can use the `!ref` keyword to reference and extend the existing software system named "A", which is identified in the parent workspace as `a`. Since `b` is already defined in the parent workspace, we can reference it from the child workspace as if it was defined locally. 
+In this example we're extending a workspace that's accessible via a public URL, but you can also specify the name of a local file. We can use the `!extend` keyword to reference and extend the existing software system named "A", which is identified in the parent workspace as `a`. Since `b` is already defined in the parent workspace, we can reference it from the child workspace as if it was defined locally. 
 
 This will create a system context diagram:
 
@@ -68,4 +68,4 @@ And a container diagram:
 ## Links
 
 - [DSL language reference - workspace](/dsl/language#workspace)
-- [DSL language reference - ref](/dsl/language#ref)
+- [DSL language reference - ref](/dsl/language#extend)
