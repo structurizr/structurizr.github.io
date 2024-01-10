@@ -9,10 +9,12 @@ has_toc: false
 
 # Structurizr for Java
 
+[![Maven Central](https://img.shields.io/maven-central/v/com.structurizr/structurizr-client.svg?label=Maven%20Central)](https://search.maven.org/artifact/com.structurizr/structurizr-client)
+
 Structurizr for Java consists of two artifacts, both of which are available on Maven Central:
 
-- [`structurizr-core`](https://mvnrepository.com/artifact/com.structurizr/structurizr-core): The core library for creating a workspace with Java code.
-- [`structurizr-client`](https://mvnrepository.com/artifact/com.structurizr/structurizr-client): JSON serialisation/deserialisation utilities, and clients for the cloud service/on-premises workspace/admin APIs.
+- `structurizr-core`: The core library for creating a workspace with Java code.
+- `structurizr-client`: JSON serialisation/deserialisation utilities, and clients for the cloud service/on-premises workspace/admin APIs.
 
 ## Links
 

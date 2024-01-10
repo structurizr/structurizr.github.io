@@ -9,15 +9,13 @@ has_toc: false
 
 # Structurizr DSL
 
+[![Maven Central](https://img.shields.io/maven-central/v/com.structurizr/structurizr-dsl.svg?label=Maven%20Central)](https://search.maven.org/artifact/com.structurizr/structurizr-dsl)
+
 The Structurizr DSL provides a way to define a software architecture model
 (based upon the [C4 model](https://c4model.com)) using a text-based domain specific language (DSL).
 The Structurizr DSL has appeared on the
 [ThoughtWorks Tech Radar - Techniques - Diagrams as code](https://www.thoughtworks.com/radar/techniques/diagrams-as-code)
-and is text-based wrapper around [Structurizr for Java](/java), available on
-[Maven Central](https://mvnrepository.com/artifact/com.structurizr/structurizr-dsl) for inclusion in your own Java applications:
-
-- groupId: `com.structurizr`
-- artifactId: `structurizr-dsl`
+and is text-based wrapper around [Structurizr for Java](/java).
 
 There are a number of options for authoring workspaces with the Structurizr DSL.
 
@@ -82,5 +80,5 @@ See [Community tooling](/community) for editor and IDE plugins.
 
 ## Links
 
-- [GitHub](https://github.com/structurizr/dsl)
+- [GitHub](https://github.com/structurizr/java/tree/master/structurizr-dsl)
 - [Changelog](https://github.com/structurizr/dsl/blob/master/docs/changelog.md)
