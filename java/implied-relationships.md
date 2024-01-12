@@ -8,7 +8,7 @@ permalink: /java/implied-relationships
 
 # Implied relationships
 
-By default, the Structurizr for Java library will not create implied relationships.
+Unlike the Structurizr DSL, the Structurizr for Java library will not create implied relationships.
 For example, imagine that you have two components in different containers: 
 
 ```
@@ -62,7 +62,7 @@ This strategy creates implied relationships between all valid combinations of th
 relationship already exists between them.
 
 ```
-model.setImpliedRelationshipsStrategy(new CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy());
+model.setImpliedRelationshipsStrategy(new CreateImpliedRelationshipsUnlessSameRelationshipExistsStrategy());
 component1.uses(component2, "Sends data X to");
 ```
 
@@ -81,7 +81,8 @@ and therefore isn't particularly useful in real-world usage.
 ## CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy
 
 This strategy creates implied relationships between all valid combinations of the parent elements, unless *any*
-relationship already exists between them.
+relationship already exists between them. This is the strategy that the Structurizr DSL uses by default -
+see [DSL cookbook - Implied relationships](/dsl/cookbook/implied-relationships).
 
 ```
 model.setImpliedRelationshipsStrategy(new CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy());
