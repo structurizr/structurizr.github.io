@@ -48,6 +48,7 @@ Please note that the feature set and look/feel of the resulting diagrams will va
 - [c4viz](https://github.com/pmorch/c4viz): A browser-based diagram renderer, with diagram navigation and "click to zoom".
 - [Git for Confluence - Markdown, PlantUML, Graphviz, Mermaid](https://marketplace.atlassian.com/apps/1211675/git-for-confluence-markdown-plantuml-graphviz-mermaid): A Confluence plugin that will render a specific diagram from a Structurizr DSL file stored in your git repo.
 - [structurizr-md](https://github.com/vitalegi/structurizr-md): Structurizr to Markdown.
+- [Structurizr Mini](https://github.com/bensmithett/structurizr-mini): Generates a static site from a Structurizr workspace for diagrams only.
 
 ## Similar tools
 
