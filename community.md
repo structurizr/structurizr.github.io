@@ -41,6 +41,7 @@ In addition to the Structurizr cloud service, on-premises installation, and Lite
 are available that can be used to render diagrams from a Structurizr workspace.
 Please note that the feature set and look/feel of the resulting diagrams will vary between tools.
 
+- [Structurizr Mini](https://github.com/bensmithett/structurizr-mini): A static site for C4 diagrams from a Structurizr workspace.
 - [Structurizr Site Generatr](https://github.com/avisi-cloud/structurizr-site-generatr): Generates a HTML microsite with diagrams, documentation, and a UI to explore the model.
 - [Kroki](https://kroki.io): Kroki generates diagrams from a number of text-based formats, including the Structurizr DSL.
 - [Asciidoctor](https://docs.asciidoctor.org/diagram-extension/latest/diagram_types/structurizr/): The Structurizr extension allows individual views from a Structurizr DSL workspace to be included in Asciidoc documents.
