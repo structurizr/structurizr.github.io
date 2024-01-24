@@ -11,12 +11,53 @@ permalink: /
 Structurizr builds upon "diagrams as code", allowing you to create
 __multiple software architecture diagrams__, in a __variety of rendering tools__, from a __single model__.
 
-In Structurizr, a [workspace](/workspaces) is the wrapper for your software architecture model, views, and supplementary documentation.
-Unlike most modelling tools, Structurizr separates workspace authoring from workspace rendering via its
-[open JSON data format](https://github.com/structurizr/json).
+<div style="text-align: center">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LYzOc7vI-Uo?si=Fiwayepq9xOKpgeK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-![](images/authoring-vs-rendering.png)
+## Model-based
 
+Structurizr is a modelling tool, allowing you to create multiple diagrams from a single model.
+
+```
+workspace {
+
+    model {
+        user = person "User"
+        
+        softwareSystem = softwareSystem "Software System" {
+            webapp = container "Web Application"
+            db = container "Database Schema"
+        }
+
+        user -> webapp "Uses"
+        webapp -> db "Reads from and writes to"
+    }
+
+    views {
+        systemContext softwareSystem "SystemContext" {
+            include *
+            autolayout lr
+        }
+
+        container softwareSystem "Containers" {
+            include *
+            autolayout lr
+        }
+        
+        styles {
+            element "Person" {
+                shape person
+            }
+        }
+    }
+
+}
+```
+
+## Rendering tool independent
+
+Unlike most modelling tools, Structurizr is rendering tool independent.
 For example, here are a number of visualisations of the same model.
 
 |-----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

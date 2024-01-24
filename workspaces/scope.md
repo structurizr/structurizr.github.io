@@ -1,22 +1,18 @@
 ---
 layout: default
-title: Workspaces
-nav_order: 3
-description: Structurizr documentation
-permalink: /workspaces
+title: Scope
+parent: Workspaces
+nav_order: 1
+permalink: /workspaces/scope
 ---
 
-# Workspaces
-
-In Structurizr, a __workspace__ is the wrapper for your software architecture model, views, and supplementary documentation.
-
-## Workspace scope
+# Scope
 
 One of the most frequently asked questions is, "what should a workspace contain?".
 Imagine that you're the engineering manager for a department in your organisation,
 and you have three teams each building separate software systems - A, B, and C.
 
-### Software system scoped workspaces
+## Software system scoped workspaces
 
 As a starting point, and following the [C4 model definition of a software system](https://c4model.com/#Abstractions),
 it's recommended that a workspace contains the model, views, and documentation for a single software system.
@@ -28,7 +24,7 @@ Following this recommendation would result in three workspaces, each being owned
 
 Each of these workspaces is referred to as a "software system scoped workspace" because they describe implementation details related to an individual software system.
 
-### Landscape scoped workspaces
+## Landscape scoped workspaces
 
 You may additionally wish to create another workspace (workspace 4) that describes the people and software systems in the landscape (e.g. department),
 along with the relationships between them, visualised using one or more system landscape diagrams.
@@ -38,14 +34,14 @@ The workspace could be configured so that double-clicking software system A in t
 
 See [Enterprise-wide modelling with Structurizr](https://github.com/structurizr/examples/tree/main/enterprise) for an example of how to achieve this.
 
-### Unscoped workspaces
+## Unscoped workspaces
 
 It's also possible, particularly for smaller software systems,
 to merge all the diagrams and documentation for a number of software systems into a single workspace.
 For example, a single workspace could contain all the diagrams and documentation for all software systems owned by a single group/department.
 These are referred to as "unscoped workspaces".
 
-### Considerations
+## Considerations
 
 Creating all the diagrams and documentation for all of your software systems in a single large workspace is more straightforward, but the end-result will be cluttered.
 Distributing the diagrams and documentation across a number of smaller workspaces may better reflect the autonomous nature of teams within your organisation,
@@ -54,7 +50,7 @@ Structurizr DSL features such as [workspace extension](/dsl/cookbook/workspace-e
 There are no right or wrong answers here, just trade-offs.
 You need to find a level of workspace modularity that works for your team/organisation.
 
-### Setting the workspace scope
+## Setting the workspace scope
 
 Setting the workspace scope will trigger additional validation to ensure that workspaces are created with the desired content based upon that scope.
 
@@ -83,7 +79,7 @@ workspace.getConfiguration().setScope(WorkspaceScope.SoftwareSystem);
 Setting the workspace scope is a relatively new feature, so you may need to update your
 Structurizr CLI installation, Structurizr for Java dependency, DSL parser, etc.
 
-### Validation
+## Validation
 
 The specific workspace scope validation rules are:
 
@@ -126,3 +122,4 @@ Strict workspace scope validation has been enabled for this on-premises installa
 
 1. Ask your on-premises installation administrator to [enable unscoped workspaces](/onpremises/configuration#structurizrproperties) (set `structurizr.feature.workspace.scope` to `relaxed`) or
 2. [Set the workspace scope](#setting-the-workspace-scope) to "software system" or "landscape" (you may need to modify your workspace content to meet the [validation rules](#validation)).
+
