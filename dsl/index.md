@@ -81,4 +81,4 @@ See [Community tooling](/community) for editor and IDE plugins.
 ## Links
 
 - [GitHub](https://github.com/structurizr/java/tree/master/structurizr-dsl)
-- [Changelog](https://github.com/structurizr/dsl/blob/master/docs/changelog.md)
+- [Changelog](https://github.com/structurizr/java/blob/master/changelog.md)

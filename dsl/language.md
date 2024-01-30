@@ -234,7 +234,7 @@ deploymentGroup <name>
 ```
 
 When software system/container instances are added to a deployment environment, all of the relationships between these elements are automatically replicated between *all* instances. Deployment groups provide a way to restrict the scope in which relationships are replicated.
-See [DSL cookbook - Deployment groups](https://github.com/structurizr/dsl/tree/master/docs/cookbook/deployment-groups) for an example.  
+See [DSL cookbook - Deployment groups](/dsl/cookbook/deployment-groups/) for an example.  
 
 ## deploymentNode
 
@@ -726,8 +726,8 @@ With a dynamic view, you're showing _instances_ of relationships that are define
 For example, imagine that you have two software systems defined in the static model, with a single relationship between them described as "Sends data to".
 A dynamic view allows you to override the relationship description, to better describe the interaction in the context of the behaviour you're diagramming.
 
-See [DSL cookbook - Dynamic view](https://github.com/structurizr/dsl/tree/master/docs/cookbook/dynamic-view) and
-[DSL cookbook - Dynamic view with parallel sequences](https://github.com/structurizr/dsl/tree/master/docs/cookbook/dynamic-view-parallel)
+See [DSL cookbook - Dynamic view](/dsl/cookbook/dynamic-view/) and
+[DSL cookbook - Dynamic view with parallel sequences](/dsl/cookbook/dynamic-view-parallel/)
 for examples.
 
 Also see [Modelling multiple relationships](https://dev.to/simonbrown/modelling-multiple-relationships-51bf) for some tips on how to best model multiple relationships between two elements in order to avoid cluttering your static model.
@@ -828,8 +828,8 @@ The public PlantUML (`https://plantuml.com/plantuml`), Mermaid (`https://mermaid
 URLs may work, but (1) please be aware that you are sending information to a third-party service and (2) these public services
 may not correctly set the CORS headers required for image views to work (see the notes at [Image views](/ui/diagrams/image-view)).
 
-See [DSL cookbook - Image view](https://github.com/structurizr/dsl/tree/master/docs/cookbook/image-view) and
-the [image view tests](https://github.com/structurizr/dsl/tree/master/src/test/dsl/image-views) for some examples.
+See [DSL cookbook - Image view](/dsl/cookbook/image-view/) and
+the [image view tests](https://github.com/structurizr/java/tree/master/structurizr-dsl/src/test/resources/dsl/image-views) for some examples.
 
 Permitted children:
 
@@ -935,7 +935,7 @@ The first property is the rank direction:
 The second property is the separation of ranks in pixels (default: `300`), while the third property is the separation of nodes in the same rank in pixels (default: `300`).
 
 Please note that if your DSL workspace does not explicitly define any views, the DSL parser will automatically create a default set of views for you, with auto-layout enabled.
-To change this behaviour, you can either (1) explicitly define your views or (2) use a script to disable automatic layout ([example](https://github.com/structurizr/dsl/tree/master/docs/cookbook/scripts#create-the-default-views-without-automatic-layout)).
+To change this behaviour, you can either (1) explicitly define your views or (2) use a script to disable automatic layout ([example](/dsl/cookbook/scripts/#create-the-default-views-without-automatic-layout)).
 
 ## default
 
@@ -1009,8 +1009,8 @@ element <tag> {
 
 See the following links for details about how to use element styles:
 
-- [DSL cookbook - Element styles](https://github.com/structurizr/dsl/tree/master/docs/cookbook/element-styles)
-- [DSL cookbook - Groups](https://github.com/structurizr/dsl/tree/master/docs/cookbook/groups)
+- [DSL cookbook - Element styles](/dsl/cookbook/element-styles/)
+- [DSL cookbook - Groups](/dsl/cookbook/groups/)
 - [Structurizr - Notation](/ui/diagrams/notation)
 
 Notes:
@@ -1043,7 +1043,7 @@ relationship <tag> {
 
 See the following links for details about how to use element styles:
 
-- [DSL cookbook - Relationship styles](https://github.com/structurizr/dsl/tree/master/docs/cookbook/relationship-styles)
+- [DSL cookbook - Relationship styles](/dsl/cookbook/relationship-styles/)
 - [Structurizr - Notation](/ui/diagrams/notation)
 
 Notes:
