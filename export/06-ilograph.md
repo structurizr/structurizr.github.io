@@ -8,7 +8,7 @@ permalink: /export/ilograph
 
 # Ilograph
 
-The [IlographExporter](https://github.com/structurizr/export/blob/main/src/main/java/com/structurizr/export/ilograph/IlographExporter.java) class provides a way to export the software architecture model
+The [IlographExporter](https://github.com/structurizr/java/blob/master/structurizr-export/src/main/java/com/structurizr/export/ilograph/IlographExporter.java) class provides a way to export the software architecture model
 to the YAML format used by [Ilograph](https://www.ilograph.com), which provides an interactive way to explore
 a hierarchical dataset (which the C4 model is).
 

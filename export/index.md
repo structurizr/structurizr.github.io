@@ -19,4 +19,4 @@ and a number of [other rendering tools](/#other-rendering-tools).
 
 - [Structurizr DSL demo page](https://structurizr.com/dsl) (demo of export formats)
 - [GitHub](https://github.com/structurizr/java/tree/master/structurizr-export)
-- [Changelog](https://github.com/structurizr/export/blob/main/docs/changelog.md)
+- [Changelog](https://github.com/structurizr/java/blob/master/changelog.md)

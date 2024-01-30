@@ -1017,7 +1017,7 @@ Notes:
 
 - Colors can be specified as a hex code (e.g. `#ffff00`) or a CSS/HTML named color (e.g. `yellow`).
 - See [Notation - Icons](/ui/diagrams/notation#icons) for information about HTTPS/CORS if you are using the Structurizr cloud service/on-premises installation/Lite and specifying an element style icon via a URL.
-- Element styles are designed to work with the Structurizr cloud service/on-premises installation/Lite, and may not be fully supported by the [PlantUML, Mermaid, etc export formats](https://github.com/structurizr/export) (e.g. shapes and icons).
+- Element styles are designed to work with the Structurizr cloud service/on-premises installation/Lite, and may not be fully supported by the [PlantUML, Mermaid, etc export formats](/export) (e.g. shapes and icons).
 
 ## relationship style
 
@@ -1049,7 +1049,7 @@ See the following links for details about how to use element styles:
 Notes:
 
 - Colors can be specified as a hex code (e.g. `#ffff00`) or a CSS/HTML named color (e.g. `yellow`).
-- Relationship styles are designed to work with the Structurizr cloud service/on-premises installation/Lite, and may not be fully supported by the [PlantUML, Mermaid, etc export formats](https://github.com/structurizr/export) (e.g. line/arrow colours). 
+- Relationship styles are designed to work with the Structurizr cloud service/on-premises installation/Lite, and may not be fully supported by the [PlantUML, Mermaid, etc export formats](/export) (e.g. line/arrow colours). 
 
 ## theme
 

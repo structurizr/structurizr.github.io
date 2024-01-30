@@ -14,7 +14,7 @@ If neither of these provide the features you are looking for, an alternative Pla
 
 ## StructurizrPlantUMLExporter
 
-The [StructurizrPlantUMLExporter](https://github.com/structurizr/export/blob/main/src/main/java/com/structurizr/export/plantuml/StructurizrPlantUMLExporter.java) class generates PlantUML diagram definitions based upon how the Structurizr diagram renderer
+The [StructurizrPlantUMLExporter](https://github.com/structurizr/java/blob/master/structurizr-export/src/main/java/com/structurizr/export/plantuml/StructurizrPlantUMLExporter.java) class generates PlantUML diagram definitions based upon how the Structurizr diagram renderer
 creates diagrams using tags and styles. The following view types are supported:
 
 - Custom
@@ -38,7 +38,7 @@ The following properties can be set on element styles, which can be used to furt
 
 ## C4PlantUMLExporter
 
-The [C4PlantUMLExporter](https://github.com/structurizr/export/blob/main/src/main/java/com/structurizr/export/plantuml/C4PlantUMLExporter.java) class generates C4-PlantUML diagram definitions. The following view types are supported:
+The [C4PlantUMLExporter](https://github.com/structurizr/java/blob/master/structurizr-export/src/main/java/com/structurizr/export/plantuml/C4PlantUMLExporter.java) class generates C4-PlantUML diagram definitions. The following view types are supported:
 
 - System landscape
 - System context
