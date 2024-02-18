@@ -49,6 +49,7 @@ Permitted children:
 - name <name>
 - description <description>
 - [properties](#properties)
+- [!identifiers](#identifiers)
 - [!docs](#docs)
 - [!adrs](#adrs)
 - [model](#model)
@@ -67,6 +68,7 @@ model {
 
 Permitted children:
 
+- [!identifiers](#identifiers)
 - [group](#group)
 - [person](#person)
 - [softwareSystem](#softwareSystem)
@@ -1144,6 +1146,16 @@ users {
     <username> <read|write>
 }
 ```
+
+## !identifiers
+
+The `!identifiers` keyword can be used to modify the scope of identifiers.
+
+```
+!identifiers <hierarchical|flat>
+```
+
+See [Identifiers](/dsl/identifiers) for more details.
 
 ## !docs
 
