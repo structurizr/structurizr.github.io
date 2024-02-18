@@ -141,8 +141,8 @@ For example:
 
 The built-in inspection types are as follows:
 
-| Type                                                          | Description                                                  |
-|---------------------------------------------------------------|--------------------------------------------------------------|
+| Type                                   | Description                                                  |
+|----------------------------------------|--------------------------------------------------------------|
 | `workspace.scope`                      | Inspections related to [workspace scope](/workspaces/scope). |
 | `workspace.tooling`                    | Inspections related to tooling.                              |
 | `model.empty`                          | Empty model.                                                 |
@@ -165,4 +165,6 @@ The built-in inspection types are as follows:
 | `model.relationship.technology`        | Relationship with no technology.                             |
 | `views.empty`                          | Empty viewset.                                               |
 | `views.view.empty`                     | Empty view.                                                  |
+| `views.view.key`                       | Automatically generated view key.                            |
+| `views.view.layout`                    | Layout related inspections.                                  |
 | `views.styles.element.metadata`        | Element style with `metadata` set to `false`.                |
