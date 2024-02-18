@@ -55,7 +55,7 @@ workspace {
 }
 ```
 
-The `!identifiers` keyword allows you to specify that element identifiers should be treated as `hierarchical` (relationship identifiers are unaffected by this setting). For example:
+The `!identifiers` keyword allows you to specify that element identifiers should be treated as `hierarchical` (relationship identifiers are unaffected by this setting) or `flat` (the default). For example:
 
 ```
 workspace {
@@ -74,4 +74,4 @@ workspace {
 }
 ```
  
- Now the two API containers are referenceable via `softwareSystem1.api` and `softwareSystem2.api` respectively.
+ Now the two API containers can be referenced via `softwareSystem1.api` and `softwareSystem2.api` respectively.
