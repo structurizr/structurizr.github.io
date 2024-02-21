@@ -137,6 +137,22 @@ For example:
 - `structurizr.inspection.model.*`: All model related inspections.
 - `structurizr.inspection.*`: All inspections.
 
+Specific relationship types can be configured by including the source and destination types in the property name; for example:
+
+- `structurizr.inspection.model.relationship.technology`: All relationship technology inspections.
+- `structurizr.inspection.model.relationship[component->component].technology`: All component to component relationship technology inspections.
+
+Valid types are:
+
+- `person`
+- `softwaresystem`
+- `container`
+- `component`
+- `deploymentnode`
+- `infrastructurenode`
+- `softwaresysteminstance`
+- `containerinstance`
+
 ## Types
 
 The built-in inspection types are as follows:
@@ -165,6 +181,6 @@ The built-in inspection types are as follows:
 | `model.relationship.technology`        | Relationship with no technology.                             |
 | `views.empty`                          | Empty viewset.                                               |
 | `views.view.empty`                     | Empty view.                                                  |
-| `views.view.key`                       | Automatically generated view key.                            |
+| `views.view.key`                       | View key related inspections.                                |
 | `views.view.layout`                    | Layout related inspections.                                  |
 | `views.styles.element.metadata`        | Element style with `metadata` set to `false`.                |
