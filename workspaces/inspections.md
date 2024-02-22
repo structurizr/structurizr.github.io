@@ -8,8 +8,6 @@ permalink: /workspaces/inspections
 
 # Inspections
 
-__This feature is unreleased, and currently only available by building from source.__
-
 The workspace inspections feature provides a Checkstyle inspired approach to verifying workspace content.
 
 ## Severity
@@ -157,30 +155,31 @@ Valid types are:
 
 The built-in inspection types are as follows:
 
-| Type                                   | Description                                                  |
-|----------------------------------------|--------------------------------------------------------------|
-| `workspace.scope`                      | Inspections related to [workspace scope](/workspaces/scope). |
-| `workspace.tooling`                    | Inspections related to tooling.                              |
-| `model.empty`                          | Empty model.                                                 |
-| `model.person.description`             | Person with no description.                                  |
-| `model.softwaresystem.description`     | Software system with no description.                         |
-| `model.softwaresystem.documentation`   | Software system with containers, but no documentation.       |
-| `model.softwaresystem.decisions`       | Software system with containers, but no decisions.           |
-| `model.container.description`          | Container with no description.                               |
-| `model.container.technology`           | Container with no technology.                                |
-| `model.component.description`          | Component with no description.                               |
-| `model.component.technology`           | Component with no technology.                                |
-| `model.deploymentnode.description`     | Deployment node with no description.                         |
-| `model.deploymentnode.technology`      | Deployment node with no technology.                          |
-| `model.deploymentnode.empty`           | Empty deployment node.                                       |
-| `model.infrastructurenode.description` | Infrastructure node with no description.                     |
-| `model.infrastructurenode.technology`  | Infrastructure node with no technology.                      |
-| `model.element.disconnected`           | Disconnected element.                                        |
-| `model.element.noview`                 | Element not included in any views.                           |
-| `model.relationship.description`       | Relationship with no description.                            |
-| `model.relationship.technology`        | Relationship with no technology.                             |
-| `views.empty`                          | Empty viewset.                                               |
-| `views.view.empty`                     | Empty view.                                                  |
-| `views.view.key`                       | View key related inspections.                                |
-| `views.view.layout`                    | Layout related inspections.                                  |
-| `views.styles.element.metadata`        | Element style with `metadata` set to `false`.                |
+| Type                                   | Description                                                      |
+|----------------------------------------|------------------------------------------------------------------|
+| `workspace.scope`                      | Inspections related to [workspace scope](/workspaces/scope).     |
+| `workspace.tooling`                    | Inspections related to tooling.                                  |
+| `model.empty`                          | Empty model.                                                     |
+| `model.person.description`             | Person with no description.                                      |
+| `model.softwaresystem.description`     | Software system with no description.                             |
+| `model.softwaresystem.documentation`   | Software system with containers, but no documentation.           |
+| `model.softwaresystem.decisions`       | Software system with containers, but no decisions.               |
+| `model.container.description`          | Container with no description.                                   |
+| `model.container.technology`           | Container with no technology.                                    |
+| `model.component.description`          | Component with no description.                                   |
+| `model.component.technology`           | Component with no technology.                                    |
+| `model.deploymentnode.description`     | Deployment node with no description.                             |
+| `model.deploymentnode.technology`      | Deployment node with no technology.                              |
+| `model.deploymentnode.empty`           | Empty deployment node.                                           |
+| `model.infrastructurenode.description` | Infrastructure node with no description.                         |
+| `model.infrastructurenode.technology`  | Infrastructure node with no technology.                          |
+| `model.element.disconnected`           | Disconnected element.                                            |
+| `model.element.noview`                 | Element not included in any views.                               |
+| `model.relationship.description`       | Relationship with no description.                                |
+| `model.relationship.technology`        | Relationship with no technology.                                 |
+| `views.empty`                          | Empty viewset.                                                   |
+| `views.view.empty`                     | Empty view.                                                      |
+| `views.view.key`                       | View key related inspections.                                    |
+| `views.view.layout`                    | Layout related inspections.                                      |
+| `views.styles.element.metadata`        | Element style with `metadata` set to `false`.                    |
+| `documentation.embeddedview`           | Inspections related to views embedded in documentation/decisions |
