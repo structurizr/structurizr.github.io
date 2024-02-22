@@ -8,7 +8,7 @@ permalink: /cli/validate
 
 # validate
 
-The ```validate``` command allows you to validate a JSON/DSL workspace definition, using the same rules that are implemented by the Structurizr web API.
+The ```validate``` command allows you to validate a JSON/DSL workspace, using the same rules that are implemented by the Structurizr web API.
 
 ## Options
 
