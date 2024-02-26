@@ -44,7 +44,12 @@ structurizr.authentication=saml
 structurizr.saml.registrationId=one
 structurizr.saml.metadata=https://dev-05937739.okta.com/app/exk46xofd8NZvFCpS5d7/sso/saml/metadata
 structurizr.saml.attribute.username=email
+structurizr.saml.signing.certificate=rp-certificate.crt
+structurizr.saml.signing.privateKey=rp-private.key
 ```
+
+([rp-certificate.crt](https://raw.githubusercontent.com/spring-projects/spring-security-samples/main/servlet/xml/java/saml2/login-logout/src/main/resources/credentials/rp-certificate.crt)
+and [rp-private.key](https://raw.githubusercontent.com/spring-projects/spring-security-samples/main/servlet/xml/java/saml2/login-logout/src/main/resources/credentials/rp-private.key) should be saved in your Structurizr data directory, next to your `structurizr.properties` file)
 
 ## Troubleshooting
 
