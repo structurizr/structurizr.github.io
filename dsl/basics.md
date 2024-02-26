@@ -43,30 +43,24 @@ The `!impliedRelationships` keyword provides a way to enable or disable whether 
 A value of `false` disables implied relationship creation, while `true` creates implied relationships between all valid combinations of the parent elements, unless any relationship already exists between them
 (see [Structurizr for Java - Implied relationships - CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy](/java/implied-relationships#createimpliedrelationshipsunlessanyrelationshipexistsstrategy) for more details).
 
-## String constants and variables
+## Constants
 
-The `!constant` (deprecated) and `!const` keyword can be used to define a constant, which can be used with [string substitution](#string-substitution):
-
-```
-!const <name> <value>
-```
-
-Similarly, `!var` can be used to define a variable, which can later be redefined:
+The `!constant` keyword can be used to define a constant, which can be used with [string substitution](#string-substitution)
 
 ```
-!var <name> <value>
+!constant <name> <value>
 ```
 
-Constant and variables names may only contain the following characters: `a-zA-Z0-9-_.` 
+Constant names may only contain the following characters: `a-zA-Z0-9-_.` 
 
 ## String substitution
 
-String substitution will take place on any text specified within a token using the `${NAME}` syntax, where `NAME` corresponds to a [string constant/variable](#string-constants-and-variables) or an environment variable.
+String substitution will take place on any text specified within a token using the `${NAME}` syntax, where `NAME` corresponds to a [constant](#constants) or an environment variable.
 For example:
 
 ```
-!const ORGANISATION_NAME "Organisation"
-!const GROUP_NAME "Group"
+!constant ORGANISATION_NAME "Organisation"
+!constant GROUP_NAME "Group"
 
 workspace {
 
@@ -79,7 +73,7 @@ workspace {
 }
 ```
 
-If a named constant, variable, or environment variable cannot be found, the string will not be substituted.
+If a named constant or environment variable cannot be found, the string will not be substituted.
 Names may only contain the following characters: `a-zA-Z0-9-_.`
 
 ## Comments
