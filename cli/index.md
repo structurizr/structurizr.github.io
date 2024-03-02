@@ -16,6 +16,7 @@ The Structurizr CLI is a command line utility designed to be used in conjunction
 - [lock](/cli/lock) a workspace
 - [unlock](/cli/unlock) a workspace
 - [export](/cli/export) diagrams to PlantUML, Mermaid, WebSequenceDiagrams, DOT, and Ilograph; or a DSL workspace to JSON
+- [merge](/cli/merge) layout information from one workspace into another
 - [list](/cli/list) elements within a workspace
 - [validate](/cli/validate) a JSON/DSL workspace
 - [inspect](/cli/inspect) a JSON/DSL workspace

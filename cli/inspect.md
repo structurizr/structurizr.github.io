@@ -2,7 +2,7 @@
 layout: default
 title: inspect
 parent: Structurizr CLI
-nav_order: 8
+nav_order: 9
 permalink: /cli/inspect
 ---
 
