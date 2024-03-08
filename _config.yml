@@ -15,10 +15,6 @@ nav_external_links:
     url: https://github.com/structurizr/examples
   - title: C4 model
     url: https://c4model.com
-  - title: Support
-    url: https://structurizr.com/help/support
-  - title: Donate
-    url: https://www.paypal.com/donate/?hosted_button_id=YHC2AM8ZYK2G2
 
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub."
