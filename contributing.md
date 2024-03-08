@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Contributing
+title: Contribute
 nav_order: 19
-permalink: /contributing
+permalink: /contribute
 ---
 
-# Contributing
+# Contribute
 
 ## Can I submit a pull request?
 
