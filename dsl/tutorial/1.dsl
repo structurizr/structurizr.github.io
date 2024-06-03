@@ -8,7 +8,7 @@ workspace {
     }
 
     views {
-        systemContext ss {
+        systemContext ss "Diagram1" {
             include *
             autolayout lr
         }

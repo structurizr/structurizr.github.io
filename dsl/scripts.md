@@ -2,7 +2,7 @@
 layout: default
 title: Scripts
 parent: Structurizr DSL
-nav_order: 10
+nav_order: 11
 permalink: /dsl/scripts
 ---
 

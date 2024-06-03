@@ -2,7 +2,7 @@
 layout: default
 title: Defaults
 parent: Structurizr DSL
-nav_order: 3
+nav_order: 4
 permalink: /dsl/defaults
 ---
 

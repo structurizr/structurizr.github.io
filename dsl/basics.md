@@ -2,7 +2,7 @@
 layout: default
 title: Basics
 parent: Structurizr DSL
-nav_order: 2
+nav_order: 3
 permalink: /dsl/basics
 ---
 

@@ -15,14 +15,14 @@ an associated __view__ that describes a user using a software system.
 workspace {
 
     model {
-        user = person "User"
-        softwareSystem = softwareSystem "Software System"
+        u = person "User"
+        ss = softwareSystem "Software System"
 
-        user -> softwareSystem "Uses"
+        u -> ss "Uses"
     }
 
     views {
-        systemContext softwareSystem {
+        systemContext ss {
             include *
             autolayout lr
         }
