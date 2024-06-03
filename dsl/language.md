@@ -1075,7 +1075,7 @@ themes <url> [url] ... [url]
 
 ## branding
 
-The `branding` keyword allows you to define some custom branding that should be used when rendering diagrams and documentation. See [Branding](/ui/branding) for more details.
+The `branding` keyword allows you to define some custom branding that should be used when rendering diagrams and documentation. See [Diagrams - Branding](/ui/diagrams/branding) and [Documentation - Branding](/ui/documentation/branding) for more details.
 
 ```
 branding {

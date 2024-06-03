@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Export
-nav_order: 50
+nav_order: 5
 parent: Documentation
 grand_parent: Structurizr UI
 permalink: /ui/documentation/export
