@@ -48,5 +48,7 @@ It defines a model consisting of a user using a software system, and a single C4
 You can now modify the `workspace.dsl` file, save the changes, and refresh your web browser to see those changes.
 Some useful links related to the DSL are:
 
+- [Structurizr DSL example](/dsl/example)
+- [Structurizr DSL tutorial](/dsl/tutorial)
 - [Structurizr DSL language reference](/dsl/language)
 - [Structurizr DSL cookbook](/dsl/cookbook)
