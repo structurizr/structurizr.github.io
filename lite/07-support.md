@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Support
-parent: Structurizr on-premises
-nav_order: 16
-permalink: /onpremises/support
+parent: Structurizr Lite
+nav_order: 6
+permalink: /lite/support
 ---
 
 # Support
@@ -12,8 +12,8 @@ permalink: /onpremises/support
 
 Free non-priority support in public is available via the following channels only:
 
-- [GitHub issues](https://github.com/structurizr/onpremises/issues)
-- [GitHub discussions](https://github.com/structurizr/onpremises/discussions)
+- [GitHub issues](https://github.com/structurizr/lite/issues)
+- [GitHub discussions](https://github.com/structurizr/lite/discussions)
 - [Slack](https://join.slack.com/t/structurizr/shared_invite/enQtMzkyMjY1NzMwNTkzLTcyOGI1MTZmNDQwMDQ5YmZlMThiYmU1ZTM2ZWZiMzYwMjVhNmM0OWIwNjFlZTM1YmY3YzU0ZDY2MTA1YTk5Mjg) (please do not raise issues on here, as they will likely be missed)
 
 Requests for free support via e-mail will be ignored.
@@ -25,7 +25,6 @@ This __excludes__:
 
 - 1st and 2nd line support.
 - Performing installation of the software.
-- Configuration/integration with your identity provider or data storage.
 - Backing up or restoring the software and/or data on your infrastructure.
 - Keying, importing, converting, or manipulation of your data.
 - Training on the operation and use of the software.
@@ -38,11 +37,10 @@ We do not provide any support via telephone or video conference.
 
 2024 pricing is as follows:
 
-| Target response time | Price per year |
-|----------------------|----------------|
-| 1 working day        | £50,000 GBP    |
-| 3 working days       | £25,000 GBP    |
-| 5 working days       | £10,000 GBP    |
+| Target response time | Price per user, per year |
+|----------------------|--------------------------|
+| 1 working day        | £2,000 GBP               |
+| 3 working days       | £1,000 GBP               |
+| 5 working days       | £500 GBP                 |
 
-Prices are per year, and cover a single on-premises installation
-(plus the [Structurizr for Java library, Structurizr DSL](https://github.com/structurizr/java) and [Structurizr CLI](https://github.com/structurizr/cli)).
+Prices are per user per year, covering Structurizr Lite and the Structurizr DSL.
