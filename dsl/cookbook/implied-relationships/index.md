@@ -98,7 +98,7 @@ workspace {
 
 [![](example-3.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/implied-relationships/example-3.dsl)
 
-To show both relationships, you will need to explitly define them, as follows:
+To show both relationships, you will need to explicitly define them, as follows:
 
 ```
 workspace {
@@ -131,4 +131,5 @@ A better approach is to collapse multiple relationships into a single descriptio
 
 ## Links
 
-- [DSL language reference - !impliedRelationships](/dsl/language#impliedRelationships)
+- [Structurizr DSL - Implied relationships](/dsl/implied-relationships)
+- [Structurizr for Java - Implied relationships](/java/implied-relationships)

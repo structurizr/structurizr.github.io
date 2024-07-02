@@ -33,16 +33,6 @@ In addition, workspaces are subject to the following rules:
 - Infrastructure node names must be unique with their parent context.
 - All relationships from a source element to a destination element must have a unique description.
 
-## Implied relationships
-
-```
-!impliedRelationships <true|false>
-```
-
-The `!impliedRelationships` keyword provides a way to enable or disable whether implied relationships are created.
-A value of `false` disables implied relationship creation, while `true` creates implied relationships between all valid combinations of the parent elements, unless any relationship already exists between them
-(see [Structurizr for Java - Implied relationships - CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy](/java/implied-relationships#createimpliedrelationshipsunlessanyrelationshipexistsstrategy) for more details).
-
 ## String constants and variables
 
 The `!constant` (deprecated) and `!const` keyword can be used to define a constant, which can be used with [string substitution](#string-substitution):

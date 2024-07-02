@@ -2,7 +2,7 @@
 layout: default
 title: Identifiers
 parent: Structurizr DSL
-nav_order: 6
+nav_order: 5
 permalink: /dsl/identifiers
 ---
 

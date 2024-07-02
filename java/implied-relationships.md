@@ -101,3 +101,9 @@ Relationships that exist in the model:
 
 This strategy is useful when you want to show a summary relationship at higher levels in the model,
 especially when multiple implied relationships could be created between elements.
+
+## Building your own implied relationships strategy
+
+The [ImpliedRelationshipsStrategy interface](https://github.com/structurizr/java/blob/master/structurizr-core/src/main/java/com/structurizr/model/ImpliedRelationshipsStrategy.java)
+and [AbstractImpliedRelationshipsStrategy abstract class](https://github.com/structurizr/java/blob/master/structurizr-core/src/main/java/com/structurizr/model/AbstractImpliedRelationshipsStrategy.java)
+are available if you would like to build your own custom implied relationships strategy.

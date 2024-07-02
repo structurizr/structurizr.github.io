@@ -158,7 +158,7 @@ what we've done with the relationship from the user to the software system, and 
         wa -> db "Reads from"
 ```
 
-The Structurizr DSL has a feature named [implied relationships](/dsl/cookbook/implied-relationships/), which provides a
+The Structurizr DSL has a feature named [implied relationships](/dsl/implied-relationships/), which provides a
 way to reduce the number of relationships that you need to explicitly define in your DSL files. In this example, we
 can remove the first relationship definition, leaving only the latter two.
 
