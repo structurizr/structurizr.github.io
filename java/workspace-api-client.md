@@ -9,7 +9,7 @@ permalink: /java/workspace-api
 # Workspace API client
 
 The Structurizr cloud service and on-premises installation provide a web API to get and put workspaces,
-and an API client is provided via the [WorkspaceApiClient](https://github.com/structurizr/java/blob/master/structurizr-client/src/com/structurizr/api/WorkspaceApiClient.java) class.
+and an API client is provided via the [WorkspaceApiClient](https://github.com/structurizr/java/blob/master/structurizr-client/src/main/java/com/structurizr/api/WorkspaceApiClient.java) class.
 
 Each workspace has its own API key and secret, the values for which can be found on the workspace settings page.
 You will need these values (plus the workspace ID) when creating a `WorkspaceApiClient` instance:
