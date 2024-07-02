@@ -1147,6 +1147,16 @@ users {
 }
 ```
 
+## !include
+
+The `!include` keyword can be used to include DSL fragments from another file.
+
+```
+!include <file|directory|url>
+```
+
+See [Includes](/dsl/includes) for more details.
+
 ## !identifiers
 
 The `!identifiers` keyword can be used to modify the scope of identifiers.
@@ -1157,6 +1167,16 @@ The `!identifiers` keyword can be used to modify the scope of identifiers.
 
 See [Identifiers](/dsl/identifiers) for more details.
 
+## !impliedRelationships
+
+The `!impliedRelationships` keyword can be used to configure how implied relationships are created.
+
+```
+!impliedRelationships <true|false|fqcn>
+```
+
+See [Implied relationships](/dsl/implied-relationships) for more details.
+
 ## !docs
 
 The `!docs` keyword can be used to attach Markdown/AsciiDoc documentation to the parent context (either the workspace, a software system, or a container).
@@ -1165,7 +1185,7 @@ The `!docs` keyword can be used to attach Markdown/AsciiDoc documentation to the
 !docs <path> [fully qualified class name]
 ```
 
-See [Documentation](docs.html) for more details.
+See [Documentation](/dsl/docs) for more details.
 
 ## !adrs
 
@@ -1175,4 +1195,25 @@ The `!adrs` keyword can be used to attach Markdown/AsciiDoc ADRs to the parent c
 !adrs <path> [fully qualified class name]
 ```
 
-See [Architecture decision records](adrs.html) for more details.
+See [Architecture decision records](/dsl/adrs) for more details.
+
+## !script
+
+The `!script` keyword can be used to run inline or external scripts in a number of JVM compatible languages.
+
+```
+!script <groovy|kotlin|ruby|javascript>
+!script <file>
+```
+
+See [Scripts](/dsl/scripts) for more details.
+
+## !plugin
+
+The `!plugin` keyword can be used to run Java plugins.
+
+```
+!plugin <fqcn>
+```
+
+See [Plugins](/dsl/plugins) for more details.

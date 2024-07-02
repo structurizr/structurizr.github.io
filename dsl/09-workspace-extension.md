@@ -9,3 +9,5 @@ permalink: /dsl/workspace-extension
 # Workspace extension
 
 ...
+
+See [DSL Cookbook - Workspace extension](/dsl/cookbook/workspace-extension/) for more.

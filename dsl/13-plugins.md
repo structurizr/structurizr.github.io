@@ -8,7 +8,7 @@ permalink: /dsl/plugins
 
 # Plugins
 
-Plugins can be used where more control or customisation is required, and provide access to the workspace via the [Structurizr for Java library](https://github.com/structurizr/java). For example, you could use a plugin to create model elements based upon an external data source, or perhaps define views programmatically. Plugins can be used at any point in the DSL.
+Plugins can be used where more control or customisation is required, and provide access to the workspace via the [Structurizr for Java library](/java). For example, you could use a plugin to create model elements based upon an external data source, or perhaps define views programmatically. Plugins can be used at any point in the DSL.
 
 To write a plugin, create a Java class that implements the `com.structurizr.dsl.StructurizrDslPlugin` interface (you will need to add a dependency on the DSL library, which can be found on Maven Central via `com.structurizr:structurizr-dsl`).
 
