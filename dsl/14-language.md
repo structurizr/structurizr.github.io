@@ -71,8 +71,8 @@ Permitted children:
 - [!identifiers](#identifiers)
 - [group](#group)
 - [person](#person)
-- [softwareSystem](#softwareSystem)
-- [deploymentEnvironment](#deploymentEnvironment)
+- [softwareSystem](#softwaresystem)
+- [deploymentEnvironment](#deploymentenvironment)
 - [element](#element)
 - [-> (relationship)](#relationship)
 
@@ -223,8 +223,8 @@ Permitted children:
 
 
 - [group](#group)
-- [deploymentGroup](#deploymentGroup)
-- [deploymentNode](#deploymentNode)
+- [deploymentGroup](#deploymentgroup)
+- [deploymentNode](#deploymentnode)
 - [-> (relationship)](#relationship)
 
 ## deploymentGroup
@@ -256,10 +256,10 @@ The following tags are added by default:
 Permitted children:
 
 - [group](#group)
-- [deploymentNode](#deploymentNode) (deployment nodes can be nested)
-- [infrastructureNode](#infrastructureNode)
-- [softwareSystemInstance](#softwareSystemInstance)
-- [containerInstance](#containerInstance)
+- [deploymentNode](#deploymentnode) (deployment nodes can be nested)
+- [infrastructureNode](#infrastructurenode)
+- [softwareSystemInstance](#softwaresysteminstance)
+- [containerInstance](#containerinstance)
 - [-> (relationship)](#relationship)
 - [description](#description)
 - [technology](#technology)
@@ -318,7 +318,7 @@ Permitted children:
 - [url](#url)
 - [properties](#properties)
 - [perspectives](#perspectives)
-- [healthCheck](#healthCheck)
+- [healthCheck](#healthcheck)
 
 ## containerInstance
 
@@ -344,7 +344,7 @@ Permitted children:
 - [url](#url)
 - [properties](#properties)
 - [perspectives](#perspectives)
-- [healthCheck](#healthCheck)
+- [healthCheck](#healthcheck)
 
 ## healthCheck
 
