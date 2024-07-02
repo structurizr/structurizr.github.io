@@ -23,6 +23,7 @@ Expressions should be surrounded in quotes if they contain whitespace; for examp
 - `element.parent==<identifier>`: elements with the specified parent
 - `element.tag==<tag>[,tag]`: all elements that have all of the specified tags
 - `element.tag!=<tag>[,tag]`: all elements that do not have all of the specified tags
+- `element.properties[name]==value`: all elements that have the specified property with the specified value
 - `element==-><identifier>`: the specified element plus afferent couplings
 - `element==<identifier>->`: the specified element plus efferent couplings
 - `element==-><identifier>->`: the specified element plus afferent and efferent couplings
@@ -36,6 +37,7 @@ Expressions should be surrounded in quotes if they contain whitespace; for examp
 - `relationship==*->*`: all relationships
 - `relationship.tag==<tag>[,tag]`: all relationships that have all of the specified tags
 - `relationship.tag!=<tag>[,tag]`: all relationships that do not have all of the specified tags
+- `relationship.properties[name]==value`: all relationships that have the specified property with the specified value
 - `relationship.source==<identifier>`: all relationships with the specified source element
 - `relationship.destination==<identifier>`: all relationships with the specified destination element
 - `relationship==<identifier>->*`: all relationships with the specified source element
