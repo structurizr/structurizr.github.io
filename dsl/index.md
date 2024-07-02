@@ -42,6 +42,7 @@ Here is a comparison of the various authoring tools.
 | Plugins                                                                            | `!plugin`   | Yes              | Yes             |                                                   |
 | Scripts                                                                            | `!script`   | Yes              | Yes             |                                                   |
 | Export to PlantUML, Mermaid, DOT, WebSequenceDiagrams, and Ilograph                |             |                  | Yes             | [Demo page](https://structurizr.com/dsl) only     |
+| DSL keyword/feature deprecation warnings                                           |             | Yes              | Yes             |                                                   |
 
 ## Recommended workflow
 
