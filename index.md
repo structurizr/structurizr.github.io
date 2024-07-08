@@ -20,7 +20,7 @@ __multiple software architecture diagrams__, in a __variety of rendering tools__
 Structurizr is specifically designed to support the [C4 model for visualising software architecture](https://c4model.com),
 allowing you to reach the highest levels of maturity associated with creating software architecture diagrams.
 
-![Software architecture diagram maturity model](images/software-architecture-diagram-maturity-model.png)
+![Software architecture diagram maturity model](images/software-architecture-diagramming-maturity-model.png)
 
 ## Model-based
 
