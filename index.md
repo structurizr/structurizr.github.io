@@ -18,13 +18,14 @@ __multiple software architecture diagrams__, in a __variety of rendering tools__
 ## C4 model
 
 Structurizr is specifically designed to support the [C4 model for visualising software architecture](https://c4model.com),
-allowing you to reach the highest levels of maturity associated with creating software architecture diagrams.
+allowing you to reach the highest levels of maturity associated with creating software architecture diagramming.
 
 ![Software architecture diagram maturity model](images/software-architecture-diagramming-maturity-model.png)
 
 ## Model-based
 
 Structurizr is a modelling tool, allowing you to create multiple diagrams from a single model.
+Here's an example with the [Structurizr DSL](/dsl):
 
 ```
 workspace {
@@ -62,9 +63,24 @@ workspace {
 }
 ```
 
+## Authoring tool independent
+
+The [Structurizr DSL](/dsl) shown above is just one way to author your software architecture models.
+There are also a number of programming language libraries (e.g. [Structurizr for Java](/java),
+and ports for [.NET, Python, PHP, TypeScript, etc](/community#authoring-tools))
+that can be used to create software architecture models.
+The [open JSON data format](https://github.com/structurizr/json) defines the data format for a Structurizr compatible "workspace",
+which is the wrapper for a software architecture model and views.
+
+With this in mind, Structurizr workspaces can be created in the following ways:
+
+1. Manually authored (e.g. using the Structurizr DSL).
+2. Reverse-engineered (e.g. by writing a program to reverse-engineer model information from source code, deployment scripts, your live deployment environment, logs, traces, telemetry data, etc).
+3. Hybrid approach (e.g. use the Structurizr DSL to define software systems and containers, and reverse-engineer component level details).
+
 ## Rendering tool independent
 
-Unlike most modelling tools, Structurizr is rendering tool independent.
+Unlike most modelling tools, and because of the open JSON data format, Structurizr is rendering tool independent.
 For example, here are a number of visualisations of the same model.
 
 |-----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
