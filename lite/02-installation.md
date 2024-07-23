@@ -55,12 +55,5 @@ java -Djdk.util.jar.enableMultiRelease=false -jar structurizr-lite.war PATH
 For example, if your Structurizr data directory is located at `/Users/simon/structurizr`, the command would be:
 
 ```
-java -Djdk.util.jar.enableMultiRelease=false -jar structurizr-lite.war /Users/simon/structurizr
-```
-
-Please note that there is [an issue with Windows PowerShell](https://github.com/PowerShell/PowerShell/issues/15541),
-so you may need to quote the system property argument, for example:
-
-```
-java "-Djdk.util.jar.enableMultiRelease=false" -jar structurizr-lite.war /Users/simon/structurizr
+java -jar structurizr-lite.war /Users/simon/structurizr
 ```
