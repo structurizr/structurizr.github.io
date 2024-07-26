@@ -74,9 +74,14 @@ which is the wrapper for a software architecture model and views.
 
 With this in mind, Structurizr workspaces can be created in the following ways:
 
-1. Manually authored (e.g. using the Structurizr DSL).
-2. Reverse-engineered (e.g. by writing a program to reverse-engineer model information from source code, deployment scripts, your live deployment environment, logs, traces, telemetry data, etc).
-3. Hybrid approach (e.g. use the Structurizr DSL to define software systems and containers, and reverse-engineer component level details).
+1. Manually authored:
+   - Using the [Structurizr DSL](/dsl) ([example](https://github.com/structurizr/examples/blob/main/dsl/getting-started/workspace.dsl)).
+   - Using [Structurizr for Java](/java) ([example](https://github.com/structurizr/examples/blob/main/java/src/main/java/com/structurizr/example/GettingStarted.java)) or one of the ports for [.NET, Python, PHP, TypeScript, etc](/community#authoring-tools).
+2. Reverse-engineered:
+   - Using [Structurizr for Java](/java) or one of the ports for [.NET, Python, PHP, TypeScript, etc](/community#authoring-tools) to write a program to reverse-engineer model information from source code, deployment scripts, your live deployment environment, logs, traces, telemetry data, etc).
+3. Hybrid approach:
+   - Use the Structurizr DSL to define software systems and containers, and reverse-engineer component level details via code.
+   - Use code to reverse-engineer a system catalog from Backstage ([example](https://github.com/structurizr/examples/tree/main/enterprise#example-3)), ServiceNow, etc and have teams add container and component level detail via the Structurizr DSL.
 
 ## Rendering tool independent
 
