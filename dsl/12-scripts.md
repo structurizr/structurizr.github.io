@@ -14,10 +14,10 @@ Scripts can be used at any point in the DSL.
 The following variables are available from scripts:
 
 - `context`: a [StructurizrDslScriptContext](https://github.com/structurizr/java/blob/master/structurizr-dsl/src/main/java/com/structurizr/dsl/StructurizrDslScriptContext.java) object with contextual information
-- `workspace`: the [Workspace](https://github.com/structurizr/java/blob/master/structurizr-core/src/com/structurizr/Workspace.java) object
-- `element`: the current [Element](https://github.com/structurizr/java/blob/master/structurizr-core/src/com/structurizr/model/Element.java) object, if the script is used within the scope of an element
-- `relationship`: the current [Relationship](https://github.com/structurizr/java/blob/master/structurizr-core/src/com/structurizr/model/Relationship.java) object, if the script is used within the scope of a relationship
-- `view`: the current [View](https://github.com/structurizr/java/blob/master/structurizr-core/src/com/structurizr/view/View.java) object, if the script is used within the scope of a view
+- `workspace`: the [Workspace](https://github.com/structurizr/java/blob/master/structurizr-core/src/main/java/com/structurizr/Workspace.java) object
+- `element`: the current [Element](https://github.com/structurizr/java/blob/master/structurizr-core/src/main/java/com/structurizr/model/Element.java) object, if the script is used within the scope of an element
+- `relationship`: the current [Relationship](https://github.com/structurizr/java/blob/master/structurizr-core/src/main/java/com/structurizr/model/Relationship.java) object, if the script is used within the scope of a relationship
+- `view`: the current [View](https://github.com/structurizr/java/blob/master/structurizr-core/src/main/java/com/structurizr/view/View.java) object, if the script is used within the scope of a view
 
 (*) Nashorn (the JVM JavaScript engine) is deprecated, see [https://openjdk.java.net/jeps/372](https://openjdk.java.net/jeps/372) for details.
 
