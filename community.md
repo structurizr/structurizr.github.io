@@ -12,6 +12,7 @@ permalink: /community
 - [VS Code extension](https://marketplace.visualstudio.com/items?itemName=systemticks.c4-dsl-extension) (syntax highlighting and diagram previews)
 - [VS Code extension](https://marketplace.visualstudio.com/items?itemName=ciarant.vscode-structurizr) (syntax highlighting)
 - [C4 DSL Language Server](https://gitlab.com/systemticks/c4-dsl-language-server) (for integrating the Structurizr DSL into Language Server Protocol compatible tools)
+- [Cornifer](https://rvr06.github.io/cornifer) (VS Code extension; syntax highlighting and diagram previews)
 - [IntelliJ IDEA plugin](https://github.com/dirkgroot/structurizr-dsl-intellij-plugin)
 - [IntelliJ Structurizr DSL Plugin](https://github.com/ambalashov/structurizr-idea-plugin)
 
