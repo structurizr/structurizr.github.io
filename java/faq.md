@@ -18,10 +18,17 @@ cd structurizr-java
 ./gradlew
 ```
 
-This will create two `.jar` files:
+This will create a number of `.jar` files. For example:
 
 - structurizr-client/build/libs/structurizr-client-{version}.jar
 - structurizr-core/build/libs/structurizr-core-{version}.jar
+- etc
+
+You can publish these `.jar` files to your local Maven repository with the following command:
+
+```
+./gradlew clean build publishToMavenLocal
+```
 
 ## Why is there no way to remove elements/relationships from the model?
 
