@@ -22,14 +22,14 @@ You can now start Structurizr Lite with the following commands, replacing `PATH`
 
 ```
 docker pull structurizr/lite
-docker run -it --rm -p 8080:8080 -v PATH:/usr/local/structurizr structurizr/lite
+docker run -it --rm -p 8080:8080 -u $(id -u):$(id -g) -v PATH:/usr/local/structurizr structurizr/lite
 ```
 
 For example, if your Structurizr data directory is located at `/Users/simon/structurizr`, the command would be:
 
 ```
 docker pull structurizr/lite
-docker run -it --rm -p 8080:8080 -v /Users/simon/structurizr:/usr/local/structurizr structurizr/lite
+docker run -it --rm -p 8080:8080 -i $(id -u):$(id -g) -v /Users/simon/structurizr:/usr/local/structurizr structurizr/lite
 ```
 
 ## 3. Open your web browser
