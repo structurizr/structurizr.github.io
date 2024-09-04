@@ -42,6 +42,13 @@ We recommend scripting your deployments, and ensuring that you can easily rollba
 
 Yes, see [HTTPS](/onpremises/configuration#https) for details.
 
+## Can we change the context path?
+
+No, the on-premises installation is designed to work as the root application (i.e. via a context path of `/`) and will
+not work if deployed to a different path or used behind a reverse-proxy with a rewrite rule.
+The [UI](/ui) is shared between Structurizr Lite, the on-premises installation, and the cloud service so we have no
+plans to change this.
+
 ## Can you complete our risk/security questionnaire?
 
 No, this is a time consuming exercise and we are already providing the software for free.

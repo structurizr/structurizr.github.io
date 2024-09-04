@@ -18,6 +18,8 @@ If your problem isn't listed here, please browse [the issues on the GitHub repo]
 If you can see the home page, but it doesn't look right (e.g. the styles don't seem to be loading, images are oversized, etc),
 you will likely need to explicitly set the `structurizr.url` property. See [Configuration - structurizr.properties](configuration#structurizrproperties) for details.
 
+Please note that the on-premises installation is designed to work as the root application (i.e. via a context path of `/`) only.
+
 ### The on-premises installation cannot be accessed or is not found
 
 The on-premises installation needs to be run as the root/default web application/context.

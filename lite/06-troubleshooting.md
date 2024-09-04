@@ -18,6 +18,8 @@ If you can see Structurizr Lite in your web browser, but it doesn't look right (
 2. Add a line as follows: `structurizr.url=XXX` (where `XXX` represents the top-level URL of your Structurizr Lite installation; e.g. `https://structurizr.example.com`).
 3. Restart Structurizr Lite.
 
+Please note that Structurizr Lite is designed to work as the root application (i.e. via a context path of `/`) only.
+
 ## Diagrams
 
 ### Diagram layout is lost when using manual layout
