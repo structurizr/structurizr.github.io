@@ -8,14 +8,16 @@ permalink: /onpremises/data-storage
 
 # Data storage
 
-The default configuration uses the local file system for data storage.
-This is sufficient for a single server installation, as well as for a multi-server installation where you can share a file system between server nodes.
+The on-premises installation was designed to use the local file system for data storage,
+and the default configuration reflects this. __File system based storage is recommended for most installations__ - it's
+fast, and can be used for a single server installation as well as for a multi-server installation
+where you can share a persistent file system between server nodes.
+
+Alternatively, [Amazon Web Services S3](#amazon-web-services-s3) (or an S3 compatible service)
+and [Azure Blob Storage](#azure-blob-storage) can be used for data storage.
+Please be aware that, given the additional latency involved, you may encounter performance issues when using these options.
 
 ## Amazon Web Services S3
-
-Alternatively, Amazon Web Services S3 (or an S3 compatible service) can be used for data storage.
-
-![](https://static.structurizr.com/workspace/18571/diagrams/Deployment-Example4.png)
 
 The basic steps to configure S3 are:
 
@@ -38,6 +40,26 @@ and the on-premises installation will use the "Default Credential Provider Chain
 [Working with AWS Credentials - Using the Default Credential Provider Chain](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/credentials.html).
 
 You will need to enable bucket versioning if you'd like to use the [workspace versioning feature](/onpremises/workspace-versioning).
+
+## Azure Blob Storage
+
+This option doesn't yet support diagram reviews, only supports authentication via an access key,
+and is __only available if you build the on-premises installation from source__ - see
+[Building from source](https://github.com/structurizr/onpremises?tab=readme-ov-file#building-from-source) for instructions.
+
+The basic steps to configure Azure Blob Storage are:
+
+- Create a container under your Azure storage account.
+- Modify your `structurizr.properties` file as follows:
+
+| Property name               | Property value                                                                                                                                 |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| `structurizr.data`          | `azure-blob`                                                                                                                                   |
+| `azure-blob.accountName`    | Your Azure data storage account name (just `xxx`, not the full URL of `https://xxx.blob.core.windows.net`).                                      |
+| `azure-blob.accessKey`      | Your Azure Blob Storage access key.                                                                                                            |
+| `azure-blob.containerName`  | Your Azure Blob Storage container name.                                                                                                        |
+
+You will need to enable versioning for blobs if you'd like to use the [workspace versioning feature](/onpremises/workspace-versioning).
 
 ### Elasticsearch
 
