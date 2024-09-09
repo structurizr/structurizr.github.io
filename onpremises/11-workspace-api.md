@@ -2,7 +2,7 @@
 layout: default
 title: Workspace API
 parent: Structurizr on-premises
-nav_order: 10
+nav_order: 11
 permalink: /onpremises/workspace-api
 ---
 

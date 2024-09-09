@@ -26,4 +26,5 @@ cause that version to be the latest version once again.
 
 ## Notes
 
-- The number of retained versions can be [configured](/onpremises/configuration) via a property named `structurizr.maxWorkspaceVersions`. 
+- The number of retained versions can be [configured](/onpremises/configuration) via a property named `structurizr.maxWorkspaceVersions`.
+- Diagram thumbnails are not stored for previous workspace versions.

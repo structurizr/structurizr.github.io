@@ -2,7 +2,7 @@
 layout: default
 title: Admin API
 parent: Structurizr on-premises
-nav_order: 11
+nav_order: 12
 permalink: /onpremises/admin-api
 ---
 

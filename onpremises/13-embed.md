@@ -2,7 +2,7 @@
 layout: default
 title: Embedding diagrams
 parent: Structurizr on-premises
-nav_order: 12
+nav_order: 13
 permalink: /onpremises/embed
 ---
 

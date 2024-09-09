@@ -2,7 +2,7 @@
 layout: default
 title: Support
 parent: Structurizr on-premises
-nav_order: 16
+nav_order: 90
 permalink: /onpremises/support
 ---
 

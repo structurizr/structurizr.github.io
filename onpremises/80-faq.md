@@ -2,7 +2,7 @@
 layout: default
 title: FAQ
 parent: Structurizr on-premises
-nav_order: 14
+nav_order: 80
 permalink: /onpremises/faq
 ---
 

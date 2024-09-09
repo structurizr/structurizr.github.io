@@ -2,7 +2,7 @@
 layout: default
 title: Diagram review
 parent: Structurizr on-premises
-nav_order: 13
+nav_order: 14
 permalink: /onpremises/diagram-review
 ---
 
