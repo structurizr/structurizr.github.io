@@ -13,8 +13,8 @@ changes to your diagrams.
 
 ## Viewing a previous version
 
-To view a previous version, open the workspace summary page for your workspace, select a version from the dropdown list,
-and click the "Load version" button. A label will be displayed when viewing content from a previous version of a workspace,
+To view a previous version, open the workspace summary page for your workspace, select a version from the dropdown list.
+A label will be displayed when viewing content from a previous version of a workspace,
 to signify that you are not looking at the latest version.
 
 ## Reverting to a previous version
