@@ -2,7 +2,7 @@
 layout: default
 title: Notion
 parent: Structurizr cloud service
-nav_order: 501
+nav_order: 32
 permalink: /cloud/notion
 ---
 

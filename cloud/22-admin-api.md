@@ -2,7 +2,7 @@
 layout: default
 title: Admin API
 parent: Structurizr cloud service
-nav_order: 202
+nav_order: 22
 permalink: /cloud/admin-api
 ---
 

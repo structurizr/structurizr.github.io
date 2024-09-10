@@ -2,7 +2,7 @@
 layout: default
 title: Role-based access
 parent: Structurizr cloud service
-nav_order: 22
+nav_order: 12
 permalink: /cloud/role-based-access
 ---
 

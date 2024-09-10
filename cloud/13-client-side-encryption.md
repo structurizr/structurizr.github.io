@@ -2,7 +2,7 @@
 layout: default
 title: Client-side encryption
 parent: Structurizr cloud service
-nav_order: 23
+nav_order: 13
 permalink: /cloud/client-side-encryption
 ---
 

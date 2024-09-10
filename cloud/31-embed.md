@@ -2,7 +2,7 @@
 layout: default
 title: Embedding diagrams
 parent: Structurizr cloud service
-nav_order: 500
+nav_order: 31
 permalink: /cloud/embed
 ---
 

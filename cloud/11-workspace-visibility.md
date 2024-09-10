@@ -2,7 +2,7 @@
 layout: default
 title: Workspace visibility
 parent: Structurizr cloud service
-nav_order: 21
+nav_order: 11
 permalink: /cloud/workspace-visibility
 ---
 

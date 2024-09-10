@@ -2,7 +2,7 @@
 layout: default
 title: Slack
 parent: Structurizr cloud service
-nav_order: 502
+nav_order: 33
 permalink: /cloud/slack
 ---
 

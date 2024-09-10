@@ -2,7 +2,7 @@
 layout: default
 title: Diagram review
 parent: Structurizr cloud service
-nav_order: 601
+nav_order: 41
 permalink: /cloud/diagram-review
 ---
 

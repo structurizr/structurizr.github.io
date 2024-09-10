@@ -2,7 +2,7 @@
 layout: default
 title: Workspace settings
 parent: Structurizr cloud service
-nav_order: 5
+nav_order: 10
 permalink: /cloud/workspace-settings
 ---
 

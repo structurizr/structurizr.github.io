@@ -2,7 +2,7 @@
 layout: default
 title: Quickstart
 parent: Structurizr cloud service
-nav_order: 2
+nav_order: 1
 permalink: /cloud/quickstart
 ---
 

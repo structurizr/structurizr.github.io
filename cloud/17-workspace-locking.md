@@ -2,7 +2,7 @@
 layout: default
 title: Workspace locking
 parent: Structurizr cloud service
-nav_order: 6
+nav_order: 17
 permalink: /cloud/workspace-locking
 ---
 

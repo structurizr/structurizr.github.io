@@ -2,7 +2,7 @@
 layout: default
 title: IP address restrictions
 parent: Structurizr cloud service
-nav_order: 24
+nav_order: 14
 permalink: /cloud/ip-address-restrictions
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: Workspace versioning
 parent: Structurizr cloud service
-nav_order: 6
+nav_order: 16
 permalink: /cloud/workspace-versioning
 ---
 
