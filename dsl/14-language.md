@@ -543,6 +543,37 @@ The `!ref` keyword does the same as `!extend`, and may provide better readabilit
 <identifier> = !ref <canonical name>
 ```
 
+## !elements
+
+The `!elements` keyword can be used to find a set of elements via an [element expression](/dsl/expressions#element-expressions)
+in order to perform bulk operations on them.
+
+```
+!elements <expression> {
+    ...    
+}
+```
+
+Permitted children:
+
+- [-> (relationship)](#relationship)
+- [tags](#tags)
+
+## !relationships
+
+The `!relationships` keyword can be used to find a set of relationships via a [relationship expression](/dsl/expressions#relationship-expressions)
+in order to perform bulk operations on them.
+
+```
+!relationships <expression> {
+    ...    
+}
+```
+
+Permitted children:
+
+- [tags](#tags)
+
 ## views
 
 Each workspace can also contain one or more views, defined with the `views` block.
@@ -724,6 +755,13 @@ Unlike the other diagram types, Dynamic views are created by specifying the rela
 <relationship identifier> [description]
 ```
 
+An alternative syntax can be used if you want to explicitly specify the ordering of relationship instances:
+
+```
+[order:] <element identifier> -> <element identifier> [description] [technology]
+[order:] <relationship identifier> [description]
+```
+
 With a dynamic view, you're showing _instances_ of relationships that are defined in the static model.
 For example, imagine that you have two software systems defined in the static model, with a single relationship between them described as "Sends data to".
 A dynamic view allows you to override the relationship description, to better describe the interaction in the context of the behaviour you're diagramming.
@@ -852,7 +890,8 @@ To include elements in a view, use one or more `include` statements inside the b
 include <*|identifier|expression> [*|identifier|expression...]
 ```
 
-Elements can either be specified using individual identifiers, the wildcard identifier (`*`), or a property expression. Please note that including elements will also include the relationships between those elements.
+Elements can either be specified using individual identifiers, the wildcard identifier (`*`) or an [element expression](/dsl/expressions#element-expressions).
+Please note that including elements will also include the relationships between those elements.
 
 The wildcard identifier (`*`) operates differently depending upon the type of diagram, as follows:
 
@@ -863,11 +902,6 @@ The wildcard identifier (`*`) operates differently depending upon the type of di
 - Filtered view: (not applicable)
 - Dynamic view: (not applicable)
 - Deployment view: Include all deployment nodes, infrastructure nodes, and container instances defined within the deployment environment and (optional) software system in scope.
-
-They provide a way to include elements based upon some basic conditional logic, as follows:
-
-- `element.tag==<tag>,[tag]`: include elements that have all of the specified tags
-- `element.tag!=<tag>,[tag]`: include elements that do not have all of the specified tags
 
 ### Including relationships
 
@@ -893,18 +927,15 @@ exclude <identifier|expression> [identifier|expression...]
 
 ### Excluding relationships
 
-To exclude a relationship in a view, you can specify an individual relationship identifier, or use a property expression:
+To exclude a relationship in a view, you can specify an individual relationship identifier
+or a [relationship expression](/dsl/expressions#relationship-expressions):
 
 ```
 exclude <identifier|expression> [identifier|expression...]
 ```
 
-They provide a way to exclude relationships based upon some basic conditional logic, as follows:
-
-- `relationship.tag==<tag>,[tag]`: exclude relationships that have all of the specified tags
-- `relationship.tag!=<tag>,[tag]`: exclude relationships that do not have all of the specified tags
-
-Alternatively, you can use the relationship expression syntax as follows (please note the double quotes surrounding the entire expression):
+Alternatively, you can use the following syntax (please note the double quotes surrounding the entire expression)
+to target one or more relationships:
 
 ```
 exclude "<*|identifier|expression> -> <*|identifier|expression>" 
@@ -1058,20 +1089,24 @@ Notes:
 The `theme` keyword can be used to specify a theme that should be used when rendering diagrams. See [Themes](/ui/diagrams/themes) for more details.
 
 ```
-theme <default|url>
+theme <url|file|default>
 ```
 
-`default` is a shorthand for `https://static.structurizr.com/themes/default/theme.json`, the [default Structurizr theme](https://structurizr.com/help/theme?url=https://static.structurizr.com/themes/default/theme.json).
+- `default` is a shorthand for `https://static.structurizr.com/themes/default/theme.json`, the [default Structurizr theme](https://structurizr.com/help/theme?url=https://static.structurizr.com/themes/default/theme.json).
+- Themes specified via a URL will be loaded dynamically when required.
+- Themes specified via a file reference will be immediately inlined into the workspace.
 
 ## themes
 
 The `themes` keyword can be used to specify one or more themes that should be used when rendering diagrams. See [Themes](/ui/diagrams/themes) for more details.
 
 ```
-themes <url> [url] ... [url]
+themes <url|file> [url|file] ... [url|file]
 ```
 
-`default` is a shorthand for `https://static.structurizr.com/themes/default/theme.json`, the [default Structurizr theme](https://structurizr.com/help/theme?url=https://static.structurizr.com/themes/default/theme.json).
+- `default` is a shorthand for `https://static.structurizr.com/themes/default/theme.json`, the [default Structurizr theme](https://structurizr.com/help/theme?url=https://static.structurizr.com/themes/default/theme.json).
+- Themes specified via a URL will be loaded dynamically when required.
+- Themes specified via a file reference will be immediately inlined into the workspace.
 
 ## branding
 

@@ -35,6 +35,7 @@ Here is a comparison of the various authoring tools.
 | Diagrams                                                                           |             | Yes              | Yes             | Yes                                               |
 | Documentation                                                                      | `!docs`     | Yes              | Yes             |                                                   |
 | Architecture decision records                                                      | `!adrs`     | Yes              | Yes             |                                                   |
+| Image views                                                                        | `image`     | Yes              | Yes             | HTTPS URLs (with CORS headers) and data URIs only |
 | Branding logo                                                                      | `logo`      | Yes              | Yes             | HTTPS URLs (with CORS headers) and data URIs only |
 | Element style icons                                                                | `icon`      | Yes              | Yes             | HTTPS URLs (with CORS headers) and data URIs only |
 | Workspace extension                                                                | `extends`   | Yes              | Yes             | HTTPS URLs only                                   |

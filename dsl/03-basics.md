@@ -35,7 +35,7 @@ In addition, workspaces are subject to the following rules:
 
 ## String constants and variables
 
-The `!constant` (deprecated) and `!const` keyword can be used to define a constant, which can be used with [string substitution](#string-substitution):
+The `!const` keyword can be used to define a constant, which can be used with [string substitution](#string-substitution):
 
 ```
 !const <name> <value>

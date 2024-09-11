@@ -18,6 +18,16 @@ The resulting YAML will include:
 - One perspective per dynamic view.
 - One perspective per deployment view.
 
+The following properties can be set on element styles, which can be used to further customise the styling:
+
+ - `ilograph.icon`: this can be used to specify a [built-in Ilograph icon](https://www.ilograph.com/docs/editing/icons/).
+
+And the following properties can be set on the workspace:
+
+- `ilograph.imports`: a comma-separated list of [Ilograph imports](https://www.ilograph.com/docs/editing/imports/) in the form `namespace:from` (e.g. `AWS:ilograph/aws`).
+
+## Demo
+
 If you'd like to see a demo:
 
 1. Copy the Ilograph YAML from the [Structurizr DSL demo page - Big Bank plc example](https://structurizr.com/dsl?example=big-bank-plc&renderer=ilograph).

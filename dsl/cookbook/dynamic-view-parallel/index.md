@@ -50,7 +50,40 @@ workspace {
 
 [![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/dynamic-view-parallel/example-1.dsl)
 
-Please note that support for parallel sequences via the DSL is relatively limited.
+Support for parallel sequences via this syntax is relatively limited, so you can explicitly specify the ordering instead if desired:
+
+```
+workspace {
+
+    model {
+        a = softwareSystem "A"
+        b = softwareSystem "B"
+        c = softwareSystem "C"
+        d = softwareSystem "D"
+        e = softwareSystem "E"
+
+        a -> b
+        b -> c
+        b -> d
+        b -> e
+    }
+
+    views {
+
+        dynamic * {
+            1: a -> b "Makes a request to"
+            2: b -> c "Gets data from"
+            2: b -> d "Gets data from"
+            3: b -> e "Sends data to"
+
+            autoLayout
+        }
+    }
+
+}
+```
+
+[![](example-2.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/dynamic-view-parallel/example-2.dsl)
 
 ## Links
 
