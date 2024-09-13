@@ -16,3 +16,5 @@ A big thanks to the following for their donations! 🙏
 - Jonas B
 - Kamil G
 - Mahmoud S
+- Juan F
+- Matthew D
