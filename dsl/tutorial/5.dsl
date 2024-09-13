@@ -1,4 +1,6 @@
-workspace {
+workspace "Name" "Description"
+
+    !identifiers hierarchical
 
     model {
         u = person "User"
@@ -9,8 +11,8 @@ workspace {
             }
         }
 
-        u -> wa "Uses"
-        wa -> db "Reads from"
+        u -> ss.wa "Uses"
+        ss.wa -> ss.db "Reads from and writes to"
     }
 
     views {

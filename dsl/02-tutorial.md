@@ -17,7 +17,7 @@ Let's start the tutorial with a basic example of how to use the DSL. The startin
 and a set of views (where we define the views that will ultimately be rendered as diagrams).
 
 ```
-workspace {    
+workspace "Name" "Description" {    
 }
 ```
 
@@ -26,7 +26,7 @@ a `person` named "User" (assigned to an identifier `u`) and a `softwareSystem` n
 A relationship is then defined between the user and the software system using the `->` symbol, with a description of "Uses".
 
 ```
-workspace {
+workspace "Name" "Description" {
 
     model {
         u = person "User"
@@ -42,7 +42,7 @@ We can then define a single [system context view](/dsl/language#systemcontext-vi
 being the scope of this view. 
 
 ```
-workspace {
+workspace "Name" "Description" {
 
     model {
         u = person "User"
@@ -78,19 +78,25 @@ Next we can define the containers (applications and data stores) that make up ou
 `container` definitions nested inside the software system (inside the curly braces).
 We can also define a relationship from the user to the web application, and from the web application to the database.
 
+`!identifiers hierarchical` is used to allow us to refer to those containers via their fully qualified identifier.
+
 ```
-workspace {
+workspace "Name" "Description"
+
+    !identifiers hierarchical
 
     model {
         u = person "User"
         ss = softwareSystem "Software System" {
             wa = container "Web Application"
-            db = container "Database Schema"
+            db = container "Database Schema" {
+                tags "Database"
+            }
         }
 
         u -> ss "Uses"
-        u -> wa "Uses"
-        wa -> db "Reads from"
+        u -> ss.wa "Uses"
+        ss.wa -> ss.db "Reads from and writes to"
     }
 
     views {
@@ -107,18 +113,22 @@ The model is non-visual, so we need to define a [container view](/dsl/language#c
 being the scope of this view.
 
 ```
-workspace {
+workspace "Name" "Description"
+
+    !identifiers hierarchical
 
     model {
         u = person "User"
         ss = softwareSystem "Software System" {
             wa = container "Web Application"
-            db = container "Database Schema"
+            db = container "Database Schema" {
+                tags "Database"
+            }
         }
 
         u -> ss "Uses"
-        u -> wa "Uses"
-        wa -> db "Reads from"
+        u -> ss.wa "Uses"
+        ss.wa -> ss.db "Reads from and writes to"
     }
 
     views {
@@ -154,8 +164,8 @@ what we've done with the relationship from the user to the software system, and 
 
 ```
         u -> ss "Uses"
-        u -> wa "Uses"
-        wa -> db "Reads from"
+        u -> ss.wa "Uses"
+        ss.wa -> ss.db "Reads from and writes to"
 ```
 
 The Structurizr DSL has a feature named [implied relationships](/dsl/implied-relationships/), which provides a
@@ -163,8 +173,8 @@ way to reduce the number of relationships that you need to explicitly define in 
 can remove the first relationship definition, leaving only the latter two.
 
 ```
-        u -> wa "Uses"
-        wa -> db "Reads from"
+        u -> ss.wa "Uses"
+        ss.wa -> ss.db "Reads from and writes to"
 ```
 
 The resulting diagrams are the same. There is an explicit relationship from the user to the web application,
@@ -194,7 +204,7 @@ Include the user, web application, and database explicitly.
 
 ```
         container ss "Diagram2" {
-            include u wa db
+            include u ss.wa ss.db
             autolayout lr
         }
 ```
@@ -204,7 +214,7 @@ Include the user, web application, and database explicitly (separate lines).
 ```
         container ss "Diagram2" {
             include u
-            include wa db
+            include ss.wa ss.db
             autolayout lr
         }
 ```
@@ -213,7 +223,7 @@ Include the web application, plus the inbound and outbound dependencies.
 
 ```
         container ss "Diagram2" {
-            include "->wa->"
+            include "->ss.wa->"
             autolayout lr
         }
 ```
