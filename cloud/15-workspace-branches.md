@@ -8,8 +8,6 @@ permalink: /cloud/workspace-branches
 
 # Workspace branches
 
-__This page describes a feature that is in development...__
-
 The workspace branches feature provides a way to store/publish a number of workspace versions under a single workspace.
 For example, you could publish documentation for the live version of your software system on the default (`main`) branch,
 while the engineering team could use a `dev` branch to publish documentation for the next version that's in development.
