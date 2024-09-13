@@ -30,12 +30,12 @@ workspace "Name" "Description"
             element "Element" {
                 color white
             }
-            element "Software System" {
-                background #2D882D
-            }
             element "Person" {
                 background #116611
                 shape person
+            }
+            element "Software System" {
+                background #2D882D
             }
             element "Container" {
                 background #55aa55

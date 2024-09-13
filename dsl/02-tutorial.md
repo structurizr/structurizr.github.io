@@ -262,12 +262,12 @@ Styling elements can be achieved by creating an [element style](/dsl/cookbook/el
             element "Element" {
                 color white
             }
-            element "Software System" {
-                background #2D882D
-            }
             element "Person" {
                 background #116611
                 shape person
+            }
+            element "Software System" {
+                background #2D882D
             }
         }
     }
