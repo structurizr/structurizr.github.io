@@ -10,9 +10,15 @@ permalink: /lite/troubleshooting
 
 ## Installation
 
+### Structurizr Lite loads, but the UI gets stuck
+
+If you've recently updated Structurizr Lite and the UI is getting stuck (e.g. "Loading workspace..."),
+take a look in your web browser's developer console.
+If you see messages like `... is not a function`, try doing a hard refresh of your web browser to clear the cache.
+
 ### Structurizr Lite loads, but doesn't look right
 
-If you can see Structurizr Lite in your web browser, but it doesn't look right (e.g. the styles don't seem to be loading, images are oversized, etc), you will likely need to do the following. This is particularly applicable if you're running Structurizr Lite on a server with multiple hostnames, or behind a reverse proxy/load balancer/etc.
+If you can see Structurizr Lite in your web browser, but it doesn't look right (e.g. the styles don't seem to be loading, images are oversized, etc) you will likely need to do the following. This is particularly applicable if you're running Structurizr Lite on a server with multiple hostnames, or behind a reverse proxy/load balancer/etc.
 
 1. Create a file named `structurizr.properties` in your Structurizr data directory, next to your `workspace.dsl` file.
 2. Add a line as follows: `structurizr.url=XXX` (where `XXX` represents the top-level URL of your Structurizr Lite installation; e.g. `https://structurizr.example.com`).
