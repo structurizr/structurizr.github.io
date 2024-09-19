@@ -515,32 +515,31 @@ perspectives {
 
 ## !extend
 
-The `!extend` keyword provides a way to extend a previously defined element/relationship, and is designed to be used with the workspace `extends` or `!include` features. It can be used in a couple of ways.
-
-The first usage scenario is to extend an existing element/relationship that has been defined via the DSL. This allows you to extend the element referenced by the given identifier.
-
-```
-!extend <identifier> {
-  ...
-}
-```
-
-Or, if you're extending a JSON-based workspace, you can extend an element by its "canonical name", and assign that to an identifier.
-
-```
-<identifier> = !extend <canonical name> {
-  ...
-}
-```
-
-See [DSL cookbook - Workspace extension](/dsl/cookbook/workspace-extension/) for some usage examples.
+The `!extend` keyword is deprecated - please use `!element` or `!relationship` instead.
 
 ## !ref
 
-The `!ref` keyword does the same as `!extend`, and may provide better readability when you just want to reference an element (e.g. when extending a JSON workspace) rather than extend it.
+The `!ref` keyword is deprecated - please use `!element` or `!relationship` instead.
+
+## !element
+
+The `!element` keyword provides a way to find a previously defined element so that you can add tags, properties, children, etc.
+
+The first usage scenario is to extend an existing element that has been defined via the DSL.
+See [DSL cookbook - Workspace extension](/dsl/cookbook/workspace-extension/) for a usage example.
 
 ```
-<identifier> = !ref <canonical name>
+!element <identifier> {
+  ...
+}
+```
+
+Or, if you're extending a JSON-based workspace, you can find an element by its "canonical name", and assign that to an identifier.
+
+```
+<identifier> = !element <canonical name> {
+  ...
+}
 ```
 
 ## !elements
@@ -558,6 +557,26 @@ Permitted children:
 
 - [-> (relationship)](#relationship)
 - [tags](#tags)
+
+## !relationship
+
+The `!relationship` keyword provides a way to find a previously defined relationship so that you can add tags, properties, etc.
+
+The first usage scenario is to extend an existing relationship that has been defined via the DSL.
+
+```
+!relationship <identifier> {
+  ...
+}
+```
+
+Or, if you're extending a JSON-based workspace, you can find a relationship by its "canonical name", and assign that to an identifier.
+
+```
+<identifier> = !relationship <canonical name> {
+  ...
+}
+```
 
 ## !relationships
 

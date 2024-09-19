@@ -1,7 +1,7 @@
 workspace extends https://docs.structurizr.com/dsl/cookbook/workspace-extension/system-landscape.dsl {
 
     model {
-        !extend a {
+        !element a {
             webapp = container "Web Application"
             database = container "Database"
             

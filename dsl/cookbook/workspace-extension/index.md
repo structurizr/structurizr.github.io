@@ -31,7 +31,7 @@ Next, define your child workspace, using the `extends` keyword to specify the wo
 workspace extends https://docs.structurizr.com/dsl/cookbook/workspace-extension/system-landscape.dsl {
 
     model {
-        !extend a {
+        !element a {
             webapp = container "Web Application"
             database = container "Database"
             
@@ -68,4 +68,5 @@ And a container diagram:
 ## Links
 
 - [DSL language reference - workspace](/dsl/language#workspace)
-- [DSL language reference - ref](/dsl/language#extend)
+- [DSL language reference - !element](/dsl/language#element-1)
+- [DSL language reference - !relationship](/dsl/language#relationship-1)
