@@ -43,10 +43,8 @@ You will need to enable bucket versioning if you'd like to use the [workspace ve
 
 ## Azure Blob Storage
 
-This option doesn't yet support diagram reviews, only supports authentication via an access key,
-and is __only available if you build the on-premises installation from source__ - see
-[Building from source](https://github.com/structurizr/onpremises?tab=readme-ov-file#building-from-source) for instructions.
-
+This option is a work in progress.
+It doesn't support workspace branches or diagram reviews, and only supports authentication via an access key.
 The basic steps to configure Azure Blob Storage are:
 
 - Create a container under your Azure storage account.

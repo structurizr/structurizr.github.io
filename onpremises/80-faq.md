@@ -53,7 +53,3 @@ plans to change this.
 
 No, this is a time consuming exercise and we are already providing the software for free.
 The code is [freely available and open source](https://github.com/structurizr/onpremises) allowing you to perform your own review.
-
-## Is priority support available?
-
-Yes, see [Support](/onpremises/support) for details.
