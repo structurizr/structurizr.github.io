@@ -2,7 +2,7 @@
 layout: default
 title: FAQ
 parent: Structurizr for Java
-nav_order: 9
+nav_order: 99
 permalink: /java/faq
 ---
 

@@ -19,11 +19,12 @@ Structurizr for Java consists of two artifacts, both of which are available on M
 ## Links
 
 - [GitHub](https://github.com/structurizr/java)
-- [Changelog](https://github.com/structurizr/java/blob/master/docs/changelog.md)
+- [Changelog](https://github.com/structurizr/java/blob/master/changelog.md)
 
 ## Related projects
 
 - [structurizr-dsl](/dsl): A text-based DSL wrapper around Structurizr for Java.
+- [structurizr-component](https://github.com/structurizr/java/tree/master/structurizr-component): Facilities to discover components in a Java codebase.
 - [structurizr-import](https://github.com/structurizr/java/tree/master/structurizr-import): Utilities to import diagrams and documentation into a Structurizr workspace.
 - [structurizr-export](/export): Export models and views to external formats (e.g. PlantUML, Mermaid, etc).
 - [structurizr-autolayout](https://github.com/structurizr/java/tree/master/structurizr-autolayout): Apply Graphviz automatic layout to views.

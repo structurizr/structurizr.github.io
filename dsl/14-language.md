@@ -174,6 +174,7 @@ Permitted children:
 - [!adrs](#adrs)
 - [group](#group)
 - [component](#component)
+- [!components](#components)
 - [description](#description)
 - [technology](#technology)
 - [tags](#tags)
@@ -1250,6 +1251,11 @@ The `!adrs` keyword can be used to attach Markdown/AsciiDoc ADRs to the parent c
 ```
 
 See [Architecture decision records](/dsl/adrs) for more details.
+
+## !components
+
+The `!components` keyword is a DSL wrapper around the [Structurizr for Java component finder](/java/component),
+providing the ability to automatically discover components in a Java codebase.
 
 ## !script
 
