@@ -1257,6 +1257,8 @@ See [Architecture decision records](/dsl/adrs) for more details.
 The `!components` keyword is a DSL wrapper around the [Structurizr for Java component finder](/java/component),
 providing the ability to automatically discover components in a Java codebase.
 
+See [Patreon](https://patreon.com/structurizr) for early access to the component finder documentation.
+
 ## !script
 
 The `!script` keyword can be used to run inline or external scripts in a number of JVM compatible languages.

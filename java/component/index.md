@@ -35,6 +35,8 @@ From an implementation perspective, Structurizr's component finder works using a
 [Apache Commons BCEL](https://commons.apache.org/proper/commons-bcel/) and [JavaParser](https://javaparser.org), using a pluggable and customisable set of matching and 
 filtering rules. It's available via a Java API and the Structurizr DSL [!components](/dsl/language#components) keyword.
 
+See [Patreon](https://patreon.com/structurizr) for early access to the component finder documentation.
+
 ## Links
 
 - [GitHub](https://github.com/structurizr/java/tree/master/structurizr-component)

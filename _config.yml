@@ -13,6 +13,8 @@ nav_external_links:
     url: https://join.slack.com/t/structurizr/shared_invite/enQtMzkyMjY1NzMwNTkzLTcyOGI1MTZmNDQwMDQ5YmZlMThiYmU1ZTM2ZWZiMzYwMjVhNmM0OWIwNjFlZTM1YmY3YzU0ZDY2MTA1YTk5Mjg
   - title: Discord
     url: https://discord.gg/Cb8V2kak
+  - title: Patreon
+    url: https://patreon.com/structurizr
 
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub."

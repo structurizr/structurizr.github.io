@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Sponsor ❤️
 nav_order: 20
 permalink: /sponsor
 ---
