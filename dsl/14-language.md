@@ -877,8 +877,8 @@ image <*|element identifier> [key] {
 
 Inside this block you can define the source of the image, using one of the following:
 
-- `plantuml <file|url>`
-- `mermaid <file|url>`
+- `plantuml <file|url|viewKey>` (`viewKey` is supported from v3.1.0)
+- `mermaid <file|url|viewKey>` (`viewKey` is supported from v3.1.0)
 - `kroki <format> <file|url>` (where `format` is the format identifier included in the URL path; e.g. `https://kroki.io/{format}/...`)
 - `image <file|url>`
 
