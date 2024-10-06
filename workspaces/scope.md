@@ -32,8 +32,6 @@ along with the relationships between them, visualised using one or more system l
 This is referred to as a "landscape scoped workspace". Organisations typically build one or more landscape scoped workspaces as "maps of their software systems".
 The workspace could be configured so that double-clicking software system A in the system landscape diagram takes you workspace 1, where the details of that software system can be found.
 
-See [Enterprise-wide modelling with Structurizr](https://github.com/structurizr/examples/tree/main/enterprise) for an example of how to achieve this.
-
 ## Unscoped workspaces
 
 It's also possible, particularly for smaller software systems,
