@@ -359,7 +359,7 @@ The interval is a number of seconds (default 60s), and the timeout is a number o
 
 ## element
 
-The `element` keyword defines a [custom element](https://structurizr.com/help/custom-elements) (this is only available on the Structurizr cloud service/on-premises installation/Lite).
+The `element` keyword defines a custom element that sits outside of the C4 model.
 
 ```
 element <name> [metadata] [description] [tags] {
@@ -370,6 +370,8 @@ element <name> [metadata] [description] [tags] {
 The following tags are added by default:
 
 - `Element`
+
+See [DSL cookbook - Custom elements](/dsl/cookbook/custom-elements) for an example.
 
 Permitted children:
 
@@ -846,13 +848,16 @@ Permitted children:
 
 ## custom view
 
-The `custom` keyword is used to define a [custom view](/ui/diagrams/custom-view) (this is only available on the Structurizr cloud service/on-premises installation/Lite).
+The `custom` keyword is used to define a [custom view](/ui/diagrams/custom-view).
+Only [custom elements](#element) are permitted to be included on a custom view.
 
 ```
 custom [key] [title] [description] {
     ...
 }
 ```
+
+See [DSL cookbook - Custom view](/dsl/cookbook/custom-view) for an example.
 
 Permitted children:
 

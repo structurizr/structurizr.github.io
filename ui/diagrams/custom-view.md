@@ -30,3 +30,8 @@ included on your diagram key/legend. Custom elements can also be used on custom 
 ![System context diagram with additional custom elements](images/custom-view-1.png)
 
 ![Diagram key/legend for system context diagram with additional custom elements](images/custom-view-2.png)
+
+## Links
+
+- [DSL cookbook - Custom elements](/dsl/cookbook/custom-elements)
+- [DSL cookbook - Custom view](/dsl/cookbook/custom-view)
