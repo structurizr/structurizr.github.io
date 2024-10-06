@@ -444,6 +444,14 @@ Permitted children:
 - [properties](#properties)
 - [perspectives](#perspectives)
 
+## tag
+
+`tag` is used to add a single tag to an element or relationship.
+
+```
+tag "Tag 1"
+```
+
 ## tags
 
 `tags` is used to add tags to an element or relationship. Tags can be specified comma separated, or individually.
@@ -557,7 +565,11 @@ in order to perform bulk operations on them.
 Permitted children:
 
 - [-> (relationship)](#relationship)
+- [tag](#tag)
 - [tags](#tags)
+- [url](#url) (from v3.1.0)
+- [properties](#properties) (from v3.1.0)
+- [perspectives](#perspectives) (from v3.1.0)
 
 ## !relationship
 
@@ -592,7 +604,11 @@ in order to perform bulk operations on them.
 
 Permitted children:
 
+- [tag](#tag)
 - [tags](#tags)
+- [url](#url) (from v3.1.0)
+- [properties](#properties) (from v3.1.0)
+- [perspectives](#perspectives) (from v3.1.0)
 
 ## views
 
