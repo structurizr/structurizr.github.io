@@ -1,9 +1,11 @@
 ---
 layout: default
 title: Plugins
-parent: Structurizr DSL
 nav_order: 13
+parent: Structurizr DSL
+has_children: true
 permalink: /dsl/plugins
+has_toc: false
 ---
 
 # Plugins
@@ -27,9 +29,15 @@ public class TestPlugin implements StructurizrDslPlugin {
 
 }
 ```
- 
-The compiled plugin packaged as a JAR file (plus any other JAR dependencies) should be placed in a directory named `plugins` next to your DSL file. You can then use your plugin from the DSL using the `!plugin` keyword.
- 
+
+## Installation
+
+The compiled plugin packaged as a JAR file (plus any other JAR dependencies) should be placed in a directory named `plugins` next to your DSL file.
+
+## Usage
+
+You can then use your plugin from the DSL using the `!plugin` keyword.
+
  ```
  workspace {
 
@@ -44,7 +52,7 @@ Parameters can be specified in the plugin body, for example.
  workspace {
 
     !plugin com.example.TestPlugin {
-		name value      
+        name value      
     }
 
 }

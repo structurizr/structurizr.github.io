@@ -19,22 +19,11 @@ or embedded within your workspace.
 
 ## PlantUML and Mermaid diagrams
 
-At this time, the Structurizr documentation renderer does not natively support diagramming formats such as PlantUML or Mermaid.
-In other words, it's not possible to embed PlantUML diagram source into Markdown/AsciiDoc content,
-and have it rendered automatically.
-You can, however, pre-process your Markdown/AsciiDoc content before uploading your workspace (or rendering it with Structurizr Lite),
-to convert any PlantUML diagram definitions to regular image tags.
+The Structurizr documentation renderer does not natively support diagramming formats such as PlantUML or Mermaid.
+In other words, it's not possible to embed PlantUML or Mermaid diagram source into Markdown/AsciiDoc content,
+and have it rendered automatically. Instead, you will need to pre-process your Markdown/AsciiDoc content to convert
+any inline PlantUML/Mermaid diagram definitions to regular Markdown/AsciiDoc image tags.
+If you're using the Structurizr DSL, the recommended approach is to use a [DSL plugin](/dsl/plugins).
 
-For example, consider the following PlantUML definition:
-
-```plantuml
-@startuml
-Bob -> Alice : hello
-@enduml
-```
-This could be converted to the following image:
-
-Markdown: `![](https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9vt98pKi1IW80)`
-AsciiDoc: `image::https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9vt98pKi1IW80[]`
-
-See [PlantUMLEncoderPlugin](https://github.com/structurizr/examples/tree/main/dsl/plantuml-and-mermaid/plugin/src/main/java/plantuml) for an example DSL plugin.
+- [PlantUML plugin](/dsl/plugins/plantuml)
+- [Mermaid plugin](/dsl/plugins/mermaid)
