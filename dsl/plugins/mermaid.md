@@ -13,7 +13,7 @@ permalink: /dsl/plugins/mermaid
 This Structurizr DSL plugin looks for inline Mermaid diagram definitions in Markdown/AsciiDoc documentation
 and decisions, and encodes them as images.
 
-> This plugin is coming soon, and will be available exclusively to Gold members of the [Structurizr Patreon](https://www.patreon.com/structurizr).
+> This plugin is available exclusively to Gold members of the [Structurizr Patreon](https://www.patreon.com/structurizr) - an early access version is now available.
 
 ## Markdown
 
