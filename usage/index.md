@@ -14,5 +14,5 @@ Structurizr tooling can be used. This section will look at usage from a few diff
 
 - [Workspace authoring](/usage/authoring)
 - [Workspace rendering](/usage/rendering)
-- Single team usage
-- Enterprise usage
+- [Team usage](/usage/team)
+- [Enterprise usage](/usage/enterprise)
