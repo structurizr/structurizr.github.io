@@ -41,7 +41,6 @@ you should see the diagram editor:
 
 At startup, Structurizr Lite created a file named `workspace.dsl` in your Structurizr data directory as a starting point.
 This is a Structurizr workspace, defined using the [Structurizr DSL](/dsl).
-It defines a model consisting of a user using a software system, and a single C4 model system context view.
 
 ## 4. Make some changes
 

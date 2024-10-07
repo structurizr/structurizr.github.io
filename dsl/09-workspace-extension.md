@@ -8,6 +8,10 @@ permalink: /dsl/workspace-extension
 
 # Workspace extension
 
-...
+The Structurizr DSL provides a way to extend an existing workspace, enabling you to reuse common elements/relationships
+across multiple workspaces.
 
-See [DSL Cookbook - Workspace extension](/dsl/cookbook/workspace-extension/) for more.
+## Links
+
+- [DSL Cookbook - Workspace extension](/dsl/cookbook/workspace-extension/)
+- [Usage - Enterprise](/usage/enterprise)
