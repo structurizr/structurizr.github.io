@@ -46,6 +46,6 @@ to be created via reverse-engineering techniques. For example:
 Some of these techniques are not necessarily straightforward and require some up front engineering effort,
 which is why there is a lack of off-the-shelf tooling to support such use cases.
 Some organisations *are* building tools to do this internally, although they don't tend to share them with the community.
-The exception here is the [component finder](/java/component/) built into the Structurizr for Java library.
+The exception here is the [component finder](/java/component) built into the Structurizr for Java library.
 Generally speaking, you will need to write some code that connects to APIs or parses files, and creates model
 elements/relationships programmatically.
