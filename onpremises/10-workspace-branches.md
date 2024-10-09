@@ -35,3 +35,4 @@ There are a couple of ways to create a branch:
 - Diagram thumbnails are not stored for branches.
 - Branches are not included in the search index.
 - There are no built-in facilities to merge, rebase, or diff branches. Instead, it's recommended that you create your workspace "as code" and use the facilities provided by your version control system. 
+- Pulling a branch via the workspace API that doesn't exist will return the latest version of the main branch. This provides an easy way to retain manual layout information when creating a new branch. 
