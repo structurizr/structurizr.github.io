@@ -16,6 +16,11 @@ The Structurizr DSL provides a way to define a software architecture model
 The Structurizr DSL has appeared on the
 [ThoughtWorks Tech Radar - Techniques - Diagrams as code](https://www.thoughtworks.com/radar/techniques/diagrams-as-code)
 and is text-based wrapper around [Structurizr for Java](/java).
+The following video, "C4 models as code", provides a good starting point for understanding the Structurizr DSL and related tooling.
+
+<div style="text-align: center">
+<iframe src="https://www.youtube-nocookie.com/embed/LYzOc7vI-Uo?si=Fiwayepq9xOKpgeK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 There are a number of options for authoring workspaces with the Structurizr DSL.
 
