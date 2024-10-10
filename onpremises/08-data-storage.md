@@ -15,9 +15,12 @@ where you can share a persistent file system between server nodes.
 
 Alternatively, [Amazon Web Services S3](#amazon-web-services-s3) (or an S3 compatible service)
 and [Azure Blob Storage](#azure-blob-storage) can be used for data storage.
-Please be aware that, given the additional latency involved, you may encounter performance issues when using these options.
+Please be aware that, given the additional latency involved, you may encounter performance issues when using these options,
+and you may wish to enable [caching](#caching).
 
-## Amazon Web Services S3
+## Workspace data
+
+### Amazon Web Services S3
 
 The basic steps to configure S3 are:
 
@@ -41,7 +44,7 @@ and the on-premises installation will use the "Default Credential Provider Chain
 
 You will need to enable bucket versioning if you'd like to use the [workspace versioning feature](/onpremises/workspace-versioning).
 
-## Azure Blob Storage
+### Azure Blob Storage
 
 This option is a work in progress.
 It doesn't support workspace branches or diagram reviews, and only supports authentication via an access key.
@@ -58,6 +61,35 @@ The basic steps to configure Azure Blob Storage are:
 | `azure-blob.containerName`  | Your Azure Blob Storage container name.                                                                                                        |
 
 You will need to enable versioning for blobs if you'd like to use the [workspace versioning feature](/onpremises/workspace-versioning).
+
+### Caching
+
+You may encounter performance issues if you have a high number of workspaces, particularly when using the AWS S3 or
+Azure Blob Storage data storage options. To counter this, you can enable caching of the workspace metadata.
+If you have a single on-premises installation server, a simple local in-memory cache is sufficient.
+Add the following to your `structurizr.properties` file to enable it:
+
+```
+structurizr.cache=local
+```
+
+And if you have multiple on-premises installation servers, you'll ideally need to use a distributed cache.
+At this time, only Redis is supported (change the Redis host/port/password as required):
+
+```
+structurizr.cache=redis
+structurizr.redis.host=localhost
+structurizr.redis.port=6379
+structurizr.redis.password=
+```
+
+The cache expiry can also be modified if required (the value is minutes, the default is `5`):
+
+```
+structurizr.cache.expiry=10
+```
+
+## Search indexes
 
 ### Elasticsearch
 
@@ -79,3 +111,4 @@ Modify your `structurizr.properties` file to configure Elasticsearch integration
 | `elasticsearch.port` | Your Elasticsearch port number (default: `9200`). |
 | `elasticsearch.username` | The username used to connect to your Elasticsearch instance, if applicable. |
 | `elasticsearch.password` | The password used to connect to your Elasticsearch instance, if applicable. |
+
