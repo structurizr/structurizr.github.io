@@ -1268,7 +1268,7 @@ See [Documentation](/dsl/docs) for more details.
 The `!adrs` keyword can be used to attach Markdown/AsciiDoc ADRs to the parent context (either the workspace, a software system, or a container).
 
 ```
-!adrs <path> [fully qualified class name]
+!adrs <path> [type|fqn]
 ```
 
 See [Architecture decision records](/dsl/adrs) for more details.
