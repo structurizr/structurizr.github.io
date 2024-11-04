@@ -46,8 +46,12 @@ You will need to enable bucket versioning if you'd like to use the [workspace ve
 
 ### Azure Blob Storage
 
-This option is a work in progress.
-It doesn't support workspace branches or diagram reviews, and only supports authentication via an access key.
+__Azure Blob Storage is a work in progress, and only available via [early access builds](/onpremises/early-access).__
+
+- Authentication: access key only
+- Workspaces: yes
+- Reviews: no
+
 The basic steps to configure Azure Blob Storage are:
 
 - Create a container under your Azure storage account.

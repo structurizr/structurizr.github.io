@@ -8,8 +8,7 @@ permalink: /onpremises/workspace-branches
 
 # Workspace branches
 
-__This page describes a feature that is currently only available if you build the on-premises installation from source__ - see
-[Building from source](https://github.com/structurizr/onpremises?tab=readme-ov-file#building-from-source) for instructions.
+__Workspace branching is a work in progress, and only available via [early access builds](/onpremises/early-access).__
 
 The workspace branches feature provides a way to store/publish a number of workspace versions under a single workspace.
 For example, you could publish documentation for the live version of your software system on the default (`main`) branch,
