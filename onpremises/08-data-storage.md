@@ -78,12 +78,13 @@ structurizr.cache=local
 ```
 
 And if you have multiple on-premises installation servers, you'll ideally need to use a distributed cache.
-At this time, only Redis is supported (change the Redis host/port/password as required):
+At this time, only Redis is supported (change the Redis host/port/database/password as required):
 
 ```
 structurizr.cache=redis
 structurizr.redis.host=localhost
 structurizr.redis.port=6379
+structurizr.redis.database=0
 structurizr.redis.password=
 ```
 

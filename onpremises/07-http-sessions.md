@@ -21,6 +21,6 @@ To use Redis for HTTP session storage, assuming that you have a Redis installati
 `structurizr.properties` file, and restart your on-premises installation.
 
 1. Add a property named `structurizr.session` with a value of `redis`.
-2. Add properties named `structurizr.redis.host`, `structurizr.redis.port`, and `structurizr.redis.password` with values that reflect your Redis installation.
+2. Add properties named `structurizr.redis.host`, `structurizr.redis.port`, `structurizr.redis.database`, and `structurizr.redis.password` with values that reflect your Redis installation.
 
 A side-effect of using Redis for session storage is that user sessions should survive restarts of the on-premises installation.
