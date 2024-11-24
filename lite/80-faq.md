@@ -2,7 +2,7 @@
 layout: default
 title: FAQ
 parent: Structurizr Lite
-nav_order: 5
+nav_order: 80
 permalink: /lite/faq
 ---
 

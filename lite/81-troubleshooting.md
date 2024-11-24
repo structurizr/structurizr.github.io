@@ -2,7 +2,7 @@
 layout: default
 title: Troubleshooting
 parent: Structurizr Lite
-nav_order: 6
+nav_order: 81
 permalink: /lite/troubleshooting
 ---
 
