@@ -10,8 +10,6 @@ permalink: /export/plantuml
 
 There are two PlantUML exporters in the `structurizr-export` library - [StructurizrPlantUMLExporter](#structurizrplantumlexporter) and [C4PlantUMLExporter](#c4plantumlexporter).
 
-If neither of these provide the features you are looking for, an alternative PlantUML exporter can be found at [https://github.com/cloudflightio/structurizr-export-c4plantuml](https://github.com/cloudflightio/structurizr-export-c4plantuml).
-
 ## StructurizrPlantUMLExporter
 
 The [StructurizrPlantUMLExporter](https://github.com/structurizr/java/blob/master/structurizr-export/src/main/java/com/structurizr/export/plantuml/StructurizrPlantUMLExporter.java) class generates PlantUML diagram definitions based upon how the Structurizr diagram renderer
