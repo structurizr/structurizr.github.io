@@ -569,9 +569,9 @@ Permitted children:
 - [-> (relationship)](#relationship)
 - [tag](#tag)
 - [tags](#tags)
-- [url](#url) (from v3.1.0)
-- [properties](#properties) (from v3.1.0)
-- [perspectives](#perspectives) (from v3.1.0)
+- [url](#url)
+- [properties](#properties)
+- [perspectives](#perspectives)
 
 ## !relationship
 
@@ -608,9 +608,9 @@ Permitted children:
 
 - [tag](#tag)
 - [tags](#tags)
-- [url](#url) (from v3.1.0)
-- [properties](#properties) (from v3.1.0)
-- [perspectives](#perspectives) (from v3.1.0)
+- [url](#url)
+- [properties](#properties)
+- [perspectives](#perspectives)
 
 ## views
 
@@ -882,8 +882,8 @@ image <*|element identifier> [key] {
 
 Inside this block you can define the source of the image, using one of the following:
 
-- `plantuml <file|url|viewKey>` (`viewKey` is supported from v3.1.0)
-- `mermaid <file|url|viewKey>` (`viewKey` is supported from v3.1.0)
+- `plantuml <file|url|viewKey>`
+- `mermaid <file|url|viewKey>`
 - `kroki <format> <file|url>` (where `format` is the format identifier included in the URL path; e.g. `https://kroki.io/{format}/...`)
 - `image <file|url>`
 

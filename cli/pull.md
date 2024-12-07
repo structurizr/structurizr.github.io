@@ -16,6 +16,8 @@ The ```pull``` command allows you to pull content from a Structurizr workspace (
 - -key: The workspace API key (required)
 - -secret: The workspace API secret (required)
 - -url: The Structurizr API URL (optional; defaults to ```https://api.structurizr.com```)
+- -branch: Branch name
+- -passphrase: The passphrase to use (optional; only required if client-side encryption enabled on the workspace)
 
 ## Example
 

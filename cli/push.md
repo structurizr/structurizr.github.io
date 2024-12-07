@@ -17,6 +17,7 @@ The ```push``` command allows you to push the specified DSL/JSON file to a Struc
 - -secret: The workspace API secret (required)
 - -workspace: The path or URL to the workspace JSON/DSL file (required)
 - -url: The Structurizr API URL (optional; defaults to ```https://api.structurizr.com```)
+- -branch: Branch name
 - -passphrase: The passphrase to use (optional; only required if client-side encryption enabled on the workspace)
 - -merge: Whether to merge layout information from the remote workspace (optional; defaults to `true`)
 - -archive: Whether to store the previous version of the remote workspace (optional; default to `true`)
