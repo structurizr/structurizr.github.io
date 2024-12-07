@@ -15,7 +15,7 @@ There are teams using this in conjunction with Auth0, Okta, Keycloak, PingFedera
 To configure SAML integration:
 
 - Add `structurizr.authentication=saml` to your `structurizr.properties` file.
-- Register the Structurizr on-premises application with your Identity Provider. When doing this, you will need a "Reply URL", which is of the form `{structurizr.url}/login/saml2/sso` (e.g. `http://localhost:8080/login/saml2/sso`).
+- Register the Structurizr on-premises application with your Identity Provider. When doing this, you will need a "Reply URL", which is of the form `{structurizr.url}/login/saml2/sso` (e.g. `http://localhost:8080/login/saml2/sso`). Some users have reported needing to include the `registrationId`, making a URL of the form `{structurizr.url}/login/saml2/sso/{registrationId}` instead (e.g. `http://localhost:8080/login/saml2/sso/structurizr`) - see [GitHub - Discussions](https://github.com/structurizr/onpremises/discussions?discussions_q=registrationId) for more. 
 - Add a `structurizr.saml.metadata` property to your `structurizr.properties` file, set to the URL where your IdP XML metadata can be found.
 - Map the IdP username to a SAML attribute named `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress`
 - Map the IdP roles/groups to a SAML attribute named `http://schemas.xmlsoap.org/claims/Group`
