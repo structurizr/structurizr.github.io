@@ -15,6 +15,7 @@ permalink: /community
 - [Cornifer](https://rvr06.github.io/cornifer) (VS Code extension; syntax highlighting and diagram previews)
 - [IntelliJ IDEA plugin](https://github.com/dirkgroot/structurizr-dsl-intellij-plugin)
 - [IntelliJ Structurizr DSL Plugin](https://github.com/ambalashov/structurizr-idea-plugin)
+- [tree-sitter-structurizr](https://github.com/josteink/tree-sitter-structurizr) (Structurizr DSL grammar for tree-sitter)
 
 ## Structurizr DSL plugins
 
