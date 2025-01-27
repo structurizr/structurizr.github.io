@@ -14,7 +14,7 @@ so you will need to additionally clone the [structurizr/ui](https://github.com/s
 To build from source:
 
 ```
-git clone https://github.com/structurizr/onpremises.git structurizr-onpremises
+git clone --recursive https://github.com/structurizr/onpremises.git structurizr-onpremises
 git clone https://github.com/structurizr/ui.git structurizr-ui
 cd structurizr-onpremises
 ./ui.sh
