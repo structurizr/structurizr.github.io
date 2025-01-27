@@ -14,7 +14,7 @@ so you will need to additionally clone the [structurizr/ui](https://github.com/s
 ## Build
 
 ```
-git clone https://github.com/structurizr/lite.git structurizr-lite
+git clone --recursive https://github.com/structurizr/lite.git structurizr-lite
 git clone https://github.com/structurizr/ui.git structurizr-ui
 cd structurizr-lite
 ./ui.sh
