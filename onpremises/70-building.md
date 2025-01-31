@@ -27,6 +27,9 @@ integration tests.
 
 If successful, you will see a file named `structurizr-onpremises.war` in `structurizr-onpremises/build/libs`.
 
+If you see an error message of the form `Could not find com.structurizr:structurizr-dsl:x.y.z`, you will need to
+[build the Structurizr for Java repo from source, and publish to your local Maven repository](/java/building).
+
 To then build a Docker image:
 
 ```
