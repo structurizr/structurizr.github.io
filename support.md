@@ -18,6 +18,9 @@ Free non-priority support is available via the following channels only:
   - __Lite__: [Issues](https://github.com/structurizr/lite/issues) and [discussions](https://github.com/structurizr/lite/discussions)
   - __CLI__: [Issues](https://github.com/structurizr/cli/issues) and [discussions](https://github.com/structurizr/cli/discussions)
 
+Community discussion is also available via the [Slack workspace](https://join.slack.com/t/structurizr/shared_invite/enQtMzkyMjY1NzMwNTkzLTcyOGI1MTZmNDQwMDQ5YmZlMThiYmU1ZTM2ZWZiMzYwMjVhNmM0OWIwNjFlZTM1YmY3YzU0ZDY2MTA1YTk5Mjg)
+and [the private Discord server for members of the Structurizr Patreon](https://patreon.com/structurizr).
+
 Please note:
 
 - Requests for free support via e-mail/LinkedIn/X/etc will be ignored.

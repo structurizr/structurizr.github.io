@@ -9,10 +9,6 @@ logo: "/assets/images/structurizr-banner.png"
 favicon_ico: "/assets/images/favicon.ico"
 
 nav_external_links:
-  - title: Slack
-    url: https://join.slack.com/t/structurizr/shared_invite/enQtMzkyMjY1NzMwNTkzLTcyOGI1MTZmNDQwMDQ5YmZlMThiYmU1ZTM2ZWZiMzYwMjVhNmM0OWIwNjFlZTM1YmY3YzU0ZDY2MTA1YTk5Mjg
-  - title: Discord
-    url: https://discord.gg/Cb8V2kak
   - title: Patreon
     url: https://patreon.com/structurizr
 

@@ -23,6 +23,6 @@ support ongoing development work and keep it open source. Higher tiers additiona
 
 - Early access to documentation for new Structurizr features (Silver and Gold).
 - Member-only posts covering Structurizr tips and tricks (Silver and Gold).
-- Access to the private #patreon Discord channel (Silver and Gold).
+- Access to the private Discord server (Silver and Gold).
 - Early access to new features via development/pre-release builds (Gold).
 - DSL plugins (Gold).
