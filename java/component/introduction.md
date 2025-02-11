@@ -12,7 +12,7 @@ has_toc: false
 # Introduction
 
 This page introduces the basic theory and concepts behind the Structurizr component finder in the context
-of the [Spring PetClinic](https://github.com/spring-projects/spring-petclinic) application - a sample codebase that illustrates how to build a Java web application using 
+of the [Spring PetClinic](https://github.com/spring-projects/spring-petclinic) application (v3.4.0) - a sample codebase that illustrates how to build a Java web application using 
 the Spring MVC framework. From a non-technical perspective, it's a software system designed for an imaginary pet clinic 
 that stores information about pets and their owners, visits made to the clinic, and the vets who work there. The system 
 is only designed to  be used by employees of the clinic. From a technical perspective, the Spring PetClinic system 
@@ -132,10 +132,11 @@ For the web controllers in the Spring PetClinic codebase, these are as follows:
 Imagine that all the Java classes, interfaces, and enums from the application
 have been loaded into a data store. What query could we use to find these types?
 
-In this particular example, you have a couple of options, both of which would work equally well:
+In this particular example, you have a few options, both of which would work equally well:
 
 1. Find all types that have been annotated with Spring's `@Controller` annotation.
 2. Find all types where the name matches the `.*Controller` regular expression.
+3. Find all types where the name ends `Controller`.
 
 Repeating the process for the data repositories, we have:
 
@@ -144,8 +145,9 @@ Repeating the process for the data repositories, we have:
 
 And to find these types, we could use one of the following queries:
 
-1. Find all subtypes of the `org.springframework.data.repository.Repository` interface.
+1. Find all subtypes of the `org.springframework.data.repository.Repository` and `org.springframework.data.jpa.repository.JpaRepository` interfaces.
 2. Find all types where the name matches the `.*Repository` regular expression.
+3. Find all types where the name ends `Repository`.
 
 ### Supporting types
 
@@ -173,7 +175,7 @@ ComponentFinder componentFinder = new ComponentFinderBuilder()
         )
         .withStrategy(
                 new ComponentFinderStrategyBuilder()
-                        .matchedBy(new ImplementsTypeMatcher("org.springframework.data.repository.Repository"))
+                        .matchedBy(new NameSuffixTypeMatcher("Repository"))
                         .withTechnology("Spring Data Repository")
                         .build()
         )
@@ -195,7 +197,7 @@ webApplication = container "Web Application" {
         }
         strategy {
             technology "Spring Data Repository"
-            matcher implements "org.springframework.data.repository.Repository"
+            matcher name-suffix "Repository"
         }
     }
 }
@@ -208,7 +210,7 @@ In summary this code:
 - Tells the component finder that we wish to use the compiled classes in the specified `.jar` file as the source of information.
 - Creates two strategies to find components:
   1. "Spring MVC Controllers" are identified by types annotated `@Controller`.
-  2. "Spring Data Repositories" are identified by types that implement the Spring Data `Repository` interface.
+  2. "Spring Data Repositories" are identified by types that have a name ending `Repository`.
 
 This results in the following diagram:
 
