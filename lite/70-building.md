@@ -20,6 +20,7 @@ cd structurizr-lite
 ./ui.sh
 ./gradlew clean build
 ```
+> To use early access/preview features, change the value of `PREVIEW_FEATURES` to `true` in the [Configuration](https://github.com/structurizr/lite/blob/main/src/main/java/com/structurizr/lite/Configuration.java) class.
 
 If successful, you will see a file named `structurizr-lite.war` in `structurizr-onpremises/build/libs`.
 

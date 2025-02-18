@@ -8,7 +8,7 @@ permalink: /onpremises/workspace-branches
 
 # Workspace branches
 
-__Workspace branching is a work in progress, and only available via [early access builds](/onpremises/early-access).__
+> Workspace branching is an early access/preview feature, and only available by [building from source](/onpremises/building) or using a preview build from the [Structurizr Patreon](https://patreon.com/structurizr).
 
 The workspace branches feature provides a way to store/publish a number of workspace versions under a single workspace.
 For example, you could publish documentation for the live version of your software system on the default (`main`) branch,

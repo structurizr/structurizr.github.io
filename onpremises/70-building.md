@@ -21,6 +21,8 @@ cd structurizr-onpremises
 ./gradlew clean build
 ```
 
+> To use early access/preview features, change the value of `PREVIEW_FEATURES` to `true` in the [Configuration](https://github.com/structurizr/onpremises/blob/main/structurizr-onpremises/src/main/java/com/structurizr/onpremises/configuration/Configuration.java) class.
+
 The integration tests use Testcontainers to start an Elasticsearch instance.
 If you don't have Docker installed, you can use `./gradlew clean build -x integrationTest` to exclude the
 integration tests.
