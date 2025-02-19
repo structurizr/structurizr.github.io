@@ -36,6 +36,4 @@ A better approach is as follows:
 There are several implementation strategies for achieving this, which will covered on the
 [Structurizr Patreon](https://patreon.com/structurizr) in the coming weeks.
 
-|---|---|
-| [![](images/enterprise-2.png)](images/enterprise-2.png) | [![](images/enterprise-3.png)](images/enterprise-3.png) |
-
+- [Enterprise usage - part 1](https://www.patreon.com/posts/enterprise-usage-122200417) (free, signup required)
