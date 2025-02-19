@@ -99,6 +99,14 @@ Groups can only be used to group elements of the same type (i.e. the same level 
 | Software System | Containers                  |
 | Container       | Components                  |
 
+The `group` keyword can also be used to set the group name of a component (available from v4.0.0):
+
+```
+component "Component Name" {
+    group "Group Name"
+}
+```
+
 See [Structurizr - Help - Notation](/ui/diagrams/notation) for a description of which groups are shown for a given diagram type.
 
 ## person
@@ -208,6 +216,7 @@ Permitted children:
 - [url](#url)
 - [properties](#properties)
 - [perspectives](#perspectives)
+- [group](#group) (available from v4.0.0)
 - [-> (relationship)](#relationship)
 
 ## deploymentEnvironment
@@ -943,6 +952,12 @@ The wildcard identifier (`*`) operates differently depending upon the type of di
 - Filtered view: (not applicable)
 - Dynamic view: (not applicable)
 - Deployment view: Include all deployment nodes, infrastructure nodes, and container instances defined within the deployment environment and (optional) software system in scope.
+
+The wildcard identifier can also be made reluctant (`*?`) for system context, container, and component diagrams: (available from v4.0.0)
+
+- System Context view: As above, but only adds relationships to/from the scoped software system.
+- Container view: As above, but only adds relationships to/from the containers in the scoped software system.
+- Component view: As above, but only adds relationships to/from the components in the scoped container.
 
 ### Including relationships
 
