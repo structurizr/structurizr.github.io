@@ -19,6 +19,8 @@ It provides a way to render diagrams only (i.e. no documentation or ADRS), with 
 - Diagram key (`i`)
 - Tooltips (`t`)
 - [Animation](/ui/diagrams/animation) (`,` and `.`)
+- Toggle element descriptions (`d`)
+- Toggle element metadata (`m`)
 - [Quick navigation](/ui/quick-navigation) (`Space`)
 - Bookmarkable diagrams
 
