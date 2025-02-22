@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Structurizr CLI
-nav_order: 17
+nav_order: 18
 has_children: true
 permalink: /cli
 has_toc: false

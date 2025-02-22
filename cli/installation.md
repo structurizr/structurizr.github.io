@@ -8,30 +8,12 @@ permalink: /cli/installation
 
 # Installation
 
-## Building from source
-
-To build this repo from the sources (you'll need `git` and Java 17+ installed):
-
-```
-git clone https://github.com/structurizr/cli.git structurizr-cli
-cd structurizr-cli
-./gradlew
-```
-
-If successful, The `build/distributions` directory will contain a `.zip` file, with which you can:
-
-1. Unzip into a directory of your choice.
-2. Add the directory to your operating system's path (optional).
-3. Use the `structurizr.sh` or `structurizr.bat` file as appropriate for your operating system.
-
-
 ## Local installation
 
 1. Download the Structurizr CLI from [https://github.com/structurizr/cli/releases](https://github.com/structurizr/cli/releases), and unzip. You will need Java (version 17+) installed, and available to use from your command line.
 2. Unzip into a directory of your choice.
 3. Add the directory to your operating system's path (optional).
 4. Use the `structurizr.sh` or `structurizr.bat` file as appropriate for your operating system.
-
 
 ## Docker
 
