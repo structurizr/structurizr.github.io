@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Products
-nav_order: 4
+nav_order: 3
 permalink: /products
 ---
 
@@ -10,12 +10,13 @@ permalink: /products
 The Structurizr tooling is available in a number of versions, covering different usage scenarios.
 Many [community tools](/community) are also available.
 
-| Product                                             | Description                                                                                                                                                                                          | License       |
-|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
-| [Structurizr Lite](/lite)                           | A single workspace version of Structurizr, providing a way to quickly view diagrams, documentation, and architecture decision records.                                                               | Open source   |
-| [Structurizr on-premises installation](/onpremises) | A multi-workspace version of Structurizr that can be run on your own infrastructure (local servers or cloud), providing a way to publish diagrams, documentation, and architecture decision records. | Open source   |
-| [Structurizr cloud service](/cloud)                 | The Structurizr cloud service, providing a way to publish diagrams, documentation, and architecture decision records.                                                                                | Free and paid |
-| [Structurizr CLI](/cli)                             | A command line utility designed to be used in conjunction with the Structurizr DSL, supporting pull/push via the web API and exports to a number of formats including PlantUML and Mermaid.          | Open source   |
+| Product                                              | Description                                                                                                                                                                                          | License       |
+|------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+| [Structurizr Lite](/lite)                            | A single workspace version of Structurizr, providing a way to quickly view diagrams, documentation, and architecture decision records.                                                               | Open source   |
+| [Structurizr on-premises installation](/onpremises)  | A multi-workspace version of Structurizr that can be run on your own infrastructure (local servers or cloud), providing a way to publish diagrams, documentation, and architecture decision records. | Open source   |
+| [Structurizr cloud service](/cloud)                  | The Structurizr cloud service, providing a way to publish diagrams, documentation, and architecture decision records.                                                                                | Free and paid |
+| [Structurizr CLI](/cli)                              | A command line utility designed to be used in conjunction with the Structurizr DSL, supporting pull/push via the web API and exports to a number of formats including PlantUML and Mermaid.          | Open source   |
+| [Structurizr static site](/static)                   | A static HTML site that can be included into your website or hosted from a simple web server, Amazon Web Services S3 bucket, etc.                                                                    | Open source   |
 
 The Structurizr tooling encourages the adoption of a "diagrams and documentation as code" approach,
 with everything being stored in source code control.
@@ -50,7 +51,7 @@ workspace via the web API provided by the cloud service and on-premises installa
 | __Client-side encryption__<br />Encrypt workspaces before uploading via the cloud API, and decrypt them in your browser using your own passphrase.                                        |                           | Yes                                     |                             | [Yes](/cloud/client-side-encryption)  |
 | __Workspace locking__<br />Workspace locking to avoid concurrent updates.                                                                                                                 |                           | Yes                                     |                             | [Yes](/cloud/workspace-locking)       |
 | __Workspace versioning__<br />Recent versions of your workspace are retained.                                                                                                             |                           | [Yes](/onpremises/workspace-versioning) |                             | [Yes](/cloud/workspace-versioning)    |
-| __Workspace branches__<br />Store parallel versions of your workspace.                                                                                                                    |                           | [Yes](/onpremises/workspace-branches)   |                             | [Yes](/cloud/workspace-branches)  |
+| __Workspace branches__<br />Store parallel versions of your workspace.                                                                                                                    |                           | [Yes](/onpremises/workspace-branches)   |                             | [Yes](/cloud/workspace-branches)      |
 | __Full-text search__<br />Search for diagrams and documentation across all workspaces.                                                                                                    | Yes                       | Yes                                     |                             | Yes                                   | 
 | __[Diagrams](/ui/diagrams)__<br />C4 model diagrams (core and supplementary).                                                                                                             | Yes                       | Yes                                     | Yes (max 10)                | Yes                                   |
 | __Diagram reviews__<br />A visual diagram review tool.                                                                                                                                    |                           | [Yes](/onpremises/diagram-review)       |                             | [Yes](/cloud/diagram-review)          |
@@ -66,4 +67,4 @@ workspace via the web API provided by the cloud service and on-premises installa
 | __Notion__<br />Embed live architecture diagrams into Notion pages via an iframe.                                                                                                         |                           |                                         |                             | [Yes](/cloud/notion)                  |
 | __Slack__<br />Perform a full-text search across a workspace using a slash command.                                                                                                       |                           |                                         |                             | [Yes](/cloud/slack)                   |              
 | __Authentication via LDAP or SAML 2.0__<br />Integrate Structurizr with your identity provider.                                                                                           |                           | [Yes](/onpremises/authentication)       |                             |                                       |
-| __Priority support__<br />Priority support (Monday to Friday; 9-5 UK time).                                                                        | With paid support package | With paid support package               |                             | Yes                                   |
+| __Priority support__<br />Priority support (Monday to Friday; 9-5 UK time).                                                                                                               | With paid support package | With paid support package               |                             | Yes                                   |
