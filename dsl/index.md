@@ -22,6 +22,22 @@ The following video, "C4 models as code", provides a good starting point for und
 <iframe src="https://www.youtube-nocookie.com/embed/LYzOc7vI-Uo?si=Fiwayepq9xOKpgeK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+## Structurizr DSL vs PlantUML, Mermaid, Graphviz/DOT
+
+The two key differences between the Structurizr DSL and other "diagrams as code" formats are:
+
+1. The Structurizr DSL is model-based, making it possible to generate multiple diagrams, at different levels of abstraction, from a single DSL file.
+2. The Structurizr DSL sits on top of the Java Virtual Machine, making it possible to execute Java/Groovy/Kotlin/JRuby code during the workspace generation process. This is particularly useful if you would like to [reverse-engineer](/usage/authoring#manual-authoring-vs-reverse-engineering) parts of your software architecture mdoel.
+
+|                                                    | Structurizr DSL         | PlantUML | Mermaid | Graphviz |
+|----------------------------------------------------|-------------------------|----------|---------|----------|
+| Can generate multiple diagrams from a single file? | [Yes](/dsl/tutorial)    | No       | No      | No       |
+| Can include/execute Java code?                     | [Yes](/dsl/plugins)     | No       | No      | No       |
+| Can include/execute Groovy/Kotlin/JRuby scripts?   | [Yes](/dsl/scripts)     | No       | No      | No       |
+| Diagrams can be rendered with multiple tools?      | [Yes](/usage/rendering) | No       | No      | No       |
+
+## Authoring
+
 There are a number of options for authoring workspaces with the Structurizr DSL.
 
 | Tool                      | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Recommended |
