@@ -9,8 +9,6 @@ has_toc: false
 
 # Structurizr static site
 
-> The Structurizr static site is an early access/preview feature, and only available by [building from source](/cli/building) or using a preview build from the [Structurizr Patreon](https://patreon.com/structurizr).
-
 The Structurizr CLI can export a static site from a JSON or DSL workspace, that can be included into your website or hosted from a simple web server, Amazon Web Services S3 bucket, etc.
 It provides a way to render diagrams only (i.e. no documentation or ADRS), with a subset of the features found in Structurizr Lite/on-premises/cloud:
 
