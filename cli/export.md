@@ -36,6 +36,7 @@ The CLI will require Internet access if you are making use of any themes.
   - d2: export views to D2 format using the [D2Exporter](https://github.com/goto1134/structurizr-d2-exporter)
   - json: exports the workspace to the Structurizr JSON format
   - theme: creates a JSON theme based upon the styles and tags defined in the workspace
+  - static: creates a static HTML site - see [Structurizr static site](/static) for details
   - fully qualified class name: provides a way to use a custom exporter; this needs to implement [WorkspaceExporter](https://github.com/structurizr/java/blob/master/structurizr-export/src/main/java/com/structurizr/export/WorkspaceExporter.java) or [DiagramExporter](https://github.com/structurizr/java/blob/master/structurizr-export/src/main/java/com/structurizr/export/DiagramExporter.java), with the compiled class(es) being available on the CLI classpath or packaged as a JAR file in a directory named `plugins` next to your workspace file
 - -output: Relative or absolute path to an output directory (optional)
 
