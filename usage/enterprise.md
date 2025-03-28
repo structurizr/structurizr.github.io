@@ -33,7 +33,5 @@ A better approach is as follows:
 3. Ask each team to publish their workspace to a single on-premises installation.
 4. Automatically generate a landscape workspace by aggregating all the software systems, people, and relationships from all published workspaces.
 
-There are several implementation strategies for achieving this, which will covered on the
-[Structurizr Patreon](https://patreon.com/structurizr) in the coming weeks.
-
-- [Enterprise usage - part 1](https://www.patreon.com/posts/enterprise-usage-122200417) (free, signup required)
+There are several implementation strategies for achieving this; see the
+[Structurizr Patreon - Enterprise collection](https://www.patreon.com/collection/1351911) for more details.
