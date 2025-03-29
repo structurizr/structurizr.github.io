@@ -2,7 +2,7 @@
 layout: default
 title: Language reference
 parent: Structurizr DSL
-nav_order: 14
+nav_order: 71
 permalink: /dsl/language
 ---
 

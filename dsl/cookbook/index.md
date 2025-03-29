@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cookbook
-nav_order: 21
+nav_order: 91
 parent: Structurizr DSL
 has_children: true
 permalink: /dsl/cookbook/

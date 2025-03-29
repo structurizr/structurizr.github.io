@@ -2,7 +2,7 @@
 layout: default
 title: Includes
 parent: Structurizr DSL
-nav_order: 8
+nav_order: 31
 permalink: /dsl/includes
 ---
 

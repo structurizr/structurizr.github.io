@@ -2,7 +2,7 @@
 layout: default
 title: Architecture Decision Records (ADRs)
 parent: Structurizr DSL
-nav_order: 11
+nav_order: 52
 permalink: /dsl/adrs
 ---
 

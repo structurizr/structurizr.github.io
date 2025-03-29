@@ -2,7 +2,7 @@
 layout: default
 title: Markdown/Asciidoc documentation
 parent: Structurizr DSL
-nav_order: 10
+nav_order: 51
 permalink: /dsl/docs
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Plugins
-nav_order: 13
+nav_order: 62
 parent: Structurizr DSL
 has_children: true
 permalink: /dsl/plugins
