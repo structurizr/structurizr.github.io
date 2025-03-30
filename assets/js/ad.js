@@ -46,7 +46,6 @@ function showAd(id, baseUrl) {
         const img = document.createElement('img');
         img.src = baseUrl + '/assets/ads/' + ad.img;
         img.style.width = '728px';
-        img.style.height = '90px';
         img.style.borderRadius = '5px';
         img.style.border = 'solid 1px black';
 
