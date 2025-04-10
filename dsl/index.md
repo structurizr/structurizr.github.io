@@ -27,7 +27,7 @@ The following video, "C4 models as code", provides a good starting point for und
 The two key differences between the Structurizr DSL and other "diagrams as code" formats are:
 
 1. The Structurizr DSL is model-based, making it possible to generate multiple diagrams, at different levels of abstraction, from a single DSL file.
-2. The Structurizr DSL sits on top of the Java Virtual Machine, making it possible to execute Java/Groovy/Kotlin/JRuby code during the workspace generation process. This is particularly useful if you would like to [reverse-engineer](/usage/authoring#manual-authoring-vs-reverse-engineering) parts of your software architecture mdoel.
+2. The Structurizr DSL sits on top of the Java Virtual Machine, making it possible to execute Java/Groovy/Kotlin/JRuby code during the workspace generation process. This is particularly useful if you would like to [reverse-engineer](/usage/authoring#manual-authoring-vs-reverse-engineering) parts of your software architecture model.
 
 |                                                    | Structurizr DSL         | PlantUML | Mermaid | Graphviz |
 |----------------------------------------------------|-------------------------|----------|---------|----------|
