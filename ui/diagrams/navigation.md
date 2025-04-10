@@ -25,14 +25,33 @@ a modal from which you can choose where to go next.
 
 ### Zoom-in
 
-- Elements with a zoom-in are marked with a ![](../bootstrap-icons/zoom-in.svg) symbol.
-  - Software System: Double-clicking a software system will either take you to the System Context or Container diagram for that software system, if one exists.
-  - Container: Double-clicking a container will take you to the first Component diagram for that container, if one exists.
-- Elements with documentation are marked with a ![](../bootstrap-icons/book.svg) symbol.
-- Elements with decisions are marked with a ![](../bootstrap-icons/journal-text.svg) symbol.
-- Elements with an associated URL are marked with a ![](../bootstrap-icons/link.svg) symbol. Double-clicking with the `Alt` key pressed will open the URL. URLs must be valid HTTP/HTTPS URLs (e.g. https://structurizr.com), or they can refer to diagrams, documentation, and decisions in the same workspace with a syntax of `{workspace}/diagrams`, `{workspace}/documentation`, and `{workspace}/decisions` respectively. For example, a URL of `{workspace}/diagrams#key` will be rewritten to something like `/workspace/123/diagrams#key`, based upon whether the workspace is hosted by Structurizr Lite, the cloud service, or an on-premises installation, plus whether the workspace is public, private, or accessible via a sharing link. A specific workspace ID can also be provided to link to a different workspace, for example: `{workspace:456}/diagrams`.
+Elements with a zoom-in are marked with a ![](../bootstrap-icons/zoom-in.svg) symbol.
+
+- Software System: Double-clicking a software system will either take you to the System Context or Container diagram for that software system, if one exists.
+- Container: Double-clicking a container will take you to the first Component diagram for that container, if one exists.
+
+### Documentation
+
+Elements with documentation are marked with a ![](../bootstrap-icons/book.svg) symbol.
+
+### Decisions
+
+Elements with decisions are marked with a ![](../bootstrap-icons/journal-text.svg) symbol.
+
+### URLs
+
+Elements with an associated URL are marked with a ![](../bootstrap-icons/link.svg) symbol.
+Double-clicking with the `Alt` key pressed will open the URL.
+URLs must be valid HTTP/HTTPS URLs (e.g. https://structurizr.com), or they can refer to diagrams, documentation, and
+decisions in the same workspace with a syntax of `{workspace}/diagrams`, `{workspace}/documentation`, and
+`{workspace}/decisions` respectively.
+
+For example, a URL of `{workspace}/diagrams#key` will be rewritten to something like `/workspace/123/diagrams#key`,
+based upon whether the workspace is hosted by Structurizr Lite, the cloud service, or an on-premises installation, plus
+whether the workspace is public, private, or accessible via a sharing link. A specific workspace ID can also be
+provided to link to a different workspace, for example: `{workspace:456}/diagrams`.
 
 ## Double-clicking relationships
 
-You can double-click relationships (hold the `Alt` key while in the diagram editor) to open the resource that is configured by the relationship's `url` property.
-This is indicated by a ![](../bootstrap-icons/link.svg) symbol.
+You can double-click relationships (hold the `Alt` key while in the diagram editor) to open the resource that is
+configured by the relationship's `url` property. This is indicated by a ![](../bootstrap-icons/link.svg) symbol.
