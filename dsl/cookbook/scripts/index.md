@@ -26,6 +26,14 @@ Here are some example scripts.
 }
 ```
 
+### Remove orphaned elements from all views
+
+```
+!script groovy {
+    workspace.views.views.findAll { it instanceof com.structurizr.view.ModelView }.each { it.removeElementsWithNoRelationships() }
+}
+```
+
 ### Programmatically add elements to a view
 
 ```
