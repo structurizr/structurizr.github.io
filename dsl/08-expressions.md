@@ -30,9 +30,9 @@ and [!relationships](/dsl/language#relationships) keywords to perform bulk opera
 - `element.technology==<technology>`: all elements with the specified technology
 - `element.technology!=<technology>`: all elements without the specified technology
 - `element.properties[name]==value`: all elements that have the specified property with the specified value
-- `element==-><identifier>`: the specified element plus afferent couplings
-- `element==<identifier>->`: the specified element plus efferent couplings
-- `element==-><identifier>->`: the specified element plus afferent and efferent couplings
+- `element==-><identifier>`: the specified element (or group) plus afferent couplings
+- `element==<identifier>->`: the specified element (or group) plus efferent couplings
+- `element==-><identifier>->`: the specified element (or group) plus afferent and efferent couplings
 
 ## Relationship expressions
 
