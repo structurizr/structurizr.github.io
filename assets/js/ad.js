@@ -12,7 +12,7 @@ const ads = [
     {
         img: 'trifork-nl.png',
         href: 'https://trifork.nl/academy/our-courses/software-architecture-for-developers/',
-        expiry: new Date('2025-05-20')
+        expiry: new Date('2025-11-11')
     },
     {
         img: 'ddd-europe.png',
