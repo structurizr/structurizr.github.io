@@ -36,14 +36,14 @@ workspace "Name" "Description"
             element "Person" {
                 shape person
             }
+            element "Database" {
+                shape cylinder
+            }
             element "Boundary" {
                 strokeWidth 5
             }
             relationship "Relationship" {
                 thickness 4
-            }
-            element "Database" {
-                shape cylinder
             }
         }
     }
