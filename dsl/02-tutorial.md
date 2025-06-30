@@ -260,14 +260,19 @@ Styling elements can be achieved by creating an [element style](/dsl/cookbook/el
         
         styles {
             element "Element" {
-                color white
+                color #0773af
+                stroke #0773af
+                strokeWidth 7
+                shape roundedbox
             }
             element "Person" {
-                background #116611
                 shape person
             }
-            element "Software System" {
-                background #2D882D
+            element "Boundary" {
+                strokeWidth 5
+            }
+            relationship "Relationship" {
+                thickness 4
             }
         }
     }
@@ -275,10 +280,10 @@ Styling elements can be achieved by creating an [element style](/dsl/cookbook/el
 
 This code:
 
-- sets the foreground colour of all elements to white
-- sets the background colour of all software systems to green
-- sets the background colour of all people to a darker green
+- sets the foreground colour and stroke of all elements to #0773af (blue)
 - sets the shape of all people to a person shape
+- increases the line thickness for boundary boxes (e.g. the dashed line that shows the software system boundary on a container diagram)
+- increases the line thickness for relationships
 
 [![](/dsl/tutorial/5-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/tutorial/5.dsl&view=Diagram1)
 
@@ -299,16 +304,11 @@ And then we can define an element style for that `Database` tag.
 ```
         styles {
             ...
-            element "Container" {
-                background #55aa55
-            }
             element "Database" {
                 shape cylinder
             }
         }
 ```
-
-We have additionally added an element style for the `Container` tag, to set the colour of all containers to a lighter green.
 
 [![](/dsl/tutorial/5-2.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/tutorial/5.dsl&view=Diagram2)
 

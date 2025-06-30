@@ -28,17 +28,19 @@ workspace "Name" "Description"
 
         styles {
             element "Element" {
-                color white
+                color #0773af
+                stroke #0773af
+                strokeWidth 7
+                shape roundedbox
             }
             element "Person" {
-                background #116611
                 shape person
             }
-            element "Software System" {
-                background #2D882D
+            element "Boundary" {
+                strokeWidth 5
             }
-            element "Container" {
-                background #55aa55
+            relationship "Relationship" {
+                thickness 4
             }
             element "Database" {
                 shape cylinder
