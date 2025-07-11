@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Authoring
-parent: Usage
+parent: Usage and Workflow
 nav_order: 2
 permalink: /usage/authoring
 ---

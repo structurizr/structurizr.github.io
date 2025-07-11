@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Enterprise
-parent: Usage
+parent: Usage and Workflow
 nav_order: 4
 permalink: /usage/enterprise
 ---

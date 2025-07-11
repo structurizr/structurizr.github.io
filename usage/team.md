@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Team
-parent: Usage
+parent: Usage and Workflow
 nav_order: 3
 permalink: /usage/team
 ---
