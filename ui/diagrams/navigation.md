@@ -18,8 +18,14 @@ A collection of diagrams can be navigated in a number of ways:
 
 ## Double-clicking elements
 
-You can double-click diagram elements to either "zoom-in" and navigate to the next level of detail,
-open associated documentation/decisions, or open the resource that is configured by the element's `url` property.
+You can double-click diagram elements to "zoom-in" and navigate to:
+
+- Open the diagram at the next level of detail (e.g. system context diagram to container diagram).
+- Open documentation associated with the element.
+- Open decisions associated with the element.
+- Open the URL that is configured by the element's `url` property.
+- Open any URLs that are configured by the element's `properties` (name=label; value=url).  
+
 When an element has a mix of "zoom-ins", documentation, decsions, and URLs, double-clicking the element will open
 a modal from which you can choose where to go next.
 
