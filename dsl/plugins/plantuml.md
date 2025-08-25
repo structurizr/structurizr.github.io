@@ -62,13 +62,11 @@ Which renders as:
 
 ## Usage
 
-After [installation](/dsl/plugins#installation), the plugin can be referenced from your DSL file as follows:
+After [installation](/dsl/plugins#installation), the plugin can be referenced from your DSL file as follows (after all `!docs`, `!adrs`, and `views`):
 
 ```
 !plugin com.structurizr.dsl.plugin.documentation.PlantUML
 ```
-
-This should appear after any `!docs` and/or `!adrs` statements that import documentation into your workspace.
 
 You will need to provide a PlantUML URL, and optionally a format (`png` or `svg`),
 when using this plugin. These can be specified as view set properties:
