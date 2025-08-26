@@ -76,10 +76,6 @@ Permitted children:
 - [element](#element)
 - [-> (relationship)](#relationship)
 
-## enterprise
-
-__This concept has been removed in v2.0 - please use [group](#group) instead.__
-
 ## group
 
 The `group` keyword provides a way to define a named grouping of elements, which will be rendered as a boundary around those elements.
@@ -99,7 +95,7 @@ Groups can only be used to group elements of the same type (i.e. the same level 
 | Software System | Containers                  |
 | Container       | Components                  |
 
-The `group` keyword can also be used to set the group name of a component (available from v4.0.0):
+The `group` keyword can also be used to set the group name of a component:
 
 ```
 component "Component Name" {
@@ -216,7 +212,7 @@ Permitted children:
 - [url](#url)
 - [properties](#properties)
 - [perspectives](#perspectives)
-- [group](#group) (available from v4.0.0)
+- [group](#group)
 - [-> (relationship)](#relationship)
 
 ## deploymentEnvironment
@@ -953,7 +949,7 @@ The wildcard identifier (`*`) operates differently depending upon the type of di
 - Dynamic view: (not applicable)
 - Deployment view: Include all deployment nodes, infrastructure nodes, and container instances defined within the deployment environment and (optional) software system in scope.
 
-The wildcard identifier can also be made reluctant (`*?`) for system context, container, and component diagrams: (available from v4.0.0)
+The wildcard identifier can also be made reluctant (`*?`) for system context, container, and component diagrams:
 
 - System Context view: As above, but only adds relationships to/from the scoped software system.
 - Container view: As above, but only adds relationships to/from the containers in the scoped software system.

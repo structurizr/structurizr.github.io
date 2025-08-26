@@ -8,7 +8,7 @@ permalink: /dsl/archetypes
 
 # Archetypes
 
-The archetypes feature (from v4.0.0) provides a way to create user defined types that extend the basic element/relationship types
+The archetypes feature provides a way to create user defined types that extend the basic element/relationship types
 and optionally add some defaults for descriptions, technology, tags, properties, and perspectives.
 The key benefits are as follows:
 
