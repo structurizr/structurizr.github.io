@@ -56,6 +56,11 @@ Permitted children:
 - [views](#views)
 - [configuration](#configuration)
 
+The following workspace `properties` have special meaning:
+
+- `structurizr.dsl`: Automatically created by the DSL parser, this is a base64 encoded representation of the DSL source used to create the workspace.
+- `structurizr.dsl.source`: Set to `true` (default) to retain the DSL source, or `false` to discard it.
+
 ## model
 
 Each workspace must contain a `model` block, inside which elements and relationships are defined.
