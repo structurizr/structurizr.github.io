@@ -74,12 +74,26 @@ model {
 Permitted children:
 
 - [!identifiers](#identifiers)
+- [archetypes](#archetypes)
 - [group](#group)
 - [person](#person)
 - [softwareSystem](#softwaresystem)
 - [deploymentEnvironment](#deploymentenvironment)
 - [element](#element)
 - [-> (relationship)](#relationship)
+
+## archetypes
+
+The `archetypes` keyword provides a way to create user defined types that extend the basic element/relationship types
+and optionally add some defaults for descriptions, technology, tags, properties, and perspectives.
+See the following for more details:
+
+- [Structurizr DSL - Archetypes](/dsl/archetypes)
+- [Archetypes with the Structurizr DSL - part 1](https://www.patreon.com/posts/119553210)
+- [Archetypes with the Structurizr DSL - part 2](https://www.patreon.com/posts/119629218)
+- [Archetypes with the Structurizr DSL - part 3](https://www.patreon.com/posts/122686698)
+- [Archetypes with the Structurizr DSL - part 4](https://www.patreon.com/posts/126215538)
+- [Archetypes with the Structurizr DSL - part 5](https://www.patreon.com/posts/130245268)
 
 ## group
 

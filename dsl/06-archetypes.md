@@ -125,3 +125,11 @@ workspace {
 
 }
 ```
+
+## Links
+
+- [Archetypes with the Structurizr DSL - part 1](https://www.patreon.com/posts/119553210)
+- [Archetypes with the Structurizr DSL - part 2](https://www.patreon.com/posts/119629218)
+- [Archetypes with the Structurizr DSL - part 3](https://www.patreon.com/posts/122686698)
+- [Archetypes with the Structurizr DSL - part 4](https://www.patreon.com/posts/126215538)
+- [Archetypes with the Structurizr DSL - part 5](https://www.patreon.com/posts/130245268)
