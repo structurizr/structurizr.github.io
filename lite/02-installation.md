@@ -48,7 +48,7 @@ To use the Spring Boot version, you'll need:
 Download the `structurizr-lite.war` file from [https://github.com/structurizr/lite/releases](https://github.com/structurizr/lite/releases), and start with the following command, replacing `PATH` with the path to your Structurizr data directory:
 
 ```
-java -Djdk.util.jar.enableMultiRelease=false -jar structurizr-lite.war PATH
+java -jar structurizr-lite.war PATH
 ```
 
 
@@ -56,4 +56,12 @@ For example, if your Structurizr data directory is located at `/Users/simon/stru
 
 ```
 java -jar structurizr-lite.war /Users/simon/structurizr
+```
+
+### Changing the port number
+
+To change the port number, add a JVM system property named `server.port`. For example:
+
+```
+java -Dserver.port=9090 structurizr-lite.war /Users/simon/structurizr
 ```
