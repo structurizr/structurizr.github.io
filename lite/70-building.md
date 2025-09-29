@@ -8,24 +8,23 @@ permalink: /lite/building
 
 # Building from source
 
-Part of the UI is shared between the on-premises installation, cloud service, and Structurizr Lite
-so you will need to additionally clone the [structurizr/ui](https://github.com/structurizr/ui) repo.
-
 ## Build
 
 ```
+git clone https://github.com/structurizr/java.git structurizr-java
 git clone --recursive https://github.com/structurizr/lite.git structurizr-lite
 git clone https://github.com/structurizr/ui.git structurizr-ui
+cd structurizr-java
+./gradlew -Pversion=dev clean build publishToMavenLocal
+cd ..
 cd structurizr-lite
 ./ui.sh
-./gradlew clean build
+./gradlew -PstructurizrVersion=dev clean build
 ```
-> To use early access/preview features, change the value of `PREVIEW_FEATURES` to `true` in the [Configuration](https://github.com/structurizr/lite/blob/main/src/main/java/com/structurizr/lite/Configuration.java) class.
 
-If successful, you will see a file named `structurizr-lite.war` in `structurizr-onpremises/build/libs`.
+[//]: # (> To use early access/preview features, change the value of `PREVIEW_FEATURES` to `true` in the [Configuration]&#40;https://github.com/structurizr/lite/blob/main/src/main/java/com/structurizr/lite/Configuration.java&#41; class.)
 
-If you see an error message of the form `Could not find com.structurizr:structurizr-dsl:x.y.z`, you will need to
-[build the Structurizr for Java repo from source, and publish to your local Maven repository](/java/building).
+If successful, you will see a file named `structurizr-lite.war` in `structurizr-lite/build/libs`.
 
 ## Run
 
