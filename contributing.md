@@ -1,13 +1,10 @@
 ---
 layout: default
-title: Contribute
+title: Contributing
 nav_order: 20
-permalink: /contribute
+permalink: /contributing
 ---
 
-# Contribute
+# Contributing
 
-## Can I submit a pull request?
-
-It depends on the nature of the change - please open an issue first to discuss it.
-Unsolicited pull requests will likely be ignored/closed.
+Pull requests are not being accepted at this time - please open an issue or discussion instead. Thanks!
