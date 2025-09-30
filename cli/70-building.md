@@ -15,32 +15,32 @@ so you will need to additionally clone the [structurizr/ui](https://github.com/s
 ## Build
 
 ```
+git clone https://github.com/structurizr/java.git structurizr-java
 git clone https://github.com/structurizr/cli.git structurizr-cli
 git clone https://github.com/structurizr/ui.git structurizr-ui
+cd structurizr-java
+./gradlew -Pversion=dev clean build publishToMavenLocal
+cd ..
 cd structurizr-cli
 ./ui.sh
-./gradlew clean build getDeps buildZip
+./gradlew -PstructurizrVersion=dev clean build getDeps buildZip
 ```
 
-> To use early access/preview features, change the value of `PREVIEW_FEATURES` to `true` in the [Configuration](https://github.com/structurizr/cli/blob/master/src/main/java/com/structurizr/cli/Configuration.java) class.
-
-If you see an error message of the form `Could not find com.structurizr:structurizr-dsl:x.y.z`, you will need to
-[build the Structurizr for Java repo from source, and publish to your local Maven repository](/java/building).
+[//]: # (> To use early access/preview features, change the value of `PREVIEW_FEATURES` to `true` in the [Configuration]&#40;https://github.com/structurizr/cli/blob/master/src/main/java/com/structurizr/cli/Configuration.java&#41; class.)
 
 ## Run
 
-If successful, The `build/distributions` directory will contain a `structurizr-cli.zip` file.
-To run the Structurizr CLI, you can then:
-
-1. Unzip into a directory of your choice.
-2. Add the directory to your operating system's path (optional).
-3. Use the `structurizr.sh` or `structurizr.bat` file as appropriate for your operating system.
-
-Alternatively you can run the CLI directly from the build directory, with a command like the following:
+If successful, you can then use a command like the following to run the Structurizr CLI:
 
 ```
 java -cp "build/libs/*:build/dependencies/*" com.structurizr.cli.StructurizrCliApplication 
 ```
+
+Alternatively:
+
+1. Unzip `build/distributions/structurizr-cli.zip` into a directory of your choice.
+2. Add the directory to your operating system's path (optional).
+3. Use the `structurizr.sh` or `structurizr.bat` file as appropriate for your operating system.
 
 ## Docker 
 
