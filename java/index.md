@@ -28,4 +28,3 @@ Structurizr for Java consists of two artifacts, both of which are available on M
 - [structurizr-import](https://github.com/structurizr/java/tree/master/structurizr-import): Utilities to import diagrams and documentation into a Structurizr workspace.
 - [structurizr-export](/export): Export models and views to external formats (e.g. PlantUML, Mermaid, etc).
 - [structurizr-autolayout](https://github.com/structurizr/java/tree/master/structurizr-autolayout): Apply Graphviz automatic layout to views.
-- [structurizr-examples](https://github.com/structurizr/examples/tree/main/java): Examples of how to use the Structurizr for Java library.

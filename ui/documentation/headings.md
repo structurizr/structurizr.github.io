@@ -17,7 +17,3 @@ Structurizr will automatically generate section numbers for you as follows:
 | `## Name`   | `== Name`   | Rendered as `1 Name`                                                                                                                                                                                              | Yes                    |
 | `### Name`  | `=== Name`  | Rendered as `1.1 Name`                                                                                                                                                                                            | Yes                    |
 | `#### Name` | `==== Name` | Rendered as `1.1.1 Name`                                                                                                                                                                                          | No                     |
-
-See [this example Markdown file](https://github.com/structurizr/examples/blob/main/dsl/financial-risk-system/docs/quality-attributes.md)
-and how it is [rendered in Structurizr](https://structurizr.com/share/31/documentation/Financial%20Risk%20System#3).
-

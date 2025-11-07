@@ -9,9 +9,6 @@ permalink: /java/getting-started
 # Getting started
 
 Here is a quick overview of how to get started with Structurizr for Java so that you can create a workspace using Java code.
-You can find a full code example at [GettingStarted.java](https://github.com/structurizr/examples/blob/main/java/src/main/java/com/structurizr/example/GettingStarted.java)
-and the published workspace at [https://structurizr.com/share/25441](https://structurizr.com/share/25441).
-See [structurizr-examples](https://github.com/structurizr/examples/tree/main/java/src/main/java/com/structurizr/example) for more examples.
 
 ## 1. Dependencies
 
