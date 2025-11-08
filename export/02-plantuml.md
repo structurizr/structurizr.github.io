@@ -37,6 +37,60 @@ The following properties can be set on element styles, which can be used to furt
 
 - `plantuml.shadow`: whether a shadow should be added to the element (default `false`).
 
+### Element styling
+
+The following element style properties are supported:
+
+- shape:
+  - Person, Robot -> person
+  - Component -> component
+  - Cylinder -> database
+  - Folder -> folder
+  - Ellipse, Circle -> storage
+  - Hexagon -> hexagon
+  - Pipe -> queue
+  - Box -> rectangle
+  - RoundedBox -> rectangle (with rounded corners)
+  - (not listed) -> rectangle
+- background
+- color
+- stroke
+- stroke width
+- font size
+- border (solid, dashed, dotted)
+- width (used for maximum width only)
+
+### Boundary styling
+
+The following element style properties are supported for boundaries:
+
+- background
+- color
+- stroke
+- stroke width
+- font size
+- border (solid, dashed, dotted)
+
+### Group styling
+
+The following element style properties are supported for groups:
+
+- background
+- color
+- stroke
+- stroke width
+- font size
+- border (solid, dashed, dotted)
+
+### Relationship styling
+
+The following relationship style properties are supported:
+
+- color
+- line style (solid, dashed, dotted)
+- thickness
+- font size
+
 ## C4PlantUMLExporter
 
 The [C4PlantUMLExporter](https://github.com/structurizr/java/blob/master/structurizr-export/src/main/java/com/structurizr/export/plantuml/C4PlantUMLExporter.java) class generates C4-PlantUML diagram definitions. The following view types are supported:
