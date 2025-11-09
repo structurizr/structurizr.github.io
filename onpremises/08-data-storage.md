@@ -46,8 +46,6 @@ You will need to enable bucket versioning if you'd like to use the [workspace ve
 
 ### Azure Blob Storage
 
-> Azure Blob Storage is an early access/preview feature, and only available by [building from source](/onpremises/building) or using a preview build from the [Structurizr Patreon](https://patreon.com/structurizr).
-
 - Authentication: access key only
 - Workspaces: yes
 - Reviews: no
