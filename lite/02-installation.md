@@ -63,5 +63,5 @@ java -jar structurizr-lite.war /Users/simon/structurizr
 To change the port number, add a JVM system property named `server.port`. For example:
 
 ```
-java -Dserver.port=9090 structurizr-lite.war /Users/simon/structurizr
+java -Dserver.port=9090 -jar structurizr-lite.war /Users/simon/structurizr
 ```
