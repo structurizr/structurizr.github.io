@@ -32,7 +32,7 @@ workspace {
 
 This DSL defines a system context view for the software system `s`, and `include *` includes all model elements that have a direct relationship with it.
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/system-context-view/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/system-context-view/example-1.dsl)
 
 System context views can be rendered using the Structurizr cloud service/on-premises installation or exported to a number of other formats via the [Structurizr CLI export command](https://github.com/structurizr/cli/blob/master/docs/export.md).
 

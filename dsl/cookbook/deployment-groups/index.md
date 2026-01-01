@@ -52,7 +52,7 @@ The container instance to container instance relationships are based upon the co
 defined in the static structure part of the model.
 While this works out of the box in many cases, here we can see that the "Service API" on "Server 1" has a connection to the "Database Schema" on "Server 2", and vice versa.
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/deployment-groups/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/deployment-groups/example-1.dsl)
 
 If this is not the desired behaviour, you can use the "deployment group" feature, which 
 provides a way to group software system/container instances and restrict how relationships are created between them.
@@ -98,7 +98,7 @@ workspace {
 }
 ```
 
-[![](example-2.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/deployment-groups/example-2.dsl)
+[![](example-2.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/deployment-groups/example-2.dsl)
 
 ## Links
 

@@ -42,7 +42,7 @@ workspace  {
 }
 ```
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/bulk-operations-elements/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/bulk-operations-elements/example-1.dsl)
 
 ## Links
 

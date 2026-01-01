@@ -60,7 +60,7 @@ workspace {
 
 This DSL defines a deployment environment named `Live`, with a hierarchy of deployment nodes showing the various AWS services in use for deployment. It also defines some infrastructure nodes representing services that don't have any software systems/containers deployed onto them.
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/amazon-web-services/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/amazon-web-services/example-1.dsl)
 
 The [pre-built Amazon Web Services theme](https://structurizr.com/help/theme?url=https://static.structurizr.com/themes/amazon-web-services-2020.04.30/theme.json) can be used to add some colour, and make use of the AWS icon set.
 
@@ -130,8 +130,8 @@ workspace {
 
 This DSL adds some element tags, and a reference to the Amazon Web Services theme.
 
-[![](example-2.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/amazon-web-services/example-2.dsl)
+[![](example-2.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/amazon-web-services/example-2.dsl)
 
 Further styles can be added if desired too.
 
-[![](example-3.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/amazon-web-services/example-3.dsl)
+[![](example-3.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/amazon-web-services/example-3.dsl)

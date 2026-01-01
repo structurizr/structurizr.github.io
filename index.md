@@ -12,9 +12,7 @@ Structurizr builds upon "diagrams as code", allowing you to create
 __multiple software architecture diagrams__ using the [C4 model](https://c4model.com), in a __variety of rendering tools__,
 from a __single model__.
 
-## Quickstart
-
-See [Quickstart](/quickstart) for a short guide to getting started.
+See [Quickstart](/quickstart) for a short guide to getting started or visit the [playground](https://playground.structurizr.com) to explore.
 
 ## Patreon
 

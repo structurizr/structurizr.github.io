@@ -40,7 +40,7 @@ workspace {
 
 This DSL defines three software systems with relationships between them, and a system landscape view showing those software systems.
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/filtered-view/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/filtered-view/example-1.dsl)
 
 The filtered view feature can be used to define views on top of this system landscape view. For example, the following DSL defines two filtered views:
 
@@ -81,7 +81,7 @@ The first of these filtered views includes all elements/relationships that are t
 filtered "landscape" include "Tag 1,Tag 2,Relationship" "landscape1"
 ```
 
-[![](example-2-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/filtered-view/example-2.dsl&view=landscape1)
+[![](example-2-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/filtered-view/example-2.dsl&view=landscape1)
 
 And the second excludes all elements/relationships that are tagged `Tag 1`.
 
@@ -89,7 +89,7 @@ And the second excludes all elements/relationships that are tagged `Tag 1`.
 filtered "landscape" exclude "Tag 1" "landscape2"
 ```
 
-[![](example-2-2.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/filtered-view/example-2.dsl&view=landscape2)
+[![](example-2-2.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/filtered-view/example-2.dsl&view=landscape2)
 
 When using filtered views, you'll notice that the original "base view" no longer shows in the list of viewable diagrams. This is by design. If you'd like to see the base view, you will need to create another filtered view that shows all elements and relationships. For example:
 
@@ -97,7 +97,7 @@ When using filtered views, you'll notice that the original "base view" no longer
 filtered "landscape" include "Element,Relationship" "landscape-all"
 ```
 
-[![](example-3.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/filtered-view/example-3.dsl&view=landscape-all)
+[![](example-3.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/filtered-view/example-3.dsl&view=landscape-all)
 
 ## Links
 

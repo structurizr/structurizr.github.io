@@ -28,11 +28,9 @@ Please note:
 
 ## Priority support (paid)
 
-### On-premises installation
-
 Priority support packages are available to diagnose and resolve issues in a timely manner,
 in a 3rd line support capacity, on the basis that you will be running the latest version of the
-software within a 3 month period of its release. Paid support __excludes__:
+software within a three month period of its release. Paid support __excludes__:
 
 - 1st and 2nd line support.
 - Performing installation/deployment of the software.
@@ -48,12 +46,4 @@ Support hours are Monday-Friday, 09:00-17:00 UK time, with the target response t
 Support can be done via a combination of GitHub issues and e-mail.
 We do not provide any support via telephone or video conference.
 
-2025 pricing is as follows:
-
-| Package  | Target response time | Price per year |
-|----------|----------------------|----------------|
-| Gold     | 1 working day        | £50,000 GBP    |
-| Silver   | 3 working days       | £25,000 GBP    |
-| Bronze   | 5 working days       | £15,000 GBP    |
-
-Prices are per year, and cover a single on-premises installation.
+Please contact us for pricing.

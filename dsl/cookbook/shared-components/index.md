@@ -77,7 +77,7 @@ and you can reference the shared components via `s.app1.loggingComponent` and `s
 This DSL also uses a group and differing notation to highlight the shared components.
 The `group` statement has been included in the main DSL file in this example, but it could be moved to the `shared-library.dsl` file if desired.
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/shared-components/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/shared-components/example-1.dsl)
 
 ## Links
 

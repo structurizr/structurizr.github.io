@@ -43,7 +43,7 @@ workspace {
 
 This DSL defines an "Ownership" perspective for each software system, which can be viewed by following the instructions at [Perspectives](/ui/diagrams/perspectives).
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/perspectives/example-1.dsl&perspective=Ownership)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/perspectives/example-1.dsl&perspective=Ownership)
 
 ## Links
 

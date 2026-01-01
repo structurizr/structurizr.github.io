@@ -10,7 +10,7 @@ permalink: /dsl/cookbook/element-styles/
 
 By default all elements are styled as grey boxes.
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/element-styles/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/element-styles/example-1.dsl)
 
 ## Styling all elements
 
@@ -46,7 +46,7 @@ workspace {
 }
 ```
 
-[![](example-2.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/element-styles/example-2.dsl)
+[![](example-2.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/element-styles/example-2.dsl)
 
 ## Styling individual elements
 
@@ -87,7 +87,7 @@ workspace {
 }
 ```
 
-[![](example-3.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/element-styles/example-3.dsl)
+[![](example-3.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/element-styles/example-3.dsl)
 
 ## Notes
 

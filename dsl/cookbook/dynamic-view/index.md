@@ -54,7 +54,7 @@ This DSL defines three views:
 2. A dynamic view for the "request past orders" feature.
 2. A dynamic view for the "browse top 20 books" feature.
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/dynamic-view/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/dynamic-view/example-1.dsl)
 
 ## Links
 

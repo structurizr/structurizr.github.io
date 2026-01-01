@@ -36,7 +36,7 @@ workspace {
 
 This DSL defines a container view for the software system `s`, and `include *` includes the default set of model elements for the view.
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/container-view/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/container-view/example-1.dsl)
 
 Container views can be rendered using the Structurizr cloud service/on-premises installation or exported to a number of other formats via the [Structurizr CLI export command](https://github.com/structurizr/cli/blob/master/docs/export.md).
 

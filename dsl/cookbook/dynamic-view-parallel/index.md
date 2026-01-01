@@ -48,7 +48,7 @@ workspace {
 }
 ```
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/dynamic-view-parallel/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/dynamic-view-parallel/example-1.dsl)
 
 Support for parallel sequences via this syntax is relatively limited, so you can explicitly specify the ordering instead if desired:
 
@@ -83,7 +83,7 @@ workspace {
 }
 ```
 
-[![](example-2.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/dynamic-view-parallel/example-2.dsl)
+[![](example-2.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/dynamic-view-parallel/example-2.dsl)
 
 ## Links
 

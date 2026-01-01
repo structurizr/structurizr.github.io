@@ -40,7 +40,7 @@ workspace {
 }
 ```
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/groups/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/groups/example-1.dsl)
 
 ## Styling all groups
 
@@ -80,7 +80,7 @@ workspace {
 }
 ```
 
-[![](example-2.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/groups/example-2.dsl)
+[![](example-2.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/groups/example-2.dsl)
 
 ## Styling individual groups
 
@@ -117,7 +117,7 @@ workspace {
 }
 ```
 
-[![](example-3.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/groups/example-3.dsl)
+[![](example-3.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/groups/example-3.dsl)
 
 ## Nested groups
 
@@ -166,7 +166,7 @@ workspace {
 }
 ```
 
-[![](example-4.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/groups/example-4.dsl)
+[![](example-4.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/groups/example-4.dsl)
 
 ## Notes
 

@@ -45,7 +45,7 @@ workspace {
 }
 ```
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/themes/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/themes/example-1.dsl)
 
 For further customisation, themes can be used in conjunction with element/relationship styles that are defined in the workspace.
 
@@ -77,7 +77,7 @@ workspace {
 }
 ```
 
-[![](example-2.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/themes/example-2.dsl)
+[![](example-2.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/themes/example-2.dsl)
 
 ## Notes
 

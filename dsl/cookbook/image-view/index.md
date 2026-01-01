@@ -45,7 +45,7 @@ workspace {
 
 This DSL defines an image view for the "Component 1" component, based upon a Mermaid class diagram.
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/image-view/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/image-view/example-1.dsl)
 
 ## Links
 

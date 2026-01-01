@@ -59,11 +59,11 @@ In this example we're extending a workspace that's accessible via a public URL, 
 
 This will create a system context diagram:
 
-[![](A-SystemContext.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/workspace-extension/a.dsl&view=A-SystemContext)
+[![](A-SystemContext.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/workspace-extension/a.dsl&view=A-SystemContext)
 
 And a container diagram:
 
-[![](A-Containers.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/workspace-extension/a.dsl&view=A-Containers)
+[![](A-Containers.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/workspace-extension/a.dsl&view=A-Containers)
 
 ## Links
 

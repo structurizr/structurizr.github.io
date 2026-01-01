@@ -34,7 +34,7 @@ workspace {
 
 Although the DSL does not define an explicit relationship between the person and the software system, this relationship is implied because of the relationship between the person and the container that resides inside the software system.
 
-[![](example-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/implied-relationships/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/implied-relationships/example-1.dsl)
 
 ## Disabling implied relationships
 
@@ -65,7 +65,7 @@ workspace {
 }
 ```
 
-[![](example-2.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/implied-relationships/example-2.dsl)
+[![](example-2.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/implied-relationships/example-2.dsl)
 
 With the implied relationships functionality disabled, you will need to explicitly define every relationship that you want to see on your diagrams.
 
@@ -96,7 +96,7 @@ workspace {
 }
 ```
 
-[![](example-3.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/implied-relationships/example-3.dsl)
+[![](example-3.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/implied-relationships/example-3.dsl)
 
 To show both relationships, you will need to explicitly define them, as follows:
 
@@ -125,7 +125,7 @@ workspace {
 }
 ```
 
-[![](example-4.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/cookbook/implied-relationships/example-4.dsl)
+[![](example-4.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/implied-relationships/example-4.dsl)
 
 A better approach is to collapse multiple relationships into a single description, modelling the summary of all relationships rather than each individual relationship. This leads to less cluttered diagrams. See  [Modelling multiple relationships](https://dev.to/simonbrown/modelling-multiple-relationships-51bf) for more on this topic.
 

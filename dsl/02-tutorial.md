@@ -70,7 +70,7 @@ Finally, the `autolayout lr` statement says that automatic layout should be used
 
 Running this example via the Structurizr DSL demo page (click the image below) results in the following diagram.
 
-[![](/dsl/tutorial/1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/tutorial/1.dsl)
+[![](/dsl/tutorial/1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/tutorial/1.dsl)
 
 ## 2. Containers
 
@@ -151,11 +151,11 @@ direct relationship to/from them". The `autolayout lr` statement is the same as 
 
 The example DSL creates two diagrams. First we have the system context diagram as before.
 
-[![](/dsl/tutorial/2-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/tutorial/2.dsl&view=Diagram1)
+[![](/dsl/tutorial/2-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/tutorial/2.dsl&view=Diagram1)
 
 And if you double-click on the software system, you'll navigate to the container diagram.
 
-[![](/dsl/tutorial/2-2.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/tutorial/2.dsl&view=Diagram2)
+[![](/dsl/tutorial/2-2.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/tutorial/2.dsl&view=Diagram2)
 
 ## 3. Implied relationships
 
@@ -181,7 +181,7 @@ The resulting diagrams are the same. There is an explicit relationship from the 
 and because the web application is a container inside the software system,
 there is an implicit (or implied) relationship between the user and the software system itself.
 
-[![](/dsl/tutorial/3-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/tutorial/3.dsl&view=Diagram1)
+[![](/dsl/tutorial/3-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/tutorial/3.dsl&view=Diagram1)
 
 ## 4. View expressions
 
@@ -285,7 +285,7 @@ This code:
 - increases the line thickness for boundary boxes (e.g. the dashed line that shows the software system boundary on a container diagram)
 - increases the line thickness for relationships
 
-[![](/dsl/tutorial/5-1.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/tutorial/5.dsl&view=Diagram1)
+[![](/dsl/tutorial/5-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/tutorial/5.dsl&view=Diagram1)
 
 Changing the shape of the database schema element is a two-step process.
 First we need to add a custom tag (in this case `Database` to the element).
@@ -310,7 +310,7 @@ And then we can define an element style for that `Database` tag.
         }
 ```
 
-[![](/dsl/tutorial/5-2.png)](http://structurizr.com/dsl?src=https://docs.structurizr.com/dsl/tutorial/5.dsl&view=Diagram2)
+[![](/dsl/tutorial/5-2.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/tutorial/5.dsl&view=Diagram2)
 
 Clicking the "i" button inside the diagram editor will reveal the automatically generated diagram key for that particular diagram.
 
