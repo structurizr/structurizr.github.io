@@ -29,7 +29,7 @@ The CLI will require Internet access if you are making use of any themes.
   - plantuml: the same as `plantuml/structurizr`
   - plantuml/structurizr: exports views to PlantUML using the [StructurizrPlantUMLExporter](/export/plantuml#structurizrplantumlexporter)
   - plantuml/c4plantuml: exports views to PlantUML using the [C4PlantUMLExporter](https://docs.structurizr.com/export/plantuml#c4plantumlexporter)
-  - mermaid: exports views to Mermaid using the [MermaidExporter](/export/mermaid) (your Mermaid configuration will need to include `"securityLevel": "loose"` to render the diagrams correctly. See [Mermaid - Configuration - securityLevel](https://mermaid-js.github.io/mermaid/#/./Setup?id=securitylevel) for more details)
+  - mermaid: exports views to Mermaid using the [MermaidExporter](/export/mermaid) (your Mermaid configuration will need to include `"securityLevel": "loose"` to render the diagrams correctly. See [Mermaid - Configuration - securityLevel](https://mermaid.js.org/config/usage.html#securitylevel) for more details)
   - websequencediagrams: exports dynamic views to WebSequenceDiagrams using the [WebSequenceDiagramsExporter](/export/websequencediagrams)
   - dot: exports views to DOT format (for use with Graphviz) using the [DOTExporter](/export/dot)
   - ilograph: exports the workspace to a YAML format for use with Ilograph using the [IlographExporter](/export/ilograph)
