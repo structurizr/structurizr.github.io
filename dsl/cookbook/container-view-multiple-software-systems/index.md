@@ -77,6 +77,7 @@ and replace the `include` statement with one of the following:
 
 - `include element.type==container`
 - `include element.parent==s1 element.parent==s2`
+- `include "->element.parent==s1-> && element.type==container"`
 
 ## Links
 
