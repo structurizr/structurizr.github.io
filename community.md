@@ -31,7 +31,8 @@ These tools provide an alternative way to create a Structurizr compatible worksp
 - [Structurizr for TypeScript](https://github.com/ChristianEder/structurizr-typescript)
 - [structurizr-parser](https://github.com/gerry-rohling/structurizr-parser): TypeScript utility to parse Structurizr DSL files.
 - [Structurizr for PHP](https://github.com/structurizr-php/structurizr-php)
-- [PyStructurizr](https://github.com/nielsvanspauwen/pystructurizr)
+- [PyStructurizr](https://github.com/nielsvanspauwen/pystructurizr): A Python DSL inspired by Structurizr, intended for generating C4 diagrams.
+- [buildzr](https://github.com/amirulmenjeni/buildzr): A Python DSL for authoring C4 architecture models.
 - [Model](https://github.com/goadesign/model): Create your software architecture models and diagrams in Go.
 - [ztructurizr](https://github.com/caesarsdigital/ztructurizr): A ZIO-layer for working with structurizr.
 - [Structurizr for Python](https://github.com/Midnighter/structurizr-python) (archived)
