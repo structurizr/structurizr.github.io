@@ -1091,7 +1091,7 @@ All nested properties (`shape`, `icon`, etc) are optional.
 
 ```
 element <tag> {
-    shape <Box|RoundedBox|Circle|Ellipse|Hexagon|Cylinder|Pipe|Person|Robot|Folder|WebBrowser|MobileDevicePortrait|MobileDeviceLandscape|Component>
+    shape <Box|RoundedBox|Circle|Ellipse|Hexagon|Cylinder|Diamond|Bucket|Pipe|Person|Robot|Folder|WebBrowser|MobileDevicePortrait|MobileDeviceLandscape|Window|Terminal|Shell|Component>
     icon <file|url>
     width <integer>
     height <integer>
