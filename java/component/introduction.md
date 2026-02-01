@@ -3,7 +3,7 @@ layout: default
 title: Introduction
 nav_order: 11
 parent: Component finder
-grand_parent: Structurizr for Java
+grand_parent: Java
 has_children: true
 permalink: /java/component/introduction
 has_toc: false

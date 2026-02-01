@@ -2,8 +2,9 @@
 layout: default
 title: Exporters
 nav_order: 19
+nav_exclude: true
 has_children: true
-permalink: /export
+permalink: /exporters
 has_toc: false
 ---
 

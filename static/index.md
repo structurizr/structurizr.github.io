@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Structurizr static site
-nav_order: 16
+nav_order: 86
+nav_exclude: true
 has_children: true
 permalink: /static
 has_toc: false

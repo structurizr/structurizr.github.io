@@ -12,7 +12,7 @@ workspace {
             autoLayout lr
         }
         
-        theme https://static.structurizr.com/themes/microsoft-azure-2021.01.26/theme.json
+        theme microsoft-azure-2021.01
     }
-    
+
 }

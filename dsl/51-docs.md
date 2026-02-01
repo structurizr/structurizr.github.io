@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Markdown/Asciidoc documentation
-parent: Structurizr DSL
+parent: DSL
 nav_order: 51
 permalink: /dsl/docs
 ---
@@ -24,7 +24,7 @@ By default, the [com.structurizr.importer.documentation.DefaultDocumentationImpo
 
 - All Markdown and AsciiDoc files in the given directory will be imported, alphabetically according to the filename.
 - All images in the given directory (and sub-directories) are also imported into the workspace.
-- See [Structurizr - Documentation - Headings and sections](/ui/documentation/headings) for details about how section headings and numbering are handled.
+- See [Structurizr - Documentation - Headings and sections](/server/documentation/headings) for details about how section headings and numbering are handled.
 
 The above behaviour can be customised by specifying the fully qualified class name of your own implementation of [DocumentationImporter](https://github.com/structurizr/java/blob/master/structurizr-import/src/main/java/com/structurizr/importer/documentation/DocumentationImporter.java), which needs to be on the DSL classpath or installed as a JAR file in the `plugins` directory next to your DSL file.
 

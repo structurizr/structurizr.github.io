@@ -2,7 +2,7 @@
 layout: default
 title: DSL and code
 parent: Cookbook
-grand_parent: Structurizr DSL
+grand_parent: DSL
 permalink: /dsl/cookbook/dsl-and-code/
 ---
 
@@ -62,7 +62,7 @@ so it's not possible to remove/modify elements/relationships that already exist 
 
 ## Other languages
 
-Ports of the "Structurizr for Java" library are available for a number of other programming languages - see [https://structurizr.org/#authoring](https://structurizr.org/#authoring) for links. Although you can't use the DSL parser directly, you can achieve the same effect with the following steps:
+Ports of the "Structurizr for Java" library are available for a number of other programming languages - see [Community tools](/community#authoring-tools) for links. Although you can't use the DSL parser directly, you can achieve the same effect with the following steps:
 
 ### 1. Convert your DSL workspace to the JSON format
 

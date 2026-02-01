@@ -17,7 +17,7 @@ via a unique URL per workspace, for other people within your organisation to vie
 2. Author your workspace:
    1. Pushing a Structurizr DSL file via the [workspace API](/onpremises/workspace-api) using the [Structurizr CLI push command](/cli/push) (recommended).
    2. Pushing a workspace created using one of the code-based client libraries (e.g. [Structurizr for Java](https://github.com/structurizr/java)) via the [workspace API](/onpremises/workspace-api).
-   3. Using the browser-based DSL editor (not recommended - [it doesn't support the full feature set](/dsl#comparison)).
+   3. Using the browser-based DSL editor (not recommended - [it doesn't support the full feature set](/dsl/parser)).
 3. View the diagrams and documentation via your web browser.
 
 Please note that, unlike [Structurizr Lite](/lite/usage), you should not directly modify any `workspace.json` files in the data directory. 

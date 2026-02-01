@@ -1,29 +1,23 @@
 ---
 layout: default
 title: Workspace API client
-parent: Structurizr for Java
+parent: Java
 nav_order: 2
 permalink: /java/workspace-api
 ---
 
 # Workspace API client
 
-The Structurizr cloud service and on-premises installation provide a web API to get and put workspaces,
-and an API client is provided via the [WorkspaceApiClient](https://github.com/structurizr/java/blob/master/structurizr-client/src/main/java/com/structurizr/api/WorkspaceApiClient.java) class.
+The Structurizr server provides a web API to get and put workspaces,
+and an API client is provided via the [WorkspaceApiClient](https://github.com/structurizr/structurizr/blob/main/structurizr-client/src/main/java/com/structurizr/api/WorkspaceApiClient.java) class.
 
-Each workspace has its own API key and secret, the values for which can be found on the workspace settings page.
-You will need these values (plus the workspace ID) when creating a `WorkspaceApiClient` instance:
+Each workspace has its own API key, which can be generated from workspace settings page.
+You will need this (plus the workspace ID) when creating a `WorkspaceApiClient` instance:
 
 For the cloud service:
 
 ```java
-WorkspaceApiClient client = new WorkspaceApiClient("key", "secret");
-```
-
-If you're using the on-premises installation, you'll need the three argument version of the constructor where you can also specify the API URL.
-
-```java
-WorkspaceApiClient client = new WorkspaceApiClient("url", "key", "secret");
+WorkspaceApiClient client = new WorkspaceApiClient("https://structurizr.example.com", 1234, "apikey");
 ```
 
 ## Usage
@@ -35,7 +29,7 @@ The following operations are available on the API client.
 This allows you to get the content of a remote workspace.
 
 ```java
-Workspace workspace = client.getWorkspace(123456);
+Workspace workspace = client.getWorkspace();
 ```
 
 By default, a copy of the workspace (as a JSON document) is archived to the current working directory. You can modify this behaviour by calling ```setWorkspaceArchiveLocation```. A ```null``` value will disable archiving.
@@ -47,33 +41,32 @@ If the ```mergeFromRemote``` property (on the `WorkspaceApiClient` instance) is 
 any layout information (i.e. the location of boxes on diagrams) is preserved where possible (i.e. where diagram elements haven't been renamed).
 
 ```java
-client.putWorkspace(123456, workspace);
+client.putWorkspace(workspace);
 ```
 
 ### Locking/unlocking a workspace
 
-Paid cloud service workspaces and the on-premises installation have a workspace locking feature to prevent concurrent updates.
+The Structurizr server has a workspace locking feature to prevent concurrent updates.
 
 ```java
-client.lockWorkspace(1234);
+client.lockWorkspace();
 ```
 
-This method returns a boolean; ```true``` if the workspace could be locked, ```false``` otherwise.
+This method returns a boolean; `true` if the workspace could be locked, `false` otherwise.
 
 Similarly, you can unlock a workspace.
 
 ```java
-client.unlockWorkspace(1234);
+client.unlockWorkspace();
 ```
 
-This method also returns a boolean; ```true``` if the workspace could be unlocked, ```false``` otherwise.
+This method also returns a boolean; `true` if the workspace could be unlocked, `false` otherwise.
 
 ## Troubleshooting
 
 ### SSL handshake errors
 
-SSL handshake errors are likely if using a self-signed certificate with the on-premises installation,
-because the Structurizr client runtime won't trust a self-signed certificate by default.
+SSL handshake errors are likely if using a self-signed certificate because the Structurizr client runtime won't trust a self-signed certificate by default.
 
 If this happens, you can use the ```javax.net.ssl.trustStore``` JVM option to point to your keystore. For example:
 

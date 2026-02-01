@@ -2,7 +2,7 @@
 layout: default
 title: Custom elements
 parent: Cookbook
-grand_parent: Structurizr DSL
+grand_parent: DSL
 permalink: /dsl/cookbook/custom-elements/
 ---
 

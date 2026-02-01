@@ -2,7 +2,7 @@
 layout: default
 title: Shared components
 parent: Cookbook
-grand_parent: Structurizr DSL
+grand_parent: DSL
 permalink: /dsl/cookbook/shared-components/
 ---
 

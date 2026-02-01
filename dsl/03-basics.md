@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Basics
-parent: Structurizr DSL
+parent: DSL
 nav_order: 3
 permalink: /dsl/basics
 ---
@@ -25,7 +25,7 @@ permalink: /dsl/basics
 
 In addition, workspaces are subject to the following rules:
 
-- Each view must have a unique "key" (this is generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose [manual layout information](/ui/diagrams/manual-layout) when using them in conjunction with Structurizr Lite/on-premises/cloud__). 
+- Each view must have a unique "key" (this is generated for you if not specified; __automatically generated view keys are not guaranteed to be stable over time, and you will likely lose manual layout information__). 
 - Software and people names must be unique.
 - Container names must be unique within the context of a software system.
 - Component names must be unique within the context of a container.

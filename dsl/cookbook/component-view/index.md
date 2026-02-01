@@ -2,7 +2,7 @@
 layout: default
 title: Component view
 parent: Cookbook
-grand_parent: Structurizr DSL
+grand_parent: DSL
 permalink: /dsl/cookbook/component-view/
 ---
 
@@ -41,8 +41,6 @@ workspace {
 This DSL defines a component view for the container `webapp`, and `include *` includes the default set of model elements for the view.
 
 [![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/component-view/example-1.dsl)
-
-Component views can be rendered using the Structurizr cloud service/on-premises installation or exported to a number of other formats via the [Structurizr CLI export command](https://github.com/structurizr/cli/blob/master/docs/export.md).
 
 ## Links
 

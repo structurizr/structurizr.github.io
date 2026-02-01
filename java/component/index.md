@@ -2,15 +2,13 @@
 layout: default
 title: Component finder
 nav_order: 40
-parent: Structurizr for Java
+parent: Java
 has_children: true
 permalink: /java/component
 has_toc: false
 ---
 
 # Component finder
-
-[![Maven Central](https://img.shields.io/maven-central/v/com.structurizr/structurizr-component.svg?label=Maven%20Central)](https://search.maven.org/artifact/com.structurizr/structurizr-component)
 
 The idea behind the [C4 model](https://c4model.com) is that there are a number of levels of abstraction, allowing you to zoom-in from a
 high-level all the way down to the code:
@@ -36,8 +34,3 @@ From an implementation perspective, Structurizr's component finder works using a
 filtering rules. It's available via a Java API and the Structurizr DSL [!components](/dsl/language#components) keyword.
 
 See [Patreon](https://patreon.com/structurizr) for early access to the component finder documentation.
-
-## Links
-
-- [GitHub](https://github.com/structurizr/java/tree/master/structurizr-component)
-- [Changelog](https://github.com/structurizr/java/blob/master/changelog.md)

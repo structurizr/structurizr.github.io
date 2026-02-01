@@ -3,7 +3,7 @@ layout: default
 title: Comparison
 parent: Exporters
 nav_order: 1
-permalink: /export/comparison
+permalink: /exporters/comparison
 ---
 
 # Comparison

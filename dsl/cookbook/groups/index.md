@@ -2,7 +2,7 @@
 layout: default
 title: Groups
 parent: Cookbook
-grand_parent: Structurizr DSL
+grand_parent: DSL
 permalink: /dsl/cookbook/groups/
 ---
 
@@ -45,7 +45,7 @@ workspace {
 ## Styling all groups
 
 By default, groups are shown as dashed boundaries with a light grey colour.
-This can be customised via an element style, as described at [Structurizr - Notation](/ui/diagrams/notation).
+This can be customised via an element style, as described at [Structurizr - Notation](/server/diagrams/notation).
 
 To change the style for all groups, add an element style for the `Group` tag.
 
@@ -170,7 +170,6 @@ workspace {
 
 ## Notes
 
-Please note that element styles are designed to work with the Structurizr cloud service/on-premises installation/Lite, and may not be fully supported by the PlantUML, Mermaid, etc export formats.
-Only the `color` and `icon` properties can be customised for groups.
+Please note that element styles are designed to work with the Structurizr diagram renderer (see [Notation](/server/diagrams/notation)), and may not be fully supported by the PlantUML, Mermaid, etc export formats.
 
-- [Structurizr - Notation](/ui/diagrams/notation)
+- [Structurizr - Notation](/server/diagrams/notation)

@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Tutorial
-parent: Structurizr DSL
+parent: DSL
 nav_order: 2
 permalink: /dsl/tutorial
 ---
 
 # Tutorial
 
-This tutorial provides a good starting point for learning how to use the Structurizr DSL. It will use the [Structurizr DSL demo page](https://structurizr.com/dsl) and doesn't require any special tooling to be installed.
+This tutorial provides a good starting point for learning how to use the Structurizr DSL. It will use the [Structurizr playground](https://playground.structurizr.com) and doesn't require any special tooling to be installed.
 
 ## 1. System context
 
@@ -66,9 +66,9 @@ The `include *` statement says,
 direct relationship to/from it".
 Finally, the `autolayout lr` statement says that automatic layout should be used, with a left to right direction.
 `Diagram1` is a unique diagram identifier/key that can be used to reference the diagram, for example, via the
-[Structurizr on-premises diagram embed feature](/onpremises/embed).
+[Structurizr Server diagram embed feature](/server/embed).
 
-Running this example via the Structurizr DSL demo page (click the image below) results in the following diagram.
+Running this example via the Structurizr playground (click the image below) results in the following diagram.
 
 [![](/dsl/tutorial/1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/tutorial/1.dsl)
 
@@ -81,7 +81,7 @@ We can also define a relationship from the user to the web application, and from
 `!identifiers hierarchical` is used to allow us to refer to those containers via their fully qualified identifier.
 
 ```
-workspace "Name" "Description"
+workspace "Name" "Description" {
 
     !identifiers hierarchical
 
@@ -113,7 +113,7 @@ The model is non-visual, so we need to define a [container view](/dsl/language#c
 being the scope of this view.
 
 ```
-workspace "Name" "Description"
+workspace "Name" "Description" {
 
     !identifiers hierarchical
 

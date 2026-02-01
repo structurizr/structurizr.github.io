@@ -3,7 +3,7 @@ layout: default
 title: Ilograph
 parent: Exporters
 nav_order: 6
-permalink: /export/ilograph
+permalink: /exporters/ilograph
 ---
 
 # Ilograph

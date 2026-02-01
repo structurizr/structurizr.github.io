@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Implied relationships
-parent: Structurizr for Java
+parent: Java
 nav_order: 3
 permalink: /java/implied-relationships
 ---
@@ -29,7 +29,7 @@ component1.uses(component2, "Sends data X to");
 At this point, the model contains a single relationship between the two components,
 but there are three other implied relationships that could be added:
 
-![Implied relationships](images/implied-relationships.png)
+![Implied relationships](/images/implied-relationships.png)
 
 | Type     | Description                             |
 |----------|-----------------------------------------|
@@ -104,6 +104,6 @@ especially when multiple implied relationships could be created between elements
 
 ## Building your own implied relationships strategy
 
-The [ImpliedRelationshipsStrategy interface](https://github.com/structurizr/java/blob/master/structurizr-core/src/main/java/com/structurizr/model/ImpliedRelationshipsStrategy.java)
-and [AbstractImpliedRelationshipsStrategy abstract class](https://github.com/structurizr/java/blob/master/structurizr-core/src/main/java/com/structurizr/model/AbstractImpliedRelationshipsStrategy.java)
+The [ImpliedRelationshipsStrategy interface](https://github.com/structurizr/structurizr/blob/main/structurizr-core/src/main/java/com/structurizr/model/ImpliedRelationshipsStrategy.java)
+and [AbstractImpliedRelationshipsStrategy abstract class](https://github.com/structurizr/structurizr/blob/main/structurizr-core/src/main/java/com/structurizr/model/AbstractImpliedRelationshipsStrategy.java)
 are available if you would like to build your own custom implied relationships strategy.

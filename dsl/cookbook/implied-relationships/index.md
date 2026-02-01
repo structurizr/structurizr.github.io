@@ -2,7 +2,7 @@
 layout: default
 title: Implied relationships
 parent: Cookbook
-grand_parent: Structurizr DSL
+grand_parent: DSL
 permalink: /dsl/cookbook/implied-relationships/
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Example
-parent: Structurizr DSL
+parent: DSL
 nav_order: 1
 permalink: /dsl/example
 ---
@@ -33,4 +33,4 @@ workspace {
 
 And the Structurizr browser-based renderer produces the following diagram.
 
-![Example system context diagram](/assets/images/dsl/example.png)
+![Example system context diagram](/images/dsl/example.png)

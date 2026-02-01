@@ -2,7 +2,7 @@
 layout: default
 title: Dynamic view
 parent: Cookbook
-grand_parent: Structurizr DSL
+grand_parent: DSL
 permalink: /dsl/cookbook/dynamic-view/
 ---
 

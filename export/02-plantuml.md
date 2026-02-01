@@ -3,7 +3,7 @@ layout: default
 title: PlantUML
 parent: Exporters
 nav_order: 2
-permalink: /export/plantuml
+permalink: /exporters/plantuml
 ---
 
 # PlantUML

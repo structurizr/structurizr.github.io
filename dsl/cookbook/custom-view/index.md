@@ -2,13 +2,13 @@
 layout: default
 title: Custom view
 parent: Cookbook
-grand_parent: Structurizr DSL
+grand_parent: DSL
 permalink: /dsl/cookbook/custom-view/
 ---
 
 # Custom view
 
-A [custom view](/ui/diagrams/custom-view) provides a way to create ad hoc diagrams, based upon the
+A custom view provides a way to create ad hoc diagrams, based upon the
 same model+view approach and rendering engine.
 
 ```

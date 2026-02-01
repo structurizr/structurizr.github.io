@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Structurizr UI
-nav_order: 17
+nav_order: 84
+nav_exclude: true
 has_children: true
 permalink: /ui
 has_toc: true

@@ -9,11 +9,11 @@ permalink: /cli/export
 # export
 
 The ```export``` command allows you to export the views within a Structurizr workspace to a number of different formats.
-It is essentially a command line interface to the [export formats](/export).
+It is essentially a command line interface to the [export formats](/exporters).
 Files will be created one per view that has been exported.
 If output directory is not specified, files will be created in the same directory as the workspace.
 Please note that the export formats do not support all available shapes/features when compared to
-the Structurizr cloud service/on-premises installation/Lite - see [Exporters - Comparison](/export/comparison) for more details.
+the Structurizr cloud service/on-premises installation/Lite - see [Exporters - Comparison](/exporters/comparison) for more details.
 
 Exporting PNG/SVG diagrams from the Structurizr cloud service/on-premises installation/Lite is not supported from the CLI.
 This is because the CLI is a Java application, whereas the PNG/SVG diagrams are rendered in your web browser.
@@ -27,17 +27,17 @@ The CLI will require Internet access if you are making use of any themes.
 - -workspace: The path or URL to the workspace JSON/DSL file (required)
 - -format (required):
   - plantuml: the same as `plantuml/structurizr`
-  - plantuml/structurizr: exports views to PlantUML using the [StructurizrPlantUMLExporter](/export/plantuml#structurizrplantumlexporter)
-  - plantuml/c4plantuml: exports views to PlantUML using the [C4PlantUMLExporter](https://docs.structurizr.com/export/plantuml#c4plantumlexporter)
-  - mermaid: exports views to Mermaid using the [MermaidExporter](/export/mermaid) (your Mermaid configuration will need to include `"securityLevel": "loose"` to render the diagrams correctly. See [Mermaid - Configuration - securityLevel](https://mermaid.js.org/config/usage.html#securitylevel) for more details)
-  - websequencediagrams: exports dynamic views to WebSequenceDiagrams using the [WebSequenceDiagramsExporter](/export/websequencediagrams)
-  - dot: exports views to DOT format (for use with Graphviz) using the [DOTExporter](/export/dot)
-  - ilograph: exports the workspace to a YAML format for use with Ilograph using the [IlographExporter](/export/ilograph)
+  - plantuml/structurizr: exports views to PlantUML using the [StructurizrPlantUMLExporter](/exporters/plantuml#structurizrplantumlexporter)
+  - plantuml/c4plantuml: exports views to PlantUML using the [C4PlantUMLExporter](https://docs.structurizr.com/exporters/plantuml#c4plantumlexporter)
+  - mermaid: exports views to Mermaid using the [MermaidExporter](/exporters/mermaid) (your Mermaid configuration will need to include `"securityLevel": "loose"` to render the diagrams correctly. See [Mermaid - Configuration - securityLevel](https://mermaid.js.org/config/usage.html#securitylevel) for more details)
+  - websequencediagrams: exports dynamic views to WebSequenceDiagrams using the [WebSequenceDiagramsExporter](/exporters/websequencediagrams)
+  - dot: exports views to DOT format (for use with Graphviz) using the [DOTExporter](/exporters/dot)
+  - ilograph: exports the workspace to a YAML format for use with Ilograph using the [IlographExporter](/exporters/ilograph)
   - d2: export views to D2 format using the [D2Exporter](https://github.com/goto1134/structurizr-d2-exporter)
   - json: exports the workspace to the Structurizr JSON format
   - theme: creates a JSON theme based upon the styles and tags defined in the workspace
   - static: creates a static HTML site - see [Structurizr static site](/static) for details
-  - fully qualified class name: provides a way to use a custom exporter; this needs to implement [WorkspaceExporter](https://github.com/structurizr/java/blob/master/structurizr-export/src/main/java/com/structurizr/export/WorkspaceExporter.java) or [DiagramExporter](https://github.com/structurizr/java/blob/master/structurizr-export/src/main/java/com/structurizr/export/DiagramExporter.java), with the compiled class(es) being available on the CLI classpath or packaged as a JAR file in a directory named `plugins` next to your workspace file
+  - fully qualified class name: provides a way to use a custom exporter; this needs to implement [WorkspaceExporter](https://github.com/structurizr/java/blob/master/structurizr-export/src/main/java/com/structurizr/exporters/WorkspaceExporter.java) or [DiagramExporter](https://github.com/structurizr/java/blob/master/structurizr-export/src/main/java/com/structurizr/exporters/DiagramExporter.java), with the compiled class(es) being available on the CLI classpath or packaged as a JAR file in a directory named `plugins` next to your workspace file
 - -output: Relative or absolute path to an output directory (optional)
 
 ## Examples

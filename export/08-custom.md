@@ -3,7 +3,7 @@ layout: default
 title: Custom exporters
 parent: Exporters
 nav_order: 8
-permalink: /export/custom
+permalink: /exporters/custom
 ---
 
 # Custom exporters

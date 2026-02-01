@@ -3,7 +3,7 @@ layout: default
 title: WebSequenceDiagrams
 parent: Exporters
 nav_order: 5
-permalink: /export/websequencediagrams
+permalink: /exporters/websequencediagrams
 ---
 
 # WebSequenceDiagrams

@@ -1,17 +1,14 @@
 ---
 layout: default
 title: Defaults
-parent: Structurizr DSL
+parent: DSL
 nav_order: 4
 permalink: /dsl/defaults
 ---
 
 # Defaults
 
-The DSL is designed to be as compact as possible.
-When used in conjunction with [Structurizr Lite](/lite)
-or the [Structurizr CLI](/cli),
-the following DSL fragment will automatically:
+The DSL is designed to be as compact as possible. The following DSL fragment will automatically:
 
 - Create the [implied relationship](/java/implied-relationships)
 between the ```user``` and ```softwareSystem``` elements.

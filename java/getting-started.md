@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting started
-parent: Structurizr for Java
+parent: Java
 nav_order: 1
 permalink: /java/getting-started
 ---
@@ -73,27 +73,18 @@ styles.addElementStyle(Tags.PERSON).background("#08427b").color("#ffffff").shape
 
 The code to this point will create a workspace, and now you have options as to what do to next.
 
-### 6a. Upload to the Structurizr cloud service
+### 6a. Upload to a Structurizr server
 
-The Structurizr cloud service provides a web API to get and put workspaces,
-and an API client is provided via the [WorkspaceApiClient](https://github.com/structurizr/java/blob/master/structurizr-client/src/com/structurizr/api/WorkspaceApiClient.java) class.
-Assuming that you have a cloud service account, have created a workspace, and have the workspace ID plus API key/secret pair:
-
-```java
-WorkspaceApiClient client = new WorkspaceApiClient("key", "secret");
-client.putWorkspace(id, workspace);
-```
-
-### 6b: Upload to a Structurizr on-premises installation
-
-This is the same as above, with the exception that you'll need to additionally provide an API endpoint:
+The Structurizr server provides a web API to get and put workspaces,
+and an API client is provided via the [WorkspaceApiClient](https://github.com/structurizr/structurizr/blob/main/structurizr-client/src/main/java/com/structurizr/api/WorkspaceApiClient.java) class.
+Assuming that you have a Structurizr server running, have created a workspace and generated a workspace API key:
 
 ```java
-WorkspaceApiClient client = new WorkspaceApiClient("http://localhost:8080/api", "key", "secret");
-client.putWorkspace(id, workspace);
+WorkspaceApiClient client = new WorkspaceApiClient("https://structurizr.example.com", 1234, "apikey");
+client.putWorkspace(workspace);
 ```
 
-### 6c. Export to a JSON file
+### 6b. Export to a JSON file
 
 To export the workspace to a JSON file:
 

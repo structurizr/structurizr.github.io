@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Implied relationships
-parent: Structurizr DSL
+parent: DSL
 nav_order: 7
 permalink: /dsl/implied-relationships
 ---

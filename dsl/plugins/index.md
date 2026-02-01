@@ -2,7 +2,7 @@
 layout: default
 title: Plugins
 nav_order: 62
-parent: Structurizr DSL
+parent: DSL
 has_children: true
 permalink: /dsl/plugins
 has_toc: false

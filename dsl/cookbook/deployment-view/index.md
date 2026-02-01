@@ -2,7 +2,7 @@
 layout: default
 title: Deployment view
 parent: Cookbook
-grand_parent: Structurizr DSL
+grand_parent: DSL
 permalink: /dsl/cookbook/deployment-view/
 ---
 
@@ -46,8 +46,6 @@ workspace {
 This DSL defines a deployment environment named `Development`, with instances of the `webapp` and `database` containers deployed onto some deployment nodes. It also defines a deployment view for this deployment environment, and `include *` includes the default set of model elements for the view.
 
 [![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/deployment-view/example-1.dsl)
-
-Deployment views can be rendered using the Structurizr cloud service/on-premises installation or exported to a number of other formats via the [Structurizr CLI export command](https://github.com/structurizr/cli/blob/master/docs/export.md).
 
 ## Links
 

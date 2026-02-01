@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Workspace extension
-parent: Structurizr DSL
+parent: DSL
 nav_order: 32
 permalink: /dsl/workspace-extension
 ---

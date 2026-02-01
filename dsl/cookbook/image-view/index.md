@@ -2,13 +2,13 @@
 layout: default
 title: Image view
 parent: Cookbook
-grand_parent: Structurizr DSL
+grand_parent: DSL
 permalink: /dsl/cookbook/image-view/
 ---
 
 # Image view
 
-An [image view](/ui/diagrams/image-view) represents an image that has been rendered outside of Structurizr, for inclusion in a Structurizr workspace.
+An image view represents an image that has been rendered outside of Structurizr, for inclusion in a Structurizr workspace.
 Image views can be created from an arbitrary PNG/SVG file, or a PlantUML/Mermaid/Kroki diagram.
 An example use case for an image view is to provide a "level 4" zoom-in for a component on a component diagram.
 
@@ -49,5 +49,4 @@ This DSL defines an image view for the "Component 1" component, based upon a Mer
 
 ## Links
 
-- [Image views](/ui/diagrams/image-view)
 - [DSL language reference - image](/dsl/language#image-view)

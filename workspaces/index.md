@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Workspaces
-nav_order: 5
+nav_order: 7
 has_children: true
 permalink: /workspaces
 has_toc: false
@@ -9,16 +9,20 @@ has_toc: false
 
 # Workspaces
 
-In Structurizr, a __workspace__ is the wrapper for your software architecture model, views, and supplementary documentation.
-The recommendation is that a workspace contains the model, views, and documentation for a __single software system__ -
-see [Workspaces - Scope](/workspaces/scope) for more details.
+## What is a "workspace"?
 
-Unlike most modelling tools, Structurizr separates workspace authoring from workspace rendering via its
-[open JSON data format](https://github.com/structurizr/json).
+In Structurizr, a __workspace__ is the wrapper for:
 
-![](../images/authoring-vs-rendering.png)
+- A software architecture model (elements and relationships).
+- Views (that become rendered as diagrams).
+- Markdown/AsciiDoc documentation.
+- Markdown/AsciiDoc architecture decision records.
 
-## Troubleshooting
+The recommended approach is that a workspace contains the model, views, documentation, and decisions for a __single software system__ - see [Scope](/workspaces/scope) for more details.
 
-See [Workspaces - Scope - Troubleshooting](/workspaces/scope#troubleshooting) if you are seeing error messages like
-`Strict workspace scope validation has been enabled ... Unscoped workspaces are not permitted`.
+## Workspace files
+
+Structurizr uses two file types to represent workspaces:
+
+- `workspace.dsl`: Your workspace source, created using the [Structurizr DSL](/dsl). This defines your software architecture model and views, along with any processing instructions (e.g. [scripts](/dsl/scripts), [plugins](/dsl/plugins), [documentation](/dsl/docs), [ADRs](/dsl/adrs), etc).
+- `workspace.json`: The "compiled" version of your workspace source, additionally including diagram layout information from the [diagram editor](/server/diagrams/editor). This is an [open JSON data format](/openapi) and is not designed to be edited by hand.

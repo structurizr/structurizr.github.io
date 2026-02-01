@@ -5,12 +5,16 @@ color_scheme: structurizr
 
 url: https://docs.structurizr.com
 
-logo: "/assets/images/structurizr-banner.png"
-favicon_ico: "/assets/images/favicon.ico"
+logo: "/images/structurizr-banner-light.png"
+favicon_ico: "/images/favicon.png"
 
 nav_external_links:
-  - title: Playground
+  - title: playground.structurizr.com
     url: https://playground.structurizr.com
+  - title: GitHub
+    url: https://github.com/structurizr/structurizr
+  - title: Issue tracker
+    url: https://github.com/structurizr/structurizr/issues
   - title: Patreon
     url: https://patreon.com/structurizr
 

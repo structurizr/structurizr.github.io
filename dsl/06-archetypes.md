@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Archetypes
-parent: Structurizr DSL
+parent: DSL
 nav_order: 6
 permalink: /dsl/archetypes
 ---

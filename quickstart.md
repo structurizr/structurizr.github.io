@@ -8,8 +8,7 @@ permalink: /quickstart
 
 # Quickstart
 
-The two quickest ways to get started with the Structurizr tooling are to use the Structurizr DSL ([example](/dsl/example), [tutorial](/dsl/tutorial)) in conjunction with:
+The two quickest ways to get started with the Structurizr tooling are:
 
 1. The [Structurizr playground](https://playground.structurizr.com) to try the DSL without installing any tooling.
-2. Structurizr Lite - a pre-built Docker image to create diagrams on your computer; see [Structurizr Lite - Quickstart](/lite/quickstart) for details.
-
+2. Structurizr [local](/local) (see [quickstart](/local/quickstart)) via the pre-built Docker image to create diagrams on your computer.

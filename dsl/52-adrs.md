@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Architecture Decision Records (ADRs)
-parent: Structurizr DSL
+parent: DSL
 nav_order: 52
 permalink: /dsl/adrs
 ---
@@ -24,7 +24,7 @@ By default, the [com.structurizr.importer.documentation.AdrToolsDecisionImporter
 
 - All Markdown files in this directory will be imported, alphabetically according to the filename.
 - The files must have been created by [adr-tools](https://github.com/npryce/adr-tools), or at least follow the same format. 
-- All images in the given directory (and sub-directories) are also imported into the workspace.
+- All images in the given directory (and subdirectories) are also imported into the workspace.
 
 The second parameter (`[type|fqn`) can be used to specify a type or fully qualified class name of your own implementation of [DocumentationImporter](https://github.com/structurizr/java/blob/master/structurizr-import/src/main/java/com/structurizr/importer/documentation/DocumentationImporter.java), which needs to be on the DSL classpath or installed as a JAR file in the `plugins` directory next to your DSL file.
 The supported built-in types are:
@@ -33,4 +33,4 @@ The supported built-in types are:
 - `madr` (`com.structurizr.importer.documentation.MadrDecisionImporter`)
 - `log4brains` (`com.structurizr.importer.documentation.Log4brainsDecisionImporter`)
 
-See [Structurizr UI - Decisions](/ui/decisions) for details of how ADRs are rendered with the Structurizr UI.
+See [Structurizr UI - Decisions](/server/decisions) for details of how ADRs are rendered with the Structurizr UI.

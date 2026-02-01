@@ -2,7 +2,7 @@
 layout: default
 title: Element styles
 parent: Cookbook
-grand_parent: Structurizr DSL
+grand_parent: DSL
 permalink: /dsl/cookbook/element-styles/
 ---
 
@@ -91,6 +91,6 @@ workspace {
 
 ## Notes
 
-Please note that element styles are designed to work with the Structurizr cloud service/on-premises installation, and may not be fully supported by the PlantUML, Mermaid, etc export formats. 
+Please note that element styles are designed to work with the Structurizr diagram renderer (see [Notation](/server/diagrams/notation)), and may not be fully supported by the PlantUML, Mermaid, etc export formats. 
 
 - [DSL language reference - styles - element](/dsl/language#element-style)

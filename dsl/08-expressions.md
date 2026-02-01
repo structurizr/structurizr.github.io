@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Expressions
-parent: Structurizr DSL
+parent: DSL
 nav_order: 8
 permalink: /dsl/expressions
 ---

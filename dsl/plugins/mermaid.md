@@ -3,7 +3,7 @@ layout: default
 title: Mermaid
 nav_order: 2
 parent: Plugins
-grand_parent: Structurizr DSL
+grand_parent: DSL
 has_children: false
 permalink: /dsl/plugins/mermaid
 ---
@@ -12,8 +12,6 @@ permalink: /dsl/plugins/mermaid
 
 This Structurizr DSL plugin looks for inline Mermaid diagram definitions in Markdown/AsciiDoc documentation
 and decisions, and encodes them as images.
-
-> This plugin is available exclusively to Gold members of the [Structurizr Patreon](https://www.patreon.com/structurizr) - an early access version is now available.
 
 ## Markdown
 

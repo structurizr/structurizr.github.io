@@ -3,7 +3,7 @@ layout: default
 title: DOT
 parent: Exporters
 nav_order: 4
-permalink: /export/dot
+permalink: /exporters/dot
 ---
 
 # DOT (Graphviz)
