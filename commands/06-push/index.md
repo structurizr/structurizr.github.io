@@ -10,7 +10,11 @@ has_toc: false
 
 # push
 
-The `push` command allows you to push the specified DSL/JSON file to a Structurizr [server](/server).
+The `push` command allows you to push the specified DSL/JSON file to a Structurizr [server](/server). The default behaviour is:
+
+- Pull the remote version of the workspace.
+- Merge diagram layout information from the remote version into the local version.
+- Push the local version, which now includes diagram layout information.
 
 ## Options
 
@@ -22,6 +26,10 @@ The `push` command allows you to push the specified DSL/JSON file to a Structuri
 - -passphrase: The passphrase to use (optional; only required if client-side encryption enabled on the workspace)
 - -merge: Whether to merge layout information from the remote workspace (optional; defaults to `true`)
 - -archive: Whether to store the previous version of the remote workspace (optional; default to `true`)
+
+## Notes
+
+You will need to use `-merge false` when pushing a workspace to a branch that doesn't exist on your Structurizr server.
 
 ## Examples
 
