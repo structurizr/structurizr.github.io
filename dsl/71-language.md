@@ -1107,6 +1107,38 @@ styles {
 
 Permitted children:
 
+- [light](#light)
+- [dark](#dark)
+- [element](#element-style)
+- [relationship](#relationship-style)
+
+## light
+
+A wrapper for styles that should be used in light mode.
+
+```
+light {
+    ...
+}
+```
+
+Permitted children:
+
+- [element](#element-style)
+- [relationship](#relationship-style)
+
+## dark
+
+A wrapper for styles that should be used in dark mode.
+
+```
+dark {
+    ...
+}
+```
+
+Permitted children:
+
 - [element](#element-style)
 - [relationship](#relationship-style)
 
@@ -1161,6 +1193,7 @@ relationship <tag> {
     colour <#rrggbb|color name>
     style <solid|dashed|dotted>
     routing <Direct|Orthogonal|Curved>
+    jump <true|false>
     fontSize <integer>
     width <integer>
     position <integer: 0-100>
