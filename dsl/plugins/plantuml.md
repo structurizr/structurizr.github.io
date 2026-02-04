@@ -10,8 +10,7 @@ permalink: /dsl/plugins/plantuml
 
 # PlantUML
 
-This Structurizr DSL plugin looks for inline PlantUML diagram definitions in Markdown/AsciiDoc documentation
-and decisions, and encodes them as images.
+This Structurizr DSL plugin looks for inline PlantUML diagram definitions in Markdown/AsciiDoc documentation and decisions, and encodes them as images.
 
 ## Markdown
 
@@ -60,7 +59,7 @@ Which renders as:
 
 ## Usage
 
-After [installation](/dsl/plugins#installation), the plugin can be referenced from your DSL file as follows (after all `!docs`, `!adrs`, and `views`):
+The plugin can be referenced from your DSL file as follows (after all `!docs`, `!adrs`, and `views`):
 
 ```
 !plugin com.structurizr.dsl.plugin.documentation.PlantUML
