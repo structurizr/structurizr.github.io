@@ -45,6 +45,12 @@ If you're using the prebuilt Docker image, the prebuilt themes are included in t
 -e STRUCTURIZR_THEMES=/usr/local/structurizr-themes
 ```
 
+And if you're exporting a workspace to a static site using the prebuilt Docker image, you can use the `-themes` parameter, for example:
+
+```
+docker run -it --rm -v $PWD:/usr/local/structurizr structurizr/structurizr export -themes /usr/local/structurizr-themes -format static -workspace workspace.dsl
+```
+
 ## Creating your own themes
 
 A theme is a JSON file that is hosted remotely via a HTTP/HTTPS URL or installed (as above). Theme files can be created by hand or exported from an existing workspace. An easy way to create a theme is to define a workspace via the Structurizr DSL, and [export](/export) the styles as a theme. For example:
