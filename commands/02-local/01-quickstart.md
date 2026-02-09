@@ -34,12 +34,6 @@ docker pull structurizr/structurizr
 docker run -it --rm -p 8080:8080 -v /Users/simon/structurizr:/usr/local/structurizr structurizr/structurizr local
 ```
 
-To change the port number:
-
-```
-docker run -it --rm -p 9090:9090 -e PORT=9090 -v /Users/simon/structurizr:/usr/local/structurizr structurizr/structurizr local
-```
-
 ## 3. Open your web browser
 
 With Structurizr running, you can head to [http://localhost:8080](http://localhost:8080) in your web browser, where
