@@ -29,7 +29,7 @@ Structurizr playground, local, and server.
     - theme: creates a JSON theme based upon the styles and tags defined in the workspace
     - fully qualified class name: provides a way to use a custom exporter (see below)
 - -output: Relative or absolute path to an output directory (optional)
-- -theme: The path to your themes (only required if exporting to a static site that makes use of themes that are not available via a HTTP/HTTPS URL)
+- -themes: The path to your themes (only required if exporting to a static site that makes use of themes that are not available via a HTTP/HTTPS URL)
 
 ## Custom exporters
 
