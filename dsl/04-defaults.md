@@ -13,7 +13,6 @@ The DSL is designed to be as compact as possible. The following DSL fragment wil
 - Create the [implied relationship](/java/implied-relationships)
 between the ```user``` and ```softwareSystem``` elements.
 - Create a default set of views (1 x System Landscape, 1 x System Context, 1 x Container - all with auto-layout enabled, see [ViewSet.createDefaultViews()](https://github.com/structurizr/java/blob/master/structurizr-core/src/com/structurizr/view/ViewSet.java)).
-- Add some default element styles from a theme.
 
 ```
 workspace {
@@ -27,10 +26,6 @@ workspace {
 
         user -> webapp "Uses"
         webapp -> database "Reads from and writes to"
-    }
-    
-    views {
-    	theme default
     }
 
 }

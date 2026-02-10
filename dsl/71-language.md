@@ -1219,9 +1219,10 @@ Notes:
 The `theme` keyword can be used to specify a theme that should be used when rendering diagrams. See [Themes](/server/diagrams/themes) for more details.
 
 ```
-theme <url|file|default>
+theme <name|url|file>
 ```
 
+- Themes specified by name need to be [installed](/server/diagrams/themes).
 - Themes specified via a URL will be loaded dynamically when required.
 - Themes specified via a file reference will be immediately inlined into the workspace.
 
@@ -1230,10 +1231,10 @@ theme <url|file|default>
 The `themes` keyword can be used to specify one or more themes that should be used when rendering diagrams. See [Themes](/server/diagrams/themes) for more details.
 
 ```
-themes <url|file> [url|file] ... [url|file]
+themes <name|url|file> [name|url|file] ... [name|url|file]
 ```
 
-- `default` is a shorthand for `https://static.structurizr.com/themes/default/theme.json`, the [default Structurizr theme](https://structurizr.com/help/theme?url=https://static.structurizr.com/themes/default/theme.json).
+- Themes specified by name need to be [installed](/server/diagrams/themes).
 - Themes specified via a URL will be loaded dynamically when required.
 - Themes specified via a file reference will be immediately inlined into the workspace.
 
