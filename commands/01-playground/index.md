@@ -25,10 +25,16 @@ docker run -it --rm -p 8080:8080 structurizr/structurizr playground
 
 ## Port number
 
-To change the port number:
+Port 8080 is used by default, but can be changed as follows if you are using the Docker image:
 
 ```
 docker run -it --rm -p 9090:9090 -e PORT=9090 structurizr/structurizr playground
+```
+
+And with the Java .war file:
+
+```
+java -Dserver.port=9090 -jar structurizr.war playground 
 ```
 
 ## Themes

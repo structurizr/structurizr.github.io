@@ -13,7 +13,7 @@ The Structurizr server has two major configuration points:
 1. The location of the Structurizr data directory.
 2. Configuration of the Structurizr server itself via a file named `structurizr.properties` inside the Structurizr data directory.
 
-## Structurizr data directory
+## Data directory
 
 The location of the Structurizr data directory is configured when starting the server. If unset, the Structurizr data directory location will default to `/usr/local/structurizr`.
 
@@ -27,6 +27,20 @@ When using the Java application directly, the data directory is specified as a c
 
 ```
 java -jar structurizr.war server PATH 
+```
+
+## Port number
+
+Port 8080 is used by default, but can be changed as follows if you are using the Docker image:
+
+```
+docker run -it --rm -p 9090:9090 -e PORT=9090 -v PATH:/usr/local/structurizr structurizr/structurizr server
+```
+
+And with the Java .war file:
+
+```
+java -Dserver.port=9090 -jar structurizr.war server PATH 
 ```
 
 ## Configuration options
