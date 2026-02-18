@@ -569,12 +569,18 @@ properties {
 ## perspectives
 
 The `perspectives` block is used to define one or more named perspectives for an element or relationship.
-See [DSL cookbook - Perspectives](/dsl/cookbook/perspectives/) for how these are used.
+See [DSL cookbook - Perspectives (static)](/dsl/cookbook/perspectives-static/) for how these are used.
 
 ```
 perspectives {
+    // syntax 1
     <name> <description> [value]
-    ...
+    
+    // syntax 2
+    perspective <name> {
+        description <description>
+        value <value>
+    }
 }
 ```
 
