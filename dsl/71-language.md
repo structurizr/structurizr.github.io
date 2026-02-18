@@ -1257,6 +1257,7 @@ terminology {
     deploymentNode <term>
     infrastructureNode <term>
     relationship <term>
+    metadata <square|round|curly|angle|double-angle|none>
 }
 ```
 
