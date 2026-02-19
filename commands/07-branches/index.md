@@ -14,9 +14,10 @@ The `branches` command allows you to list the branches associated with a Structu
 
 ## Options
 
-- -id: The workspace ID (required)
-- -key: The workspace or admin API key (required if authentication is enabled on the server)
-- -url: The Structurizr API URL (required)
+- `-id <id>`: The workspace ID (required).
+- `-key <API key>`: The workspace or admin API key (required if authentication is enabled on the server).
+- `-url <url>`: The Structurizr API URL (required).
+- `-json`: JSON output (optional).
 
 ## Example
 

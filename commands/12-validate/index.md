@@ -10,11 +10,11 @@ has_toc: false
 
 # validate
 
-The ```validate``` command allows you to validate a JSON/DSL workspace.
+The `validate` command allows you to validate a JSON/DSL workspace.
 
 ## Options
 
-- -workspace: The path or URL to the workspace JSON/DSL file (required)
+- `-workspace`: The path or URL to the workspace JSON/DSL file (required)
 
 ## Example
 

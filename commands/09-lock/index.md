@@ -14,9 +14,9 @@ The `lock` command allows you to lock a Structurizr [server](/server) workspace.
 
 ## Options
 
-- -id: The workspace ID (required)
-- -key: The workspace or admin API key (required if authentication is enabled on the server)
-- -url: The Structurizr API URL (required)
+- `-id`: The workspace ID (required)
+- `-key`: The workspace or admin API key (required if authentication is enabled on the server)
+- `-url`: The Structurizr API URL (required)
 
 ## Example
 

@@ -14,7 +14,7 @@ The `list` command lists the elements within a workspace.
 
 ## Options
 
-- -workspace: The path or URL to the workspace JSON/DSL file (required)
+- `-workspace`: The path or URL to the workspace JSON/DSL file (required)
 
 ## Example
 

@@ -65,6 +65,8 @@ This DSL example defines a "Technical Debt" perspective for each software system
 
 ## Perspective styles
 
+> This feature is only available when building from source or using the `structurizr/structurizr:preview` Docker image.
+
 Perspectives can be styled for additional visual variation. A single style can be defined to apply to all elements/relationships that have the perspective, using a style tag of `Perspective:<name>`. For example:
 
 ```

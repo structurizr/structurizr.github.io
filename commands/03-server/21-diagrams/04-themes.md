@@ -37,19 +37,13 @@ These themes can be viewed via [playground.structurizr.com/themes](https://playg
 
 ## Installing themes
 
-To install a theme, copy the theme directory to the location defined by `structurizr.themes`.
-
-If you're using the prebuilt Docker image, the prebuilt themes are included in the image. To use them, start `local`, `server`, and `playground` with an additional environment variable as follows:
+If you're using the prebuilt Docker image, the prebuilt themes are included in the image. To use them, start `local`, `server`, `playground`, `push`, `export`, etc with an additional environment variable as follows:
 
 ```
 -e STRUCTURIZR_THEMES=/usr/local/structurizr-themes
 ```
 
-And if you're exporting a workspace to a static site using the prebuilt Docker image, you can use the `-themes` parameter, for example:
-
-```
-docker run -it --rm -v $PWD:/usr/local/structurizr structurizr/structurizr export -themes /usr/local/structurizr-themes -format static -workspace workspace.dsl
-```
+If you're using `local` or `server`, you can also configure the themes location via the `structurizr.themes` configuration property. By default this is set to a directory named `themes` in your Structurizr data directory.
 
 ## Creating your own themes
 

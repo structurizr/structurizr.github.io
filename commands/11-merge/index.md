@@ -14,10 +14,10 @@ The `merge` command allows you to merge the layout information from one workspac
 
 ## Options
 
-- -workspace: The path or URL to the workspace JSON/DSL file (required)
-- -layout: The path or URL to the workspace JSON file that includes layout information (required)
-- -view: The key of the view to merge layout information for (optional; default is all views in workspace)
-- -output: Path and name of an output file (required)
+- `-workspace`: The path or URL to the workspace JSON/DSL file (required)
+- `-layout`: The path or URL to the workspace JSON file that includes layout information (required)
+- `-view`: The key of the view to merge layout information for (optional; default is all views in workspace)
+- `-output`: Path and name of an output file (required)
 
 ## Examples
 
