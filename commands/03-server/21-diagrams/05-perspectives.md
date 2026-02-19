@@ -23,3 +23,8 @@ Once some perspectives have been added to the model, you can then use the
 ## Embedded diagrams
 
 You can highlight a given perspective on a diagram embedded using an iframe by adding a parameter to the query string named `perspective` (for example `&perspective=Security`).
+
+## Links
+
+- [DSL cookbook - Static perspectives](/dsl/cookbook/perspectives-static)
+- [DSL cookbook - Dynamic perspectives](/dsl/cookbook/perspectives-dynamic)

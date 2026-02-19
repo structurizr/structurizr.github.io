@@ -9,10 +9,16 @@ permalink: /server/diagrams/notation
 
 # Notation
 
-Unlike formal diagramming notations such as UML and ArchiMate,
-Structurizr purposely uses a very simple and constrained notation consisting of boxes and unidirectional arrows, some aspects of which can be customised via a set of element and relationship styles. Any styles that you use are shown on an automatically generated diagram key.
+Unlike formal diagramming notations such as UML and ArchiMate, Structurizr purposely uses a very simple and constrained
+notation consisting of boxes and unidirectional arrows, some aspects of which can be customised via a set of element
+and relationship styles.
 
-While viewing a diagram, click the ![](/images/bootstrap-icons/info-circle.svg) button to show the diagram key.
+## Diagram key
+
+Any styles that you use are shown on an automatically generated diagram key, which can be shown by 
+clicking the ![](/images/bootstrap-icons/info-circle.svg) button or pressing the `i` key while viewing a diagram.
+
+![Automatically generated diagram key](/images/diagram-key.png)
 
 ## Tags and styles
 

@@ -28,3 +28,4 @@ Structurizr is a "models as code" tool designed for the [C4 model](https://c4mod
 Visit [playground.structurizr.com](https://playground.structurizr.com) to try Structurizr without installing any tooling.
 
 [![Structurizr playground](/images/playground.png)](https://playground.structurizr.com)
+

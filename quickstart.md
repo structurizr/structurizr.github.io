@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Quickstart
-nav_order: 2
+nav_order: 3
 description: Structurizr documentation
 permalink: /quickstart
 ---
