@@ -1,17 +1,42 @@
+// a simplified C4 model representation of the Structurizr playground
 workspace {
 
     model {
         playground = softwareSystem "Structurizr Playground" {
-            perspectives {
-                perspective "Health" {
-                    url "https://playground.structurizr.com/health"
+            app = container "Structurizr playground server" {
+                description "Provides server-side functionality of parsing Structurizr DSL."
+                technology "Java and Spring Boot"
+            }
+        }
+
+        live = deploymentEnvironment "Live" {
+            deploymentNode "CloudFlare" {
+                cname = infrastructureNode "playground.structurizr.com" {
+                    technology "DNS CNAME"
+                }
+            }
+            deploymentNode "Amazon Web Services" {
+                deploymentNode "App Runner" {
+                    deploymentNode "Docker Container" {
+                        deploymentNode "Java Virtual Machine" {
+                            instanceof app {
+                                cname -> this
+
+                                perspectives {
+                                    perspective "Health" {
+                                        url "https://playground.structurizr.com/health"
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
     }
 
     views {
-        systemContext playground "SystemContext" {
+        deployment playground live "Deployment" {
             include *
         }
 
@@ -19,6 +44,9 @@ workspace {
             element "Element" {
                 strokeWidth 5
                 shape roundedbox
+            }
+            element "Infrastructure Node" {
+                shape ellipse
             }
 
             element "Perspective:Health" {
@@ -35,7 +63,7 @@ workspace {
         }
 
         properties {
-            "structurizr.perspective.interval" "5000"
+            "structurizr.perspective.interval" "10000"
         }
     }
 
