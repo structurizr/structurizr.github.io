@@ -15,22 +15,42 @@ It runs standalone and only supports STDIO at this time.
 ### Get a JSON workspace from a file
 
 - Parameters:
-    - Filename (required)
+  - Filename (required)
 - Returns a Structurizr workspace
+
+### Inspect a JSON workspace from a file
+
+- Parameters:
+  - Filename (required)
+- Returns a list of inspection violations
 
 ### Parse a DSL file
 
 - Parameters:
-    - Filename (required)
+  - Filename (required)
 - Returns a Structurizr workspace
+
+### Inspect a DSL file
+
+- Parameters:
+  - Filename (required)
+- Returns a list of inspection violations
 
 ### Get a single workspace from a Structurizr server
 
 - Parameters:
-    - Structurizr server URL (required)
-    - Workspace ID (required)
-    - API key (not required if running the server with authentication disabled)
+  - Structurizr server URL (required)
+  - Workspace ID (required)
+  - API key (not required if running the server with authentication disabled)
 - Returns a Structurizr workspace
+
+### Inspect a single workspace from a Structurizr server
+
+- Parameters:
+  - Structurizr server URL (required)
+  - Workspace ID (required)
+  - API key (not required if running the server with authentication disabled)
+- Returns a list of inspection violations
 
 ### Get all workspaces from a Structurizr server
 
