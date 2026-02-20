@@ -2,7 +2,7 @@
 layout: default
 parent: Commands
 title: validate
-nav_order: 12
+nav_order: 13
 has_children: false
 permalink: /validate
 has_toc: false

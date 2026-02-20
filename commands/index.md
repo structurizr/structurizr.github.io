@@ -19,8 +19,9 @@ All the Structurizr commands listed below are free and open source except for [s
 | [export](/export)         | Exports the views in a Structurizr workspace to PlantUML, Mermaid, or a static HTML site.                                     |
 | [push](/push)             | Pushes a workspace to a Structurizr server.                                                                                   |
 | [pull](/pull)             | Pulls a workspace from a Structurizr server.                                                                                  |
-| [branches](/branches)     | Lists the branches for a workspace.                                                                                           |
-| [delete](/delete)         | Deletes a workspace branch.                                                                                                   |
+| [branches](/branches)     | Lists the branches for a workspace on a Structurizr server.                                                                   |
+| [create](/create)         | Creates a workspace on a Structurizr server.                                                                                  |
+| [delete](/delete)         | Deletes a workspace or branch from a Structurizr server.                                                                      |
 | [lock](/lock)             | Locks a workspace on a Structurizr server.                                                                                    |
 | [unlock](/unlock)         | Unlocks a workspace on a Structurizr server.                                                                                  |
 | [merge](/merge)           | Merges the layout information into a workspace.                                                                               |

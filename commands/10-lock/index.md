@@ -2,7 +2,7 @@
 layout: default
 parent: Commands
 title: lock
-nav_order: 9
+nav_order: 10
 has_children: false
 permalink: /lock
 has_toc: false

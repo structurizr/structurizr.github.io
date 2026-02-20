@@ -2,7 +2,7 @@
 layout: default
 parent: Commands
 title: delete
-nav_order: 8
+nav_order: 9
 has_children: false
 permalink: /delete
 has_toc: false

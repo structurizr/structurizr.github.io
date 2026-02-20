@@ -2,7 +2,7 @@
 layout: default
 parent: Commands
 title: unlock
-nav_order: 10
+nav_order: 11
 has_children: false
 permalink: /unlock
 has_toc: false
