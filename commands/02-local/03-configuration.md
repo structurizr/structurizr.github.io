@@ -76,3 +76,12 @@ Create a subdirectory for each workspace, with the name of the subdirectory repr
 - `01`
 - `01-softwareSystemA`
 - `01-Software_System_A`
+
+### Maximum workspace size
+
+By default, Structurizr will throw an error when workspaces exceed a 1MB size limit. This can be modified if required by specifying the maximum workspace size in bytes:
+
+- Property: `structurizr.workspace.maxsize=<bytes>`
+- Environment variable: `STRUCTURIZR_WORKSPACE_SIZE=<bytes>`
+
+Please note that you may see performance issues if you raise this value too high.

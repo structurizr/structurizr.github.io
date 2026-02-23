@@ -91,7 +91,16 @@ By default, the server doesn't validate [workspace scope](/workspaces/scope) whe
 | Name                               | Value                                                                                                 |
 |------------------------------------|-------------------------------------------------------------------------------------------------------|
 | `structurizr.feature.workspace.scope` | The workspace scope [validation mode](/workspaces/scope#validation): `strict` or `relaxed` (default). |
-    
+
+## Maximum workspace size
+
+By default, Structurizr will throw an error when workspaces exceed a 1MB size limit. This can be modified if required by specifying the maximum workspace size in bytes:
+
+- Property: `structurizr.workspace.maxsize=<bytes>`
+- Environment variable: `STRUCTURIZR_WORKSPACE_SIZE=<bytes>`
+
+Please note that you may see performance issues if you raise this value too high.
+
 ## Logging
 
 | Name                | Value                                                       |

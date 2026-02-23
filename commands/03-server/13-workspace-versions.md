@@ -13,9 +13,9 @@ changes to your diagrams.
 
 ## Configuration
 
-| Name                | Value                                           |
-|------------------------------|-------------------------------------------------|
-| `structurizr.maxWorkspaceVersions` | Number of versions to retain (default=`30`) |
+| Name                                | Value                                           |
+|-------------------------------------|-------------------------------------------------|
+| `structurizr.workspace.maxversions` | Number of versions to retain (default=`30`) |
 
 ## Viewing a previous version
 
