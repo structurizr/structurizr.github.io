@@ -9,8 +9,11 @@ permalink: /features
 
 Here's a summary of the most notable features provided by Structurizr [local](/local) and [server](/server).
 
+> Structurizr is not a traditional "drag and drop" tool and does not provide a way to make architecture diagrams via a UI. See [UI-driven vs "as code"](https://www.patreon.com/posts/151073821) for the rationale behind this.
+
 ## Diagrams
 
+- Create multiple diagrams from a single architecture model ([tutorial](/dsl/tutorial)).
 - Browser-based [diagram viewer](/server/diagrams/viewer) and [diagram editor](/server/diagrams/editor) (for manual layout), with [double-click to zoom](/server/diagrams/viewer#navigation).
 - Support for a wide variety of notation, including [shapes](/server/diagrams/notation#shapes) and [icons](/server/diagrams/notation#icons) - [diagram keys are generated automatically](/server/diagrams/notation#diagram-key).
 - Prebuilt [themes](/server/diagrams/themes) with icons from Amazon Web Services, Microsoft Azure, and Google Cloud Platform.
