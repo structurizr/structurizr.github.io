@@ -16,6 +16,8 @@ The Structurizr server provides a JSON/HTTP API for workspaces, with the followi
 - DELETE `/api/workspace/{workspaceId}/branch/{name}` (delete branch - [delete](/delete))
 - PUT `/api/workspace/{workspaceId}/lock` (lock workspace - [lock](/lock))
 - DELETE `/api/workspace/{workspaceId}/lock` (unlock workspace - [unlock](/unlock))
+- PUT `/api/workspace/{workspaceId}/images/{filename}` (put image - [push](/push))
+- PUT `/api/workspace/{workspaceId}/branch/{branch}/images/{filename}` (put image to branch - [push](/push))
 
 ## HTTP headers
 
