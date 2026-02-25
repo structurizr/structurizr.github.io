@@ -12,17 +12,17 @@ has_toc: false
 
 Using the Structurizr server via the [prebuilt binaries](/binaries) requires a license. Pricing applies to each Structurizr server installation and is based upon the number of unique users in a one-year period, irrespective of whether those users are creating/editing workspaces or viewing diagrams.
 
-| Small             | Medium              | Large               | Enterprise             |
-|-------------------|---------------------|---------------------|------------------------|
-| 1-20 unique users | 21-50 unique users  | 51-100 unique users | 101+ unique users      |
-| £300 per month    | £600 per month      | £900 per month      | Contact us for a quote |
+| Small             | Medium              | Large               | Enterprise                                  |
+|-------------------|---------------------|---------------------|---------------------------------------------|
+| 1-20 unique users | 21-50 unique users  | 51-100 unique users | 101+ unique users                           |
+| £300 per month    | £600 per month      | £900 per month      | Contact us with your user count for a quote |
 
 - Licenses are billed annually.
 - Support is available via the [GitHub issue tracker](https://github.com/structurizr/structurizr/issues).
 
 Please contact [hello@structurizr.com](mailto:hello@structurizr.com) for a quote or to purchase a license, with the following information:
 
-- License size: small, medium, large, or enterprise.
+- License size: small, medium, large, or enterprise (and number of users).
 - Name of the organisation/team that the license is to be assigned to.
 - Billing address, contact name and email address, that the invoice is to be sent to.
 - Email address that the licence key is to be sent to.
