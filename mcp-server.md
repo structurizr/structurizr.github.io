@@ -8,35 +8,33 @@ permalink: /mcp-server
 # MCP server
 
 An experimental Structurizr MCP server is available on [GitHub](https://github.com/structurizr/structurizr/tree/main/structurizr-mcp).
-It runs standalone and only supports STDIO at this time.
+It runs standalone and supports stateless HTTP transport.
 
 ## Tools
 
-### Get a JSON workspace from a file
+### -dsl
+
+#### Validate Structurizr DSL
 
 - Parameters:
-  - Filename (required)
-- Returns a Structurizr workspace
+  - DSL (required)
+- Returns "OK" if the DSL is parseable, or an error message otherwise
 
-### Inspect a JSON workspace from a file
+#### Parse Structurizr DSL
 
 - Parameters:
-  - Filename (required)
+  - DSL (required)
+- Returns a JSON workspace, or an error message if the DSL can't be parsed
+
+#### Inspect Structurizr DSL
+
+- Parameters:
+  - DSL (required)
 - Returns a list of inspection violations
 
-### Parse a DSL file
+### -server
 
-- Parameters:
-  - Filename (required)
-- Returns a Structurizr workspace
-
-### Inspect a DSL file
-
-- Parameters:
-  - Filename (required)
-- Returns a list of inspection violations
-
-### Get a single workspace from a Structurizr server
+#### Get workspace from a Structurizr server
 
 - Parameters:
   - Structurizr server URL (required)
@@ -44,22 +42,32 @@ It runs standalone and only supports STDIO at this time.
   - API key (not required if running the server with authentication disabled)
 - Returns a Structurizr workspace
 
-### Inspect a single workspace from a Structurizr server
-
-- Parameters:
-  - Structurizr server URL (required)
-  - Workspace ID (required)
-  - API key (not required if running the server with authentication disabled)
-- Returns a list of inspection violations
-
-### Get all workspaces from a Structurizr server
+#### Get all workspaces from a Structurizr server
 
 - Parameters:
     - Structurizr server URL (required)
     - Admin API key (not required if running the server with authentication disabled)
 - Returns a collection of Structurizr workspaces
 
-## Building from source
+## mcp.structurizr.com
+
+An instance of the MCP server is running at `mcp.structurizr.com`, with the DSL tools enabled. If you'd like to use this, just create a connector to `https://mcp.structurizr.com/mcp` in your AI agent.
+
+## Running
+
+The Structurizr MCP server is included in the [prebuilt Docker image](binaries). To run it:
+
+```
+docker pull structurizr/structurizr
+docker run -it --rm -p 3000:3000 -e PORT=3000 structurizr/structurizr mcp <parameters>
+```
+
+The following parameters are supported:
+
+- `-dsl`: Enable DSL tools.
+- `-server`: Enable Structurizr [server](/server) tools.
+
+## Building and running from source
 
 Prerequisites:
 
@@ -75,6 +83,8 @@ cd structurizr
 
 If successful, there will be a `structurizr-mcp-1.0.0.war` file in `structurizr-mcp/target`.
 
+`java -jar structurizr-mcp/target/structurizr-mcp-1.0.0.war <parameters>`
+
 ## Claude Desktop configuration
 
 ```
@@ -82,16 +92,15 @@ If successful, there will be a `structurizr-mcp-1.0.0.war` file in `structurizr-
   ...
   "mcpServers": {
     "structurizr-mcp": {
-    "command": "java",
-    "args": [
-    "-Dlogging.pattern.console=",
-    "-jar",
-    "/path/structurizr-mcp-1.0.0.war"]
+      "command": "npx",
+      "args": ["mcp-remote", "http://localhost:3000/mcp"]
     }
   }
   ...
 }
 ```
+
+(Claude Desktop doesn't permit `http` transport, so you'll need to use [mcp-remote](https://www.npmjs.com/package/mcp-remote) or similar that bridges stdio to a remote MCP server)
 
 ## Example
 
