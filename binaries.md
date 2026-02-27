@@ -15,6 +15,7 @@ All Structurizr [commands](/commands) are free to use from these binaries except
 ## Docker image
 
 - Image name: [structurizr/structurizr](https://hub.docker.com/r/structurizr/structurizr)
+- Tags: `latest` for the most recent released version, `preview` for the most recent development build
 
 ```
 docker pull structurizr/structurizr
