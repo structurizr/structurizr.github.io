@@ -96,8 +96,14 @@ By default, the server doesn't validate [workspace scope](/workspaces/scope) whe
 
 By default, Structurizr will throw an error when workspaces exceed a 1MB size limit. This can be modified if required by specifying the maximum workspace size in bytes:
 
-- Property: `structurizr.workspace.maxsize=<bytes>`
-- Environment variable: `STRUCTURIZR_WORKSPACE_SIZE=<bytes>`
+- Property: `structurizr.workspace.maxsize=<size>`
+- Environment variable: `STRUCTURIZR_WORKSPACE_MAXSIZE=<size>`
+
+The size can be specified in bytes, MB, or KB. For example the following are equivalent:
+
+- `1048576`
+- `1024KB`
+- `1MB`
 
 Please note that you may see performance issues if you raise this value too high.
 
