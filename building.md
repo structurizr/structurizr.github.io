@@ -40,3 +40,13 @@ To build a Docker image, build the code first as above, then:
 ```
 docker build . -t structurizr
 ```
+
+## Version numbers
+
+The [Structurizr for Java](/java) library version numbers are specified by `<version>` tags in the respective `pom.xml` files and follow a semantic versioning scheme of the form `major.minor.patch` ([example](https://github.com/structurizr/structurizr/blob/main/structurizr-dsl/pom.xml)).
+
+The local/server/export/etc commands are bundled into a single Java application, the version number of which is specified in the [structurizr-application/pom.xml](https://github.com/structurizr/structurizr/blob/main/structurizr-application/pom.xml) file via a property named `app.revision` that defaults to `1.0.0`. The [prebuilt binaries](/binaries) follow a calendar versioning scheme of the form `yyyy.mm.dd`, set on the command line when the build is initiated:
+
+```
+./mvnw package -Dapp.revision=2026.02.01
+```
