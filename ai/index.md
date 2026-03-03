@@ -3,6 +3,8 @@ layout: default
 title: AI
 nav_order: 3
 permalink: /ai
+has_children: true
+has_toc: false
 ---
 
 # AI
@@ -13,7 +15,7 @@ Structurizr's model-based consistency and enforcement of the C4 model rules make
 - Structurizr is [model-based](/dsl/tutorial) - you can create a collection of consistent views onto a single model, where element names/descriptions, relationship descriptions, styling, etc all remain the same across the diagrams.
 - Structurizr was designed to support the C4 model - it understands the abstractions and diagram types that make up the C4 model. Structurizr can therefore enforce the hierarchy of abstractions (e.g. containers must be defined inside software systems) and enforce the rules of the diagram types (e.g. components can't be added to a container diagram).
 - Structurizr offers both automatic and [manual layout](/server/diagrams/editor) options.
-- Structurizr has an [inspection feature](/workspaces/inspections) (e.g. to indicate where descriptions or technology choices are missing), which can assist with creating richer models, especially when used via [the Structurizr MCP server](/mcp-server).
+- Structurizr has an [inspection feature](/workspaces/inspections) (e.g. to indicate where descriptions or technology choices are missing), which can assist with creating richer models, especially when used via [the Structurizr MCP server](/ai/mcp).
 - The Structurizr DSL is rendering tool independent, allowing it to better fit in with the way that you work. You can visualise the views defined with the [browser-based diagram viewer](/server/diagrams/editor) or a [static HTML export](/export/static-site) for the most professional looking diagrams. Alternatively you can export Structurizr views to "diagrams as code" formats such as [PlantUML](/export/plantuml) and [Mermaid](/export/mermaid) for integration into your existing toolchain.
 
 ## Comparison to other tools for AI workflows

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: MCP server
-nav_order: 42
-permalink: /mcp-server
+parent: AI
+nav_order: 2
+permalink: /ai/mcp
 ---
 
 # MCP server
@@ -31,6 +32,31 @@ It runs standalone and supports stateless HTTP transport.
 - Parameters:
   - DSL (required)
 - Returns a list of inspection violations
+
+### -mermaid
+
+#### Export view to Mermaid
+
+- Parameters:
+  - DSL (required)
+  - View key (required)
+- Returns a Structurizr view exported as Mermaid
+
+### -plantuml
+
+#### Export view to PlantUML
+
+- Parameters:
+  - DSL (required)
+  - View key (required)
+- Returns a Structurizr view exported as PlantUML
+
+#### Export view to C4-PlantUML
+
+- Parameters:
+  - DSL (required)
+  - View key (required)
+- Returns a Structurizr view exported as C4-PlantUML
 
 ### -server
 
