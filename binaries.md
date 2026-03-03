@@ -2,7 +2,7 @@
 layout: default
 permalink: /binaries
 title: Prebuilt binaries
-nav_order: 6
+nav_order: 7
 ---
 
 # Prebuilt Binaries

@@ -2,7 +2,7 @@
 layout: default
 permalink: /building
 title: Building from source
-nav_order: 5
+nav_order: 6
 ---
 
 # Building from source
