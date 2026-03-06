@@ -26,10 +26,10 @@ In this example, `$PWD` will mount the current local directory as the working di
 
 ## Java .war file
 
-- Java .war file: [structurizr-2026.02.01.war](https://download.structurizr.com/structurizr-2026.02.01.war)
+- Java .war file: [structurizr-2026.03.06.war](https://download.structurizr.com/structurizr-2026.03.06.war)
 
 ```
-java -jar structurizr-2026.02.01.war <command> [parameters] 
+java -jar structurizr-2026.03.06.war <command> [parameters] 
 ```
 
 ## Community builds
