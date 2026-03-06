@@ -74,7 +74,7 @@ No, payments are non-refundable.
 
 ### When do we receive the license key?
 
-The license key will be provided upon confirmation of invoice acceptance.
+The license key (and configuration instructions) will be provided upon confirmation of invoice acceptance.
 
 ### What happens to the Structurizr server when the license expires?
 
