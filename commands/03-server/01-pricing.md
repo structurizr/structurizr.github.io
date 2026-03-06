@@ -64,7 +64,7 @@ A development license can be provided to cover a single staging/pre-production e
 - Bank transfer:
   - International via SWIFT/IBAN
   - UK via account number/sort code
-- PayPal invoice
+- PayPal invoice (for payment via credit card)
 
 We are unable to accept checks/cheques.
 
