@@ -8,8 +8,6 @@ permalink: /dsl/cookbook/perspectives-dynamic/
 
 # Perspectives (dynamic)
 
-> This feature is only available when building from source or using the `structurizr/structurizr:preview` Docker image.
-
 Structurizr provides support for "dynamic" perspectives in addition to [static perspectives](/dsl/cookbook/perspectives-static),
 where the `value` of the perspective is the result of making a URL call, configured via `url` property on the perspective.
 This could be used to pull information from a remote data source (e.g. a version number, test coverage, etc)
