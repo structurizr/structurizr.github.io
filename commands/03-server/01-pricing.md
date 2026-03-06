@@ -20,6 +20,12 @@ Using the Structurizr server via the [prebuilt binaries](/binaries) requires a l
 - Licenses are billed annually.
 - Support is available via the [GitHub issue tracker](https://github.com/structurizr/structurizr/issues).
 
+## Trial period
+
+No trial license key is required - a trial period of 30 days is granted to you after starting the Structurizr server for the first time from the prebuilt binaries, after which you will be required to discontinue use or purchase a license.
+
+## Purchasing
+
 Please contact [hello@structurizr.com](mailto:hello@structurizr.com) for a quote or to purchase a license, with the following information:
 
 - License size: small, medium, large, or enterprise (and number of users).
@@ -31,10 +37,6 @@ Please contact [hello@structurizr.com](mailto:hello@structurizr.com) for a quote
 ## End-User License Agreement
 
 You will be required to read and accept an End-User License Agreement when starting the Structurizr server for the first time from the prebuilt binaries.
-
-## Trial period
-
-A trial period of 30 days is granted to you after starting the Structurizr server for the first time from the prebuilt binaries, after which you will be required to discontinue use or purchase a license.
 
 ## Frequently asked questions (FAQ)
 
