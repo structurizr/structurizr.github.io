@@ -10,8 +10,6 @@ has_toc: false
 
 # Structurizr Lite
 
-> Structurizr Lite will not receive any further updates - please migrate to the new consolidated tooling - see [Introducing Structurizr vNext](https://www.patreon.com/posts/146923136) and [local](/local) for details.
-
 This free and open source version of Structurizr allows you to view/edit diagrams, view documentation, and view architecture decision records defined via a DSL or JSON workspace.
 Structurizr Lite can be used standalone for workspace viewing/authoring, or in conjunction with the cloud service/on-premises installation as an authoring/testing/staging environment.
 

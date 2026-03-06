@@ -1,4 +1,32 @@
+<style>
+    .endOfLifeNotice {
+        background: darkred;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .endOfLifeNotice a {
+        color: white;
+    }
+</style>
+
 <script src="https://simonbrown.je/js/ad.js"></script>
 <script>
-    showAd('main-content', 'structurizr');
+    const path = window.location.pathname;
+
+    if (path.indexOf('/lite') === 0 || path.indexOf('/cli') === 0 || path.indexOf('/onpremises') === 0 || path.indexOf('/ui') === 0) {
+        const div = document.createElement("div");
+        div.innerHTML = 'Structurizr Lite, on-premises, and CLI will not receive any further updates - please migrate to the new consolidated tooling - see <a href="https://www.patreon.com/posts/146923136" target="_blank">Introducing Structurizr vNext</a> and <a href="/commands">commands</a> for details.';
+        div.classList.add('endOfLifeNotice');
+
+        const content = document.getElementById('main-content');
+        if (content) {
+            content.prepend(div);
+        }
+    } else {
+        showAd('main-content', 'structurizr');
+    }
 </script>
