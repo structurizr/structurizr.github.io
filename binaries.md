@@ -31,3 +31,9 @@ In this example, `$PWD` will mount the current local directory as the working di
 ```
 java -jar structurizr-2026.02.01.war <command> [parameters] 
 ```
+
+## Community builds
+
+The following binaries/packages can also be used, but are not maintained by us.
+
+- [Homebrew](https://formulae.brew.sh/formula/structurizr)
