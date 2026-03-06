@@ -10,7 +10,7 @@ has_toc: false
 
 # Pricing
 
-Using the Structurizr server via the [prebuilt binaries](/binaries) requires a license. Pricing applies to each Structurizr server installation and is based upon the number of unique users in a one-year period, irrespective of whether those users are creating/editing workspaces or viewing diagrams.
+Using the Structurizr server via our [prebuilt binaries](/binaries) requires a license. Pricing applies to each Structurizr server installation and is based upon the number of [unique users](/server/pricing#what-is-a-unique-user) in a one-year period, irrespective of whether those users are creating/editing workspaces or viewing diagrams.
 
 | Small             | Medium              | Large               | Enterprise                                  |
 |-------------------|---------------------|---------------------|---------------------------------------------|
@@ -28,17 +28,32 @@ No trial license key is required - a trial period of 30 days is granted to you a
 
 Please contact [hello@structurizr.com](mailto:hello@structurizr.com) for a quote or to purchase a license, with the following information:
 
-- License size: small, medium, large, or enterprise (and number of users).
+- License size: small, medium, large, or enterprise (and number of unique users).
 - Name of the organisation/team that the license is to be assigned to.
 - Billing address, contact name and email address, that the invoice is to be sent to.
 - Email address that the licence key is to be sent to.
 - Preferred payment method - bank transfer or PayPal.
 
-## End-User License Agreement
-
-You will be required to read and accept an End-User License Agreement when starting the Structurizr server for the first time from the prebuilt binaries.
-
 ## Frequently asked questions (FAQ)
+
+### What is a "unique user"?
+
+A "unique user" refers to any individual or automated process accessing the content from the Structurizr server, irrespective of whether they are:
+
+- Using the server directly (e.g. to view/edit diagrams, view documentation, etc)
+- Accessing the server via an [iframe embed](/server/diagrams/iframe-embed)
+- Accessing the server via an [image embed](/server/diagrams/image-embed)
+- Accessing the server via the [workspace API](/server/workspace-api)
+- Accessing the server via the [admin API](/server/admin-api)
+- etc
+
+### Is there an End-User License Agreement?
+
+Yes, you will be required to read and accept an End-User License Agreement when starting the Structurizr server for the first time from the prebuilt binaries.
+
+### Production vs staging/pre-production?
+
+A development license can be provided to cover a single staging/pre-production environment.
 
 ### What are your payment terms?
 
