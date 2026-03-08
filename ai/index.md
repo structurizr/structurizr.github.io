@@ -32,13 +32,3 @@ Structurizr's model-based consistency and enforcement of the C4 model rules make
 LikeC4 follows a similar approach to Structurizr, but LikeC4 doesn't support the C4 model "out of the box", instead requiring you to create a "specification" that defines how you would like to use the tooling. A misconfigured specification will allow you to add elements at the wrong level of abstraction, violating C4's hierarchy.
 
 Structurizr was created by the author of the C4 model and remains the reference implementation, making it the best choice if you are looking for compliance and compatibility with the C4 model.
-
-## Example
-
-Here's an example chat session with minimal prompting. A little cleanup is required, but it's a good starting point:
-
-[![](/images/ai-1.png)](/images/ai-1.png)
-
-And here's the output when the generated DSL is pasted into `playground.structurizr.com`:
-
-[![](/images/ai-2.png)](/images/ai-2.png)

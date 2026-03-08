@@ -2,7 +2,7 @@
 layout: default
 title: MCP server
 parent: AI
-nav_order: 2
+nav_order: 11
 permalink: /ai/mcp
 ---
 
