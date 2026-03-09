@@ -9,7 +9,20 @@ has_toc: false
 
 # Getting started
 
-The recommended way to use Structurizr is to create your software architecture model and views (known as a "[workspace](/workspaces)") with the [Structurizr DSL](/dsl). You then need to decide which tooling you would like to use to generate/edit diagrams and how you would like other people to view the diagrams. The most common options are:
+The recommended way to use Structurizr is to create your software architecture model and views (known as a "[workspace](/workspaces)") with the [Structurizr DSL](/dsl). You then need to decide which __tooling__ and __workflow__ combination you would like to use to generate/edit diagrams and how you would like other people to view the diagrams.
+
+## Tooling
+
+The main tooling options are:
+
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| ![](/images/bootstrap-icons/laptop.svg) [local](/local)        | Provides a way to view diagrams and modify their layout on your local computer (the equivalent of the previous Structurizr Lite). |
+| ![](/images/bootstrap-icons/hdd-network.svg) [server](/server) | A self-hosted Structurizr server (the equivalent of the previous Structurizr on-premises installation).                       |
+| ![](/images/bootstrap-icons/terminal.svg) [export](/export)    | Exports the views in a Structurizr workspace to PlantUML, Mermaid, or a static HTML site.                            |
+
+## Workflow
+
+ The most common workflow options are:
 
 |                                                                                                | Workspace editing                                                                                                                      | Diagram viewing                                                                                                                         |
 |------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
