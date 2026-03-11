@@ -3,7 +3,7 @@ workspace "C" {
     !identifiers hierarchical
 
     model {
-        c = softwareSystem "C" {
+        c = softwareSystem "C" "A description of software system C." {
             api = container "API" {
                 technology "Node.js"
             }

@@ -5,9 +5,7 @@
   "description" : "Description",
   "documentation" : { },
   "id" : 2,
-  "lastModifiedAgent" : "structurizr/diagrams/c7691c0a-72bc-4f4d-b87c-cdc11e023e93",
-  "lastModifiedDate" : "2026-03-11T10:39:54Z",
-  "lastModifiedUser" : "505088896",
+  "lastModifiedDate" : "2026-03-11T11:11:08Z",
   "model" : {
     "softwareSystems" : [ {
       "containers" : [ {
@@ -41,6 +39,7 @@
         "tags" : "Element,Container,Database",
         "technology" : "MySQL"
       } ],
+      "description" : "A description of software system B.",
       "documentation" : { },
       "id" : "1",
       "name" : "B",
@@ -56,6 +55,7 @@
       } ],
       "tags" : "Element,Software System"
     }, {
+      "description" : "A description of software system C.",
       "documentation" : { },
       "id" : "5",
       "name" : "C",
@@ -67,16 +67,15 @@
   },
   "name" : "B",
   "properties" : {
+    "structurizr.inspection.error" : "8",
+    "structurizr.dsl" : "d29ya3NwYWNlICJCIiB7CgogICAgIWlkZW50aWZpZXJzIGhpZXJhcmNoaWNhbAoKICAgIG1vZGVsIHsKICAgICAgICBiID0gc29mdHdhcmVTeXN0ZW0gIkIiICJBIGRlc2NyaXB0aW9uIG9mIHNvZnR3YXJlIHN5c3RlbSBCLiIgewogICAgICAgICAgICBhcGkgPSBjb250YWluZXIgIkFQSSIKCiAgICAgICAgICAgIGRiID0gY29udGFpbmVyICJEYXRhYmFzZSBTY2hlbWEiIHsKICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIk15U1FMIgogICAgICAgICAgICAgICAgdGFnICJEYXRhYmFzZSIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgYXBpIC0+IGRiICJSZWFkcyBmcm9tIGFuZCB3cml0ZXMgdG8iCiAgICAgICAgfQoKICAgICAgICBjID0gc29mdHdhcmVTeXN0ZW0gIkMiICJBIGRlc2NyaXB0aW9uIG9mIHNvZnR3YXJlIHN5c3RlbSBDLiIKCiAgICAgICAgYi5hcGkgLT4gYyAiUmVxdWVzdHMgZGF0YSBvZiB0eXBlIEMgZnJvbSIKICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtQ29udGV4dCBiICJTeXN0ZW1Db250ZXh0IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIGIgIkNvbnRhaW5lcnMiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc2hhcGUgY3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBjb25maWd1cmF0aW9uIHsKICAgICAgICBzY29wZSBzb2Z0d2FyZXN5c3RlbQogICAgfQoKfQ==",
     "structurizr.inspection.info" : "0",
     "structurizr.inspection.ignore" : "0",
-    "structurizr.inspection.error" : "10",
-    "structurizr.inspection.warning" : "0",
-    "structurizr.dsl" : "d29ya3NwYWNlICJCIiB7CgogICAgIWlkZW50aWZpZXJzIGhpZXJhcmNoaWNhbAoKICAgIG1vZGVsIHsKICAgICAgICBiID0gc29mdHdhcmVTeXN0ZW0gIkIiIHsKICAgICAgICAgICAgYXBpID0gY29udGFpbmVyICJBUEkiCgogICAgICAgICAgICBkYiA9IGNvbnRhaW5lciAiRGF0YWJhc2UgU2NoZW1hIiB7CiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJNeVNRTCIKICAgICAgICAgICAgICAgIHRhZyAiRGF0YWJhc2UiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGFwaSAtPiBkYiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIgogICAgICAgIH0KCiAgICAgICAgYyA9IHNvZnR3YXJlU3lzdGVtICJDIgoKICAgICAgICBiLmFwaSAtPiBjICJSZXF1ZXN0cyBkYXRhIG9mIHR5cGUgQyBmcm9tIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IGIgIlN5c3RlbUNvbnRleHQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgYiAiQ29udGFpbmVycyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBjeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGNvbmZpZ3VyYXRpb24gewogICAgICAgIHNjb3BlIHNvZnR3YXJlc3lzdGVtCiAgICB9Cgp9"
+    "structurizr.inspection.warning" : "0"
   },
   "views" : {
     "configuration" : {
       "lastSavedView" : "SystemContext",
-      "metadataSymbols" : "SquareBrackets",
       "styles" : {
         "elements" : [ {
           "shape" : "Cylinder",

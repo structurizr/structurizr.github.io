@@ -5,9 +5,7 @@
   "description" : "Description",
   "documentation" : { },
   "id" : 3,
-  "lastModifiedAgent" : "structurizr/diagrams/3de03846-2e43-4154-b182-f68c5e16853c",
-  "lastModifiedDate" : "2026-03-11T10:41:36Z",
-  "lastModifiedUser" : "505088896",
+  "lastModifiedDate" : "2026-03-11T11:11:16Z",
   "model" : {
     "softwareSystems" : [ {
       "containers" : [ {
@@ -36,6 +34,7 @@
         "tags" : "Element,Container,Database",
         "technology" : "MySQL"
       } ],
+      "description" : "A description of software system C.",
       "documentation" : { },
       "id" : "1",
       "name" : "C",
@@ -47,16 +46,15 @@
   },
   "name" : "C",
   "properties" : {
+    "structurizr.inspection.error" : "6",
+    "structurizr.dsl" : "d29ya3NwYWNlICJDIiB7CgogICAgIWlkZW50aWZpZXJzIGhpZXJhcmNoaWNhbAoKICAgIG1vZGVsIHsKICAgICAgICBjID0gc29mdHdhcmVTeXN0ZW0gIkMiICJBIGRlc2NyaXB0aW9uIG9mIHNvZnR3YXJlIHN5c3RlbSBDLiIgewogICAgICAgICAgICBhcGkgPSBjb250YWluZXIgIkFQSSIgewogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiTm9kZS5qcyIKICAgICAgICAgICAgfQogICAgICAgICAgICBkYiA9IGNvbnRhaW5lciAiRGF0YWJhc2UgU2NoZW1hIiB7CiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJNeVNRTCIKICAgICAgICAgICAgICAgIHRhZyAiRGF0YWJhc2UiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGFwaSAtPiBkYiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIgogICAgICAgIH0KICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtQ29udGV4dCBjICJTeXN0ZW1Db250ZXh0IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIGMgIkNvbnRhaW5lcnMiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc2hhcGUgY3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBjb25maWd1cmF0aW9uIHsKICAgICAgICBzY29wZSBzb2Z0d2FyZXN5c3RlbQogICAgfQoKfQ==",
     "structurizr.inspection.info" : "0",
     "structurizr.inspection.ignore" : "0",
-    "structurizr.inspection.error" : "7",
-    "structurizr.inspection.warning" : "0",
-    "structurizr.dsl" : "d29ya3NwYWNlICJDIiB7CgogICAgIWlkZW50aWZpZXJzIGhpZXJhcmNoaWNhbAoKICAgIG1vZGVsIHsKICAgICAgICBjID0gc29mdHdhcmVTeXN0ZW0gIkMiIHsKICAgICAgICAgICAgYXBpID0gY29udGFpbmVyICJBUEkiIHsKICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIk5vZGUuanMiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGIgPSBjb250YWluZXIgIkRhdGFiYXNlIFNjaGVtYSIgewogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiTXlTUUwiCiAgICAgICAgICAgICAgICB0YWcgIkRhdGFiYXNlIgogICAgICAgICAgICB9CgogICAgICAgICAgICBhcGkgLT4gZGIgIlJlYWRzIGZyb20gYW5kIHdyaXRlcyB0byIKICAgICAgICB9CiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgYyAiU3lzdGVtQ29udGV4dCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBjICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIGN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgY29uZmlndXJhdGlvbiB7CiAgICAgICAgc2NvcGUgc29mdHdhcmVzeXN0ZW0KICAgIH0KCn0="
+    "structurizr.inspection.warning" : "0"
   },
   "views" : {
     "configuration" : {
       "lastSavedView" : "Containers",
-      "metadataSymbols" : "SquareBrackets",
       "styles" : {
         "elements" : [ {
           "shape" : "Cylinder",

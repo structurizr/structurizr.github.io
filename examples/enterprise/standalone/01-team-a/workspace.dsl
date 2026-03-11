@@ -3,7 +3,7 @@ workspace "A" {
     !identifiers hierarchical
 
     model {
-        a = softwareSystem "A" {
+        a = softwareSystem "A" "A description of software system A." {
             app = container "Web Application" {
                 technology "Java and Spring Boot"
             }
@@ -15,8 +15,8 @@ workspace "A" {
             app -> db "Reads from and writes to"
         }
 
-        b = softwareSystem "B"
-        c = softwareSystem "C"
+        b = softwareSystem "B" "A description of software system B."
+        c = softwareSystem "C" "A description of software system C." 
 
         a.app -> b "Requests data of type B from"
         a.app -> c "Requests data of type C from"
