@@ -1,0 +1,104 @@
+{
+  "configuration" : {
+    "scope" : "SoftwareSystem"
+  },
+  "description" : "Description",
+  "documentation" : { },
+  "id" : 3,
+  "lastModifiedAgent" : "structurizr/diagrams/3de03846-2e43-4154-b182-f68c5e16853c",
+  "lastModifiedDate" : "2026-03-11T10:41:36Z",
+  "lastModifiedUser" : "505088896",
+  "model" : {
+    "softwareSystems" : [ {
+      "containers" : [ {
+        "documentation" : { },
+        "id" : "2",
+        "name" : "API",
+        "properties" : {
+          "structurizr.dsl.identifier" : "c.api"
+        },
+        "relationships" : [ {
+          "description" : "Reads from and writes to",
+          "destinationId" : "3",
+          "id" : "4",
+          "sourceId" : "2",
+          "tags" : "Relationship"
+        } ],
+        "tags" : "Element,Container",
+        "technology" : "Node.js"
+      }, {
+        "documentation" : { },
+        "id" : "3",
+        "name" : "Database Schema",
+        "properties" : {
+          "structurizr.dsl.identifier" : "c.db"
+        },
+        "tags" : "Element,Container,Database",
+        "technology" : "MySQL"
+      } ],
+      "documentation" : { },
+      "id" : "1",
+      "name" : "C",
+      "properties" : {
+        "structurizr.dsl.identifier" : "c"
+      },
+      "tags" : "Element,Software System"
+    } ]
+  },
+  "name" : "C",
+  "properties" : {
+    "structurizr.inspection.info" : "0",
+    "structurizr.inspection.ignore" : "0",
+    "structurizr.inspection.error" : "7",
+    "structurizr.inspection.warning" : "0",
+    "structurizr.dsl" : "d29ya3NwYWNlICJDIiB7CgogICAgIWlkZW50aWZpZXJzIGhpZXJhcmNoaWNhbAoKICAgIG1vZGVsIHsKICAgICAgICBjID0gc29mdHdhcmVTeXN0ZW0gIkMiIHsKICAgICAgICAgICAgYXBpID0gY29udGFpbmVyICJBUEkiIHsKICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIk5vZGUuanMiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGIgPSBjb250YWluZXIgIkRhdGFiYXNlIFNjaGVtYSIgewogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiTXlTUUwiCiAgICAgICAgICAgICAgICB0YWcgIkRhdGFiYXNlIgogICAgICAgICAgICB9CgogICAgICAgICAgICBhcGkgLT4gZGIgIlJlYWRzIGZyb20gYW5kIHdyaXRlcyB0byIKICAgICAgICB9CiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgYyAiU3lzdGVtQ29udGV4dCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBjICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIGN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgY29uZmlndXJhdGlvbiB7CiAgICAgICAgc2NvcGUgc29mdHdhcmVzeXN0ZW0KICAgIH0KCn0="
+  },
+  "views" : {
+    "configuration" : {
+      "lastSavedView" : "Containers",
+      "metadataSymbols" : "SquareBrackets",
+      "styles" : {
+        "elements" : [ {
+          "shape" : "Cylinder",
+          "tag" : "Database"
+        } ]
+      },
+      "terminology" : { }
+    },
+    "containerViews" : [ {
+      "dimensions" : {
+        "height" : 1204,
+        "width" : 870
+      },
+      "elements" : [ {
+        "id" : "2",
+        "x" : 210,
+        "y" : 114
+      }, {
+        "id" : "3",
+        "x" : 210,
+        "y" : 630
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : false,
+      "key" : "Containers",
+      "name" : "Container View: C",
+      "order" : 2,
+      "relationships" : [ {
+        "id" : "4"
+      } ],
+      "softwareSystemId" : "1"
+    } ],
+    "systemContextViews" : [ {
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "key" : "SystemContext",
+      "name" : "System Context View: C",
+      "order" : 1,
+      "softwareSystemId" : "1"
+    } ]
+  }
+}

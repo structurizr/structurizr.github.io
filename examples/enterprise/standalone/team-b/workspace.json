@@ -1,0 +1,142 @@
+{
+  "configuration" : {
+    "scope" : "SoftwareSystem"
+  },
+  "description" : "Description",
+  "documentation" : { },
+  "id" : 2,
+  "lastModifiedAgent" : "structurizr/diagrams/c7691c0a-72bc-4f4d-b87c-cdc11e023e93",
+  "lastModifiedDate" : "2026-03-11T10:39:54Z",
+  "lastModifiedUser" : "505088896",
+  "model" : {
+    "softwareSystems" : [ {
+      "containers" : [ {
+        "documentation" : { },
+        "id" : "2",
+        "name" : "API",
+        "properties" : {
+          "structurizr.dsl.identifier" : "b.api"
+        },
+        "relationships" : [ {
+          "description" : "Reads from and writes to",
+          "destinationId" : "3",
+          "id" : "4",
+          "sourceId" : "2",
+          "tags" : "Relationship"
+        }, {
+          "description" : "Requests data of type C from",
+          "destinationId" : "5",
+          "id" : "6",
+          "sourceId" : "2",
+          "tags" : "Relationship"
+        } ],
+        "tags" : "Element,Container"
+      }, {
+        "documentation" : { },
+        "id" : "3",
+        "name" : "Database Schema",
+        "properties" : {
+          "structurizr.dsl.identifier" : "b.db"
+        },
+        "tags" : "Element,Container,Database",
+        "technology" : "MySQL"
+      } ],
+      "documentation" : { },
+      "id" : "1",
+      "name" : "B",
+      "properties" : {
+        "structurizr.dsl.identifier" : "b"
+      },
+      "relationships" : [ {
+        "description" : "Requests data of type C from",
+        "destinationId" : "5",
+        "id" : "7",
+        "linkedRelationshipId" : "6",
+        "sourceId" : "1"
+      } ],
+      "tags" : "Element,Software System"
+    }, {
+      "documentation" : { },
+      "id" : "5",
+      "name" : "C",
+      "properties" : {
+        "structurizr.dsl.identifier" : "c"
+      },
+      "tags" : "Element,Software System"
+    } ]
+  },
+  "name" : "B",
+  "properties" : {
+    "structurizr.inspection.info" : "0",
+    "structurizr.inspection.ignore" : "0",
+    "structurizr.inspection.error" : "10",
+    "structurizr.inspection.warning" : "0",
+    "structurizr.dsl" : "d29ya3NwYWNlICJCIiB7CgogICAgIWlkZW50aWZpZXJzIGhpZXJhcmNoaWNhbAoKICAgIG1vZGVsIHsKICAgICAgICBiID0gc29mdHdhcmVTeXN0ZW0gIkIiIHsKICAgICAgICAgICAgYXBpID0gY29udGFpbmVyICJBUEkiCgogICAgICAgICAgICBkYiA9IGNvbnRhaW5lciAiRGF0YWJhc2UgU2NoZW1hIiB7CiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJNeVNRTCIKICAgICAgICAgICAgICAgIHRhZyAiRGF0YWJhc2UiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGFwaSAtPiBkYiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIgogICAgICAgIH0KCiAgICAgICAgYyA9IHNvZnR3YXJlU3lzdGVtICJDIgoKICAgICAgICBiLmFwaSAtPiBjICJSZXF1ZXN0cyBkYXRhIG9mIHR5cGUgQyBmcm9tIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IGIgIlN5c3RlbUNvbnRleHQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgYiAiQ29udGFpbmVycyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBjeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGNvbmZpZ3VyYXRpb24gewogICAgICAgIHNjb3BlIHNvZnR3YXJlc3lzdGVtCiAgICB9Cgp9"
+  },
+  "views" : {
+    "configuration" : {
+      "lastSavedView" : "SystemContext",
+      "metadataSymbols" : "SquareBrackets",
+      "styles" : {
+        "elements" : [ {
+          "shape" : "Cylinder",
+          "tag" : "Database"
+        } ]
+      },
+      "terminology" : { }
+    },
+    "containerViews" : [ {
+      "dimensions" : {
+        "height" : 1164,
+        "width" : 1531
+      },
+      "elements" : [ {
+        "id" : "2",
+        "x" : 149,
+        "y" : 110
+      }, {
+        "id" : "3",
+        "x" : 149,
+        "y" : 595
+      }, {
+        "id" : "5",
+        "x" : 980,
+        "y" : 110
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : false,
+      "key" : "Containers",
+      "name" : "Container View: B",
+      "order" : 2,
+      "relationships" : [ {
+        "id" : "4"
+      }, {
+        "id" : "6",
+        "position" : 52
+      } ],
+      "softwareSystemId" : "1"
+    } ],
+    "systemContextViews" : [ {
+      "dimensions" : {
+        "height" : 600,
+        "width" : 1540
+      },
+      "elements" : [ {
+        "id" : "1",
+        "x" : 150,
+        "y" : 109
+      }, {
+        "id" : "5",
+        "x" : 940,
+        "y" : 109
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "key" : "SystemContext",
+      "name" : "System Context View: B",
+      "order" : 1,
+      "relationships" : [ {
+        "id" : "7"
+      } ],
+      "softwareSystemId" : "1"
+    } ]
+  }
+}

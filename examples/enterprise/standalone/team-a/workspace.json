@@ -1,0 +1,171 @@
+{
+  "configuration" : {
+    "scope" : "SoftwareSystem"
+  },
+  "description" : "Description",
+  "documentation" : { },
+  "id" : 1,
+  "lastModifiedDate" : "2026-03-11T10:41:20Z",
+  "model" : {
+    "softwareSystems" : [ {
+      "containers" : [ {
+        "documentation" : { },
+        "id" : "2",
+        "name" : "Web Application",
+        "properties" : {
+          "structurizr.dsl.identifier" : "a.app"
+        },
+        "relationships" : [ {
+          "description" : "Reads from and writes to",
+          "destinationId" : "3",
+          "id" : "4",
+          "sourceId" : "2",
+          "tags" : "Relationship"
+        }, {
+          "description" : "Requests data of type B from",
+          "destinationId" : "5",
+          "id" : "7",
+          "sourceId" : "2",
+          "tags" : "Relationship"
+        }, {
+          "description" : "Requests data of type C from",
+          "destinationId" : "6",
+          "id" : "9",
+          "sourceId" : "2",
+          "tags" : "Relationship"
+        } ],
+        "tags" : "Element,Container",
+        "technology" : "Java and Spring Boot"
+      }, {
+        "documentation" : { },
+        "id" : "3",
+        "name" : "Database Schema",
+        "properties" : {
+          "structurizr.dsl.identifier" : "a.db"
+        },
+        "tags" : "Element,Container,Database",
+        "technology" : "MySQL"
+      } ],
+      "documentation" : { },
+      "id" : "1",
+      "name" : "A",
+      "properties" : {
+        "structurizr.dsl.identifier" : "a"
+      },
+      "relationships" : [ {
+        "description" : "Requests data of type B from",
+        "destinationId" : "5",
+        "id" : "8",
+        "linkedRelationshipId" : "7",
+        "sourceId" : "1"
+      }, {
+        "description" : "Requests data of type C from",
+        "destinationId" : "6",
+        "id" : "10",
+        "linkedRelationshipId" : "9",
+        "sourceId" : "1"
+      } ],
+      "tags" : "Element,Software System"
+    }, {
+      "documentation" : { },
+      "id" : "5",
+      "name" : "B",
+      "properties" : {
+        "structurizr.dsl.identifier" : "b"
+      },
+      "tags" : "Element,Software System"
+    }, {
+      "documentation" : { },
+      "id" : "6",
+      "name" : "C",
+      "properties" : {
+        "structurizr.dsl.identifier" : "c"
+      },
+      "tags" : "Element,Software System"
+    } ]
+  },
+  "name" : "A",
+  "properties" : {
+    "structurizr.inspection.error" : "12",
+    "structurizr.dsl" : "d29ya3NwYWNlICJBIiB7CgogICAgIWlkZW50aWZpZXJzIGhpZXJhcmNoaWNhbAoKICAgIG1vZGVsIHsKICAgICAgICBhID0gc29mdHdhcmVTeXN0ZW0gIkEiIHsKICAgICAgICAgICAgYXBwID0gY29udGFpbmVyICJXZWIgQXBwbGljYXRpb24iIHsKICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIkphdmEgYW5kIFNwcmluZyBCb290IgogICAgICAgICAgICB9CiAgICAgICAgICAgIGRiID0gY29udGFpbmVyICJEYXRhYmFzZSBTY2hlbWEiIHsKICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIk15U1FMIgogICAgICAgICAgICAgICAgdGFnICJEYXRhYmFzZSIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgYXBwIC0+IGRiICJSZWFkcyBmcm9tIGFuZCB3cml0ZXMgdG8iCiAgICAgICAgfQoKICAgICAgICBiID0gc29mdHdhcmVTeXN0ZW0gIkIiCiAgICAgICAgYyA9IHNvZnR3YXJlU3lzdGVtICJDIgoKICAgICAgICBhLmFwcCAtPiBiICJSZXF1ZXN0cyBkYXRhIG9mIHR5cGUgQiBmcm9tIgogICAgICAgIGEuYXBwIC0+IGMgIlJlcXVlc3RzIGRhdGEgb2YgdHlwZSBDIGZyb20iCiAgICB9CiAgICAKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IGEgIlN5c3RlbUNvbnRleHQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgYSAiQ29udGFpbmVycyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBjeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGNvbmZpZ3VyYXRpb24gewogICAgICAgIHNjb3BlIHNvZnR3YXJlc3lzdGVtCiAgICB9CiAgICAKfQ==",
+    "structurizr.inspection.info" : "0",
+    "structurizr.inspection.ignore" : "0",
+    "structurizr.inspection.warning" : "0"
+  },
+  "views" : {
+    "configuration" : {
+      "lastSavedView" : "Containers",
+      "styles" : {
+        "elements" : [ {
+          "shape" : "Cylinder",
+          "tag" : "Database"
+        } ]
+      },
+      "terminology" : { }
+    },
+    "containerViews" : [ {
+      "dimensions" : {
+        "height" : 1433,
+        "width" : 1575
+      },
+      "elements" : [ {
+        "id" : "2",
+        "x" : 150,
+        "y" : 241
+      }, {
+        "id" : "3",
+        "x" : 150,
+        "y" : 863
+      }, {
+        "id" : "5",
+        "x" : 1025,
+        "y" : 59
+      }, {
+        "id" : "6",
+        "x" : 1025,
+        "y" : 424
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : false,
+      "key" : "Containers",
+      "name" : "Container View: A",
+      "order" : 2,
+      "relationships" : [ {
+        "id" : "4"
+      }, {
+        "id" : "7"
+      }, {
+        "id" : "9"
+      } ],
+      "softwareSystemId" : "1"
+    } ],
+    "systemContextViews" : [ {
+      "dimensions" : {
+        "height" : 875,
+        "width" : 1430
+      },
+      "elements" : [ {
+        "id" : "1",
+        "x" : 99,
+        "y" : 246
+      }, {
+        "id" : "5",
+        "x" : 879,
+        "y" : 59
+      }, {
+        "id" : "6",
+        "x" : 879,
+        "y" : 434
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "key" : "SystemContext",
+      "name" : "System Context View: A",
+      "order" : 1,
+      "relationships" : [ {
+        "id" : "10"
+      }, {
+        "id" : "8"
+      } ],
+      "softwareSystemId" : "1"
+    } ]
+  }
+}
