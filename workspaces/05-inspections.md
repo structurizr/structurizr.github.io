@@ -2,7 +2,7 @@
 layout: default
 title: Inspections
 parent: Workspaces
-nav_order: 4
+nav_order: 5
 permalink: /workspaces/inspections
 ---
 
