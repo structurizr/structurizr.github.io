@@ -4,9 +4,7 @@
   },
   "documentation" : { },
   "id" : 4,
-  "lastModifiedAgent" : "structurizr/diagrams/c73f6040-ccb9-400b-a50f-e4a3e6340745",
-  "lastModifiedDate" : "2026-03-11T11:39:49Z",
-  "lastModifiedUser" : "239874162",
+  "lastModifiedDate" : "2026-03-11T11:45:03Z",
   "model" : {
     "softwareSystems" : [ {
       "description" : "A description of software system A.",
@@ -62,15 +60,15 @@
   },
   "name" : "System Landscape",
   "properties" : {
+    "structurizr.inspection.error" : "3",
+    "structurizr.dsl" : "d29ya3NwYWNlIGV4dGVuZHMgaHR0cHM6Ly9kb2NzLnN0cnVjdHVyaXpyLmNvbS9leGFtcGxlcy9lbnRlcnByaXNlL3N5c3RlbS1jYXRhbG9nL3N5c3RlbS1sYW5kc2NhcGUuanNvbiB7CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUxhbmRzY2FwZSAiU3lzdGVtTGFuZHNjYXBlIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KICAgIH0KCn0=",
     "structurizr.inspection.info" : "0",
     "structurizr.inspection.ignore" : "0",
-    "structurizr.inspection.error" : "3",
     "structurizr.inspection.warning" : "0"
   },
   "views" : {
     "configuration" : {
       "lastSavedView" : "SystemLandscape",
-      "metadataSymbols" : "SquareBrackets",
       "styles" : { },
       "terminology" : { }
     },
