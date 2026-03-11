@@ -1,0 +1,120 @@
+{
+  "configuration" : {
+    "scope" : "SoftwareSystem"
+  },
+  "description" : "Description",
+  "documentation" : { },
+  "id" : 3,
+  "lastModifiedDate" : "2026-03-11T11:20:53Z",
+  "model" : {
+    "softwareSystems" : [ {
+      "description" : "A description of software system A.",
+      "documentation" : { },
+      "id" : "1",
+      "name" : "A",
+      "properties" : {
+        "structurizr.dsl.identifier" : "a"
+      },
+      "tags" : "Element,Software System"
+    }, {
+      "description" : "A description of software system B.",
+      "documentation" : { },
+      "id" : "2",
+      "name" : "B",
+      "properties" : {
+        "structurizr.dsl.identifier" : "b"
+      },
+      "tags" : "Element,Software System"
+    }, {
+      "containers" : [ {
+        "documentation" : { },
+        "id" : "4",
+        "name" : "API",
+        "properties" : {
+          "structurizr.dsl.identifier" : "c.api"
+        },
+        "relationships" : [ {
+          "description" : "Reads from and writes to",
+          "destinationId" : "5",
+          "id" : "6",
+          "sourceId" : "4",
+          "tags" : "Relationship"
+        } ],
+        "tags" : "Element,Container",
+        "technology" : "Node.js"
+      }, {
+        "documentation" : { },
+        "id" : "5",
+        "name" : "Database Schema",
+        "properties" : {
+          "structurizr.dsl.identifier" : "c.db"
+        },
+        "tags" : "Element,Container,Database",
+        "technology" : "MySQL"
+      } ],
+      "description" : "A description of software system C.",
+      "documentation" : { },
+      "id" : "3",
+      "name" : "C",
+      "properties" : {
+        "structurizr.dsl.identifier" : "c"
+      },
+      "tags" : "Element,Software System"
+    } ]
+  },
+  "name" : "C",
+  "properties" : {
+    "structurizr.inspection.error" : "10",
+    "structurizr.dsl" : "d29ya3NwYWNlIGV4dGVuZHMgaHR0cHM6Ly9kb2NzLnN0cnVjdHVyaXpyLmNvbS9leGFtcGxlcy9lbnRlcnByaXNlL3N5c3RlbS1jYXRhbG9nL3N5c3RlbS1jYXRhbG9nLmRzbCB7CgogICAgbmFtZSAiQyIKCiAgICAhaWRlbnRpZmllcnMgaGllcmFyY2hpY2FsCgogICAgbW9kZWwgewogICAgICAgICFlbGVtZW50IGMgewogICAgICAgICAgICBhcGkgPSBjb250YWluZXIgIkFQSSIgewogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiTm9kZS5qcyIKICAgICAgICAgICAgfQogICAgICAgICAgICBkYiA9IGNvbnRhaW5lciAiRGF0YWJhc2UgU2NoZW1hIiB7CiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJNeVNRTCIKICAgICAgICAgICAgICAgIHRhZyAiRGF0YWJhc2UiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGFwaSAtPiBkYiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIgogICAgICAgIH0KICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtQ29udGV4dCBjICJTeXN0ZW1Db250ZXh0IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIGMgIkNvbnRhaW5lcnMiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc2hhcGUgY3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBjb25maWd1cmF0aW9uIHsKICAgICAgICBzY29wZSBzb2Z0d2FyZXN5c3RlbQogICAgfQoKfQ==",
+    "structurizr.inspection.info" : "0",
+    "structurizr.inspection.ignore" : "0",
+    "structurizr.inspection.warning" : "0"
+  },
+  "views" : {
+    "configuration" : {
+      "lastSavedView" : "Containers",
+      "styles" : {
+        "elements" : [ {
+          "shape" : "Cylinder",
+          "tag" : "Database"
+        } ]
+      },
+      "terminology" : { }
+    },
+    "containerViews" : [ {
+      "dimensions" : {
+        "height" : 1204,
+        "width" : 870
+      },
+      "elements" : [ {
+        "id" : "4",
+        "x" : 210,
+        "y" : 114
+      }, {
+        "id" : "5",
+        "x" : 210,
+        "y" : 630
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : false,
+      "key" : "Containers",
+      "name" : "Container View: C",
+      "order" : 2,
+      "relationships" : [ {
+        "id" : "6"
+      } ],
+      "softwareSystemId" : "3"
+    } ],
+    "systemContextViews" : [ {
+      "elements" : [ {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "key" : "SystemContext",
+      "name" : "System Context View: C",
+      "order" : 1,
+      "softwareSystemId" : "3"
+    } ]
+  }
+}

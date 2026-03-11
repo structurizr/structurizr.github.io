@@ -1,0 +1,174 @@
+{
+  "configuration" : {
+    "scope" : "SoftwareSystem"
+  },
+  "description" : "Description",
+  "documentation" : { },
+  "id" : 1,
+  "lastModifiedDate" : "2026-03-11T11:20:11Z",
+  "model" : {
+    "softwareSystems" : [ {
+      "containers" : [ {
+        "documentation" : { },
+        "id" : "4",
+        "name" : "Web Application",
+        "properties" : {
+          "structurizr.dsl.identifier" : "a.app"
+        },
+        "relationships" : [ {
+          "description" : "Reads from and writes to",
+          "destinationId" : "5",
+          "id" : "6",
+          "sourceId" : "4",
+          "tags" : "Relationship"
+        }, {
+          "description" : "Requests data of type B from",
+          "destinationId" : "2",
+          "id" : "7",
+          "sourceId" : "4",
+          "tags" : "Relationship"
+        }, {
+          "description" : "Requests data of type C from",
+          "destinationId" : "3",
+          "id" : "9",
+          "sourceId" : "4",
+          "tags" : "Relationship"
+        } ],
+        "tags" : "Element,Container",
+        "technology" : "Java and Spring Boot"
+      }, {
+        "documentation" : { },
+        "id" : "5",
+        "name" : "Database Schema",
+        "properties" : {
+          "structurizr.dsl.identifier" : "a.db"
+        },
+        "tags" : "Element,Container,Database",
+        "technology" : "MySQL"
+      } ],
+      "description" : "A description of software system A.",
+      "documentation" : { },
+      "id" : "1",
+      "name" : "A",
+      "properties" : {
+        "structurizr.dsl.identifier" : "a"
+      },
+      "relationships" : [ {
+        "description" : "Requests data of type B from",
+        "destinationId" : "2",
+        "id" : "8",
+        "linkedRelationshipId" : "7",
+        "sourceId" : "1"
+      }, {
+        "description" : "Requests data of type C from",
+        "destinationId" : "3",
+        "id" : "10",
+        "linkedRelationshipId" : "9",
+        "sourceId" : "1"
+      } ],
+      "tags" : "Element,Software System"
+    }, {
+      "description" : "A description of software system B.",
+      "documentation" : { },
+      "id" : "2",
+      "name" : "B",
+      "properties" : {
+        "structurizr.dsl.identifier" : "b"
+      },
+      "tags" : "Element,Software System"
+    }, {
+      "description" : "A description of software system C.",
+      "documentation" : { },
+      "id" : "3",
+      "name" : "C",
+      "properties" : {
+        "structurizr.dsl.identifier" : "c"
+      },
+      "tags" : "Element,Software System"
+    } ]
+  },
+  "name" : "A",
+  "properties" : {
+    "structurizr.inspection.error" : "9",
+    "structurizr.dsl" : "d29ya3NwYWNlIGV4dGVuZHMgaHR0cHM6Ly9kb2NzLnN0cnVjdHVyaXpyLmNvbS9leGFtcGxlcy9lbnRlcnByaXNlL3N5c3RlbS1jYXRhbG9nL3N5c3RlbS1jYXRhbG9nLmRzbCB7CgogICAgbmFtZSAiQSIKCiAgICAhaWRlbnRpZmllcnMgaGllcmFyY2hpY2FsCgogICAgbW9kZWwgewogICAgICAgICFlbGVtZW50IGEgewogICAgICAgICAgICBhcHAgPSBjb250YWluZXIgIldlYiBBcHBsaWNhdGlvbiIgewogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiSmF2YSBhbmQgU3ByaW5nIEJvb3QiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGIgPSBjb250YWluZXIgIkRhdGFiYXNlIFNjaGVtYSIgewogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiTXlTUUwiCiAgICAgICAgICAgICAgICB0YWcgIkRhdGFiYXNlIgogICAgICAgICAgICB9CgogICAgICAgICAgICBhcHAgLT4gZGIgIlJlYWRzIGZyb20gYW5kIHdyaXRlcyB0byIKICAgICAgICB9CgogICAgICAgIGEuYXBwIC0+IGIgIlJlcXVlc3RzIGRhdGEgb2YgdHlwZSBCIGZyb20iCiAgICAgICAgYS5hcHAgLT4gYyAiUmVxdWVzdHMgZGF0YSBvZiB0eXBlIEMgZnJvbSIKICAgIH0KICAgIAogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgYSAiU3lzdGVtQ29udGV4dCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBhICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIGN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgY29uZmlndXJhdGlvbiB7CiAgICAgICAgc2NvcGUgc29mdHdhcmVzeXN0ZW0KICAgIH0KICAgIAp9",
+    "structurizr.inspection.info" : "0",
+    "structurizr.inspection.ignore" : "0",
+    "structurizr.inspection.warning" : "0"
+  },
+  "views" : {
+    "configuration" : {
+      "lastSavedView" : "Containers",
+      "styles" : {
+        "elements" : [ {
+          "shape" : "Cylinder",
+          "tag" : "Database"
+        } ]
+      },
+      "terminology" : { }
+    },
+    "containerViews" : [ {
+      "dimensions" : {
+        "height" : 1433,
+        "width" : 1575
+      },
+      "elements" : [ {
+        "id" : "2",
+        "x" : 1025,
+        "y" : 59
+      }, {
+        "id" : "3",
+        "x" : 1025,
+        "y" : 424
+      }, {
+        "id" : "4",
+        "x" : 150,
+        "y" : 241
+      }, {
+        "id" : "5",
+        "x" : 150,
+        "y" : 863
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : false,
+      "key" : "Containers",
+      "name" : "Container View: A",
+      "order" : 2,
+      "relationships" : [ {
+        "id" : "6"
+      }, {
+        "id" : "7"
+      }, {
+        "id" : "9"
+      } ],
+      "softwareSystemId" : "1"
+    } ],
+    "systemContextViews" : [ {
+      "dimensions" : {
+        "height" : 875,
+        "width" : 1430
+      },
+      "elements" : [ {
+        "id" : "1",
+        "x" : 99,
+        "y" : 246
+      }, {
+        "id" : "2",
+        "x" : 879,
+        "y" : 59
+      }, {
+        "id" : "3",
+        "x" : 879,
+        "y" : 434
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "key" : "SystemContext",
+      "name" : "System Context View: A",
+      "order" : 1,
+      "relationships" : [ {
+        "id" : "10"
+      }, {
+        "id" : "8"
+      } ],
+      "softwareSystemId" : "1"
+    } ]
+  }
+}
