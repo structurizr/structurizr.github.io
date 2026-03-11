@@ -1,0 +1,108 @@
+{
+  "configuration" : {
+    "scope" : "Landscape"
+  },
+  "documentation" : { },
+  "id" : 4,
+  "lastModifiedAgent" : "structurizr/diagrams/c73f6040-ccb9-400b-a50f-e4a3e6340745",
+  "lastModifiedDate" : "2026-03-11T11:39:49Z",
+  "lastModifiedUser" : "239874162",
+  "model" : {
+    "softwareSystems" : [ {
+      "description" : "A description of software system A.",
+      "documentation" : { },
+      "id" : "1",
+      "name" : "A",
+      "properties" : {
+        "structurizr.dsl.identifier" : "a"
+      },
+      "relationships" : [ {
+        "description" : "Requests data of type B from",
+        "destinationId" : "2",
+        "id" : "4",
+        "sourceId" : "1",
+        "tags" : "Relationship"
+      }, {
+        "description" : "Requests data of type C from",
+        "destinationId" : "3",
+        "id" : "5",
+        "sourceId" : "1",
+        "tags" : "Relationship"
+      } ],
+      "tags" : "Element,Software System",
+      "url" : "{workspace:1}/diagrams"
+    }, {
+      "description" : "A description of software system B.",
+      "documentation" : { },
+      "id" : "2",
+      "name" : "B",
+      "properties" : {
+        "structurizr.dsl.identifier" : "b"
+      },
+      "relationships" : [ {
+        "description" : "Requests data of type C from",
+        "destinationId" : "3",
+        "id" : "6",
+        "sourceId" : "2",
+        "tags" : "Relationship"
+      } ],
+      "tags" : "Element,Software System",
+      "url" : "{workspace:2}/diagrams"
+    }, {
+      "description" : "A description of software system C.",
+      "documentation" : { },
+      "id" : "3",
+      "name" : "C",
+      "properties" : {
+        "structurizr.dsl.identifier" : "c"
+      },
+      "tags" : "Element,Software System",
+      "url" : "{workspace:3}/diagrams"
+    } ]
+  },
+  "name" : "System Landscape",
+  "properties" : {
+    "structurizr.inspection.info" : "0",
+    "structurizr.inspection.ignore" : "0",
+    "structurizr.inspection.error" : "3",
+    "structurizr.inspection.warning" : "0"
+  },
+  "views" : {
+    "configuration" : {
+      "lastSavedView" : "SystemLandscape",
+      "metadataSymbols" : "SquareBrackets",
+      "styles" : { },
+      "terminology" : { }
+    },
+    "systemLandscapeViews" : [ {
+      "dimensions" : {
+        "height" : 1225,
+        "width" : 1729
+      },
+      "elements" : [ {
+        "id" : "1",
+        "x" : 150,
+        "y" : 421
+      }, {
+        "id" : "2",
+        "x" : 1129,
+        "y" : 109
+      }, {
+        "id" : "3",
+        "x" : 1129,
+        "y" : 734
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "key" : "SystemLandscape",
+      "name" : "System Landscape View",
+      "order" : 1,
+      "relationships" : [ {
+        "id" : "4"
+      }, {
+        "id" : "5"
+      }, {
+        "id" : "6"
+      } ]
+    } ]
+  }
+}

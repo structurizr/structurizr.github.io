@@ -1,0 +1,67 @@
+{
+  "configuration" : {
+    "scope" : "Landscape"
+  },
+  "documentation" : { },
+  "id" : 0,
+  "model" : {
+    "softwareSystems" : [ {
+      "description" : "A description of software system A.",
+      "documentation" : { },
+      "id" : "1",
+      "name" : "A",
+      "properties" : {
+        "structurizr.dsl.identifier" : "a"
+      },
+      "relationships" : [ {
+        "description" : "Requests data of type B from",
+        "destinationId" : "2",
+        "id" : "4",
+        "sourceId" : "1",
+        "tags" : "Relationship"
+      }, {
+        "description" : "Requests data of type C from",
+        "destinationId" : "3",
+        "id" : "5",
+        "sourceId" : "1",
+        "tags" : "Relationship"
+      } ],
+      "tags" : "Element,Software System,Element,Software System,Element,Software System,Element,Software System,Element,Software System,Element,Software System,Element,Software System,Element,Software System",
+      "url" : "{workspace:1}/diagrams"
+    }, {
+      "description" : "A description of software system B.",
+      "documentation" : { },
+      "id" : "2",
+      "name" : "B",
+      "properties" : {
+        "structurizr.dsl.identifier" : "b"
+      },
+      "relationships" : [ {
+        "description" : "Requests data of type C from",
+        "destinationId" : "3",
+        "id" : "6",
+        "sourceId" : "2",
+        "tags" : "Relationship"
+      } ],
+      "tags" : "Element,Software System,Element,Software System,Element,Software System,Element,Software System,Element,Software System,Element,Software System,Element,Software System,Element,Software System",
+      "url" : "{workspace:2}/diagrams"
+    }, {
+      "description" : "A description of software system C.",
+      "documentation" : { },
+      "id" : "3",
+      "name" : "C",
+      "properties" : {
+        "structurizr.dsl.identifier" : "c"
+      },
+      "tags" : "Element,Software System,Element,Software System,Element,Software System,Element,Software System,Element,Software System,Element,Software System,Element,Software System,Element,Software System",
+      "url" : "{workspace:3}/diagrams"
+    } ]
+  },
+  "name" : "System Landscape",
+  "views" : {
+    "configuration" : {
+      "styles" : { },
+      "terminology" : { }
+    }
+  }
+}
