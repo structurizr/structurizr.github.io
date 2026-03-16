@@ -31,3 +31,7 @@ Generate a system landscape workspace from a directory of JSON workspaces (e.g. 
 ```
 generate system-landscape -input /path/to/workspaces -output /path/to/system-landscape.json
 ```
+
+## Links
+
+- [Enterprise usage pattern](/workspaces/enterprise)

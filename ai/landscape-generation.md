@@ -21,3 +21,8 @@ You have a Structurizr [server](/server) running, each team is pushing a workspa
 > hyperlink the software systems to their workspace
 
 [![](/images/ai/landscape-generation/4.png)](/images/ai/landscape-generation/4.png)
+
+## Related links
+
+- [generate system-landscape](/generate)
+- [Enterprise usage pattern](/workspaces/enterprise)
