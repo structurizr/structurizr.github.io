@@ -24,7 +24,6 @@ workspace {
     views {
         systemContext ss {
             include *
-            autolayout lr
         }
     }
     

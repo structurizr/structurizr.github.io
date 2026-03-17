@@ -10,7 +10,6 @@ workspace "Name" "Description" {
     views {
         systemContext ss "Diagram1" {
             include *
-            autolayout lr
         }
     }
 

@@ -10,6 +10,8 @@ has_toc: false
 
 # 1. Create with local, publish to server
 
+> This is the recommended workflow for using Structurizr, combining workspace storage in version control with workspace publication via a server.
+
 1. Create and edit workspaces on your computer using the [Structurizr DSL](/dsl) and a text-editor/IDE, using [local](/local) to view your diagrams and modify their layout - see [step-by-step instructions](/local/workflow).
 2. Store the `workspace.dsl` and `workspace.json` files in version control (e.g. git).
 3. Publish workspaces to a Structurizr [server](/server) via the [workspace API](/server/workspace-api) and the [push](/push) command.

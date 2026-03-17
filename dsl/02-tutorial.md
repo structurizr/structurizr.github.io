@@ -54,7 +54,6 @@ workspace "Name" "Description" {
     views {
         systemContext ss "Diagram1" {
             include *
-            autolayout lr
         }
     }
     
@@ -62,11 +61,7 @@ workspace "Name" "Description" {
 ```
 
 The `include *` statement says,
-"include the software system that is the scope of this view, along with any people and software systems that have a
-direct relationship to/from it".
-Finally, the `autolayout lr` statement says that automatic layout should be used, with a left to right direction.
-`Diagram1` is a unique diagram identifier/key that can be used to reference the diagram, for example, via the
-[Structurizr Server diagram embed feature](/server/embed).
+"include the software system that is the scope of this view, along with any people and software systems that have a direct relationship to/from it". `Diagram1` is a unique diagram identifier/key that can be used to reference the diagram, for example, via the [Structurizr Server diagram embed feature](/server/embed).
 
 Running this example via the Structurizr playground (click the image below) results in the following diagram.
 
@@ -102,7 +97,6 @@ workspace "Name" "Description" {
     views {
         systemContext ss "Diagram1" {
             include *
-            autolayout lr
         }
     }
 
@@ -134,12 +128,10 @@ workspace "Name" "Description" {
     views {
         systemContext ss "Diagram1" {
             include *
-            autolayout lr
         }
 
         container ss "Diagram2" {
             include *
-            autolayout lr
         }
     }
 
@@ -147,7 +139,7 @@ workspace "Name" "Description" {
 ```
 
 The `include *` statement now says, "include the containers inside the software system that is the scope of this view, along with any people and software systems that have a
-direct relationship to/from them". The `autolayout lr` statement is the same as before.
+direct relationship to/from them".
 
 The example DSL creates two diagrams. First we have the system context diagram as before.
 
@@ -196,7 +188,6 @@ Include the default set of elements.
 ```
         container ss "Diagram2" {
             include *
-            autolayout lr
         }
 ```
 
@@ -205,7 +196,6 @@ Include the user, web application, and database explicitly.
 ```
         container ss "Diagram2" {
             include u ss.wa ss.db
-            autolayout lr
         }
 ```
 
@@ -215,7 +205,6 @@ Include the user, web application, and database explicitly (separate lines).
         container ss "Diagram2" {
             include u
             include ss.wa ss.db
-            autolayout lr
         }
 ```
 
@@ -224,7 +213,6 @@ Include the web application, plus the inbound and outbound dependencies.
 ```
         container ss "Diagram2" {
             include "->ss.wa->"
-            autolayout lr
         }
 ```
 
@@ -233,7 +221,6 @@ Include elements of type `container`, plus the inbound and outbound dependencies
 ```
         container ss "Diagram2" {
             include "->element.type==container->"
-            autolayout lr
         }
 ```
 
@@ -242,7 +229,6 @@ Include children of the software system, plus the inbound and outbound dependenc
 ```
         container ss "Diagram2" {
             include "->element.parent==ss->"
-            autolayout lr
         }
 ```
 
