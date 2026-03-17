@@ -9,7 +9,7 @@ permalink: /features
 
 Here's a summary of the most notable features provided by Structurizr [local](/local) and [server](/server).
 
-> Structurizr is not a traditional "drag and drop" tool and does not provide a way to make architecture diagrams via a UI. See [UI-driven vs "as code"](https://www.patreon.com/posts/151073821) for the rationale behind this.
+> Structurizr is not a traditional "drag and drop" tool and does not provide a way to make architecture diagrams via a UI. See [Why "as code"?](/code) for the rationale behind this.
 
 ## Diagrams
 

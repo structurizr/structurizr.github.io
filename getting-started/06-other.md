@@ -2,7 +2,7 @@
 layout: default
 title: 6. Other
 parent: Getting started
-nav_order: 5
+nav_order: 6
 has_children: false
 permalink: /getting-started/other
 has_toc: false

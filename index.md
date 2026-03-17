@@ -13,6 +13,11 @@ Structurizr is a "models as code" tool designed for the [C4 model](https://c4mod
 - [Structurizr DSL - Example](/dsl/example)
 - [Structurizr DSL - Tutorial](/dsl/tutorial)
 
-Visit [playground.structurizr.com](https://playground.structurizr.com) to try Structurizr without installing any tooling.
+## Quickstart
+
+The two quickest ways to get started with the Structurizr tooling are:
+
+1. Visit [playground.structurizr.com](https://playground.structurizr.com) to try Structurizr without installing any tooling.
+2. Use Structurizr [local](/local) via the pre-built Docker image to create diagrams on your computer - see [local - Quickstart](/local/quickstart).
 
 [![Structurizr playground](/images/playground.png)](https://playground.structurizr.com)
