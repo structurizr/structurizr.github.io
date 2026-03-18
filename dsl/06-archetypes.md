@@ -18,6 +18,17 @@ The key benefits are as follows:
 
 ## Element archetypes
 
+Element archetypes can be defined for:
+
+- `person`
+- `softwareSystem`
+- `container`
+- `component`
+- `deploymentNode`
+- `infrastructureNode`
+- `group`
+- `element`
+
 For example, you could define archetypes named `application` and `datastore`
 that are essentially just aliases for `container`.
 
@@ -41,7 +52,14 @@ workspace {
 }
 ```
 
-Archetypes can have a set of defaults defined too:
+Element archetypes can have a set of defaults defined for:
+
+- Description
+- Technology (applies to containers and components only)
+- Properties
+- Perspectives
+- Tags
+- Metadata (applies to custom elements only)
 
 ```
 workspace {
@@ -69,7 +87,7 @@ workspace {
 }
 ```
 
-Archetypes can also be extended:
+Element archetypes can also be extended:
 
 ```
 workspace {
@@ -102,7 +120,13 @@ workspace {
 
 ## Relationship archetypes
 
-Relationship archetypes are also supported:
+Relationship archetypes are also supported, with defaults defined for:
+
+- Description
+- Technology
+- Properties
+- Perspectives
+- Tags
 
 ```
 workspace {
@@ -125,11 +149,3 @@ workspace {
 
 }
 ```
-
-## Links
-
-- [Archetypes with the Structurizr DSL - part 1](https://www.patreon.com/posts/119553210)
-- [Archetypes with the Structurizr DSL - part 2](https://www.patreon.com/posts/119629218)
-- [Archetypes with the Structurizr DSL - part 3](https://www.patreon.com/posts/122686698)
-- [Archetypes with the Structurizr DSL - part 4](https://www.patreon.com/posts/126215538)
-- [Archetypes with the Structurizr DSL - part 5](https://www.patreon.com/posts/130245268)

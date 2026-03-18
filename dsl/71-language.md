@@ -98,16 +98,9 @@ Permitted children:
 
 ## archetypes
 
-The `archetypes` keyword provides a way to create user defined types that extend the basic element/relationship types
-and optionally add some defaults for descriptions, technology, tags, properties, and perspectives.
-See the following for more details:
+The `archetypes` keyword provides a way to create user defined types that extend the basic element/relationship types and optionally add some defaults for descriptions, technology, tags, properties, and perspectives. See the following for more details:
 
 - [Structurizr DSL - Archetypes](/dsl/archetypes)
-- [Archetypes with the Structurizr DSL - part 1](https://www.patreon.com/posts/119553210)
-- [Archetypes with the Structurizr DSL - part 2](https://www.patreon.com/posts/119629218)
-- [Archetypes with the Structurizr DSL - part 3](https://www.patreon.com/posts/122686698)
-- [Archetypes with the Structurizr DSL - part 4](https://www.patreon.com/posts/126215538)
-- [Archetypes with the Structurizr DSL - part 5](https://www.patreon.com/posts/130245268)
 
 ## group
 
@@ -434,9 +427,12 @@ Permitted children:
 
 ## relationship
 
-`->` is used to define a uni-directional relationship between two elements.
+Uni-directional relationships can be defined between two elements:
 
-There are two ways to define relationships. The first is explicitly, where you explicitly use a source identifier: 
+- `->` is a basic relationship.
+- `--https->` is a relationship based upon an archetype - see [Relationship achetypes](/dsl/archetypes#relationship-archetypes) for details.
+
+There are two ways to define relationships. The first is where you explicitly use a source identifier: 
 
 ```
 <identifier> -> <identifier> [description] [technology] [tags] {
@@ -450,7 +446,7 @@ For example:
 user -> softwareSystem "Uses"
 ```
 
-And the second is implicitly, where the relationship source is the element in scope:
+And the second is where the relationship source is the element in scope:
 
 ```
 -> <identifier> [description] [technology] [tags]
