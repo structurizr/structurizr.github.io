@@ -75,3 +75,5 @@ workspace {
 ```
  
  Now the two API containers can be referenced via `softwareSystem1.api` and `softwareSystem2.api` respectively.
+
+> Please note that `!identifiers hierarchical` does not apply to [groups](/dsl/language#group).
