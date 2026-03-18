@@ -20,7 +20,7 @@ nav_external_links:
   - title: Slack
     url: https://join.slack.com/t/structurizr/shared_invite/enQtMzkyMjY1NzMwNTkzLTcyOGI1MTZmNDQwMDQ5YmZlMThiYmU1ZTM2ZWZiMzYwMjVhNmM0OWIwNjFlZTM1YmY3YzU0ZDY2MTA1YTk5Mjg
 
-gh_edit_link: true
+gh_edit_link: false
 gh_edit_link_text: "Edit this page on GitHub."
 gh_edit_repository: "https://github.com/structurizr/structurizr.github.io"
 gh_edit_branch: "main"
