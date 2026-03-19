@@ -18,4 +18,4 @@ To bring this into the C4 model, switch "single application" for "single softwar
 
 A microservice is modelled as group of one more containers, rather than a container itself.
 
-[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/patterns/microservices/example-1.dsl)
+[![](example-1.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/patterns/microservice/example-1.dsl)
