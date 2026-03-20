@@ -15,7 +15,7 @@ workspace extends https://docs.structurizr.com/dsl/patterns/workspace.dsl {
 
             deploymentNode "Developer Laptop" {
                 deploymentNode "LocalStack" {
-                    deploymentNode "Lamba Service" {
+                    deploymentNode "Lambda Service" {
                         deploymentNode "Java Virtual Machine" {
                             instanceOf ss.orderHandler
                         }
