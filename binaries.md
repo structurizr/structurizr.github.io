@@ -16,7 +16,8 @@ All Structurizr [commands](/commands) are free to use from these binaries except
 
 - Requires Docker
 - Image name: [structurizr/structurizr](https://hub.docker.com/r/structurizr/structurizr)
-- Tags: `latest` for the most recent released version, `preview` for the most recent development build
+- Latest release: `latest` tag
+- Preview build: `preview` tag
 
 Pull the latest version of the Docker image:
 
@@ -35,7 +36,8 @@ In this example, `$PWD` will mount the current local directory as the working di
 ## Java .war file
 
 - Requires Java 21
-- Java .war file: [structurizr-2026.03.06.war](https://download.structurizr.com/structurizr-2026.03.06.war)
+- Latest release: [structurizr-2026.03.06.war](https://download.structurizr.com/structurizr-2026.03.06.war)
+- Preview build: [structurizr-preview.war](https://download.structurizr.com/structurizr-preview.war)
 
 Download the file, either by clicking the link above or via the command line:
 
