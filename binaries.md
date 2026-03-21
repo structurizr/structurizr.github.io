@@ -14,11 +14,19 @@ All Structurizr [commands](/commands) are free to use from these binaries except
 
 ## Docker image
 
+- Requires Docker
 - Image name: [structurizr/structurizr](https://hub.docker.com/r/structurizr/structurizr)
 - Tags: `latest` for the most recent released version, `preview` for the most recent development build
 
+Pull the latest version of the Docker image:
+
 ```
 docker pull structurizr/structurizr
+```
+
+Start Structurizr:
+
+```
 docker run -it --rm -v $PWD:/usr/local/structurizr structurizr/structurizr <command> [parameters]
 ```
 
@@ -26,7 +34,16 @@ In this example, `$PWD` will mount the current local directory as the working di
 
 ## Java .war file
 
+- Requires Java 21
 - Java .war file: [structurizr-2026.03.06.war](https://download.structurizr.com/structurizr-2026.03.06.war)
+
+Download the file, either by clicking the link above or via the command line:
+
+```
+curl -O https://download.structurizr.com/structurizr-2026.03.06.war
+```
+
+Start Structurizr:
 
 ```
 java -jar structurizr-2026.03.06.war <command> [parameters] 
