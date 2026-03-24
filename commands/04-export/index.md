@@ -25,7 +25,8 @@ Structurizr playground, local, and server.
     - [mermaid](/export/mermaid): exports views to Mermaid
     - [websequencediagrams](/export/websequencediagrams): exports dynamic views to WebSequenceDiagrams
     - [static](/export/static-site): creates a static HTML site
-    - [png|svg](/export/png-and-svg): exports PNG|SVG images, using the Structurizr browser-based renderer
+    - [png](/export/png-and-svg): exports PNG images, using the Structurizr browser-based renderer
+    - [svg](/export/png-and-svg): exports SVG images, using the Structurizr browser-based renderer
     - json: exports the workspace to the Structurizr JSON format
     - theme: creates a JSON theme based upon the styles and tags defined in the workspace
     - fully qualified class name: provides a way to use a custom exporter (see below)
