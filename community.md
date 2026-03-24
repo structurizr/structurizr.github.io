@@ -42,3 +42,7 @@ A variety of other rendering tools are available that can be used to render diag
 - [structurizr-md](https://github.com/vitalegi/structurizr-md): Structurizr to Markdown.
 - [structurizr-to-png](https://github.com/extenda/structurizr-to-png): Create PNGs from Structurizr DSL files.
 - [Structurizr Confluence CLI](https://github.com/arnaudroubinet/Structurizr-confluence): A high-performance command-line tool that exports Structurizr workspace documentation and Architecture Decision Records (ADRs) to Confluence Cloud.
+
+## Other
+
+- [erode](https://github.com/erode-app/erode): Erode analyzes code changes against your architecture model (e.g. Structurizr) using AI, making undeclared dependencies and structural drift visible while you code and during review.
