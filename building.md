@@ -38,7 +38,7 @@ java -jar structurizr-application/target/structurizr-1.0.0.war
 To build a Docker image, build the code first as above, then:
 
 ```
-docker build . -t structurizr
+docker build . -f structurizr-application/Dockerfiles/eclipse-temurin-alpine -t structurizr
 ```
 
 ## Version numbers
