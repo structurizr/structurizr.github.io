@@ -116,7 +116,7 @@ If successful, there will be a `structurizr-mcp-1.0.0.war` file in `structurizr-
 To create a Docker image:
 
 ```
-docker build structurizr-mcp -f structurizr-mcp/Dockerfile -t structurizr-mcp
+docker build . -f structurizr-mcp/Dockerfile -t structurizr-mcp
 ```
 
 ## Claude Desktop configuration
