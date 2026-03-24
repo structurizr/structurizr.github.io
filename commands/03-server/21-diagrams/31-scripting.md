@@ -19,9 +19,3 @@ The Structurizr UI provides a small JavaScript API that can be used to script an
 - `getViews()`: Gets an array of objects representing the views in the software architecture model.
 - `changeView(viewKey)`: Displays the specified view.
 - `getViewKey()`: Gets the key of the current view.
-
-## Puppeteer
-
-The diagram scripting API can be used in conjunction with tools such as Puppeteer (headless Chrome/Chromium),
-to automate the export of diagrams from the command line, perhaps as a part of a build process.
-The [structurizr-puppeteer repo on GitHub](https://github.com/structurizr/puppeteer) has some code samples of how to do this.

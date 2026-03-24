@@ -59,4 +59,4 @@ curl https://structurizr.example.com/api/workspace/123 -H "X-Authorization: 1234
 
 ## Notes
 
-Please note that diagrams are rendered client-side (i.e. in your web browser), so this API __does not__ provide access to diagrams. An automated export is only possible using a web browser in conjunction with an automation framework such as headless Chrome and Puppeteer. See the [structurizr-puppeteer repo on GitHub](https://github.com/structurizr/puppeteer) for an example script.
+Please note that diagrams are rendered client-side (i.e. in your web browser), so this API __does not__ provide access to diagrams. An automated export is available via the [export PNG/SVG command](/export/png-and-svg).

@@ -20,11 +20,12 @@ Structurizr playground, local, and server.
 - -workspace: The path or URL to the workspace JSON/DSL file (required)
 - -format (required):
     - plantuml: the same as `plantuml/structurizr`
-    - [plantuml/structurizr](/export/plantuml): exports views to PlantUML.
-    - [plantuml/c4plantuml](/export/c4plantuml): exports views to C4-PlantUML.
-    - [mermaid](/export/mermaid): exports views to Mermaid.
-    - [websequencediagrams](/export/websequencediagrams): exports dynamic views to WebSequenceDiagrams.
-    - [static](/export/static-site): creates a static HTML site.
+    - [plantuml/structurizr](/export/plantuml): exports views to PlantUML
+    - [plantuml/c4plantuml](/export/c4plantuml): exports views to C4-PlantUML
+    - [mermaid](/export/mermaid): exports views to Mermaid
+    - [websequencediagrams](/export/websequencediagrams): exports dynamic views to WebSequenceDiagrams
+    - [static](/export/static-site): creates a static HTML site
+    - [png|svg](/export/png-and-svg): exports PNG|SVG images, using the Structurizr browser-based renderer
     - json: exports the workspace to the Structurizr JSON format
     - theme: creates a JSON theme based upon the styles and tags defined in the workspace
     - fully qualified class name: provides a way to use a custom exporter (see below)
