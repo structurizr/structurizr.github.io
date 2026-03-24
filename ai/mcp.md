@@ -77,21 +77,23 @@ It runs standalone and supports stateless HTTP transport.
 
 ## mcp.structurizr.com
 
-An instance of the MCP server is running at `mcp.structurizr.com`, with the DSL tools enabled. If you'd like to use this, just create a connector to `https://mcp.structurizr.com/mcp` in your AI agent.
+An instance of the MCP server is running at `mcp.structurizr.com`, with the DSL, PlantUML, and Mermaid tools enabled. If you'd like to use this, just create a connector to `https://mcp.structurizr.com/mcp` in your AI agent.
 
 ## Running
 
-The Structurizr MCP server is included in the [prebuilt Docker image](binaries). To run it:
+A prebuilt Docker image is available on Docker Hub:
 
 ```
-docker pull structurizr/structurizr
-docker run -it --rm -p 3000:3000 -e PORT=3000 structurizr/structurizr mcp <parameters>
+docker pull structurizr/mcp
+docker run -it --rm -p 3000:3000 -e PORT=3000 structurizr/mcp <parameters>
 ```
 
 The following parameters are supported:
 
 - `-dsl`: Enable DSL tools.
 - `-server`: Enable Structurizr [server](/server) tools.
+- `-plantuml`: Enable PlantUML exporter.
+- `-mermaid`: Enable Mermaid exporter.
 
 ## Building and running from source
 
@@ -110,6 +112,12 @@ cd structurizr
 If successful, there will be a `structurizr-mcp-1.0.0.war` file in `structurizr-mcp/target`.
 
 `java -jar structurizr-mcp/target/structurizr-mcp-1.0.0.war <parameters>`
+
+To create a Docker image:
+
+```
+docker build structurizr-mcp -f structurizr-mcp/Dockerfile -t structurizr-mcp
+```
 
 ## Claude Desktop configuration
 
