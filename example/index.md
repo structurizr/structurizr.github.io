@@ -11,7 +11,7 @@ has_toc: false
 The example diagrams on the [C4 model](https://c4model.com) website were created with Structurizr:
 
 - [Interactive version](https://c4model.com/example/) (created with [export -format static](/export/static-site))
-- [Structurizr DSL source](https://playground.structurizr.com?src=https://docs.structurizr.com/examples/c4model.dsl)
+- [Structurizr DSL source](https://playground.structurizr.com?src=https://docs.structurizr.com/example/workspace.json)
 
 |---|---|---|---|
 | [![](https://c4model.com/images/examples/SystemContext.png)](/example/system-context-diagram) | [![](https://c4model.com/images/examples/Containers.png)](/example/container-diagram) | [![](https://c4model.com/images/examples/Components.png)](/example/component-diagram) | [![](https://c4model.com/images/examples/Code.png)](/example/code-diagram) |
