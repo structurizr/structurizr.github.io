@@ -9,6 +9,12 @@ permalink: /as-code
 
 Structurizr is a “models as code” tool, specifically designed for the C4 model. It's not a traditional “drag and drop” UI-driven tool, and does not provide a way to make architecture diagrams via a UI. Instead, You write [Structurizr DSL](/dsl), and Structurizr renders diagrams. Read on if you're interested in the rationale behind this.
 
+- [Technical people, technical diagrams](#technical-people-technical-diagrams)
+- [Learning curve and authoring experience](#learning-curve-and-authoring-experience)
+- [Automatic layout and manual layout](#automatic-layout-and-manual-layout)
+- [Version control friendly](#version-control-friendly)
+- [AI friendly](#ai-friendly)
+
 ## Technical people, technical diagrams
 
 The C4 model is aimed at software engineering teams, providing a way for technical people to create technical diagrams at different levels of abstraction. Therefore, ideally, it's the technical people inside these teams who will be creating and maintaining the diagrams. Creating software architecture diagrams "as code" (using the [Structurizr DSL](/dsl) in this case) should be reasonably straightforward for anybody with a small amount of technical knowledge. An "as code" approach does isolate non-technical people and architects that don't write code, but that isn't the core of Structurizr's (and the [C4 model](https://c4model.com)'s) target audience.
@@ -19,9 +25,9 @@ The biggest downside of an "as code" approach is the increased learning curve. T
 
 The Structurizr DSL does have a slightly higher learning curve than a UI. You need to understand (1) the general approach of how the tooling works, (2) how to start the tooling, and (3) the basics of the DSL itself. This is obviously more work than just starting a UI-driven tool by double-clicking an icon or opening a URL in your web browser, increasing the "time to first diagram". A little mastery goes a long way though, and an "as code" approach can be much faster and easier when you get over that initial learning curve.
 
-## Automatic layout vs manual layout
+## Automatic layout and manual layout
 
-A false narrative exists that UI-driven tools support manual layout, while "as code" tools don't. It is true that most "diagrams as code" formats (PlantUML, Mermaid, dot, etc) do only support automatic layout. Structurizr is relatively unique in that it supports both automatic and manual layout via [a browser-based diagram editor](/server/diagrams/editor), enabling you to craft a more precise story. Structurizr takes control of rendering the boxes and arrows for you with [a variety of notation available](/server/diagrams/notation). All you need to do, if you want to, is move them around the diagram canvas.
+A false narrative exists that UI-driven tools support manual layout, while "as code" tools don't. It is true that most "diagrams as code" formats (PlantUML, Mermaid, dot, etc) do only support automatic layout. Structurizr is relatively unique in that it supports both automatic _and_ manual layout via [a browser-based diagram editor](/server/diagrams/editor), enabling you to craft a more precise story. Structurizr takes control of rendering the boxes and arrows for you with [a variety of notation available](/server/diagrams/notation). All you need to do, if you want to, is move them around the diagram canvas.
 
 ## Version control friendly
 
