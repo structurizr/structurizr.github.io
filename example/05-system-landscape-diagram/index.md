@@ -2,7 +2,7 @@
 layout: default
 nav_order: 5
 parent: Example
-title: System Landscape diagram
+title: System landscape diagram
 permalink: /example/system-landscape-diagram
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 nav_order: 1
 parent: Example
-title: System Context diagram
+title: System context diagram
 permalink: /example/system-context-diagram
 ---
 
