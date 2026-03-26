@@ -8,7 +8,7 @@ has_toc: false
 
 # End of life
 
-The following products are end of life, replaced by the [new consolidated tooling](/commands):
+The following products are end of life, replaced by the [new consolidated tooling](https://www.patreon.com/posts/146923136):
 
 - Structurizr cloud service (no replacement)
 - Structurizr Lite (replaced by [local](/local))
