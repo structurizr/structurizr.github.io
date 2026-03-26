@@ -17,9 +17,24 @@
 <script>
     const path = window.location.pathname;
 
-    if (path.indexOf('/lite') === 0 || path.indexOf('/cli') === 0 || path.indexOf('/onpremises') === 0 || path.indexOf('/ui') === 0) {
+    if (path.indexOf('/lite') === 0 || path.indexOf('/cli') === 0 || path.indexOf('/onpremises') === 0 || path.indexOf('/ui') === 0 || path.indexOf('/cloud') === 0) {
+        var html = '';
+
+        if (path.indexOf('/lite') === 0) {
+            html += 'Structurizr Lite will not receive any further updates - please migrate to <a href="/local">local</a> for new features, bug fixes, and security updates.';
+            html += ' See <a href="https://www.patreon.com/posts/146923136" target="_blank">Introducing Structurizr vNext</a> for more details.';
+        } else if (path.indexOf('/cli') === 0) {
+            html += 'Structurizr CLI will not receive any further updates - please migrate to the new <a href="/commands">commands</a> for new features, bug fixes, and security updates.';
+            html += ' See <a href="https://www.patreon.com/posts/146923136" target="_blank">Introducing Structurizr vNext</a> for more details.';
+        } else if (path.indexOf('/onpremises') === 0) {
+            html += 'Structurizr on-premises will not receive any further updates - please migrate to <a href="/server">server</a> for new features, bug fixes, and security updates.';
+            html += ' See <a href="https://www.patreon.com/posts/146923136" target="_blank">Introducing Structurizr vNext</a> for more details.';
+        } else if (path.indexOf('/cloud') === 0) {
+            html += 'The Structurizr cloud service will reach its End of Life (EOL) on 30 September 2026 - please see <a href="https://www.patreon.com/posts/142577083" target="_blank">Cloud service end of life announcement</a> for more details.';
+        }
+
         const div = document.createElement("div");
-        div.innerHTML = 'Structurizr Lite, on-premises, and CLI will not receive any further updates - please migrate to the new consolidated tooling - see <a href="https://www.patreon.com/posts/146923136" target="_blank">Introducing Structurizr vNext</a> and <a href="/commands">commands</a> for details.';
+        div.innerHTML = html;
         div.classList.add('endOfLifeNotice');
 
         const content = document.getElementById('main-content');
