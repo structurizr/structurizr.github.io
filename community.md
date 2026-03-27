@@ -29,6 +29,7 @@ These tools provide an alternative way to create a Structurizr compatible worksp
 - [PyStructurizr](https://github.com/nielsvanspauwen/pystructurizr): A Python DSL inspired by Structurizr, intended for generating C4 diagrams.
 - [buildzr](https://github.com/amirulmenjeni/buildzr): A Python DSL for authoring C4 architecture models.
 - [Model](https://github.com/goadesign/model): Create your software architecture models and diagrams in Go.
+- [Structurizr DSL Parser](https://gitlab.com/osechet/structurizr-parser): A comprehensive Go library for parsing, validating, and generating Structurizr DSL files.
 
 ## Rendering tools
 
@@ -42,6 +43,9 @@ A variety of other rendering tools are available that can be used to render diag
 - [structurizr-md](https://github.com/vitalegi/structurizr-md): Structurizr to Markdown.
 - [structurizr-to-png](https://github.com/extenda/structurizr-to-png): Create PNGs from Structurizr DSL files.
 - [Structurizr Confluence CLI](https://github.com/arnaudroubinet/Structurizr-confluence): A high-performance command-line tool that exports Structurizr workspace documentation and Architecture Decision Records (ADRs) to Confluence Cloud.
+- [structurizr-renderer](https://github.com/materna-se/structurizr-renderer): Support the rendering of Structurizr DSL views in Java using different rendering algorithms including the same as provided by the Structurizr UI.
+- [structurizr-maven-plugin](https://github.com/materna-se/structurizr-maven-plugin): Support the rendering of Structurizr DSL views in Maven builds using different rendering algorithms including the same as provided by the Structurizr UI.
+- [structurizr-asciidoctorj-extension](https://github.com/materna-se/structurizr-asciidoctorj-extension): Support the rendering of Structurizr DSL views in AsciiDoc using different rendering algorithms including the same as provided by the Structurizr UI.
 
 ## Other
 
