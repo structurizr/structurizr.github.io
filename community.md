@@ -46,6 +46,7 @@ A variety of other rendering tools are available that can be used to render diag
 - [structurizr-renderer](https://github.com/materna-se/structurizr-renderer): Support the rendering of Structurizr DSL views in Java using different rendering algorithms including the same as provided by the Structurizr UI.
 - [structurizr-maven-plugin](https://github.com/materna-se/structurizr-maven-plugin): Support the rendering of Structurizr DSL views in Maven builds using different rendering algorithms including the same as provided by the Structurizr UI.
 - [structurizr-asciidoctorj-extension](https://github.com/materna-se/structurizr-asciidoctorj-extension): Support the rendering of Structurizr DSL views in AsciiDoc using different rendering algorithms including the same as provided by the Structurizr UI.
+- [Spacerizr](https://github.com/tobiascervin/spacerizr): Interactive 3D/2D C4 architecture visualizer for Structurizr DSL and workspace files.
 
 ## Other
 
