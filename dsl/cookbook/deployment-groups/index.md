@@ -8,7 +8,7 @@ permalink: /dsl/cookbook/deployment-groups/
 
 # Deployment groups
 
-Imagine that you have a service comprised of an API and a database scheme, which are deployed together onto a single server.
+Imagine that you have a service comprised of an API and a database schema, which are deployed together onto a single server.
 Now let's say there are two instances of this entire service, each deployed onto a separate server.
 
 ```
