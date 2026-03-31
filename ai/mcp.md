@@ -146,12 +146,20 @@ cd structurizr
 
 If successful, there will be a `structurizr-mcp-1.0.0.war` file in `structurizr-mcp/target`.
 
-`java -jar structurizr-mcp/target/structurizr-mcp-1.0.0.war <parameters>`
+```
+java -jar structurizr-mcp/target/structurizr-mcp-1.0.0.war <parameters>
+```
+
+To change the port number:
+
+```
+java -Dserver.port=3000 -jar structurizr-mcp/target/structurizr-mcp-1.0.0.war <parameters>
+```
 
 To create a Docker image:
 
 ```
-docker build . -f structurizr-mcp/Dockerfile -t structurizr-mcp
+docker build . -f structurizr-mcp/Dockerfiles/eclipse-temurin-alpine -t structurizr-mcp
 ```
 
 ## Claude Desktop configuration
