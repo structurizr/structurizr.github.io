@@ -58,7 +58,16 @@ It runs standalone and supports stateless HTTP transport.
   - View key (required)
 - Returns a Structurizr view exported as C4-PlantUML
 
-### -server
+### -server-create
+
+#### Create workspace on a Structurizr server
+
+- Parameters
+  - Structurizr server URL (required)
+  - API key (not required if running the server with authentication disabled)
+- Returns a Structurizr workspace metadata object (workspace name, description, ID, API key, etc)
+
+### -server-read
 
 #### Get workspace from a Structurizr server
 
@@ -74,6 +83,29 @@ It runs standalone and supports stateless HTTP transport.
     - Structurizr server URL (required)
     - Admin API key (not required if running the server with authentication disabled)
 - Returns a collection of Structurizr workspaces
+
+### -server-update
+
+#### Update a workspace on a Structurizr server
+
+This will update the workspace with the supplied DSL, merging layout information from the server version of the workspace.
+
+- Parameters
+  - Structurizr server URL (required)
+  - Workspace ID (required)
+  - API key (not required if running the server with authentication disabled)
+  - DSL (required)
+- Returns true if the workspace was updated
+
+### -server-delete
+
+#### Delete workspace from a Structurizr server
+
+- Parameters
+  - Structurizr server URL (required)
+  - Workspace ID (required)
+  - API key (not required if running the server with authentication disabled)
+- Returns true if the workspace was deleted
 
 ## mcp.structurizr.com
 
@@ -91,7 +123,10 @@ docker run -it --rm -p 3000:3000 -e PORT=3000 structurizr/mcp <parameters>
 The following parameters are supported:
 
 - `-dsl`: Enable DSL tools.
-- `-server`: Enable Structurizr [server](/server) tools.
+- `-server-create`: Enable Structurizr [server](/server) create tools.
+- `-server-read`: Enable Structurizr [server](/server) read tools.
+- `-server-update`: Enable Structurizr [server](/server) update tools.
+- `-server-delete`: Enable Structurizr [server](/server) delete tools.
 - `-plantuml`: Enable PlantUML exporter.
 - `-mermaid`: Enable Mermaid exporter.
 
