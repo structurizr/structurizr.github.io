@@ -6,7 +6,7 @@ nav_order: 61
 permalink: /server/customisation
 ---
 
-> This feature is not available in the open core - see [server](/server) for details.
+> This feature is not available in the open core, and requires a full (not trial) license.
 
 # Customisation
 
