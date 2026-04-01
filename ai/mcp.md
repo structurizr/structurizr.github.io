@@ -8,7 +8,7 @@ permalink: /ai/mcp
 
 # MCP server
 
-An experimental Structurizr MCP server is available on [GitHub](https://github.com/structurizr/structurizr/tree/main/structurizr-mcp).
+A Structurizr MCP server is available on [GitHub](https://github.com/structurizr/structurizr/tree/main/structurizr-mcp).
 It runs standalone and supports stateless HTTP transport.
 
 ## Tools
