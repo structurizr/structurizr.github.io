@@ -9,9 +9,9 @@ permalink: /server/diagrams/notation
 
 # Notation
 
-Unlike formal diagramming notations such as UML and ArchiMate, Structurizr purposely uses a very simple and constrained
-notation consisting of boxes and unidirectional arrows, some aspects of which can be customised via a set of element
-and relationship styles.
+Unlike formal diagramming notations such as UML and ArchiMate, Structurizr purposely uses a very simple and constrained notation consisting of boxes and unidirectional arrows, some aspects of which can be customised via a set of element and relationship styles.
+
+> Element and relationship styles apply to all views within a workspace - there is no way to define view-specific styles. This is by design, so that views remain consistently styled within a workspace.
 
 ## Diagram key
 
