@@ -12,7 +12,7 @@ permalink: /server/authentication/saml
 # Single sign-on with your Identity Provider via SAML 2.0
 
 Single sign-on is supported via SAML 2.0 integration with an Identity Provider (IdP).
-There are teams using this in conjunction with Auth0, Okta, Keycloak, PingFederate, and Microsoft Azure Active Directory.
+There are teams using this in conjunction with Auth0, Okta, Keycloak, PingFederate, and Microsoft Entra ID (formerly Microsoft Azure Active Directory).
 
 ## Configuration
 
