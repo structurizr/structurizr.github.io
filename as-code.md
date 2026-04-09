@@ -13,7 +13,8 @@ Structurizr is a “models as code” tool, specifically designed for the C4 mod
 - [Learning curve and authoring experience](#learning-curve-and-authoring-experience)
 - [Automatic layout and manual layout](#automatic-layout-and-manual-layout)
 - [Version control friendly](#version-control-friendly)
-- [AI friendly](#ai-friendly)
+- [Developer-friendly](#developer-friendly)
+- [AI-friendly](#ai-friendly)
 
 ## Technical people, technical diagrams
 
@@ -35,7 +36,15 @@ The most obvious benefit to an "as code" approach is that the code you use to ge
 
 Collaboration and permissioning (e.g. defining who can change which parts of the model) is easy too, since you can lean on the existing infrastructure provided by version control systems. You can also break up a large single model into a number of separate, but connected, smaller models using a system catalog approach, as described in the [enterprise usage pattern](/workspaces/enterprise). UI-driven tools require all of this to be built-in to the tool itself, further bloating the UI.
 
-## AI friendly
+## Developer-friendly
+
+The majority of the Structurizr tooling is [open source](https://github.com/structurizr/structurizr), and the Structurizr DSL provides a number of ways to extend the core functionality via [Java plugins](/dsl/plugins) and [Kotlin/Groovy/JRuby scripts](/dsl/scripts).
+
+Data is stored as JSON, in an [open data format](/openapi), reducing vendor lock-in and making it easy to build your own tooling/integrations - see [community tooling](/community) for examples.
+
+Structurizr is easy to integrate into your CI/CD pipelines too, enabling automated workflows that [validate](/validate), [inspect](/inspect), and [push](/push) new versions of your architecture models to your Structurizr [server](/server). You can also [export](/export) views to various formats including [PlantUML](/export/plantuml), [Mermaid](/export/mermaid), [PNG/SVG](/export/png-and-svg), or a [static HTML site](/export/static-site) for inclusion in existing toolchains.  
+
+## AI-friendly
 
 AI agents have limited abilities to interact with UI-driven tools, but they can generate text, making "as code" tools a better option if you intend to [use AI during your diagram generation workflow](/ai). Having your source code, architecture diagrams, Markdown/AsciiDoc documentation, and Architecture Decision Records (ADRs) all stored as text, in version control, not only centralises this information for humans, but also provides a single place for AI agents to gather information and build context during agentic workflows such as:
 
