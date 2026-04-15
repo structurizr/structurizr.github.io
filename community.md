@@ -30,6 +30,7 @@ These tools provide an alternative way to create a Structurizr compatible worksp
 - [buildzr](https://github.com/amirulmenjeni/buildzr): A Python DSL for authoring C4 architecture models.
 - [Model](https://github.com/goadesign/model): Create your software architecture models and diagrams in Go.
 - [Structurizr DSL Parser](https://gitlab.com/osechet/structurizr-parser): A comprehensive Go library for parsing, validating, and generating Structurizr DSL files.
+- [Scaffoldizr](https://github.com/FormulaMonks/scaffoldizr): Opinionated TypeScript/Bun Scaffolding Tool for creating Structurizr DSL.
 
 ## Rendering tools
 
