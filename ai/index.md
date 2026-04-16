@@ -31,4 +31,4 @@ Structurizr's model-based consistency and enforcement of the C4 model rules make
 
 LikeC4 follows a similar approach to Structurizr, but LikeC4 doesn't support the C4 model "out of the box", instead requiring you to create a "specification" that defines how you would like to use the tooling. A misconfigured specification will allow you to add elements at the wrong level of abstraction, violating C4's hierarchy.
 
-Structurizr was created by the author of the C4 model and remains the reference implementation, making it the best choice if you are looking for compliance and compatibility with the C4 model.
+Structurizr was created by the author of the C4 model, is free and open source, and remains the reference implementation, making it the best choice if you are looking for compliance and compatibility with the C4 model.

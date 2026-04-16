@@ -1,7 +1,7 @@
 ---
 layout: default
 title: System landscape generation
-parent: AI
+parent: AI + MCP
 nav_order: 3
 permalink: /ai/landscape-generation
 ---

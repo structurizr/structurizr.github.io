@@ -10,7 +10,7 @@ has_toc: false
 
 # playground
 
-The Structurizr playground provides a standalone DSL playground that can be used to create diagrams and experiment with the DSL. An instance of this is running at [playground.structurizr.com](https://playground.structurizr.com) to use/try.
+The free and open source Structurizr playground provides a standalone DSL playground that can be used to create diagrams and experiment with the DSL. An instance of this is running at [playground.structurizr.com](https://playground.structurizr.com) to use/try.
 
 [![Structurizr playground screenshot](/images/playground.png)](https://playground.structurizr.com)
 

@@ -10,7 +10,7 @@ has_toc: false
 
 # local
 
-The `local` command provides a way to view diagrams and modify their layout. It's equivalent to the previous Structurizr Lite tooling.
+The free and open source `local` command provides a way to view diagrams and modify their layout. It's equivalent to the previous Structurizr Lite tooling.
 
 By default, Structurizr will look for a `workspace.dsl` and `workspace.json` file in your Structurizr data directory, in that order, and use the file it finds first. Any changes made to the `workspace.dsl` or `workspace.json` file will be reflected when you refresh your web browser. You can also configure [multi-workspace mode](/local/configuration#multi-workspace-mode).
 

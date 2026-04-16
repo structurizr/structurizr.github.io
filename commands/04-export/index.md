@@ -10,7 +10,7 @@ has_toc: false
 
 # export
 
-The `export` command provides a way to export the views in a Structurizr workspace to PlantUML, Mermaid, or a static HTML site. Files will be created one per view that has been exported.
+The free and open source `export` command provides a way to export the views in a Structurizr workspace to PlantUML, Mermaid, or a static HTML site. Files will be created one per view that has been exported.
 If the output directory is not specified, files will be created in the same directory as the workspace.
 Please note that the export formats do not support all available shapes/features when compared to
 Structurizr playground, local, and server.

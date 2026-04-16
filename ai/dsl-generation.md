@@ -1,7 +1,7 @@
 ---
 layout: default
 title: DSL generation
-parent: AI
+parent: AI + MCP
 nav_order: 2
 permalink: /ai/dsl-generation
 ---

@@ -1,14 +1,14 @@
 ---
 layout: default
 title: MCP server
-parent: AI
+parent: AI + MCP
 nav_order: 11
 permalink: /ai/mcp
 ---
 
 # MCP server
 
-A Structurizr MCP server is available on [GitHub](https://github.com/structurizr/structurizr/tree/main/structurizr-mcp).
+A free and open source Structurizr MCP server is available on [GitHub](https://github.com/structurizr/structurizr/tree/main/structurizr-mcp).
 It runs standalone and supports stateless HTTP transport.
 
 ## Tools
