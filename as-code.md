@@ -13,6 +13,7 @@ Structurizr is a “models as code” tool, specifically designed for the C4 mod
 - [Learning curve and authoring experience](#learning-curve-and-authoring-experience)
 - [Automatic layout and manual layout](#automatic-layout-and-manual-layout)
 - [Version control friendly](#version-control-friendly)
+- [Traditional Git collaboration workflows](#traditional-git-collaboration-workflows)
 - [Developer-friendly](#developer-friendly)
 - [AI-friendly](#ai-friendly)
 
@@ -34,7 +35,9 @@ A false narrative exists that UI-driven tools support manual layout, while "as c
 
 The most obvious benefit to an "as code" approach is that the code you use to generate your diagrams is just text. You, as the author, have complete control over how and where that code is stored (e.g. git). Versions are therefore easy to diff too, making this compatible with pull request development processes. The Structurizr DSL specifically provides a clean separation between the model (content) and views (presentation), which further enhances the ability to diff versions when compared to most other text-based formats that mix content and presentation.
 
-Collaboration and permissioning (e.g. defining who can change which parts of the model) is easy too, since you can lean on the existing infrastructure provided by version control systems. You can also break up a large single model into a number of separate, but connected, smaller models using a system catalog approach, as described in the [enterprise usage pattern](/workspaces/enterprise). UI-driven tools require all of this to be built-in to the tool itself, further bloating the UI.
+## Traditional Git collaboration workflows
+
+Team collaboration and permissioning (e.g. defining who can change which parts of the model) is easy too, since you can lean on the existing infrastructure provided by git and other version control systems. You can also break up a large single model into a number of separate, but connected, smaller models using a system catalog approach, as described in the [enterprise usage pattern](/workspaces/enterprise). UI-driven tools require all of this to be built-in to the tool itself, further bloating the UI.
 
 ## Developer-friendly
 
