@@ -22,7 +22,9 @@ Using the Structurizr server via our [prebuilt binaries](/binaries) requires a l
 
 ## Trial period
 
-No trial license key is required - a trial period of 30 days is granted to you after starting the Structurizr server for the first time from the prebuilt binaries, after which you will be required to discontinue use or purchase a license.
+A trial period of 14 days is available to you by requesting a trial license from [trial.structurizr.com](https://trial.structurizr.com).
+
+To use it, configure a property named `structurizr.license`, with the value being your license key. You will need to restart the server for this to take effect.
 
 ## Purchasing
 
@@ -31,7 +33,7 @@ Please contact [hello@structurizr.com](mailto:hello@structurizr.com) for a quote
 - License size: small, medium, large, or enterprise (and number of unique users).
 - Name of the organisation/team that the license is to be assigned to.
 - Billing address, contact name and email address, that the invoice is to be sent to.
-- Email address that the licence key is to be sent to.
+- Email address that the license key is to be sent to.
 - Preferred payment method - bank transfer or PayPal.
 
 ## Frequently asked questions (FAQ)

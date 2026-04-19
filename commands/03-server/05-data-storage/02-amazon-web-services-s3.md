@@ -18,15 +18,15 @@ The basic steps to configure AWS S3 data storage are:
 
 ## Configuration
 
-| Name                      | Value                                                                                                                                      |
+| Name                               | Value                                                                                                                                      |
 |------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | `structurizr.data`                 | `aws-s3`                                                                                                                                            |
-| `aws-s3.accessKeyId`               | AWS API key ID                                                                                                                                      |
-| `aws-s3.secretAccessKey`           | AWS API secret access key                                                                                                                           |
-| `aws-s3.region`                    | AWS region (e.g. `us-east-1`)                                                                                                                       |
-| `aws-s3.bucketName`                | S3 bucket name                                                                                                                                      |
-| `aws-s3.endpoint`                  | S3-compatible endpoint                                                                                                                              |
-| `aws-s3.pathStyleAccess`           | Enables [path-style access](https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html#path-style-access) (default=`false`) |
+| `aws.s3.accessKeyId`               | AWS API key ID                                                                                                                                      |
+| `aws.s3.secretAccessKey`           | AWS API secret access key                                                                                                                           |
+| `aws.s3.region`                    | AWS region (e.g. `us-east-1`)                                                                                                                       |
+| `aws.s3.bucketName`                | S3 bucket name                                                                                                                                      |
+| `aws.s3.endpoint`                  | S3-compatible endpoint                                                                                                                              |
+| `aws.s3.pathStyleAccess`           | Enables [path-style access](https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html#path-style-access) (default=`false`) |
 | `structurizr.maxWorkspaceVersions` | The number of workspace versions to retain (default=`30`)                                                                                           |
 | `structurizr.encryption`           | Passphrase to enable server-side encryption (default=)                                                                                              |                                            
 

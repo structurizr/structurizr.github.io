@@ -100,6 +100,51 @@ workspace {
 
 [![](example-2.png)](https://playground.structurizr.com?src=https://docs.structurizr.com/dsl/cookbook/deployment-groups/example-2.dsl)
 
+Deployment groups can also be set on deployment nodes rather than being specified for every software system instance or container instance:
+
+```
+workspace {
+
+    model {
+        softwareSystem = softwareSystem "Software System" {
+            database = container "Database Schema"
+            api = container "Service API" {
+                -> database "Uses"
+            }
+        }
+
+        production = deploymentEnvironment "Production" {
+            serviceInstance1 = deploymentGroup "Service instance 1"
+            serviceInstance2 = deploymentGroup "Service instance 2"
+
+            deploymentNode "Server 1" {
+                deploymentGroup serviceInstance1
+                
+                containerInstance api
+                deploymentNode "Database Server" {
+                    containerInstance database
+                }
+            }
+            deploymentNode "Server 2" {
+                deploymentGroup serviceInstance2
+                
+                containerInstance api
+                deploymentNode "Database Server" {
+                    containerInstance database
+                }
+            }
+        }
+    }
+
+    views {
+        deployment * production {
+            include *
+        }
+    }
+
+}
+```
+
 ## Links
 
 - [DSL language reference - deploymentGroup](/dsl/language#deploymentGroup)

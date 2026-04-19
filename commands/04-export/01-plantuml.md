@@ -31,6 +31,7 @@ The following properties can either be set on individual views, or on the view s
 
 - `plantuml.title`: `true` (default) to include diagram titles, `false` to exclude diagram titles.
 - `plantuml.includes`: a comma separated list of file names that should be included (via `!include`) in the diagram definition.
+- `plantuml.skinparams`: a comma separated list of skinparams (in the form `name=value`) that should be included in the diagram definition.
 - `plantuml.sequenceDiagram`: `true` to generate a UML sequence diagram, `false` (default) to generate a collaboration diagram (dynamic views only).
 - `plantuml.animation`: `true` to generate one PlantUML diagram definition per animation frame, `false` (default) to ignore animations.
 

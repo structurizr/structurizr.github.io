@@ -5,20 +5,21 @@ title: Prebuilt binaries
 nav_order: 8
 ---
 
-# Prebuilt Binaries
+# Prebuilt binaries
 
 Prebuilt binaries are provided as a Docker image and Java .war file.
 All Structurizr [commands](/commands) are free to use from these binaries except for [server](/server), which requires a license (see [pricing](/server/pricing)).
 
-> You can use the open core version of [server](/server) for free by [building from source](/building).
+- Latest release: 2026.04.19
 
 ## Docker image
 
 - Requires Docker
 - Image name: [structurizr/structurizr](https://hub.docker.com/r/structurizr/structurizr)
 - Tags:
-  - `latest`: The latest release.
-  - `preview`: A preview build, not intended for production use.
+  - `2026.04.19` and `latest`: [Hardened Eclipse Temurin 21 - Alpine](https://hub.docker.com/hardened-images/catalog/dhi/eclipse-temurin) base image for general production use.
+  - `2026.04.19-playwright`: Non-hardened [Playwright for Java - Noble](https://mcr.microsoft.com/en-us/artifact/mar/playwright/java) base image that includes the Microsoft Playwright dependencies required to use the PNG/SVG export feature.
+  - `preview`: Non-hardened [Playwright for Java - Noble](https://mcr.microsoft.com/en-us/artifact/mar/playwright/java) base image, not intended for production use.
 
 Pull the latest version of the Docker image:
 
@@ -37,19 +38,21 @@ In this example, `$PWD` will mount the current local directory as the working di
 ## Java .war file
 
 - Requires Java 21
-- Latest release: [structurizr-2026.03.06.war](https://download.structurizr.com/structurizr-2026.03.06.war)
-- Preview build: [structurizr-preview.war](https://download.structurizr.com/structurizr-preview.war) (not intended for production use)
+- Downloads:
+  - [structurizr-2026.04.19.war](https://download.structurizr.com/structurizr-2026.04.19.war) and [structurizr.war](https://download.structurizr.com/structurizr.war): Excludes Microsoft Playwright dependencies.
+  - [structurizr-2026.04.19-playwright.war](https://download.structurizr.com/structurizr-2026.04.19-playwright.war): Includes Microsoft Playwright dependencies.
+  - [structurizr-preview.war](https://download.structurizr.com/structurizr-preview.war): A preview build, includes Microsoft Playwright dependencies, not intended for production use.
 
 Download the file, either by clicking the link above or via the command line:
 
 ```
-curl -O https://download.structurizr.com/structurizr-2026.03.06.war
+curl -O https://download.structurizr.com/structurizr.war
 ```
 
 Start Structurizr:
 
 ```
-java -jar structurizr-2026.03.06.war <command> [parameters] 
+java -jar structurizr.war <command> [parameters] 
 ```
 
 ## Community builds
