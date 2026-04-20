@@ -49,6 +49,7 @@ A variety of other rendering tools are available that can be used to render diag
 - [structurizr-asciidoctorj-extension](https://github.com/materna-se/structurizr-asciidoctorj-extension): Support the rendering of Structurizr DSL views in AsciiDoc using different rendering algorithms including the same as provided by the Structurizr UI.
 - [Spacerizr](https://github.com/tobiascervin/spacerizr): Interactive 3D/2D C4 architecture visualizer for Structurizr DSL and workspace files.
 - [Maniok](https://github.com/danischuetz/maniok): An interactive webapp to render git-hosted Structurizr documentation.
+- [Structurizr MkDocs Generatr](https://github.com/Vinedine/structurizr-mkdocs-generatr): Generates an MkDocs Material static site with diagrams and documentation from a Structurizr DSL workspace.
 
 ## Other
 
