@@ -19,6 +19,8 @@ The Structurizr server provides a JSON/HTTP API for workspaces, with the followi
 - PUT `/api/workspace/{workspaceId}/images/{filename}` (put image - [push](/push))
 - PUT `/api/workspace/{workspaceId}/branch/{branch}/images/{filename}` (put image to branch - [push](/push))
 
+> Please note that the [old CLI](/cli) is not compatible with this new version of the API. 
+
 ## HTTP headers
 
 Requests should include the following HTTP headers:
