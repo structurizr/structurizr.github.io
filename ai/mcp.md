@@ -130,6 +130,14 @@ The following parameters are supported:
 - `-plantuml`: Enable PlantUML exporter.
 - `-mermaid`: Enable Mermaid exporter.
 
+### Themes
+
+The [prebuilt themes](/server/diagrams/themes) are included in the Docker image, and can be "installed" via an environment variable:
+
+```
+-e STRUCTURIZR_THEMES=/usr/local/structurizr-themes
+```
+
 ## Building and running from source
 
 Prerequisites:
