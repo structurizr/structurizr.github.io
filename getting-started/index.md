@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting started
-nav_order: 6
+nav_order: 7
 has_children: true
 permalink: /getting-started
 has_toc: false

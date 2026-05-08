@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AI + MCP
-nav_order: 5
+nav_order: 6
 permalink: /ai
 has_children: true
 has_toc: false
