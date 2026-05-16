@@ -15,9 +15,9 @@ permalink: /server/diagrams/viewer
 
 - ![](/images/bootstrap-icons/house.svg) Home.
 - ![](/images/bootstrap-icons/folder.svg) Workspace summary.
-- ![](/images/bootstrap-icons/arrow-90deg-left.svg) Previous diagram.
+- ![](/images/bootstrap-icons/geo-alt.svg) [Diagram navigator](#diagram-navigator).
 - ![](/images/bootstrap-icons/info-circle.svg) Diagram key.
-- ![](/images/bootstrap-icons/chat-square-text.svg) Toggle tTooltips on/off.
+- ![](/images/bootstrap-icons/chat-square-text.svg) Toggle tooltips on/off.
 - ![](/images/bootstrap-icons/funnel.svg) Filter by user-defined tags.
 - ![](/images/bootstrap-icons/binoculars.svg) Filter by perspective.
 - ![](/images/bootstrap-icons/diagram-3.svg) Open graph exploration.
@@ -58,11 +58,27 @@ permalink: /server/diagrams/viewer
 - `Right arrow` Navigate to the previous diagram.
 - `b` Go back to the last viewed diagram.
 - `Space` open quick navigation.
+- `l`: Open the [diagram navigator](#diagram-navigator).
 
 Animation (static diagrams with animations, and dynamic diagrams):
 
 - `.` Step forward.
 - `,` Step backward.
+
+## Diagram level indicator
+
+The thumbnails in the navigation include a diagram level indicator as follows:
+
+1. System landscape diagrams, system context diagrams, unscoped dynamic diagrams, deployment diagrams without containers, unscoped image views.
+2. Container diagrams, software system scoped dynamic diagrams, deployment diagrams with containers, software system scoped image views.
+3. Component diagrams, container scoped dynamic diagrams, container scoped image views.
+4. Component scoped image views.
+
+## Diagram navigator
+
+The diagram navigator provides a way to see which diagrams in the workspace sit "above", "next to", and "below" the current diagram.
+
+![Structurizr diagram navigator](/images/diagram-navigator.png)
 
 ## Diagram order
 

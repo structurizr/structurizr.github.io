@@ -38,8 +38,7 @@ By default, the diagram will stay centred when using the decrease and increase c
 
 ## Elements
 
-There are a number of toolbar buttons that become enabled when you multi-select elements, which you can do by holding
-the `Alt` or `Shift` key while clicking an element, or by using the lasso tool. The following buttons allow you to align all selected elements with reference to the first element that was selected.
+There are a number of toolbar buttons that become enabled when you multi-select elements, which you can do by holding the `Alt` or `Shift` key while clicking an element, or by using the lasso tool. The following buttons allow you to align all selected elements with reference to the first element that was selected.
 
 - ![](/images/bootstrap-icons/align-start.svg) Align selected elements left.
 - ![](/images/bootstrap-icons/align-middle.svg) Align selected elements centre.
@@ -58,6 +57,17 @@ Finally, selected elements can be evenly distributed using the following buttons
 - ![](/images/bootstrap-icons/distribute-vertical.svg) Distribute selected elements vertically.
 
 To bring all elements back on to the diagram canvas, open the automatic layout modal and click the ![](/images/bootstrap-icons/magnet.svg) button.
+
+The following keyboard shortcuts for the element alignment and distribution tools are available when two or more elements are selected:
+
+- `l`: Align selected elements left.
+- `c`: Align selected elements centre.
+- `r`: Align selected elements right.
+- `h`: Distribute selected elements horizontally.
+- `t`: Align selected elements top.
+- `m`: Align selected elements middle.
+- `b`: Align selected elements bottom.
+- `v`: Distribute selected elements vertically.
 
 ## Relationships
 

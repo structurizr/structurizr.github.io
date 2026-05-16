@@ -18,6 +18,7 @@ The Structurizr server provides a JSON/HTTP API for workspaces, with the followi
 - DELETE `/api/workspace/{workspaceId}/lock` (unlock workspace - [unlock](/unlock))
 - PUT `/api/workspace/{workspaceId}/images/{filename}` (put image - [push](/push))
 - PUT `/api/workspace/{workspaceId}/branch/{branch}/images/{filename}` (put image to branch - [push](/push))
+- POST `/api/workspace/{workspaceId}/apikey/regenerate` (regenerate API key - [regenerate-apikey](/regenerate-apikey))
 
 > Please note that the [old CLI](/cli) is not compatible with this new version of the API. 
 

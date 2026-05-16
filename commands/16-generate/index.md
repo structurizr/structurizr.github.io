@@ -10,8 +10,6 @@ has_toc: false
 
 # generate
 
-> This feature is only available by building from source or using the `structurizr/structurizr:preview` Docker image.
-
 ## system-landscape
 
 The `system-landscape` subcommand provides a way to merge a number of workspaces to generate a system landscape workspace.
