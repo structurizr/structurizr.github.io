@@ -22,7 +22,7 @@ Using the Structurizr server via our [prebuilt binaries](/binaries) requires a l
 
 ## Trial period
 
-A trial period of 14 days is available to you by requesting a trial license from [trial.structurizr.com](https://trial.structurizr.com).
+A trial period of 14 days is available to you by requesting a trial license from [trial.structurizr.com](https://trial.structurizr.com). The trial license unlocks all features.
 
 To use it, configure a property named `structurizr.license`, with the value being your license key. You will need to restart the server for this to take effect.
 
