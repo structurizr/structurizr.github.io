@@ -19,6 +19,7 @@ Using the Structurizr server via our [prebuilt binaries](/binaries) requires a l
 
 - Licenses are billed annually.
 - Support is available via the [GitHub issue tracker](https://github.com/structurizr/structurizr/issues).
+- Structurizr server license purchases are subject to our [terms and conditions](/server/terms-and-conditions) and [privacy policy](/server/privacy-policy). 
 
 ## Trial period
 
