@@ -8,7 +8,7 @@ permalink: /server/terms-and-conditions
 
 # Terms and conditions
 
-- Last updated: 1st February 2026
+- Last updated: 15th June 2026
 
 Please read these Terms and Conditions ("Agreement") carefully before purchasing, or facilitating the purchase of, a license for Structurizr [server](/server) ("Application").
 
@@ -31,11 +31,12 @@ In this Agreement, the following terms have the meanings set out below:
 
 - __"Application"__ means the Structurizr [server](/server) software made available by Structurizr Limited via [prebuilt binaries](/binaries).
 - __"Customer"__ means an organisation or individual purchasing a license directly from Structurizr Limited or via a Reseller for their own use.
-- __"End User"__ means, in the context of a Reseller transaction, the organisation or individual that will use the Application under the license facilitated by the Reseller.
+- __"End User"__ means the organisation or individual that will use the Application for its own internal purposes under the license facilitated by a Reseller or Sub-Reseller.
 - __"EULA"__ means the End-User License Agreement governing use of the Application.
 - __"License"__ means the non-exclusive, non-transferable, limited right to use the Application granted by Structurizr Limited in accordance with the EULA.
 - __"Purchase Order"__ means a written purchase request agreed between the parties setting out the specific license details, pricing, and billing information for a transaction.
 - __"Reseller"__ means an entity or individual authorised by Structurizr Limited under this Agreement to market and facilitate the sale of licenses to End Users on behalf of Structurizr Limited.
+- __"Sub-Reseller"__ means an entity or individual appointed by a Reseller, in accordance with the "Reseller Appointment" section below, to market and facilitate the sale of licenses to End Users. References in this Agreement to a "Reseller" shall, where the context permits, be read as including a Sub-Reseller, who shall be bound by the same obligations as a Reseller under this Agreement.
 - __"Unique User"__ has the meaning given in the "License Tiers and Pricing" section below.
 - __"Quotation"__ means a written quote provided by Structurizr Limited setting out the specific license details, pricing, and billing information for a transaction. 
 
@@ -47,13 +48,17 @@ All Licenses are granted by Structurizr Limited directly to the Customer or End 
 
 Licenses are non-exclusive, non-transferable, and non-sublicensable. The Customer or End User must not assign, transfer, or otherwise deal with their License without the prior written consent of Structurizr Limited.
 
-## Reseller Appointment (Resellers only)
+## Reseller and Sub-Reseller Appointment (Resellers only)
 
 Subject to the terms of this Agreement, Structurizr Limited appoints the Reseller as a non-exclusive, non-transferable reseller of the Application for the duration of this Agreement. This appointment does not grant the Reseller any right to use the Application itself. 
 
+A Reseller may appoint Sub-Resellers to market and facilitate the sale of licenses to End Users, provided that: (i) the Reseller ensures each Sub-Reseller is bound, by way of a written agreement, by terms no less protective of Structurizr Limited than those set out in this Agreement, including in respect of the EULA, Payment, Acceptable Use, Intellectual Property, Confidentiality, and Data Protection and Privacy; and (ii) the Reseller remains fully responsible to Structurizr Limited for the acts and omissions of each Sub-Reseller as if they were its own. A Sub-Reseller must not itself appoint any further sub-resellers; the chain of resale permitted under this Agreement extends to one level of Sub-Reseller only.
+
 Nothing in this Agreement prevents Structurizr Limited from appointing other resellers or from selling directly to customers in any territory.
 
-The Reseller must not modify, supplement, or misrepresent the terms of the EULA or this Agreement to any End User or prospective End User. If an End User requests amended or bespoke terms and conditions, the Reseller must refer them directly to Structurizr Limited. Structurizr Limited is unable to accommodate Reseller or client-specific terms and conditions.
+A Reseller or Sub-Reseller must not modify, supplement, or misrepresent the terms of the EULA or this Agreement to any End User, prospective End User, or prospective Sub-Reseller. If an End User requests amended or bespoke terms and conditions, the Reseller or Sub-Reseller must refer them directly to Structurizr Limited. Structurizr Limited is unable to accommodate Reseller, Sub-Reseller, or client-specific terms and conditions.
+
+
 
 ## Trial Licenses
 
@@ -123,7 +128,8 @@ You agree to carry out all activities under this Agreement only for lawful purpo
 - misrepresent the nature, features, pricing, or licensing terms of the Application to any Customer, End User, or prospective customer;
 - use the Structurizr name, logo, or other trademarks in any manner not expressly authorised in writing by Structurizr Limited;
 - engage in any conduct that could bring Structurizr Limited or the Application into disrepute;
-- facilitate the use of the Application by any Customer or End User in violation of applicable law or regulation, including without limitation laws relating to data protection, privacy, intellectual property, or export control; or
+- facilitate the use of the Application by any Customer or End User in violation of applicable law or regulation, including without limitation laws relating to data protection, privacy, intellectual property, or export control;
+- appoint, authorise, or represent itself as having appointed a sub-reseller, distributor, or onward seller of licenses, except in accordance with the "Reseller Appointment" section above; or
 - offer or pay any bribe, kickback, or other improper inducement in connection with any transaction under this Agreement.
 
 ## Intellectual Property
@@ -153,9 +159,9 @@ This Agreement shall remain in effect until terminated by you or Structurizr Lim
 
 Either party may terminate this Agreement on thirty (30) days written notice to the other party.
 
-This Agreement will terminate immediately, without prior notice from Structurizr Limited, in the event that you fail to comply with any material provision of this Agreement, including your obligations regarding the EULA, payment, acceptable use, or (for Resellers) End User onboarding.
+This Agreement will terminate immediately, without prior notice from Structurizr Limited, in the event that you fail to comply with any material provision of this Agreement, including your obligations regarding the EULA, payment, acceptable use, the requirements relating to Sub-Reseller appointments, or (for Resellers) End User onboarding.
 
-Upon termination of this Agreement: (i) a Reseller's authority to facilitate license transactions on behalf of Structurizr Limited shall immediately cease; and (ii) the Reseller must promptly notify any prospective End Users with whom a transaction has not yet completed that it is no longer authorised to act as a reseller.
+Upon termination of this Agreement: (i) a Reseller's authority to facilitate license transactions on behalf of Structurizr Limited, and its authority to appoint or maintain any Sub-Reseller, shall immediately cease; (ii) any Sub-Reseller appointed by that Reseller shall likewise cease to have any authority to facilitate license transactions on behalf of Structurizr Limited; and (iii) the Reseller must promptly notify any Sub-Resellers and any prospective End Users with whom a transaction has not yet completed that it is no longer authorised to act as a reseller.
 
 Termination of this Agreement shall not affect any licenses already validly issued to Customers or End Users prior to the date of termination, which shall continue to be governed by the EULA. Termination shall not limit either party's rights or remedies at law or in equity in the case of breach by the other party.
 
