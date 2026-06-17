@@ -8,7 +8,7 @@ permalink: /server/terms-and-conditions
 
 # Terms and conditions
 
-- Last updated: 15th June 2026
+- Last updated: 17th June 2026
 
 Please read these Terms and Conditions ("Agreement") carefully before purchasing, or facilitating the purchase of, a license for Structurizr [server](/server) ("Application").
 
@@ -100,6 +100,8 @@ To purchase a license, or for a Reseller to initiate a license transaction on be
 - Preferred payment method: bank transfer or PayPal.
 
 You are responsible for ensuring that all information provided to Structurizr Limited is accurate and complete. Structurizr Limited reserves the right to decline any order at its sole discretion.
+
+Structurizr Limited is unable to accommodate customer-specific, reseller-specific, or sub-reseller-specific terms and conditions. All license purchases, whether made directly or facilitated through a Reseller or sub-reseller, are governed solely by this Agreement and the EULA. Any terms and conditions submitted by a Customer, Reseller, or sub-reseller (including those attached to or referenced in a purchase order) shall have no legal effect and are expressly rejected.
 
 ## Payment
 
@@ -214,3 +216,5 @@ Structurizr Limited is a private company registered in Jersey, Channel Islands (
 This Agreement, together with any Quotation and the EULA, constitutes the entire agreement between you and Structurizr Limited with respect to the subject matter hereof and supersedes all prior and contemporaneous written or oral agreements between you and Structurizr Limited relating to the same subject matter.
 
 You may be subject to additional terms and conditions that apply when you use or purchase other Structurizr Limited services, which Structurizr Limited will provide to you at the time of such use or purchase.
+
+For the avoidance of doubt, Structurizr Limited does not accept and expressly rejects any customer-specific, reseller-specific, or sub-reseller-specific terms and conditions, whether submitted via purchase order or otherwise.
