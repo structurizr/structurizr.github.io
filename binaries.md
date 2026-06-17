@@ -36,6 +36,8 @@ docker run -it --rm -v $PWD:/usr/local/structurizr structurizr/structurizr <comm
 
 In this example, `$PWD` will mount the current local directory as the working directory (mapped to `/usr/local/structurizr` in the Docker container).
 
+> See [Error "Data directory /usr/local/structurizr is not writable" when running Docker container](https://github.com/structurizr/structurizr/discussions/81) if you encounter issues writing to the mounted Structurizr data directory, particularly when using the hardened Docker image.
+
 ## Java .war file
 
 - Requires Java 21
