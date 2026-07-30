@@ -114,6 +114,8 @@ Structurizr Limited is unable to accept payment by cheque or check.
 
 All payments are non-refundable. Structurizr Limited does not provide refunds once a license key has been issued. Resellers must make this refund policy clear to End Users prior to completing any transaction and must not offer refunds to End Users on behalf of Structurizr Limited.
 
+Payment terms can be extended to 60 days for an additional 5% fee, or to 90 days for an additional 10% fee.
+
 ## License Key Delivery
 
 The license key and configuration instructions will be provided to the Customer or End User upon confirmation of invoice acceptance. 
