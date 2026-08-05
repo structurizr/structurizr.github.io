@@ -17,7 +17,7 @@ Using the Structurizr server via our [prebuilt binaries](/binaries) requires a l
 | 1-20 unique users | 21-50 unique users  | 51-100 unique users | 101+ unique users                           |
 | £300 per month    | £600 per month      | £900 per month      | Contact us with your user count for a quote |
 
-- Licenses are billed annually.
+- Licenses are subscription based, billed annually, and will not auto-renew.
 - Support is available via the [GitHub issue tracker](https://github.com/structurizr/structurizr/issues).
 - Structurizr server license purchases are subject to our [terms and conditions](/server/terms-and-conditions) and [privacy policy](/server/privacy-policy). 
 
