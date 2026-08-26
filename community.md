@@ -55,3 +55,4 @@ A variety of other rendering tools are available that can be used to render diag
 ## Other
 
 - [erode](https://github.com/erode-app/erode): Erode analyzes code changes against your architecture model (e.g. Structurizr) using AI, making undeclared dependencies and structural drift visible while you code and during review.
+- [Structurizr Shell](https://gitlab.com/another15y/structurizr-shell): A launch script for running Structurizr from Docker.
