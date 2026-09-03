@@ -15,7 +15,7 @@ This page describes the recommended usage pattern for organisations that want to
 
 ## Introduction
 
-Let's set the scene. You're a member of team A in a large organisation, building a software system named "A". You've adopted the C4 model, and you've chosen to use the Structurizr tooling to create some software architecture diagrams, specifically the [Structurizr DSL](/dsl) to author your workspace and Structurizr [local](/local) to render the diagrams. This is the "[create with local, view with local](/getting-started/local-local)" workflow.
+Let's set the scene. You're a member of team A in a large organisation, building a software system named "A". You've adopted the C4 model, and you've chosen to use the Structurizr tooling to create some software architecture diagrams, specifically the [Structurizr DSL](/dsl) to author your workspace and Structurizr [local](/local) to render the diagrams. This is the "[create with local, view with local](/getting-started/local)" workflow.
 
 Software system A has some integration points with a couple of other software systems, named "B" and "C", owned by teams B and C respectively, but you're only modelling the internal details (i.e. C4 containers and components) of your own software system. You store your `workspace.dsl` file in your git repo, next to your source code. It might look something like this ([render in playground](https://playground.structurizr.com?src=https://docs.structurizr.com/examples/enterprise/standalone/01-team-a/workspace.json)):
 

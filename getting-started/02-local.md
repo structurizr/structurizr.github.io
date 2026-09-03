@@ -4,7 +4,7 @@ title: 2. Create with local, view with local
 parent: Getting started
 nav_order: 2
 has_children: false
-permalink: /getting-started/local-local
+permalink: /getting-started/local
 has_toc: false
 ---
 
