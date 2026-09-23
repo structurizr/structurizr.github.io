@@ -32,6 +32,7 @@ These tools provide an alternative way to create a Structurizr compatible worksp
 - [Structurizr DSL Parser](https://gitlab.com/osechet/structurizr-parser): A comprehensive Go library for parsing, validating, and generating Structurizr DSL files.
 - [Scaffoldizr](https://github.com/FormulaMonks/scaffoldizr): Opinionated TypeScript/Bun Scaffolding Tool for creating Structurizr DSL.
 - [c4hero](https://github.com/c4hero/c4hero): C4 architecture diagrams in your browser - edit visually, save as Structurizr DSL compatible .dsl files.
+- [C4.Net](https://c4net.dev): C4 architecture modeling packages for .NET.
 
 ## Rendering tools
 
