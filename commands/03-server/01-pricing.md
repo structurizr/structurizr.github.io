@@ -34,9 +34,11 @@ To use it, configure a property named `structurizr.license`, with the value bein
 
 ## Purchasing
 
+All purchases are solely subject to our [terms and conditions](/server/terms-and-conditions).
+
 Please contact [hello@structurizr.com](mailto:hello@structurizr.com) for a quote or to purchase a license, with the following information:
 
-- License size: small, medium, large, or enterprise (and number of unique users).
+- License size: Number of unique users.
 - Name of the organisation/team that the license is to be assigned to.
 - Billing address, contact name and email address, that the invoice is to be sent to.
 - Email address that the license key is to be sent to.
