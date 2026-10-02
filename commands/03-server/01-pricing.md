@@ -34,7 +34,7 @@ To use it, configure a property named `structurizr.license`, with the value bein
 
 ## Purchasing
 
-All purchases are solely subject to our [terms and conditions](/server/terms-and-conditions).
+All purchases are governed solely by our [terms and conditions](/server/terms-and-conditions) and [EULA](/server/eula), and we do not accept any customer terms and conditions, whether in purchase orders or otherwise. Please ensure you have read both, and are happy to proceed on that basis, before contacting us about a license.
 
 Please contact [hello@structurizr.com](mailto:hello@structurizr.com) for a quote or to purchase a license, with the following information:
 
