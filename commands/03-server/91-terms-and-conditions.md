@@ -8,7 +8,9 @@ permalink: /server/terms-and-conditions
 
 # Terms and conditions
 
-- Last updated: 17th June 2026
+- Last updated: 12th October 2026
+
+<span style="color: red;">Updated terms take effect on 12th November 2026. Where a section is affected, the new wording is shown in red text directly beneath the current wording. Until that date, the current wording applies. See the change history at the foot of this page.</span>
 
 Please read these Terms and Conditions ("Agreement") carefully before purchasing, or facilitating the purchase of, a license for Structurizr [server](/server) ("Application").
 
@@ -99,6 +101,9 @@ To purchase a license, or for a Reseller to initiate a license transaction on be
 - Email address to which the license key is to be sent.
 - Preferred payment method: bank transfer or PayPal.
 
+<span style="color: red;">From 12th November 2026, the following item is added to the list above:</span>
+- <span style="color: red;">(Resellers only) Confirmation that the End User has been provided with links to this Agreement and the EULA.</span>
+
 You are responsible for ensuring that all information provided to Structurizr Limited is accurate and complete. Structurizr Limited reserves the right to decline any order at its sole discretion.
 
 Structurizr Limited is unable to accommodate customer-specific, reseller-specific, or sub-reseller-specific terms and conditions. All license purchases, whether made directly or facilitated through a Reseller or sub-reseller, are governed solely by this Agreement and the EULA. Any terms and conditions submitted by a Customer, Reseller, or sub-reseller (including those attached to or referenced in a purchase order) shall have no legal effect and are expressly rejected.
@@ -114,6 +119,9 @@ Structurizr Limited is unable to accept payment by cheque or check.
 
 All payments are non-refundable. Structurizr Limited does not provide refunds once a license key has been issued. Resellers must make this refund policy clear to End Users prior to completing any transaction and must not offer refunds to End Users on behalf of Structurizr Limited.
 
+<span style="color: red;">From 12th November 2026, the paragraph above is replaced with:<br />
+All payments are non-refundable. Structurizr Limited does not provide refunds once a license key has been issued, including where a Customer or End User does not accept the EULA when first starting the Application. The EULA is publicly available before purchase, and a 14-day trial license is available to evaluate the Application before purchase. Resellers must make this refund policy clear to End Users prior to completing any transaction and must not offer refunds to End Users on behalf of Structurizr Limited.</span>
+
 Payment terms can be extended to 60 days for an additional 5% fee, or to 90 days for an additional 10% fee.
 
 ## License Key Delivery
@@ -124,6 +132,9 @@ Where the Customer or End User is accessing the Application via a Reseller, the 
 ## EULA Acceptance
 
 All Customers and End Users must read and accept the EULA as a condition of using the Application. The Customer or End User will be required to accept the EULA when starting the Application for the first time from the prebuilt binaries. The EULA governs the Customer's or End User's use of the Application.
+
+<span style="color: red;">From 12th November 2026, the following paragraph is added:<br />
+Resellers only: Before submitting an order, the Reseller (or Sub-Reseller) must provide each End User with links to this Agreement and the EULA, and allow them a reasonable opportunity to read them. This does not replace the End User's own acceptance of the EULA on first starting the Application, and the Reseller has no authority to accept the EULA on the End User's behalf.</span>
 
 ## Acceptable Use
 
@@ -164,6 +175,9 @@ This Agreement shall remain in effect until terminated by you or Structurizr Lim
 Either party may terminate this Agreement on thirty (30) days written notice to the other party.
 
 This Agreement will terminate immediately, without prior notice from Structurizr Limited, in the event that you fail to comply with any material provision of this Agreement, including your obligations regarding the EULA, payment, acceptable use, the requirements relating to Sub-Reseller appointments, or (for Resellers) End User onboarding.
+
+<span style="color: red;">From 12th November 2026, the paragraph above is replaced with:<br />
+This Agreement will terminate immediately, without prior notice from Structurizr Limited, in the event that you fail to comply with any material provision of this Agreement, including your obligations regarding the EULA, payment, acceptable use, the requirements relating to Sub-Reseller appointments, or (for Resellers) the End User provisions in the "EULA Acceptance" and "License Key Delivery" sections.</span>
 
 Upon termination of this Agreement: (i) a Reseller's authority to facilitate license transactions on behalf of Structurizr Limited, and its authority to appoint or maintain any Sub-Reseller, shall immediately cease; (ii) any Sub-Reseller appointed by that Reseller shall likewise cease to have any authority to facilitate license transactions on behalf of Structurizr Limited; and (iii) the Reseller must promptly notify any Sub-Resellers and any prospective End Users with whom a transaction has not yet completed that it is no longer authorised to act as a reseller.
 
@@ -220,3 +234,11 @@ This Agreement, together with any Quotation and the EULA, constitutes the entire
 You may be subject to additional terms and conditions that apply when you use or purchase other Structurizr Limited services, which Structurizr Limited will provide to you at the time of such use or purchase.
 
 For the avoidance of doubt, Structurizr Limited does not accept and expressly rejects any customer-specific, reseller-specific, or sub-reseller-specific terms and conditions, whether submitted via purchase order or otherwise.
+
+## Change history
+
+#### 12th November 2026 (published 12th October 2026):
+- EULA Acceptance: Resellers must provide End Users with links to these Terms and conditions and the EULA before an order is submitted. This does not replace the End User's own acceptance of the EULA on first starting the Application.
+- Ordering: Resellers must confirm with each order that the End User has been provided with these links.
+- Payment: Clarified that the non-refundable policy applies where a Customer or End User does not accept the EULA when first starting the Application, and noted that the EULA and a 14-day trial license are available before purchase.
+- Term and Termination: Replaced the reference to "End User onboarding" with a reference to the End User provisions in the "EULA Acceptance" and "License Key Delivery" sections.
