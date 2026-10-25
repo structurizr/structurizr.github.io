@@ -19,7 +19,7 @@ permalink: /dsl/basics
 - Closing curly brace symbols (`}`) must be on a line of their own.
 - Opening/closing braces are only required when adding child content.
 - Use `""` as a placeholder for an earlier optional property that you'd like to skip.
-- Tags are comma separated (e.g. `Tag 1,Tag 2,Tag 3`) - see [Structurizr - Notation](/ui/diagrams/notation) for details of how tags and styling works.
+- Tags are comma separated (e.g. `Tag 1,Tag 2,Tag 3`) - see [Structurizr - Notation](/server/diagrams/notation) for details of how tags and styling works.
 
 ## Workspace rules
 
